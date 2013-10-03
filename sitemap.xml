@@ -93,6 +93,13 @@
   </url>
   
   <url>
+    <loc>https://pingmin.blog/post/loving-our-greater-china.html</loc>
+    
+    <lastmod>2018-10-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://pingmin.blog/404.html</loc>
     
     <lastmod>2018-05-16</lastmod>
@@ -297,6 +304,20 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://pingmin.blog/tags/loving-our-greater-china/</loc>
+    <lastmod>2020-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pingmin.blog/tags/two-flags-of-china/</loc>
+    <lastmod>2020-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -329,6 +350,13 @@
   
   <url>
     <loc>https://pingmin.blog/categories/beauty-essays/</loc>
+    <lastmod>2020-12-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pingmin.blog/categories/pingmin-diary/pingmin-memory/</loc>
     <lastmod>2020-12-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
