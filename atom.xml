@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>平民·寻梦(Pingmin Fenlly Liu)</title>
+  <subtitle>淡泊明志，宁静致远(Longing for My Nature, Always)</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://pingmin.github.io/"/>
+  <updated>2017-09-04T14:21:53.740Z</updated>
+  <id>https://pingmin.github.io/</id>
+  
+  <author>
+    <name>平民·寻梦(Pingmin Fenlly Liu)</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开篇明意(Manifesto)</title>
+    <link href="https://pingmin.github.io/post/manifesto.html"/>
+    <id>https://pingmin.github.io/post/manifesto.html</id>
+    <published>2012-10-14T12:29:36.000Z</published>
+    <updated>2017-09-04T14:21:53.740Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要-Abstract&quot;&gt;&lt;a href=&quot;#摘要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;摘要(Abstract)&quot;&gt;&lt;/a&gt;摘要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明启用这个新的独立博客（ &lt;a href=&quot;http:
+    
+    </summary>
+    
+      <category term="bulletin" scheme="https://pingmin.github.io/categories/bulletin/"/>
+    
+    
+      <category term="manifesto" scheme="https://pingmin.github.io/tags/manifesto/"/>
+    
+  </entry>
+  
+</feed>
