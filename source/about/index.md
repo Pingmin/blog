@@ -18,7 +18,7 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 
 常用完整签名（Signature）：“ 生命只有一次 / 从心而为 | 自由民主 / Think Copyleft | 久在樊笼里，不得返自然 / 苟全性命于乱世，不求闻达于诸候 | 向袁隆平致敬 / 为了忘却地纪念鲁迅 | 祝你好运 / Good luck ”。
 
-常用微博(Twitters/MicroBlogs)：（1）Twitter，http://twitter.com/iPingmin；（2）新浪微博，http://weibo.com/iPingmin（常更新）；（3）腾讯微博，http://t.qq.com/Pingmin（常更新）（备用：http://t.qq.com/iPingmin）。注：为了节约时间等，以上微博都有可能停止更新和同步，甚至停止使用。
+常用微博(Twitters/MicroBlogs)：（1）Twitter，http://twitter.com/iPingmin ；（2）新浪微博，http://weibo.com/iPingmin （常更新）；（3）腾讯微博，http://t.qq.com/Pingmin （常更新）（备用： http://t.qq.com/iPingmin ）。注：为了节约时间等，以上微博都有可能停止更新和同步，甚至停止使用。
 
 常用的自觉适合自己的个人标签(Self-tags)：生命只有一次(Only live once / Only one life), 从心而为(Follow your/my heart), 自由(Free and freedom), 自然(Nature and natural), 简洁(Simple and concise), 开放(Open), 严论自由(Serious to freedom), 自由民主(Liberal democracy), Copyleft(著佐权,开放版权), 执着(Clinging)(或固执, Stubborn), 聆听乐曲(Enjoy music), 非暴力(Nonviolence), Linux, 甘地(Mahatma Gandhi), 乔布斯(Steve Jobs), Linus Torvalds(林纳斯·托瓦兹), Apple(苹果(品牌)), Google(谷歌)……
 
@@ -88,7 +88,7 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 
 （2）2010年修改过多次；20110113增加喜欢的平板电脑iPad；20120406增加个人签名和微博，并修改“批判现在”为“享受现在”；20120713在签名中增加“祝你好运 / Good luck”（此始于2010年底，受当时看过的电影《3 Idiots(三傻大闹宝莱坞)》(印度, 2009)(推荐您一定要看一下)的影响而决定增加）。
 
-（3）20121028晚间迁移至此（ http://pingmin.me/about），并作修改，主要有：（A）“享受现在”改为“批判、改善和享受现在”；（B）修改“喜欢去的地方”，增加“想去的地方”；（C）政界人物增加“甘地、温家宝、昂山素季和刘晓波”；（D）去掉一张显示图片和两张图片链接；（E）增加一“个人心愿”；(F)调整排版和格式等。
+（3）20121028晚间迁移至此（ http://pingmin.me/about ），并作修改，主要有：（A）“享受现在”改为“批判、改善和享受现在”；（B）修改“喜欢去的地方”，增加“想去的地方”；（C）政界人物增加“甘地、温家宝、昂山素季和刘晓波”；（D）去掉一张显示图片和两张图片链接；（E）增加一“个人心愿”；(F)调整排版和格式等。
 
 （4）20121103：增加“郑重声明(Declaration)”，修改照片链接和上传照片，修改一些用词。
 
@@ -102,7 +102,7 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 
 “转自 平民(Pingmin Fenlly Liu) ，原文链接： http://pingmin.me/about 。”
 
-更多请参见“指南(Guides)” （ http://pingmin.me/guides）页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。
+更多请参见“指南(Guides)” （ http://pingmin.me/guides ）页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。
 
 
 

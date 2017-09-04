@@ -9,7 +9,7 @@ categories:
 
 ## 摘要(Abstract)
 
-本文主要说明启用这个新的独立博客（ http://Pingmin.me）的来龙去脉、意图及博客的主要内容等。
+本文主要说明启用这个新的独立博客 http://Pingmin.me 的来龙去脉、意图及博客的主要内容等。
 
 ## 正文(Body)
 
@@ -71,12 +71,12 @@ categories:
 
 以时间先后为序：
 
-（1）曾用的一个QQ的用户空间： http://user.qzone.qq.com/691238773，开通于20070925或更早；
-（2）曾用的一个百度空间： http://hi.baidu.com/Fenlly漫步风灵 ，即 http://hi.baidu.com/new/iFenlly，开通于20070925或更早；
-（3）现备用的一个百度空间： http://hi.baidu.com/PingminFenlly，即 http://hi.baidu.com/new/PingminFenlly，开通于20091213或更早；
-（4）曾用的独立博客： http://blog.Fenlly.cn/Pingmin，开通或公布于200907或更早；
-（5）现常用的微博：http://weibo.com/iPingmin，http://t.qq.com/Pingmin，都开通于2010年；
-（6）现在的这个独立博客（为了与 fenlly 分开）： http://Pingmin.me，开通于20120902。
+（1）曾用的一个QQ的用户空间： http://user.qzone.qq.com/691238773 ，开通于20070925或更早；
+（2）曾用的一个百度空间： http://hi.baidu.com/Fenlly漫步风灵 ，即 http://hi.baidu.com/new/iFenlly ，开通于20070925或更早；
+（3）现备用的一个百度空间： http://hi.baidu.com/PingminFenlly ，即 http://hi.baidu.com/new/PingminFenlly ，开通于20091213或更早；
+（4）曾用的独立博客： http://blog.Fenlly.cn/Pingmin ，开通或公布于200907或更早；
+（5）现常用的微博：http://weibo.com/iPingmin ，http://t.qq.com/Pingmin ，都开通于2010年；
+（6）现在的这个独立博客（为了与 fenlly 分开）： http://Pingmin.me ，开通于20120902。
 
 注：还有一个校内网的，由于非其注册用户不能访问（不喜欢这种），以及当时只是为了找同学和被同学找且没什么内容，故此不列出，开通 时间大致也是2007年。
 
@@ -102,7 +102,7 @@ categories:
 
 “转载自 平民(Pingmin Fenlly Liu)  ，原文链接： http://pingmin.me/post/manifesto.html 。”
 
-具体请参见“指南(Guides)”（ http://pingmin.me/guides）页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。
+具体请参见“指南(Guides)”（ http://pingmin.me/guides ）页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。
 
 
 
