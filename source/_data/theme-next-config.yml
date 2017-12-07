@@ -41,14 +41,14 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2009
+  since: 2007
 
   # Icon between year and copyright info.
   icon: user
   #icon: heart
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright: 平民·寻梦(Pingmin Fenlly Liu)
+  copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: false
@@ -62,7 +62,7 @@ footer:
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
-  custom_text: " 生命只有一次 / 从心而为 | 自由民主 / Think Copyleft | 苟全性命与乱世，不求闻达于诸侯 / ... "
+  custom_text: "\" 生命只有一次 / 从心而为 | 自由民主 / Think Copyleft | 苟全性命与乱世，不求闻达于诸侯 / ... \""
 
 # ---------------------------------------------------------------
 # SEO Settings
