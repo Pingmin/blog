@@ -1,3 +1,7 @@
+# 0.2.1 (2017-12-24)
+
+- Enable the auto excerpting(with 300 words) feature.
+
 # 0.2.0 (2017-12-24)
 
 - Add the Steve Jobs' speech.
