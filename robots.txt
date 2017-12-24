@@ -1,3 +1,22 @@
+#
+# robots.txt
+#
+
+#User-Agent: *
+#Disallow: /
+#Allow: /index.html
+#Allow: /about
+#Allow: /guides
+#Allow: /post
+
 User-Agent: *
-Disallow: /
+Disallow: /tags
+Disallow: /categories
+Disallow: /archives
+
+
+#
+# Pingmin Fenlly Liu
+# 20170904, 1224
+#
 

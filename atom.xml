@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pingmin.github.io/"/>
-  <updated>2017-12-07T09:30:27.786Z</updated>
+  <updated>2017-12-24T11:27:48.117Z</updated>
   <id>https://pingmin.github.io/</id>
   
   <author>
@@ -17,25 +17,72 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>开篇明意(Manifesto)</title>
-    <link href="https://pingmin.github.io/post/manifesto.html"/>
-    <id>https://pingmin.github.io/post/manifesto.html</id>
-    <published>2012-10-14T12:29:36.000Z</published>
-    <updated>2017-12-07T09:30:27.786Z</updated>
+    <title>寻她(Seeking Her)</title>
+    <link href="https://pingmin.github.io/post/she.html"/>
+    <id>https://pingmin.github.io/post/she.html</id>
+    <published>2013-11-24T05:56:57.000Z</published>
+    <updated>2017-12-24T11:27:48.117Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;摘要-Abstract&quot;&gt;&lt;a href=&quot;#摘要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;摘要(Abstract)&quot;&gt;&lt;/a&gt;摘要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明启用这个新的独立博客 &lt;a href=&quot;http:/
+        &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文描述了自己一直在找的那个人，那个可以/愿意与对方共享余生的她
       
     
     </summary>
     
-      <category term="bulletin" scheme="https://pingmin.github.io/categories/bulletin/"/>
+      <category term="Bulletin(公告)" scheme="https://pingmin.github.io/categories/Bulletin-%E5%85%AC%E5%91%8A/"/>
     
     
-      <category term="manifesto" scheme="https://pingmin.github.io/tags/manifesto/"/>
+      <category term="She(她)" scheme="https://pingmin.github.io/tags/She-%E5%A5%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开篇明意(Manifesto)</title>
+    <link href="https://pingmin.github.io/post/manifesto.html"/>
+    <id>https://pingmin.github.io/post/manifesto.html</id>
+    <published>2012-10-14T12:29:36.000Z</published>
+    <updated>2017-12-24T11:26:54.062Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容
+      
+    
+    </summary>
+    
+      <category term="Bulletin(公告)" scheme="https://pingmin.github.io/categories/Bulletin-%E5%85%AC%E5%91%8A/"/>
+    
+    
+      <category term="Manifesto(宣言)" scheme="https://pingmin.github.io/tags/Manifesto-%E5%AE%A3%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Steve Jobs: Find What You Love(乔布斯：找到你所爱)</title>
+    <link href="https://pingmin.github.io/post/find-what-you-love-by-steve-jobs.html"/>
+    <id>https://pingmin.github.io/post/find-what-you-love-by-steve-jobs.html</id>
+    <published>2007-11-01T13:30:36.000Z</published>
+    <updated>2017-12-24T11:21:52.853Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, delivered 
+      
+    
+    </summary>
+    
+      <category term="Beauty Essays(美文)" scheme="https://pingmin.github.io/categories/Beauty-Essays-%E7%BE%8E%E6%96%87/"/>
+    
+    
+      <category term="Steve Jobs(史蒂夫·乔布斯)" scheme="https://pingmin.github.io/tags/Steve-Jobs-%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E4%B9%94%E5%B8%83%E6%96%AF/"/>
     
   </entry>
   
