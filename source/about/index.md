@@ -3,7 +3,7 @@ title: 关于(About)
 date: 2009-12-27 19:32:56
 ---
 
-## 摘要(Abstract)
+## 概要(Abstract)
 
 本文主要描述自己的喜好，另加一些基本的个人信息等。
 （Something about me, Pingmin Fenlly Liu, such as my hobbies, basic profiles and personal characters…）
