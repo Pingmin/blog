@@ -2,14 +2,14 @@
 title: 开篇明意(Manifesto)
 date: 2012-10-14 20:29:36
 tags:
-- manifesto
+- 宣言(Manifesto)
 categories:
-- bulletin
+- 公告(Bulletin)
 ---
 
-## 摘要(Abstract)
+## 概要(Abstract)
 
-本文主要说明启用这个新的独立博客 http://Pingmin.me 的来龙去脉、意图及博客的主要内容等。
+本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容等。
 
 ## 正文(Body)
 
@@ -98,11 +98,8 @@ categories:
 
 ## 署名(Attribution)
 
-如果转载，请至少保证“正文”部分的完整性且至少须以链接形式给出的原文链接，如（以转载此文为例）：
-
-“转载自 平民(Pingmin Fenlly Liu)  ，原文链接： http://pingmin.me/post/manifesto.html 。”
-
-具体请参见“指南(Guides)”（ http://pingmin.me/guides ）页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。
+如果转载，请至少保证“正文”部分的完整性且至少须以链接形式给出的原文链接。
+具体请参见“[指南(Guides)](/guides)”页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。
 
 
 
