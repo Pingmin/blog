@@ -2,9 +2,9 @@
 title: 开篇明意(Manifesto)
 date: 2012-10-14 20:29:36
 tags:
-- 宣言(Manifesto)
+- Manifesto(宣言)
 categories:
-- 公告(Bulletin)
+- Bulletin(公告)
 ---
 
 ## 概要(Abstract)
