@@ -58,7 +58,7 @@ Thanks a lot and happy new year!
 ## 印记(Imprint)
 
 （1）20171231：首次作为广播消息发送给个人所有的微信好友，并作为评论公开在个人最近的一条微信朋友圈动态下。
-（2）20180107：增加 FaceTime ，并公开于 https://pingmin.github.io 。
+（2）20180107-0108：增加 FaceTime ，并公开于 https://pingmin.github.io 。
 
 ## 署名(Attribution)
 
