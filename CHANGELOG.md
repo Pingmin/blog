@@ -1,3 +1,7 @@
+# 0.3.1 (2018-01-08)
+
+- Add the "FaceTime" and amend my attribution.
+
 # 0.3.0 (2018-01-07)
 
 - Update package "marked" to v0.3.9 for security, issued by GitHub.
