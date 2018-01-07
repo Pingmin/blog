@@ -4,7 +4,7 @@ date: 2012-10-14 21:30:36
 tags:
 - Cremation(火化)
 categories:
-- Buletin(公告)
+- Bulletin(公告)
 ---
 
 
