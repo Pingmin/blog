@@ -1,3 +1,10 @@
+# 0.3.0 (2018-01-07)
+
+- Update package "marked" to v0.3.9 for security, issued by GitHub.
+- Add the WeChatPay for rewarding.
+- Add the "Secure IM" post.
+- Add the "No Messaging By WeChat and QQ" post.
+
 # 0.2.1 (2017-12-24)
 
 - Enable the auto excerpting(with 300 words) feature.
