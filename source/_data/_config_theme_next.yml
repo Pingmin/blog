@@ -31,7 +31,7 @@ favicon:
   safari_pinned_tab: /favicon.png
 
 # Set default keywords (Use a comma to separate)
-keywords: "平民, 平民·寻梦, 平民寻梦, Pingmin, Pingmin Fenlly Liu"
+keywords: "刘水良, 平民, 平民·寻梦, 平民寻梦, Pingmin, Pingmin Fenlly Liu, Pingmin F. Liu"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -44,8 +44,8 @@ footer:
   since: 2007
 
   # Icon between year and copyright info.
-  icon: user
-  #icon: heart
+  #icon: user
+  icon: heart
 
   # If not defined, will be used `author` from Hexo main config.
   copyright:
@@ -131,7 +131,7 @@ social:
   Weibo: http://weibo.com/iPingmin || weibo
   #Google: https://plus.google.com/yourname || google
   Twitter: https://twitter.com/iPingmin || twitter
-  FB Page: https://www.facebook.com/iPingmin || facebook
+  Facebook: https://www.facebook.com/iPingmin || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
@@ -260,7 +260,7 @@ post_copyright:
 # ---------------------------------------------------------------
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($black-deep).
 android_chrome_color: "#222"
@@ -605,7 +605,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
