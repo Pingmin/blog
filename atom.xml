@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pingmin.github.io/"/>
-  <updated>2017-12-24T11:27:48.117Z</updated>
+  <updated>2018-01-07T16:05:28.870Z</updated>
   <id>https://pingmin.github.io/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</title>
+    <link href="https://pingmin.github.io/post/no-messaging-by-wechat-and-qq.html"/>
+    <id>https://pingmin.github.io/post/no-messaging-by-wechat-and-qq.html</id>
+    <published>2017-12-31T14:43:36.000Z</published>
+    <updated>2018-01-07T16:05:28.870Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;#简体中文（中华內地）&quot;&gt;简体中文（中华內地）&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#正體中文（未本地化）&quot;&gt;正體中文（未本地化）&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#English-Unlocalized&quot;&gt;English(Unloc
+      
+    
+    </summary>
+    
+      <category term="Bulletin(公告)" scheme="https://pingmin.github.io/categories/Bulletin-%E5%85%AC%E5%91%8A/"/>
+    
+    
+      <category term="Manifesto(宣言)" scheme="https://pingmin.github.io/tags/Manifesto-%E5%AE%A3%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安全即时通讯(Secure IM)</title>
+    <link href="https://pingmin.github.io/post/secure-im.html"/>
+    <id>https://pingmin.github.io/post/secure-im.html</id>
+    <published>2017-08-29T12:29:36.000Z</published>
+    <updated>2018-01-07T15:41:17.251Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明了“端到端加密（End-to-End Ecrypti
+      
+    
+    </summary>
+    
+      <category term="Computer(计算机)" scheme="https://pingmin.github.io/categories/Computer-%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="Security(安全)" scheme="https://pingmin.github.io/tags/Security-%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>寻她(Seeking Her)</title>
