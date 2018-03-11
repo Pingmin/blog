@@ -5,18 +5,18 @@
     
   <url>
     <loc>https://pingmin.github.io/post/secure-im.html</loc>
-    <lastmod>2018-01-07T16:45:04.114Z</lastmod>
+    <lastmod>2018-03-11T12:26:09.302Z</lastmod>
     <data>
         <display>
         <title>安全即时通讯(Secure IM)</title>
         <pubTime>2017-08-29T12:29:36.000Z</pubTime>
         
-        <tag>Security(安全)</tag>
+        <tag>安全(Security)</tag>
          
          
            
              
-              <breadCrumb title="Computer(计算机)" url="https://pingmin.github.io/categories/Computer-%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+              <breadCrumb title="信息技术(IT)" url="https://pingmin.github.io/categories/it/"/>
           
         </display>
     </data>
@@ -25,81 +25,18 @@
     
   <url>
     <loc>https://pingmin.github.io/post/no-messaging-by-wechat-and-qq.html</loc>
-    <lastmod>2018-01-07T16:28:18.333Z</lastmod>
+    <lastmod>2018-03-11T11:14:55.772Z</lastmod>
     <data>
         <display>
         <title>暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</title>
         <pubTime>2017-12-31T14:43:36.000Z</pubTime>
         
-        <tag>Manifesto(宣言)</tag>
+        <tag>宣言(Manifesto)</tag>
          
          
            
              
-              <breadCrumb title="Bulletin(公告)" url="https://pingmin.github.io/categories/Bulletin-%E5%85%AC%E5%91%8A/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.github.io/post/cremation.html</loc>
-    <lastmod>2018-01-07T09:50:12.569Z</lastmod>
-    <data>
-        <display>
-        <title>死后火化(Cremation)</title>
-        <pubTime>2012-10-14T13:30:36.000Z</pubTime>
-        
-        <tag>Cremation(火化)</tag>
-         
-         
-           
-             
-              <breadCrumb title="Bulletin(公告)" url="https://pingmin.github.io/categories/Bulletin-%E5%85%AC%E5%91%8A/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-  <url>
-    <loc>https://pingmin.github.io/post/she.html</loc>
-    <lastmod>2017-12-24T11:27:48.117Z</lastmod>
-    <data>
-        <display>
-        <title>寻她(Seeking Her)</title>
-        <pubTime>2013-11-24T05:56:57.000Z</pubTime>
-        
-        <tag>She(她)</tag>
-         
-         
-           
-             
-              <breadCrumb title="Bulletin(公告)" url="https://pingmin.github.io/categories/Bulletin-%E5%85%AC%E5%91%8A/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.github.io/post/manifesto.html</loc>
-    <lastmod>2017-12-24T11:26:54.062Z</lastmod>
-    <data>
-        <display>
-        <title>开篇明意(Manifesto)</title>
-        <pubTime>2012-10-14T12:29:36.000Z</pubTime>
-        
-        <tag>Manifesto(宣言)</tag>
-         
-         
-           
-             
-              <breadCrumb title="Bulletin(公告)" url="https://pingmin.github.io/categories/Bulletin-%E5%85%AC%E5%91%8A/"/>
+              <breadCrumb title="公告(Bulletin)" url="https://pingmin.github.io/categories/bulletin/"/>
           
         </display>
     </data>
@@ -108,22 +45,85 @@
     
   <url>
     <loc>https://pingmin.github.io/post/find-what-you-love-by-steve-jobs.html</loc>
-    <lastmod>2017-12-24T11:21:52.853Z</lastmod>
+    <lastmod>2018-03-11T08:35:52.271Z</lastmod>
     <data>
         <display>
         <title>Steve Jobs: Find What You Love(乔布斯：找到你所爱)</title>
         <pubTime>2007-11-01T13:30:36.000Z</pubTime>
         
-        <tag>Steve Jobs(史蒂夫·乔布斯)</tag>
+        <tag>史蒂夫·乔布斯(Steve Jobs)</tag>
          
          
            
              
-              <breadCrumb title="Beauty Essays(美文)" url="https://pingmin.github.io/categories/Beauty-Essays-%E7%BE%8E%E6%96%87/"/>
+              <breadCrumb title="美文共赏(Beauty Essays)" url="https://pingmin.github.io/categories/beauty-essays/"/>
           
         </display>
     </data>
     </url>
 
+    
+  <url>
+    <loc>https://pingmin.github.io/post/manifesto.html</loc>
+    <lastmod>2018-03-11T08:13:00.651Z</lastmod>
+    <data>
+        <display>
+        <title>博客宣言(Manifesto)</title>
+        <pubTime>2012-10-14T12:29:36.000Z</pubTime>
+        
+        <tag>宣言(Manifesto)</tag>
+         
+         
+           
+             
+              <breadCrumb title="公告(Bulletin)" url="https://pingmin.github.io/categories/bulletin/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://pingmin.github.io/post/she.html</loc>
+    <lastmod>2018-03-11T08:10:39.237Z</lastmod>
+    <data>
+        <display>
+        <title>寻她(Seeking Her)</title>
+        <pubTime>2013-11-24T05:56:57.000Z</pubTime>
+        
+        <tag>她(She)</tag>
+         
+         
+           
+             
+              <breadCrumb title="公告(Bulletin)" url="https://pingmin.github.io/categories/bulletin/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://pingmin.github.io/post/cremation.html</loc>
+    <lastmod>2018-03-11T08:10:12.138Z</lastmod>
+    <data>
+        <display>
+        <title>死后火化(Cremation)</title>
+        <pubTime>2012-10-14T13:30:36.000Z</pubTime>
+        
+        <tag>火化(Cremation)</tag>
+         
+         
+           
+             
+              <breadCrumb title="公告(Bulletin)" url="https://pingmin.github.io/categories/bulletin/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
     
 </urlset>
