@@ -20,8 +20,8 @@ Stanford Report, June 14, 2005
 乔布斯：一定要知道自己喜欢什么
 (原意：你得找到自己所喜爱的生活/事业)
 
-<object width="420" height="363" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="wmode" value="opaque" /><param name="src" value="http://www.tudou.com/v/CzJ1jeTbTG0" /><param name="allowfullscreen" value="true" /><embed width="420" height="363" type="application/x-shockwave-flash" src="http://www.tudou.com/v/CzJ1jeTbTG0" allowFullScreen="true" allowscriptaccess="always" wmode="opaque" allowfullscreen="true" /></object>
-(中英文字幕版视频: http://www.tudou.com/programs/view/CzJ1jeTbTG0 )
+<object width="420" height="363" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="wmode" value="opaque" /><param name="src" value="http://117.41.231.214/67736EFA67D377A32F9FE42E7/030020010058119845B194000000015F5D4D56-54ED-88E3-639D-7EBBC858A4DA.mp4?ccode=050F&duration=910&expire=18000&psid=f6d8c0ae55c0e2373ced6dc0b7d58549&ups_client_netip=655d454d&ups_ts=1520756965&ups_userid=&utid=dz2%2BD65tKikCAbSsVG8DPm95&vid=XMTk3NTE2Mjk3Ng%3D%3D&vkey=A6d53a1dfe5e17050af3e72cc80048126" /><param name="allowfullscreen" value="true" /><embed width="420" height="363" type="application/x-shockwave-flash" src="http://117.41.231.214/67736EFA67D377A32F9FE42E7/030020010058119845B194000000015F5D4D56-54ED-88E3-639D-7EBBC858A4DA.mp4?ccode=050F&duration=910&expire=18000&psid=f6d8c0ae55c0e2373ced6dc0b7d58549&ups_client_netip=655d454d&ups_ts=1520756965&ups_userid=&utid=dz2%2BD65tKikCAbSsVG8DPm95&vid=XMTk3NTE2Mjk3Ng%3D%3D&vkey=A6d53a1dfe5e17050af3e72cc80048126" allowFullScreen="true" allowscriptaccess="always" wmode="opaque" allowfullscreen="true" /></object>
+(中英文字幕版视频： http://video.tudou.com/v/493790744.html )
 
 Thank you.
 谢谢大家。
