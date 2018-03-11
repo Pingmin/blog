@@ -1,5 +1,5 @@
 ---
-title: 开篇明意(Manifesto)
+title: 博客宣言(Manifesto)
 date: 2012-10-14 20:29:36
 tags:
 - Manifesto(宣言)
