@@ -2,9 +2,9 @@
 title: 暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)
 date: 2017-12-31 22:43:36
 tags:
-- Manifesto(宣言)
+- 宣言(Manifesto)
 categories:
-- Bulletin(公告)
+- 公告(Bulletin)
 ---
 
 > [简体中文（中华內地）](#简体中文（中华內地）)

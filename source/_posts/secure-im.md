@@ -2,9 +2,9 @@
 title: 安全即时通讯(Secure IM)
 date: 2017-08-29 20:29:36
 tags:
-- Security(安全)
+- 安全(Security)
 categories:
-- Computer(计算机)
+- 信息技术(IT)
 ---
 
 ## 概要(Abstract)

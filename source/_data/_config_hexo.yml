@@ -61,7 +61,15 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  美文共赏(Beauty Essays): beauty-essays
+  公告(Bulletin): bulletin
+  信息技术(IT): it
 tag_map:
+   火化(Cremation): cremation
+   宣言(Manifesto): manifesto
+   安全(Security): security
+   她(She): she
+   史蒂夫·乔布斯(Steve Jobs): steve-jobs
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

@@ -2,9 +2,9 @@
 title: 寻她(Seeking Her)
 date: 2013-11-24 13:56:57
 tags:
-- She(她)
+- 她(She)
 categories:
-- Bulletin(公告)
+- 公告(Bulletin)
 ---
 
 ## 概要(Abstract)

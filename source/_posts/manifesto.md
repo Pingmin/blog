@@ -2,9 +2,9 @@
 title: 博客宣言(Manifesto)
 date: 2012-10-14 20:29:36
 tags:
-- Manifesto(宣言)
+- 宣言(Manifesto)
 categories:
-- Bulletin(公告)
+- 公告(Bulletin)
 ---
 
 ## 概要(Abstract)

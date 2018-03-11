@@ -2,9 +2,9 @@
 title: 死后火化(Cremation)
 date: 2012-10-14 21:30:36
 tags:
-- Cremation(火化)
+- 火化(Cremation)
 categories:
-- Bulletin(公告)
+- 公告(Bulletin)
 ---
 
 

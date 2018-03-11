@@ -2,9 +2,9 @@
 title: "Steve Jobs: Find What You Love(乔布斯：找到你所爱)"
 date: 2007-11-01 21:30:36
 tags:
-- Steve Jobs(史蒂夫·乔布斯)
+- 史蒂夫·乔布斯(Steve Jobs)
 categories:
-- Beauty Essays(美文)
+- 美文共赏(Beauty Essays)
 ---
 
 
