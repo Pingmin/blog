@@ -1,3 +1,11 @@
+# 0.4.0 (2018-03-11)
+
+- Change the category and tag's URL style.
+- Update the "Secure IM" post.
+- Use WechatPay's rewarding QR code instead of the WechatPay's.
+- Change the title of the "Manifesto" post.
+- Update the robots.txt : only publish some pages.
+
 # 0.3.1 (2018-01-08)
 
 - Add the "FaceTime" and amend my attribution.
