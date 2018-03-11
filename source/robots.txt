@@ -2,25 +2,24 @@
 # robots.txt
 #
 
-#User-Agent: *
-#Disallow: /
-#Allow: /index.html
-#Allow: /about
-#Allow: /guides
-#Allow: /post
-
 User-Agent: *
-Disallow: /tags
-Disallow: /categories
-Disallow: /archives
+Disallow: /
+Allow: /index.html
+Allow: /about
+Allow: /guides
+Allow: /post
+
+#User-Agent: *
+#Disallow: /tags
+#Disallow: /categories
+#Disallow: /archives
 
 # Sitemaps
 sitemap: /sitemap.xml
-baidusitemap: /baidusitemap.xml
 
 
 #
 # Pingmin Fenlly Liu
-# 20170904, 1224
+# 20170904, 1224, 0311
 #
 
