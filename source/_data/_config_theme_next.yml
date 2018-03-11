@@ -243,7 +243,8 @@ post_wordcount:
 
 # Reward
 reward_comment: 您的打赏(Rewarding)，是对我无限的鼓励！
-wechatpay: /images/wechatpay.jpg
+#wechatpay: /images/wechatpay.jpg
+wechatpay: /images/wechatpay-rewarding.jpg
 alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 ##paypal: /images/paypal.jpg
