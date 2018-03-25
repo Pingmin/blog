@@ -16,6 +16,7 @@ Allow: /post
 
 # Sitemaps
 sitemap: /sitemap.xml
+sitemap: /baidusitemap.xml
 
 
 #
