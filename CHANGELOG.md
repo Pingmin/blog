@@ -1,7 +1,11 @@
+# 0.6.2 (2018-03-25)
+
+- Just change the video links to https type.
+
 # 0.6.1 (2018-03-25)
 
 - Update and add some new video links for the Steve Jobs address post.
-- Add the baidusitemap.xml to robots.txt
+- Add the baidusitemap.xml to robots.txt .
 
 # 0.6.0 (2018-03-25)
 
