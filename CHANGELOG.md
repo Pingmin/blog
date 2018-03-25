@@ -1,3 +1,8 @@
+# 0.6.0 (2018-03-25)
+
+- Add the post "Saying Goodbye to Cambridge Again, by Xu Zhimo".
+- Add the post "To The Sea, by Alexander Pushkin".
+
 # 0.5.0 (2018-03-25)
 
 - Add the post "Song of Code Farmer".
