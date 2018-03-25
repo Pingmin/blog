@@ -1,3 +1,8 @@
+# 0.6.1 (2018-03-25)
+
+- Update and add some new video links for the Steve Jobs address post.
+- Add the baidusitemap.xml to robots.txt
+
 # 0.6.0 (2018-03-25)
 
 - Add the post "Saying Goodbye to Cambridge Again, by Xu Zhimo".
