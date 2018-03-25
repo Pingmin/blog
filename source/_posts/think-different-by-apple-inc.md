@@ -12,7 +12,7 @@ categories:
 
 <iframe height=498 width=510 src='http://player.youku.com/embed/XNTkxODY4MTI=' frameborder=0 'allowfullscreen'></iframe>
 
-**文本内容(Texts)**：
+### 文本内容(Texts)
 
 Here’s to the crazy ones.
 向那些疯狂的家伙们致敬。
@@ -50,11 +50,11 @@ Because they change things.
 They push the human race forward.
 他们推动着人类的进程。
 
-And while some see them as the crazy ones,
-他们是别人眼里的疯子，
+**And while some see them as the crazy ones**,
+**他们是别人眼里的疯子**，
 
-We see genius.
-却是我们眼中的天才。
+**We see genius**.
+**却是我们眼中的天才**。**
 
 Because the people who are crazy enough to think
 因为，只有疯狂到认为
@@ -65,11 +65,11 @@ they can change the world,
 Are the ones who do.
 才能真正做到这一点。
 
-**广告中出现的人物(People appeared in this Ad)**：
+### 广告中出现的人物(People appeared in this Ad)
 
-Albert Einstein (阿尔伯特·爱因斯坦)
+**Albert Einstein (阿尔伯特·爱因斯坦)**
 Bob Dylan (鲍博·迪兰)
-Martin Luther King (马丁·路德·金)
+**Martin Luther King (马丁·路德·金)**
 Richard Branson (理查德·布兰森)
 John Lennon & Yoko Ono (约翰·列农 & 大野洋子)
 Richard Buckminster Fuller (理查德·巴克明斯特·富勒)
@@ -77,7 +77,7 @@ Thomas Edison (托马斯·爱迪生)
 Mohammed Ali (穆罕默德·阿里)
 Ted Turner (泰德·特纳)
 Maria Callas (马莉亚·卡拉斯)
-Mohandas Karamchand Gandhi (莫罕达斯·卡拉姆昌德·甘地)
+**Mohandas Karamchand Gandhi (莫罕达斯·卡拉姆昌德·甘地)**
 Amelia Earhart (爱蜜莉亚·埃尔哈特)
 Alfred Hitchcock (阿尔弗雷德·希区柯克)
 Martha Graham (玛莎·葛兰姆)
@@ -85,7 +85,7 @@ Jim Henson (吉姆·汉森)
 Frank Lloyd Wright (弗兰克·劳埃德·莱特)
 Pablo Ruiz Picasso (巴勃罗·路易兹·毕加索)
 
-**详情**：
+### 更多详情
 
 请查看维基百科上的“Think Different( https://zh.wikipedia.org/zh-cn/Think_Different )”词条，或者自行到网上搜集( https://www.google.com.hk/search?hl=zh-CN&q=Think+Different )。
 
