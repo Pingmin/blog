@@ -1,6 +1,6 @@
 ---
 title: "Steve Jobs: Find What You Love(乔布斯：找到你所爱)"
-date: 2007-11-01 21:30:36
+date: 2007-03-30 21:30:36
 tags:
 - 史蒂夫·乔布斯(Steve Jobs)
 categories:
