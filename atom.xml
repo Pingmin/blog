@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pingmin.github.io/"/>
-  <updated>2018-03-11T11:14:55.772Z</updated>
+  <updated>2018-03-25T06:35:21.691Z</updated>
   <id>https://pingmin.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://pingmin.github.io/post/no-messaging-by-wechat-and-qq.html"/>
     <id>https://pingmin.github.io/post/no-messaging-by-wechat-and-qq.html</id>
     <published>2017-12-31T14:43:36.000Z</published>
-    <updated>2018-03-11T11:14:55.772Z</updated>
+    <updated>2018-03-25T06:35:21.691Z</updated>
     
     <summary type="html">
     
@@ -45,7 +45,7 @@
     <link href="https://pingmin.github.io/post/secure-im.html"/>
     <id>https://pingmin.github.io/post/secure-im.html</id>
     <published>2017-08-29T12:29:36.000Z</published>
-    <updated>2018-03-11T12:26:09.302Z</updated>
+    <updated>2018-03-25T06:29:44.976Z</updated>
     
     <summary type="html">
     
@@ -64,11 +64,35 @@
   </entry>
   
   <entry>
+    <title>码农之歌(Song of Code Farmer)</title>
+    <link href="https://pingmin.github.io/post/song-of-code-farmer.html"/>
+    <id>https://pingmin.github.io/post/song-of-code-farmer.html</id>
+    <published>2014-01-15T08:51:36.000Z</published>
+    <updated>2018-03-25T06:35:21.691Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;码农之歌（v1-0）&quot;&gt;&lt;a href=&quot;#码农之歌（v1-0）&quot; class=&quot;headerlink&quot; title=&quot;码农之歌（v1.0）&quot;&gt;&lt;/a&gt;码农之歌（v1.0）&lt;/h2&gt;&lt;p&gt;曲：刘炽&lt;br&gt;词：刘水良（Pingmin Fenlly Liu）&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.github.io/categories/pingmin-diary/"/>
+    
+    
+      <category term="音乐(Music)" scheme="https://pingmin.github.io/tags/music/"/>
+    
+  </entry>
+  
+  <entry>
     <title>寻她(Seeking Her)</title>
     <link href="https://pingmin.github.io/post/she.html"/>
     <id>https://pingmin.github.io/post/she.html</id>
     <published>2013-11-24T05:56:57.000Z</published>
-    <updated>2018-03-11T08:10:39.237Z</updated>
+    <updated>2018-03-25T06:29:44.689Z</updated>
     
     <summary type="html">
     
@@ -91,7 +115,7 @@
     <link href="https://pingmin.github.io/post/cremation.html"/>
     <id>https://pingmin.github.io/post/cremation.html</id>
     <published>2012-10-14T13:30:36.000Z</published>
-    <updated>2018-03-11T08:10:12.138Z</updated>
+    <updated>2018-03-25T06:29:44.689Z</updated>
     
     <summary type="html">
     
@@ -111,11 +135,11 @@
   </entry>
   
   <entry>
-    <title>博客宣言(Manifesto)</title>
+    <title>博客宣言(Blogging Manifesto)</title>
     <link href="https://pingmin.github.io/post/manifesto.html"/>
     <id>https://pingmin.github.io/post/manifesto.html</id>
     <published>2012-10-14T12:29:36.000Z</published>
-    <updated>2018-03-11T08:13:00.651Z</updated>
+    <updated>2018-03-25T06:35:21.691Z</updated>
     
     <summary type="html">
     
@@ -134,11 +158,61 @@
   </entry>
   
   <entry>
+    <title>Youth Is Not A Time of Life(青春不是年华)</title>
+    <link href="https://pingmin.github.io/post/youth-by-samuel-ullman.html"/>
+    <id>https://pingmin.github.io/post/youth-by-samuel-ullman.html</id>
+    <published>2007-11-01T12:12:06.000Z</published>
+    <updated>2018-03-25T07:43:37.494Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春》&quot;&gt;&lt;a href=&quot;#Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春》&quot; class=&quot;headerlink&quot; title=&quot;Youth, by Samuel Ullman 
+      
+    
+    </summary>
+    
+      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/categories/beauty-essays/"/>
+    
+    
+      <category term="推荐(Recommended)" scheme="https://pingmin.github.io/tags/recommended/"/>
+    
+      <category term="青春(Youth)" scheme="https://pingmin.github.io/tags/youth/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Think Different(非同凡想)</title>
+    <link href="https://pingmin.github.io/post/think-different-by-apple-inc.html"/>
+    <id>https://pingmin.github.io/post/think-different-by-apple-inc.html</id>
+    <published>2007-03-30T14:10:02.000Z</published>
+    <updated>2018-03-25T07:47:33.045Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是苹果(Apple)公司早期(19970928)的一个电视广告 &lt;a href=&quot;https://v.youku.com/v_show/id_XNTkxODY4MTI=.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Think Differen
+      
+    
+    </summary>
+    
+      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/categories/beauty-essays/"/>
+    
+    
+      <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.github.io/tags/apple/"/>
+    
+      <category term="推荐(Recommended)" scheme="https://pingmin.github.io/tags/recommended/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Steve Jobs: Find What You Love(乔布斯：找到你所爱)</title>
     <link href="https://pingmin.github.io/post/find-what-you-love-by-steve-jobs.html"/>
     <id>https://pingmin.github.io/post/find-what-you-love-by-steve-jobs.html</id>
-    <published>2007-11-01T13:30:36.000Z</published>
-    <updated>2018-03-11T08:35:52.271Z</updated>
+    <published>2007-03-30T13:30:36.000Z</published>
+    <updated>2018-03-25T08:12:48.386Z</updated>
     
     <summary type="html">
     
@@ -154,6 +228,10 @@
     
     
       <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://pingmin.github.io/tags/steve-jobs/"/>
+    
+      <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.github.io/tags/apple/"/>
+    
+      <category term="推荐(Recommended)" scheme="https://pingmin.github.io/tags/recommended/"/>
     
   </entry>
   
