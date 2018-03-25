@@ -16,12 +16,11 @@ categories:
 乔布斯：一定要知道自己喜欢什么
 (原意：你得找到自己所喜爱的生活/事业)
 
-
-<iframe height=498 width=510 src='http://player.youku.com/embed/XNDU3OTgyMTky' frameborder=0 'allowfullscreen'></iframe>
-
-
 > This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, delivered on June 12, 2005.
 > 这是史蒂夫·乔布斯(Steve Paul Jobs, 19550224-20111005)——苹果电脑公司(注：因2007年发布了iPhone而改名为苹果公司，Apple Inc.)和皮克斯动画工作室(注：已于2006年被迪斯尼收购)首席执行官——2005年6月12日在史丹佛大学毕业典礼上的演讲文稿。
+
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDU3OTgyMTky' frameborder=2 'allowfullscreen'></iframe>
 
 
 Thank you.

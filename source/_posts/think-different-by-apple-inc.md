@@ -10,7 +10,7 @@ categories:
 
 这是苹果(Apple)公司早期(19970928)的一个电视广告 [Think Different (非同凡想)](https://v.youku.com/v_show/id_XNTkxODY4MTI=.html) ，觉得很不错，后来据说是因为当时被误认为有语病(详见下面的维基词条)而被撤下荧幕。
 
-<iframe height=498 width=510 src='http://player.youku.com/embed/XNTkxODY4MTI=' frameborder=0 'allowfullscreen'></iframe>
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNTkxODY4MTI=' frameborder=2 'allowfullscreen'></iframe>
 
 ### 文本内容(Texts)
 
