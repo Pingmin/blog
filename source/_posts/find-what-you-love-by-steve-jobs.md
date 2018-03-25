@@ -18,11 +18,13 @@ Stanford Report, June 14, 2005
 史丹佛大学公告，2005年6月14日
 (英文原文： http://news-service.stanford.edu/news/2005/june15/jobs-061505.html )
 
-"You've got to find what you love", Jobs says
+
+## "You've got to find what you love", Jobs says
 乔布斯：一定要知道自己喜欢什么
 (原意：你得找到自己所喜爱的生活/事业)
 
 <object width="420" height="363" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="wmode" value="opaque" /><param name="src" value="http://117.41.231.214/67736EFA67D377A32F9FE42E7/030020010058119845B194000000015F5D4D56-54ED-88E3-639D-7EBBC858A4DA.mp4?ccode=050F&duration=910&expire=18000&psid=f6d8c0ae55c0e2373ced6dc0b7d58549&ups_client_netip=655d454d&ups_ts=1520756965&ups_userid=&utid=dz2%2BD65tKikCAbSsVG8DPm95&vid=XMTk3NTE2Mjk3Ng%3D%3D&vkey=A6d53a1dfe5e17050af3e72cc80048126" /><param name="allowfullscreen" value="true" /><embed width="420" height="363" type="application/x-shockwave-flash" src="http://117.41.231.214/67736EFA67D377A32F9FE42E7/030020010058119845B194000000015F5D4D56-54ED-88E3-639D-7EBBC858A4DA.mp4?ccode=050F&duration=910&expire=18000&psid=f6d8c0ae55c0e2373ced6dc0b7d58549&ups_client_netip=655d454d&ups_ts=1520756965&ups_userid=&utid=dz2%2BD65tKikCAbSsVG8DPm95&vid=XMTk3NTE2Mjk3Ng%3D%3D&vkey=A6d53a1dfe5e17050af3e72cc80048126" allowFullScreen="true" allowscriptaccess="always" wmode="opaque" allowfullscreen="true" /></object>
+
 (中英文字幕版视频： http://video.tudou.com/v/493790744.html )
 
 Thank you.
@@ -30,6 +32,8 @@ Thank you.
 
 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories.
 今天，很荣幸与你们一同参加这个世界上最好的学校之一的毕业典礼。我从来没从大学毕业。说实话，这是我离大学毕业最近的一刻。今天，我只说三个故事，不谈大道理，三个故事就好。
+
+### [The First Story(第一个故事)]
 
 *The first story is about connecting the dots.*
 *第一个故事，是关于串联人生点滴的。*
@@ -55,6 +59,8 @@ None of this had even a hope of any practical application in my life. But ten ye
 **Again, you can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something — your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.**
 **我再说一次，你不能预先把点点滴滴串在一起；唯有在未来回顾时，你才会明白那些点点滴滴是如何串联起来的。所以，你得相信，你现在所体会的东西，将来多少会连接在一块。你得信任某些东西，直觉也好，命运也好，生命也好，或者业力。这种做法从来没让我失望，也让我的人生整个不同起来。**
 
+### [The Second Story(第二个故事)]
+
 *My second story is about love and loss.*
 *我的第二个故事，有关爱与失去。*
 
@@ -72,6 +78,8 @@ During the next five years, I started a company named NeXT, another company name
 
 I’m pretty sure none of this would have happened if I hadn’t been fired from Apple. It was awful tasting medicine, but I guess the patient needed it. Sometimes life hits you in the head with a brick. Don’t lose faith. **I’m convinced that the only thing that kept me going was that I loved what I did. You’ve got to find what you love. And that is as true for your work as it is for your lovers. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it. And, like any great relationship, it just gets better and better as the years roll on. So keep looking until you find it. Don’t settle.**
 我很确定，如果当年苹果计算机没开除我，就不会发生这些事情。良药苦口利于病。有时候，人生会用砖头打你的头。不要丧失信心。**我确信，我爱我所做的事情，这就是这些年来让我继续走下去的唯一理由。你得找到你的所爱，工作上是如此，对情人也是如此。你的工作将填满你的一大块人生，唯一获得真正满足的方法就是做你相信是伟大的工作，而唯一做伟大工作的方法是爱你所做的事。如果你还没找到这些事，继续找，不要停。尽你全心全力，你知道你一定会找到。而且，如同任何伟大的关系，事情只会随着时间愈来愈好。所以，在你找到之前，继续找，不要停。**
+
+### [The Third Story(第三个故事)]
 
 *My third story is about death.*
 *我的第三个故事，关于死亡。*
@@ -97,11 +105,14 @@ This was the closest I’ve been to facing death, and I hope its the closest I g
 **Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma — which is living with the results of other people’s thinking. Don’t let the noise of others’ opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.**
 **你们的时间有限，所以不要把它浪费在别人的生活里。不要被教条所惑——囿于成见就是活在别人思考结果里。不要让别人的聒噪声淹没了自己的心声。最重要的，拥有跟随内心与直觉的勇气，你的内心与直觉多少已经知道你真正想要成为什么样的人。任何其它事物都是次要的。**
 
+### [The Wishes(期许)]
+
 When I was young, there was an amazing publication called The Whole Earth Catalog, which was one of the bibles of my generation. It was created by a fellow named Stewart Brand not far from here in Menlo Park, and he brought it to life with his poetic touch. This was in the late 1960′s, before personal computers and desktop publishing, so it was all made with typewriters, scissors, and polaroid cameras. It was sort of like Google in paperback form, 35 years before Google came along: it was idealistic, and overflowing with neat tools and great notions.
 在我年轻时，有本神奇的杂志叫做“全球概览(Whole Earth Catalog)”，是我们那一代人的“圣经”之一。那是一位住在离这不远的Menlo Park的Stewart Brand发行的，他把杂志办得很有诗意。那是1960年代末期，个人计算机跟桌上出版还没发明，所有内容都是打字机、剪刀跟拍立得相机做出来的。杂志内 容有点像印在纸上的Google，在Google出现之前35年就有了：理想化，充满新奇工具与神奇的注记。
 
-Stewart and his team put out several issues of The Whole Earth Catalog, and then when it had run its course, they put out a final issue. It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous. Beneath it were the words: “Stay Hungry, Stay Foolish.” It was their farewell message as they signed off. Stay Hungry. Stay Foolish. And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.
-Stewart跟他的出版团队出了好几期“全球概览”，然后出了停刊号。当时是1970年代中期，我正是你们现在这个年龄的时候。在停刊号的封底，有张早晨乡间小路的照片，那种你去爬山时会经 过的乡间小路。在照片下有行小字：“求知若饥，虚心若愚”。那是他们亲笔写下的告别讯息，我总是以此自许。当你们毕业，展开新生活，我也以此期许你们。
+Stewart and his team put out several issues of The Whole Earth Catalog, and then when it had run its course, they put out a final issue. It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous. Beneath it were the words: “**Stay Hungry, Stay Foolish**.” It was their farewell message as they signed off. **Stay Hungry. Stay Foolish. And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.**
+Stewart跟他的出版团队出了好几期“全球概览”，然后出了停刊号。当时是1970年代中期，我正是你们现在这个年龄的时候。在停刊号的封底，有张早晨乡间小路的照片，那种你去爬山时会经 过的乡间小路。在照片下有行小字：“**求知若饥，虚心若愚（保持饥饿，保持愚蠢）**”，那是他们亲笔写下的告别讯息。**求知若饥，虚心若愚。我总是以此自许。当你们毕业，展开新生活，我也以此期许你们。**
+
 
 **Stay Hungry, Stay Foolish.**
 **求知若饥，虚心若愚。**
