@@ -9,23 +9,20 @@ categories:
 - 美文共赏(Beauty Essays)
 ---
 
-
-> This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, delivered on June 12, 2005.
-> 这是史蒂夫·乔布斯(Steve Paul Jobs, 19550224-20111005)——苹果电脑公司(注：因2007年发布了iPhone而改名为苹果公司，Apple Inc.)和皮克斯动画工作室(注：已于2006年被迪斯尼收购)首席执行官——2005年6月12日在史丹佛大学毕业典礼上的演讲全文。
-
-
-Stanford Report, June 14, 2005
-史丹佛大学公告，2005年6月14日
-(英文原文： http://news-service.stanford.edu/news/2005/june15/jobs-061505.html )
-
+> Stanford Report, June 14, 2005
+> 史丹佛大学公告，2005年6月14日
 
 ## "You've got to find what you love", Jobs says
 乔布斯：一定要知道自己喜欢什么
 (原意：你得找到自己所喜爱的生活/事业)
 
-<object width="420" height="363" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="wmode" value="opaque" /><param name="src" value="http://117.41.231.214/67736EFA67D377A32F9FE42E7/030020010058119845B194000000015F5D4D56-54ED-88E3-639D-7EBBC858A4DA.mp4?ccode=050F&duration=910&expire=18000&psid=f6d8c0ae55c0e2373ced6dc0b7d58549&ups_client_netip=655d454d&ups_ts=1520756965&ups_userid=&utid=dz2%2BD65tKikCAbSsVG8DPm95&vid=XMTk3NTE2Mjk3Ng%3D%3D&vkey=A6d53a1dfe5e17050af3e72cc80048126" /><param name="allowfullscreen" value="true" /><embed width="420" height="363" type="application/x-shockwave-flash" src="http://117.41.231.214/67736EFA67D377A32F9FE42E7/030020010058119845B194000000015F5D4D56-54ED-88E3-639D-7EBBC858A4DA.mp4?ccode=050F&duration=910&expire=18000&psid=f6d8c0ae55c0e2373ced6dc0b7d58549&ups_client_netip=655d454d&ups_ts=1520756965&ups_userid=&utid=dz2%2BD65tKikCAbSsVG8DPm95&vid=XMTk3NTE2Mjk3Ng%3D%3D&vkey=A6d53a1dfe5e17050af3e72cc80048126" allowFullScreen="true" allowscriptaccess="always" wmode="opaque" allowfullscreen="true" /></object>
 
-(中英文字幕版视频： http://video.tudou.com/v/493790744.html )
+<iframe height=498 width=510 src='http://player.youku.com/embed/XNDU3OTgyMTky' frameborder=0 'allowfullscreen'></iframe>
+
+
+> This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, delivered on June 12, 2005.
+> 这是史蒂夫·乔布斯(Steve Paul Jobs, 19550224-20111005)——苹果电脑公司(注：因2007年发布了iPhone而改名为苹果公司，Apple Inc.)和皮克斯动画工作室(注：已于2006年被迪斯尼收购)首席执行官——2005年6月12日在史丹佛大学毕业典礼上的演讲文稿。
+
 
 Thank you.
 谢谢大家。
@@ -119,4 +116,11 @@ Stewart跟他的出版团队出了好几期“全球概览”，然后出了停�
 
 Thank you all very much.
 非常感谢大家。
+
+
+> 参考
+>    - [斯坦福大学英文原文](https://news-service.stanford.edu/news/2005/june15/jobs-061505.html)
+>    - [斯坦福大学英文视频（YouTube）](https://news.stanford.edu/news/2005/june15/videos/987.html)
+>    - [中英文字幕版视频（优酷）](https://v.youku.com/v_show/id_XNDU3OTgyMTky.html)
+>    - [中英文字幕版视频（土豆）](https://new-play.tudou.com/v/493790744.html)
 
