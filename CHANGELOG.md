@@ -1,3 +1,10 @@
+# 0.5.0 (2018-03-25)
+
+- Add the post "Song of Code Farmer".
+- Add the post "Think Different(by Apple Inc.)".
+- Add the post "Youth(by Samuel Ulman)".
+- Amend the text style and add new post tags for the Steve Jobs address post.
+
 # 0.4.0 (2018-03-11)
 
 - Change the category and tag's URL style.
