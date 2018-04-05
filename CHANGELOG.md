@@ -1,3 +1,8 @@
+# 0.7.0 (2018-04-05)
+
+- Change the tag to "apple-inc".
+- Add two posts of the donation for a primary school.
+
 # 0.6.2 (2018-03-25)
 
 - Just change the video links to https type.
