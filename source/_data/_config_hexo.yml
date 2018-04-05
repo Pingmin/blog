@@ -75,6 +75,7 @@ tag_map:
    推荐(Recommended): recommended
    青春(Youth): youth
    音乐(Music): music
+   捐赠(Donation): donation
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
