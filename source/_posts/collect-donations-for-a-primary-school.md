@@ -7,7 +7,7 @@ categories:
 - 公告(Bulletin)
 ---
 
-## 正文
+## 正文(Body)
 
 在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》/《十万个为什么》、字典、磁带或教学视频(VCD)等等。
 
@@ -50,30 +50,29 @@ categories:
 
 ### 邮箱
 
-Pingmin(at)Fenlly.org，Pingmin.Fenlly(at)Gmail.com （请用‘@’代替‘(at)’）
+Pingmin(at)Fenlly.org 或 Pingmin.Fenlly(at)Gmail.com （请用‘@’代替‘(at)’）
 
 ### 转帐/汇款信息
 
-工行        62220210 0106 0887 434  刘泽平（新开专用）
+工行        62220210 0106 0887 434  刘泽平（新开专用）（2018年注：当前已无效）
 建行        62270012 1626 0307 529  刘泽平
 邮政储蓄卡   62218829 0005 1011 922  刘泽平
 
 ### 邮寄或快递信息（自行寄送前请务必先联系此中转站联系人）
 
-421500，湖南省常宁市新村路泉峰小区，周晔湘老师代收，139 7342 4742。
+421500，湖南省常宁市新村路泉峰小区，周晔湘老师代收，139 7342 4742（2018年注：当前已无效）。
 
 
 ### 捐赠/汇款信息
 
-此次捐赠的所有相关信息，在没有正式的网站公布和邮件告知之前，您可能会在如下网站/页中找到相关的说明或预告，还请保持关注 http://hi.baidu.com/PingminFenlly 。
+此次捐赠的所有相关信息，在没有正式的网站公布和邮件告知之前，您可能会在如下网站/页中找到相关的说明或预告，还请保持关注 http://hi.baidu.com/PingminFenlly （2018年注：百度现已关闭其空间服务，故此当前已不能公开访问）。
 
 
 ### 其他信息
 
 - 刘泽平
-  Email/MSN/(GTalk)/QQ:Pingmin(at)Fenlly.org（请用‘@’代替‘(at)’）
-  http://weibo.com/iPingmin
-  http://t.qq.com/iPingmin，即：http://t.qq.com/Pingmin
+  Email：Pingmin(at)Fenlly.org（请用‘@’代替‘(at)’）
+  https://weibo.com/iPingmin
 
 - 周晔湘（老师）
   http://t.qq.com/yezi1666753853
@@ -84,4 +83,11 @@ Pingmin(at)Fenlly.org，Pingmin.Fenlly(at)Gmail.com （请用‘@’代替‘(at
 
 刘水良
 20111028-1108
+
+
+## 印记(Imprint)
+
+（1）20111028：开始起草。
+（2）20111108：完稿，并首次公开于 http://hi.baidu.com/pingminfenlly （2018年注：百度现已关闭其空间服务，故此当前已不能公开访问）。
+（3）20180405：迁移至此 GitHub 站点（ https://pingmin.github.io ），并稍作修改（主要是增加相关注解等）。
 
