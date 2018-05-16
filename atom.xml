@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>平民·寻梦(Pingmin Fenlly Liu)</title>
+  <title>平民·寻梦 (Pingmin Fenlly Liu)</title>
   
-  <subtitle>淡泊明志，宁静致远(Longing for My Nature, Always)</subtitle>
+  <subtitle>淡泊明志，宁静致远 (Longing for My Nature, Always)</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://pingmin.github.io/"/>
+  <link href="https://pingmin.me/"/>
   <updated>2018-03-25T06:35:21.691Z</updated>
-  <id>https://pingmin.github.io/</id>
+  <id>https://pingmin.me/</id>
   
   <author>
-    <name>平民(Pingmin Fenlly Liu)</name>
+    <name>平民 (Pingmin Fenlly Liu)</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</title>
-    <link href="https://pingmin.github.io/post/no-messaging-by-wechat-and-qq.html"/>
-    <id>https://pingmin.github.io/post/no-messaging-by-wechat-and-qq.html</id>
+    <link href="https://pingmin.me/post/no-messaging-by-wechat-and-qq.html"/>
+    <id>https://pingmin.me/post/no-messaging-by-wechat-and-qq.html</id>
     <published>2017-12-31T14:43:36.000Z</published>
     <updated>2018-03-25T06:35:21.691Z</updated>
     
@@ -33,17 +33,17 @@
     
     </summary>
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.github.io/categories/bulletin/"/>
+      <category term="公告(Bulletin)" scheme="https://pingmin.me/categories/bulletin/"/>
     
     
-      <category term="宣言(Manifesto)" scheme="https://pingmin.github.io/tags/manifesto/"/>
+      <category term="宣言(Manifesto)" scheme="https://pingmin.me/tags/manifesto/"/>
     
   </entry>
   
   <entry>
     <title>安全即时通讯(Secure IM)</title>
-    <link href="https://pingmin.github.io/post/secure-im.html"/>
-    <id>https://pingmin.github.io/post/secure-im.html</id>
+    <link href="https://pingmin.me/post/secure-im.html"/>
+    <id>https://pingmin.me/post/secure-im.html</id>
     <published>2017-08-29T12:29:36.000Z</published>
     <updated>2018-03-25T06:29:44.976Z</updated>
     
@@ -56,17 +56,17 @@
     
     </summary>
     
-      <category term="信息技术(IT)" scheme="https://pingmin.github.io/categories/it/"/>
+      <category term="信息技术(IT)" scheme="https://pingmin.me/categories/it/"/>
     
     
-      <category term="安全(Security)" scheme="https://pingmin.github.io/tags/security/"/>
+      <category term="安全(Security)" scheme="https://pingmin.me/tags/security/"/>
     
   </entry>
   
   <entry>
     <title>码农之歌(Song of Code Farmer)</title>
-    <link href="https://pingmin.github.io/post/song-of-code-farmer.html"/>
-    <id>https://pingmin.github.io/post/song-of-code-farmer.html</id>
+    <link href="https://pingmin.me/post/song-of-code-farmer.html"/>
+    <id>https://pingmin.me/post/song-of-code-farmer.html</id>
     <published>2014-01-15T08:51:36.000Z</published>
     <updated>2018-03-25T06:35:21.691Z</updated>
     
@@ -80,17 +80,17 @@
     
     </summary>
     
-      <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.github.io/categories/pingmin-diary/"/>
+      <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.me/categories/pingmin-diary/"/>
     
     
-      <category term="音乐(Music)" scheme="https://pingmin.github.io/tags/music/"/>
+      <category term="音乐(Music)" scheme="https://pingmin.me/tags/music/"/>
     
   </entry>
   
   <entry>
     <title>寻她(Seeking Her)</title>
-    <link href="https://pingmin.github.io/post/she.html"/>
-    <id>https://pingmin.github.io/post/she.html</id>
+    <link href="https://pingmin.me/post/she.html"/>
+    <id>https://pingmin.me/post/she.html</id>
     <published>2013-11-24T05:56:57.000Z</published>
     <updated>2018-03-25T06:29:44.689Z</updated>
     
@@ -103,19 +103,19 @@
     
     </summary>
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.github.io/categories/bulletin/"/>
+      <category term="公告(Bulletin)" scheme="https://pingmin.me/categories/bulletin/"/>
     
     
-      <category term="她(She)" scheme="https://pingmin.github.io/tags/she/"/>
+      <category term="她(She)" scheme="https://pingmin.me/tags/she/"/>
     
   </entry>
   
   <entry>
     <title>图书收集与募捐的详情与处理结果(Details of the Donation for A Primary School)</title>
-    <link href="https://pingmin.github.io/post/the-donation-details-for-a-primary-school.html"/>
-    <id>https://pingmin.github.io/post/the-donation-details-for-a-primary-school.html</id>
+    <link href="https://pingmin.me/post/the-donation-details-for-a-primary-school.html"/>
+    <id>https://pingmin.me/post/the-donation-details-for-a-primary-school.html</id>
     <published>2013-01-05T13:58:30.000Z</published>
-    <updated>2018-04-05T15:33:35.956Z</updated>
+    <updated>2018-04-05T15:33:35.000Z</updated>
     
     <summary type="html">
     
@@ -126,17 +126,17 @@
     
     </summary>
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.github.io/categories/bulletin/"/>
+      <category term="公告(Bulletin)" scheme="https://pingmin.me/categories/bulletin/"/>
     
     
-      <category term="捐赠(Donation)" scheme="https://pingmin.github.io/tags/donation/"/>
+      <category term="捐赠(Donation)" scheme="https://pingmin.me/tags/donation/"/>
     
   </entry>
   
   <entry>
     <title>死后火化(Cremation)</title>
-    <link href="https://pingmin.github.io/post/cremation.html"/>
-    <id>https://pingmin.github.io/post/cremation.html</id>
+    <link href="https://pingmin.me/post/cremation.html"/>
+    <id>https://pingmin.me/post/cremation.html</id>
     <published>2012-10-14T13:30:36.000Z</published>
     <updated>2018-03-25T06:29:44.689Z</updated>
     
@@ -150,17 +150,17 @@
     
     </summary>
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.github.io/categories/bulletin/"/>
+      <category term="公告(Bulletin)" scheme="https://pingmin.me/categories/bulletin/"/>
     
     
-      <category term="火化(Cremation)" scheme="https://pingmin.github.io/tags/cremation/"/>
+      <category term="火化(Cremation)" scheme="https://pingmin.me/tags/cremation/"/>
     
   </entry>
   
   <entry>
     <title>博客宣言(Blogging Manifesto)</title>
-    <link href="https://pingmin.github.io/post/manifesto.html"/>
-    <id>https://pingmin.github.io/post/manifesto.html</id>
+    <link href="https://pingmin.me/post/manifesto.html"/>
+    <id>https://pingmin.me/post/manifesto.html</id>
     <published>2012-10-14T12:29:36.000Z</published>
     <updated>2018-03-25T06:35:21.691Z</updated>
     
@@ -173,19 +173,19 @@
     
     </summary>
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.github.io/categories/bulletin/"/>
+      <category term="公告(Bulletin)" scheme="https://pingmin.me/categories/bulletin/"/>
     
     
-      <category term="宣言(Manifesto)" scheme="https://pingmin.github.io/tags/manifesto/"/>
+      <category term="宣言(Manifesto)" scheme="https://pingmin.me/tags/manifesto/"/>
     
   </entry>
   
   <entry>
     <title>关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)</title>
-    <link href="https://pingmin.github.io/post/collect-donations-for-a-primary-school.html"/>
-    <id>https://pingmin.github.io/post/collect-donations-for-a-primary-school.html</id>
+    <link href="https://pingmin.me/post/collect-donations-for-a-primary-school.html"/>
+    <id>https://pingmin.me/post/collect-donations-for-a-primary-school.html</id>
     <published>2011-11-08T12:12:36.000Z</published>
-    <updated>2018-04-05T15:39:17.324Z</updated>
+    <updated>2018-04-05T15:39:17.000Z</updated>
     
     <summary type="html">
     
@@ -196,17 +196,17 @@
     
     </summary>
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.github.io/categories/bulletin/"/>
+      <category term="公告(Bulletin)" scheme="https://pingmin.me/categories/bulletin/"/>
     
     
-      <category term="捐赠(Donation)" scheme="https://pingmin.github.io/tags/donation/"/>
+      <category term="捐赠(Donation)" scheme="https://pingmin.me/tags/donation/"/>
     
   </entry>
   
   <entry>
     <title>Youth Is Not A Time of Life(青春不是年华)</title>
-    <link href="https://pingmin.github.io/post/youth-by-samuel-ullman.html"/>
-    <id>https://pingmin.github.io/post/youth-by-samuel-ullman.html</id>
+    <link href="https://pingmin.me/post/youth-by-samuel-ullman.html"/>
+    <id>https://pingmin.me/post/youth-by-samuel-ullman.html</id>
     <published>2007-11-01T12:12:06.000Z</published>
     <updated>2018-03-25T10:33:54.105Z</updated>
     
@@ -219,19 +219,19 @@
     
     </summary>
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/categories/beauty-essays/"/>
+      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.me/categories/beauty-essays/"/>
     
     
-      <category term="青春(Youth)" scheme="https://pingmin.github.io/tags/youth/"/>
+      <category term="青春(Youth)" scheme="https://pingmin.me/tags/youth/"/>
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.github.io/tags/recommended/"/>
+      <category term="推荐(Recommended)" scheme="https://pingmin.me/tags/recommended/"/>
     
   </entry>
   
   <entry>
     <title>To The Sea, by Alexander Pushkin (普希金《致大海》)</title>
-    <link href="https://pingmin.github.io/post/to-the-sea-by-alexander-pushkin.html"/>
-    <id>https://pingmin.github.io/post/to-the-sea-by-alexander-pushkin.html</id>
+    <link href="https://pingmin.me/post/to-the-sea-by-alexander-pushkin.html"/>
+    <id>https://pingmin.me/post/to-the-sea-by-alexander-pushkin.html</id>
     <published>2007-11-01T11:45:03.000Z</published>
     <updated>2018-03-25T10:44:38.444Z</updated>
     
@@ -247,17 +247,17 @@
     
     </summary>
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/categories/beauty-essays/"/>
+      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.me/categories/beauty-essays/"/>
     
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.github.io/tags/recommended/"/>
+      <category term="推荐(Recommended)" scheme="https://pingmin.me/tags/recommended/"/>
     
   </entry>
   
   <entry>
     <title>徐志摩《再别康桥》(Saying Goodbye to Cambridge Again, by Xu Zhimo)</title>
-    <link href="https://pingmin.github.io/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html"/>
-    <id>https://pingmin.github.io/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html</id>
+    <link href="https://pingmin.me/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html"/>
+    <id>https://pingmin.me/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html</id>
     <published>2007-11-01T11:01:12.000Z</published>
     <updated>2018-03-25T10:40:34.722Z</updated>
     
@@ -271,17 +271,17 @@
     
     </summary>
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/categories/beauty-essays/"/>
+      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.me/categories/beauty-essays/"/>
     
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.github.io/tags/recommended/"/>
+      <category term="推荐(Recommended)" scheme="https://pingmin.me/tags/recommended/"/>
     
   </entry>
   
   <entry>
     <title>Think Different(非同凡想)</title>
-    <link href="https://pingmin.github.io/post/think-different-by-apple-inc.html"/>
-    <id>https://pingmin.github.io/post/think-different-by-apple-inc.html</id>
+    <link href="https://pingmin.me/post/think-different-by-apple-inc.html"/>
+    <id>https://pingmin.me/post/think-different-by-apple-inc.html</id>
     <published>2007-03-30T14:10:02.000Z</published>
     <updated>2018-03-25T11:46:33.257Z</updated>
     
@@ -294,19 +294,19 @@
     
     </summary>
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/categories/beauty-essays/"/>
+      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.me/categories/beauty-essays/"/>
     
     
-      <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.github.io/tags/apple-inc/"/>
+      <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.me/tags/apple-inc/"/>
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.github.io/tags/recommended/"/>
+      <category term="推荐(Recommended)" scheme="https://pingmin.me/tags/recommended/"/>
     
   </entry>
   
   <entry>
     <title>Steve Jobs: Find What You Love(乔布斯：找到你所爱)</title>
-    <link href="https://pingmin.github.io/post/find-what-you-love-by-steve-jobs.html"/>
-    <id>https://pingmin.github.io/post/find-what-you-love-by-steve-jobs.html</id>
+    <link href="https://pingmin.me/post/find-what-you-love-by-steve-jobs.html"/>
+    <id>https://pingmin.me/post/find-what-you-love-by-steve-jobs.html</id>
     <published>2007-03-30T13:30:36.000Z</published>
     <updated>2018-03-25T11:48:23.478Z</updated>
     
@@ -322,14 +322,14 @@
     
     </summary>
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/categories/beauty-essays/"/>
+      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.me/categories/beauty-essays/"/>
     
     
-      <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://pingmin.github.io/tags/steve-jobs/"/>
+      <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://pingmin.me/tags/steve-jobs/"/>
     
-      <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.github.io/tags/apple-inc/"/>
+      <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.me/tags/apple-inc/"/>
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.github.io/tags/recommended/"/>
+      <category term="推荐(Recommended)" scheme="https://pingmin.me/tags/recommended/"/>
     
   </entry>
   
