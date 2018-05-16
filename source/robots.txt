@@ -19,6 +19,7 @@ Disallow: /images
 Disallow: /lib
 Disallow: /js
 Disallow: /css
+Disallow: /she
 
 # Sitemaps
 sitemap: /sitemap.xml
@@ -27,6 +28,6 @@ sitemap: /baidusitemap.xml
 
 #
 # Pingmin Fenlly Liu
-# 20170904 - 20180330
+# 20170904 - 20180516
 #
 
