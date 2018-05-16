@@ -3,6 +3,8 @@
 
 
     
+    
+    
   <url>
     <loc>https://pingmin.me/post/collect-donations-for-a-primary-school.html</loc>
     <lastmod>2018-04-05T15:39:17.000Z</lastmod>
@@ -152,6 +154,26 @@
 
     
   <url>
+    <loc>https://pingmin.me/post/no-messaging-by-wechat-and-qq.html</loc>
+    <lastmod>2018-03-25T06:35:21.691Z</lastmod>
+    <data>
+        <display>
+        <title>暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</title>
+        <pubTime>2017-12-31T14:43:36.000Z</pubTime>
+        
+        <tag>宣言(Manifesto)</tag>
+         
+         
+           
+             
+              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://pingmin.me/post/song-of-code-farmer.html</loc>
     <lastmod>2018-03-25T06:35:21.691Z</lastmod>
     <data>
@@ -192,26 +214,6 @@
 
     
   <url>
-    <loc>https://pingmin.me/post/no-messaging-by-wechat-and-qq.html</loc>
-    <lastmod>2018-03-25T06:35:21.691Z</lastmod>
-    <data>
-        <display>
-        <title>暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</title>
-        <pubTime>2017-12-31T14:43:36.000Z</pubTime>
-        
-        <tag>宣言(Manifesto)</tag>
-         
-         
-           
-             
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://pingmin.me/post/secure-im.html</loc>
     <lastmod>2018-03-25T06:29:44.976Z</lastmod>
     <data>
@@ -232,14 +234,14 @@
 
     
   <url>
-    <loc>https://pingmin.me/post/cremation.html</loc>
+    <loc>https://pingmin.me/post/she.html</loc>
     <lastmod>2018-03-25T06:29:44.689Z</lastmod>
     <data>
         <display>
-        <title>死后火化(Cremation)</title>
-        <pubTime>2012-10-14T13:30:36.000Z</pubTime>
+        <title>寻她(Seeking Her)</title>
+        <pubTime>2013-11-24T05:56:57.000Z</pubTime>
         
-        <tag>火化(Cremation)</tag>
+        <tag>她(She)</tag>
          
          
            
@@ -252,14 +254,14 @@
 
     
   <url>
-    <loc>https://pingmin.me/post/she.html</loc>
+    <loc>https://pingmin.me/post/cremation.html</loc>
     <lastmod>2018-03-25T06:29:44.689Z</lastmod>
     <data>
         <display>
-        <title>寻她(Seeking Her)</title>
-        <pubTime>2013-11-24T05:56:57.000Z</pubTime>
+        <title>死后火化(Cremation)</title>
+        <pubTime>2012-10-14T13:30:36.000Z</pubTime>
         
-        <tag>她(She)</tag>
+        <tag>火化(Cremation)</tag>
          
          
            
