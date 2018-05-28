@@ -20,6 +20,7 @@ Disallow: /lib
 Disallow: /js
 Disallow: /css
 Disallow: /she
+Disallow: /jobs
 
 # Sitemaps
 sitemap: /sitemap.xml
