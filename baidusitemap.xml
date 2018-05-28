@@ -5,6 +5,7 @@
     
     
     
+    
   <url>
     <loc>https://pingmin.me/post/collect-donations-for-a-primary-school.html</loc>
     <lastmod>2018-04-05T15:39:17.000Z</lastmod>
@@ -47,7 +48,7 @@
     
   <url>
     <loc>https://pingmin.me/post/find-what-you-love-by-steve-jobs.html</loc>
-    <lastmod>2018-03-25T11:48:23.478Z</lastmod>
+    <lastmod>2018-03-25T11:48:23.000Z</lastmod>
     <data>
         <display>
         <title>Steve Jobs: Find What You Love(乔布斯：找到你所爱)</title>
@@ -71,7 +72,7 @@
     
   <url>
     <loc>https://pingmin.me/post/think-different-by-apple-inc.html</loc>
-    <lastmod>2018-03-25T11:46:33.257Z</lastmod>
+    <lastmod>2018-03-25T11:46:33.000Z</lastmod>
     <data>
         <display>
         <title>Think Different(非同凡想)</title>
@@ -93,7 +94,7 @@
     
   <url>
     <loc>https://pingmin.me/post/to-the-sea-by-alexander-pushkin.html</loc>
-    <lastmod>2018-03-25T10:44:38.444Z</lastmod>
+    <lastmod>2018-03-25T10:44:38.000Z</lastmod>
     <data>
         <display>
         <title>To The Sea, by Alexander Pushkin (普希金《致大海》)</title>
@@ -113,7 +114,7 @@
     
   <url>
     <loc>https://pingmin.me/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html</loc>
-    <lastmod>2018-03-25T10:40:34.722Z</lastmod>
+    <lastmod>2018-03-25T10:40:34.000Z</lastmod>
     <data>
         <display>
         <title>徐志摩《再别康桥》(Saying Goodbye to Cambridge Again, by Xu Zhimo)</title>
@@ -133,15 +134,15 @@
     
   <url>
     <loc>https://pingmin.me/post/youth-by-samuel-ullman.html</loc>
-    <lastmod>2018-03-25T10:33:54.105Z</lastmod>
+    <lastmod>2018-03-25T10:33:54.000Z</lastmod>
     <data>
         <display>
         <title>Youth Is Not A Time of Life(青春不是年华)</title>
         <pubTime>2007-11-01T12:12:06.000Z</pubTime>
         
-        <tag>青春(Youth)</tag>
-         
         <tag>推荐(Recommended)</tag>
+         
+        <tag>青春(Youth)</tag>
          
          
            
@@ -154,28 +155,8 @@
 
     
   <url>
-    <loc>https://pingmin.me/post/no-messaging-by-wechat-and-qq.html</loc>
-    <lastmod>2018-03-25T06:35:21.691Z</lastmod>
-    <data>
-        <display>
-        <title>暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</title>
-        <pubTime>2017-12-31T14:43:36.000Z</pubTime>
-        
-        <tag>宣言(Manifesto)</tag>
-         
-         
-           
-             
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://pingmin.me/post/song-of-code-farmer.html</loc>
-    <lastmod>2018-03-25T06:35:21.691Z</lastmod>
+    <lastmod>2018-03-25T06:35:21.000Z</lastmod>
     <data>
         <display>
         <title>码农之歌(Song of Code Farmer)</title>
@@ -195,7 +176,7 @@
     
   <url>
     <loc>https://pingmin.me/post/manifesto.html</loc>
-    <lastmod>2018-03-25T06:35:21.691Z</lastmod>
+    <lastmod>2018-03-25T06:35:21.000Z</lastmod>
     <data>
         <display>
         <title>博客宣言(Blogging Manifesto)</title>
@@ -214,19 +195,39 @@
 
     
   <url>
-    <loc>https://pingmin.me/post/secure-im.html</loc>
-    <lastmod>2018-03-25T06:29:44.976Z</lastmod>
+    <loc>https://pingmin.me/post/no-messaging-by-wechat-and-qq.html</loc>
+    <lastmod>2018-03-25T06:35:21.000Z</lastmod>
     <data>
         <display>
-        <title>安全即时通讯(Secure IM)</title>
-        <pubTime>2017-08-29T12:29:36.000Z</pubTime>
+        <title>暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</title>
+        <pubTime>2017-12-31T14:43:36.000Z</pubTime>
         
-        <tag>安全(Security)</tag>
+        <tag>宣言(Manifesto)</tag>
          
          
            
              
-              <breadCrumb title="信息技术(IT)" url="https://pingmin.me/categories/it/"/>
+              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://pingmin.me/post/cremation.html</loc>
+    <lastmod>2018-03-25T06:29:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>死后火化(Cremation)</title>
+        <pubTime>2012-10-14T13:30:36.000Z</pubTime>
+        
+        <tag>火化(Cremation)</tag>
+         
+         
+           
+             
+              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
           
         </display>
     </data>
@@ -235,7 +236,7 @@
     
   <url>
     <loc>https://pingmin.me/post/she.html</loc>
-    <lastmod>2018-03-25T06:29:44.689Z</lastmod>
+    <lastmod>2018-03-25T06:29:44.000Z</lastmod>
     <data>
         <display>
         <title>寻她(Seeking Her)</title>
@@ -254,19 +255,19 @@
 
     
   <url>
-    <loc>https://pingmin.me/post/cremation.html</loc>
-    <lastmod>2018-03-25T06:29:44.689Z</lastmod>
+    <loc>https://pingmin.me/post/secure-im.html</loc>
+    <lastmod>2018-03-25T06:29:44.000Z</lastmod>
     <data>
         <display>
-        <title>死后火化(Cremation)</title>
-        <pubTime>2012-10-14T13:30:36.000Z</pubTime>
+        <title>安全即时通讯(Secure IM)</title>
+        <pubTime>2017-08-29T12:29:36.000Z</pubTime>
         
-        <tag>火化(Cremation)</tag>
+        <tag>安全(Security)</tag>
          
          
            
              
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
+              <breadCrumb title="信息技术(IT)" url="https://pingmin.me/categories/it/"/>
           
         </display>
     </data>
