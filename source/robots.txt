@@ -1,15 +1,18 @@
 #
-# robots.txt
+# robots.txt for pingmin blog
 #
 
-#User-Agent: *
-#Disallow: /
+# Sitemaps
+sitemap: /sitemap.xml
+#sitemap: /baidusitemap.xml
+
+
+User-Agent: Googlebot
 #Allow: /index.html
 #Allow: /about
 #Allow: /guides
 #Allow: /post
-
-User-Agent: *
+#Disallow: /about
 Disallow: /tags
 Disallow: /categories
 Disallow: /archives
@@ -21,14 +24,40 @@ Disallow: /js
 Disallow: /css
 Disallow: /she
 Disallow: /jobs
+#Disallow: /
 
-# Sitemaps
-sitemap: /sitemap.xml
-sitemap: /baidusitemap.xml
+User-Agent: Bingbot
+Allow: /index.html
+#Allow: /about
+Allow: /guides
+Allow: /post
+Disallow: /
+
+User-Agent: Slurp
+Allow: /index.html
+#Allow: /about
+Allow: /guides
+Allow: /post
+Disallow: /
+
+User-Agent: Baiduspider
+Allow: /index.html
+#Allow: /about
+Allow: /guides
+Allow: /post/find-what-you-love-by-steve-jobs.html
+Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
+Allow: /post/to-the-sea-by-alexander-pushkin.html
+Allow: /post/she.html
+Disallow: /
+
+User-Agent: *
+Allow: /index.html
+Allow: /guides
+Disallow: /
 
 
 #
 # Pingmin Fenlly Liu
-# 20170904 - 20180516
+# 20170904 - 20180605
 #
 
