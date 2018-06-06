@@ -7,57 +7,66 @@ sitemap: /sitemap.xml
 #sitemap: /baidusitemap.xml
 
 
+#User-Agent: *
 User-Agent: Googlebot
 #Allow: /index.html
 #Allow: /about
 #Allow: /guides
 #Allow: /post
-#Disallow: /about
+#Disallow: /
 Disallow: /tags
 Disallow: /categories
 Disallow: /archives
 #Disallow: /page
+#Disallow: /*/page/
 Disallow: /*page/
 Disallow: /images
+Disallow: /media
 Disallow: /lib
 Disallow: /js
 Disallow: /css
 Disallow: /she
 Disallow: /jobs
-#Disallow: /
 
 User-Agent: Bingbot
 Allow: /index.html
-#Allow: /about
+Allow: /about
 Allow: /guides
 Allow: /post
 Disallow: /
 
 User-Agent: Slurp
 Allow: /index.html
-#Allow: /about
+Allow: /about
 Allow: /guides
 Allow: /post
 Disallow: /
 
 User-Agent: Baiduspider
 Allow: /index.html
-#Allow: /about
+Allow: /about
 Allow: /guides
-Allow: /post/find-what-you-love-by-steve-jobs.html
-Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
-Allow: /post/to-the-sea-by-alexander-pushkin.html
+#Allow: /post
 Allow: /post/she.html
+Allow: /post/find-what-you-love-by-steve-jobs.html
+Allow: /post/to-the-sea-by-alexander-pushkin.html
+Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
 Disallow: /
 
 User-Agent: *
 Allow: /index.html
+Allow: /about
 Allow: /guides
+#Allow: /post
+Allow: /post/she.html
+Allow: /post/find-what-you-love-by-steve-jobs.html
+#Allow: /post/to-the-sea-by-alexander-pushkin.html
+#Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
 Disallow: /
 
 
 #
 # Pingmin Fenlly Liu
-# 20170904 - 20180605
+# 20170904 - 20180606
 #
 
