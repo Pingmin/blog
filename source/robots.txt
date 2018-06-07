@@ -4,7 +4,7 @@
 
 # Sitemaps
 sitemap: /sitemap.xml
-#sitemap: /baidusitemap.xml
+sitemap: /baidusitemap.xml
 
 
 #User-Agent: *
@@ -29,13 +29,6 @@ Disallow: /she
 Disallow: /jobs
 
 User-Agent: Bingbot
-Allow: /index.html
-Allow: /about
-Allow: /guides
-Allow: /post
-Disallow: /
-
-User-Agent: Slurp
 Allow: /index.html
 Allow: /about
 Allow: /guides
@@ -67,6 +60,6 @@ Disallow: /
 
 #
 # Pingmin Fenlly Liu
-# 20170904 - 20180606
+# 20170904 - 20180607
 #
 
