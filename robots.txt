@@ -4,10 +4,9 @@
 
 # Sitemaps
 sitemap: /sitemap.xml
-sitemap: /baidusitemap.xml
+#sitemap: /baidusitemap.xml
 
 
-#User-Agent: *
 User-Agent: Googlebot
 #Allow: /index.html
 #Allow: /about
@@ -28,24 +27,9 @@ Disallow: /css
 Disallow: /she
 Disallow: /jobs
 
-User-Agent: Bingbot
-Allow: /index.html
-Allow: /about
-Allow: /guides
-Allow: /post
-Disallow: /
 
-User-Agent: Baiduspider
-Allow: /index.html
-Allow: /about
-Allow: /guides
-#Allow: /post
-Allow: /post/she.html
-Allow: /post/find-what-you-love-by-steve-jobs.html
-Allow: /post/to-the-sea-by-alexander-pushkin.html
-Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
-Disallow: /
-
+#User-Agent: Bingbot
+#User-Agent: Baiduspider
 User-Agent: *
 Allow: /index.html
 Allow: /about
@@ -60,6 +44,6 @@ Disallow: /
 
 #
 # Pingmin Fenlly Liu
-# 20170904 - 20180607
+# 20170904 - 20180614
 #
 
