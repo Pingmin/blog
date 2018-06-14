@@ -98,7 +98,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: ssh://git@github.com/Pingmin/pingmin.github.io.git
+  #repo: ssh://git@github.com/Pingmin/pingmin.github.io.git
+  repo: https://github.com/LiuZeping/liuzeping.github.io.git
   branch: master
 
 # Feed
