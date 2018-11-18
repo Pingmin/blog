@@ -76,6 +76,7 @@ tag_map:
    青春(Youth): youth
    音乐(Music): music
    捐赠(Donation): donation
+   墓地(Cemetery): cemetery
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
