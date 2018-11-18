@@ -15,43 +15,43 @@ categories:
 
 之前有看过一篇文章，大意是说，人生要多去三个地方去看看：医院、监狱和墓地。所以，趁着自己还有这个机会，今年的清明节便特地去拜访了下所在城市的一个公墓。
 
-![海湾园大门](/images/cemetery-haiwanyuan/20180407-cemetery-haiwanyuan-gate.jpg)
-![海湾园局部风景](/images/cemetery-haiwanyuan/20180407-cemetery-haiwanyuan-part-scenery.jpg)
+墓志铭中，有怀念父母、儿女和夫妻的，也有歌颂生平贡献的，还有以诗词格言形式告诫后人的等。在此，平民仅上传了当时感触和印象特别深的几张，且因图片文件比较大，也只直接显示了两张。
 
-墓志铭中，有怀念父母、儿女和夫妻的，也有歌颂生平贡献的，还有以诗词格言形式告诫后人的，在此，平民仅上传了当时感触和印象特别深的几张。
+> [点击查看“海湾园大门”](/images/cemetery-haiwanyuan/20180407-cemetery-haiwanyuan-gate.jpg)
+> [点击查看“海湾园局部风景”](/images/cemetery-haiwanyuan/20180407-cemetery-haiwanyuan-part-scenery.jpg)
 
-### “纪念爱妻刘书琴：今生今世”
+### （纪念）“爱妻刘书琴：今生今世”
 
-![爱妻刘书琴（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-wife-liu-front.jpg)
-![爱妻刘书琴（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-wife-liu-back.jpg)
+> ![爱妻刘书琴（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-wife-liu-front.jpg)
+> [点击查看“爱妻刘书琴（背面）”](/images/cemetery-haiwanyuan/20180407-cemetery-wife-liu-back.jpg)
 
-### “纪念爱子沈琰：爱你，想你，念你”
+### “爱子沈琰：爱你，想你，念你”
 
-![爱子沈琰（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-son-shen-front.jpg)
-![爱子沈琰（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-son-shen-back.jpg)
+> ![爱子沈琰（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-son-shen-back.jpg)
+> [点击查看“爱子沈琰（正面）”](/images/cemetery-haiwanyuan/20180407-cemetery-son-shen-front.jpg)
 
-### “纪念父母胡氏：大爱无声”
+### “父母胡氏：大爱无声”
 
-![父母胡氏](/images/cemetery-haiwanyuan/20180407-cemetery-parents-hu.jpg)
+> [点击查看“父母胡氏”](/images/cemetery-haiwanyuan/20180407-cemetery-parents-hu.jpg)
 
-### “纪念父母何氏：养育恩，思念情，永铭记”
+### “父母何氏：养育恩，思念情，永铭记”
 
-![父母何氏](/images/cemetery-haiwanyuan/20180407-cemetery-parents-he.jpg)
+> [点击查看“父母何氏”](/images/cemetery-haiwanyuan/20180407-cemetery-parents-he.jpg)
 
-### “纪念爱女李云：永恒的爱”
+### “爱女李云：永恒的爱”
 
-![爱女李云（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-daughter-lee-front.jpg)
-![爱女李云（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-daughter-lee-back.jpg)
+> [点击查看“爱女李云（正面）”](/images/cemetery-haiwanyuan/20180407-cemetery-daughter-lee-front.jpg)
+> [点击查看“爱女李云（背面）”](/images/cemetery-haiwanyuan/20180407-cemetery-daughter-lee-back.jpg)
 
 
-### “纪念夫君曹出阳：儿女未成君先行”
+### “夫君曹出阳：儿女未成君先行”
 
-![夫君曹出阳（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-husband-cao-front.jpg)
-![夫君曹出阳（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-husband-cao-back.jpg)
+> [点击查看“夫君曹出阳（正面）”](/images/cemetery-haiwanyuan/20180407-cemetery-husband-cao-front.jpg)
+> [点击查看“夫君曹出阳（背面）”](/images/cemetery-haiwanyuan/20180407-cemetery-husband-cao-back.jpg)
 
-### “纪念母亲卢氏：永远怀念”
+### “母亲卢氏：永远怀念”
 
-![母亲卢氏](/images/cemetery-haiwanyuan/20180407-cemetery-mother-lu.jpg)
+> [点击查看“母亲卢氏”](/images/cemetery-haiwanyuan/20180407-cemetery-mother-lu.jpg)
 
 ## 印记(Imprint)
 
