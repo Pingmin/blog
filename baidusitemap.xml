@@ -3,6 +3,26 @@
 
 
     
+  <url>
+    <loc>https://pingmin.me/post/cemetery.html</loc>
+    <lastmod>2018-11-18T14:50:43.000Z</lastmod>
+    <data>
+        <display>
+        <title>墓中人(People in the Cemetery)</title>
+        <pubTime>2018-04-07T13:20:36.000Z</pubTime>
+        
+        <tag>墓地(Cemetery)</tag>
+         
+         
+           
+             
+              <breadCrumb title="平民日记(Pingmin Diary)" url="https://pingmin.me/categories/pingmin-diary/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
@@ -175,6 +195,26 @@
 
     
   <url>
+    <loc>https://pingmin.me/post/manifesto.html</loc>
+    <lastmod>2018-03-25T06:35:21.000Z</lastmod>
+    <data>
+        <display>
+        <title>博客宣言(Blogging Manifesto)</title>
+        <pubTime>2012-10-14T12:29:36.000Z</pubTime>
+        
+        <tag>宣言(Manifesto)</tag>
+         
+         
+           
+             
+              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://pingmin.me/post/no-messaging-by-wechat-and-qq.html</loc>
     <lastmod>2018-03-25T06:35:21.000Z</lastmod>
     <data>
@@ -195,19 +235,19 @@
 
     
   <url>
-    <loc>https://pingmin.me/post/manifesto.html</loc>
-    <lastmod>2018-03-25T06:35:21.000Z</lastmod>
+    <loc>https://pingmin.me/post/secure-im.html</loc>
+    <lastmod>2018-03-25T06:29:44.000Z</lastmod>
     <data>
         <display>
-        <title>博客宣言(Blogging Manifesto)</title>
-        <pubTime>2012-10-14T12:29:36.000Z</pubTime>
+        <title>安全即时通讯(Secure IM)</title>
+        <pubTime>2017-08-29T12:29:36.000Z</pubTime>
         
-        <tag>宣言(Manifesto)</tag>
+        <tag>安全(Security)</tag>
          
          
            
              
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
+              <breadCrumb title="信息技术(IT)" url="https://pingmin.me/categories/it/"/>
           
         </display>
     </data>
@@ -248,26 +288,6 @@
            
              
               <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/secure-im.html</loc>
-    <lastmod>2018-03-25T06:29:44.000Z</lastmod>
-    <data>
-        <display>
-        <title>安全即时通讯(Secure IM)</title>
-        <pubTime>2017-08-29T12:29:36.000Z</pubTime>
-        
-        <tag>安全(Security)</tag>
-         
-         
-           
-             
-              <breadCrumb title="信息技术(IT)" url="https://pingmin.me/categories/it/"/>
           
         </display>
     </data>
