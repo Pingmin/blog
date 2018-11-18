@@ -9,23 +9,58 @@ categories:
 
 ## 概要(Abstract)
 
-平生第一次拜访公墓的所见所感。
+记录平生第一次拜访公墓。
 
 ## 正文(Body)
 
 之前有看过一篇文章，大意是说，人生要多去三个地方去看看：医院、监狱和墓地。所以，趁着自己还有这个机会，今年的清明节便特地去拜访了下所在城市的一个公墓。
 
+![海湾园大门](/images/cemetery-haiwanyuan/20180407-cemetery-haiwanyuan-gate.jpg)
+![海湾园局部风景](/images/cemetery-haiwanyuan/20180407-cemetery-haiwanyuan-part-scenery.jpg)
 
+墓志铭中，有怀念父母、儿女和夫妻的，也有歌颂生平贡献的，还有以诗词格言形式告诫后人的，在此，平民仅上传了当时感触和印象特别深的几张。
+
+### “纪念爱妻刘书琴：今生今世”
+
+![爱妻刘书琴（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-wife-liu-front.jpg)
+![爱妻刘书琴（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-wife-liu-back.jpg)
+
+### “纪念爱子沈琰：爱你，想你，念你”
+
+![爱子沈琰（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-son-shen-front.jpg)
+![爱子沈琰（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-son-shen-back.jpg)
+
+### “纪念父母胡氏：大爱无声”
+
+![父母胡氏](/images/cemetery-haiwanyuan/20180407-cemetery-parents-hu.jpg)
+
+### “纪念父母何氏：养育恩，思念情，永铭记”
+
+![父母何氏](/images/cemetery-haiwanyuan/20180407-cemetery-parents-he.jpg)
+
+### “纪念爱女李云：永恒的爱”
+
+![爱女李云（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-daughter-lee-front.jpg)
+![爱女李云（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-daughter-lee-back.jpg)
+
+
+### “纪念夫君曹出阳：儿女未成君先行”
+
+![夫君曹出阳（正面）](/images/cemetery-haiwanyuan/20180407-cemetery-husband-cao-front.jpg)
+![夫君曹出阳（背面）](/images/cemetery-haiwanyuan/20180407-cemetery-husband-cao-back.jpg)
+
+### “纪念母亲卢氏：永远怀念”
+
+![母亲卢氏](/images/cemetery-haiwanyuan/20180407-cemetery-mother-lu.jpg)
 
 ## 印记(Imprint)
 
 （1）20180407（周六，晴，AQI：82，中等）：首次将相关照片分享给一些即时通讯工具联系人，并公开于个人微博。
-（2）20181118（周日，雨，AQI：64，中等）：起草此文。
-（2）20181118（周日，雨，AQI：64，中等）：完稿，並公开于此个人博客。
+（2）20181118（周日，雨，AQI：64，中等）：撰写此文，并公开于此个人博客。
 
 ## 署名(Attribution)
 
 平民（Pingmin Fenlly Liu）
-20180407, 20181118-1120
+20180407, 1118
 
 ## 结束(End)
