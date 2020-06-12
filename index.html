@@ -256,7 +256,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -269,7 +269,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-count">14</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -412,6 +412,129 @@
             </div>
           <!--/noindex-->
         
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/think-copyleft.png">
+      <meta itemprop="name" content="平民（Pingmin Fenlly Liu）">
+      <meta itemprop="description" content="平民的个人博客（Pingmin Fenlly Liu's Personal Blog）">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="平民·寻梦（Pingmin Fenlly Liu）">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/how-signal-works-by-moxie-marlinspike.html" class="post-title-link" itemprop="url">當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-06-12 23:13:40" itemprop="dateCreated datePublished" datetime="2020-06-12T23:13:40+08:00">2020-06-12</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-12 14:30:50" itemprop="dateModified" datetime="2020-11-12T14:30:50+08:00">2020-11-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/beauty-essays/" itemprop="url" rel="index"><span itemprop="name">美文共赏(Beauty Essays)</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>6.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png" alt="Signal Logo"></p>
+<h2 id="Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）"><a href="#Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）" class="headerlink" title="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）"></a>Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）</h2><blockquote>
+<p>（英文作者：<a href="https://github.com/moxie0" target="_blank" rel="noopener">馬克希·馬琳斯巴克(Moxie Marlinspike)</a>（譯注：Signal 和開放密語系統的創始人，如下圖），<a href="https://signal.org/blog/looking-back-as-the-world-moves-forward/" target="_blank" rel="noopener">英文原文</a>，20200605）</p>
+<img src="https://moxie.org/images/moxiemarlinspike2.jpg" width="30%" height="30%" alt="馬克希·馬琳斯巴克(Moxie Marlinspike)">
+
+<p>（中文譯者：<a href="https://pingmin.me" target="_blank" rel="noopener">平民（Pingmin Fenlly Liu）</a>，20200609-0612）</p>
+</blockquote>
+<p>In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We’ve gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we’ve designed Signal, and how we think about concepts like privacy, security, and trust.<br>在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。</p>
+<p>What if the worst should happen, and some unauthorized party were to compromise Signal? We don’t have to speak hypothetically, because the US government already tried this, so we can examine what that looked like. In 2016, the US government obtained access to Signal user data through a grand jury subpoena from the Eastern District of Virginia. However, there wasn’t (and still isn’t) really anything to obtain. At the time, <a href="https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company" target="_blank" rel="noopener">we worked with the ACLU</a> to fight the gag order that was intended to prevent us from publishing this information, so you can <a href="https://signal.org/bigbrother/eastern-virginia-grand-jury/" target="_blank" rel="noopener">see the full subpoena and response here</a>.<br>要是發生了最壞情況，以及一些未授權方想違背或損害 Signal（的隱私保護等相關原則/價值觀），結果會怎樣？我們無須假設，因為美國政府已經如此嘗試過。2016 年，美國政府（執法部門）通過弗吉尼亞東區法院一大陪審團傳票（司法程序）的授權得以獲取相關 Signal 用戶的數據。然而，我們這（服務器上）當時（至今也是）實際上并沒有什麼數據可取到的。那時，<a href="https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company" target="_blank" rel="noopener">我們也與美國公民自由權聯盟（ACLU）一起</a>，與意欲阻止我們公開這些信息的壓制言論自由的政令做抗爭，你可以在這裏<a href="https://signal.org/bigbrother/eastern-virginia-grand-jury/" target="_blank" rel="noopener">查看完整的傳票及其回應的內容</a>。</p>
+<p>The only Signal user data we have, and the only data the US government obtained as a result, was the date of account creation and the date of last use – not user messages, groups, contacts, profile information, or anything else.<br>我們所擁有的 Signal 用戶的唯一數據，也是美國政府最終所獲得的唯一數據，是賬號創建日期和最後使用日期——沒有用戶的消息、群組、聯系人、個人資料等其他任何信息（見下圖）。</p>
+<p><img src="https://signal.org/blog/images/subpoena-screenshot.jpg" alt="Signal user data（用戶數據）"></p>
+<p>This is because we’ve designed Signal to keep your data in your hands rather than ours. Signal uses end-to-end encryption so that we never have access to the contents of the messages you send; they are only visible to you and the intended recipients. However, Signal also applies this design philosophy to the rest of your data as well.<br>這是因為我們把 Signal 設計成將你的數據保存在你的手中而不是我們手中。Signal 采用了端到端加密（E2EE）技術，這樣即使是我們也無法訪問你所發的消息明文（因已加密且第三方幾乎無法解密），它們只能被你自己和消息的接收者所看到。同時， Signal 也將此設計哲學應用在了你的其他數據上。</p>
+<h3 id="Our-approach（我們的方法）"><a href="#Our-approach（我們的方法）" class="headerlink" title="Our approach（我們的方法）"></a>Our approach（我們的方法）</h3><p>Unlike any other popular messaging apps, Signal also does not have access to your contacts, social graph, group data, group membership, profile name, profile avatar, location data, gif searches, etc. – and we don’t include trackers, ads, or analytics in our software at all.<br>與其他任何的流行通訊應用不同，Signal 也無法訪問你的聯系人、社交關系圖譜、群組數據、群組成員、個人名稱、個人頭像、定位數據、GIF 搜索數據，等等——我們在我們的軟件中也一點都不會進行數據追蹤、廣告展示和統計分析。</p>
+<p>Because we’ve built Signal to completely avoid storing any sensitive information, I can stand on stage in front of thousands of people and <a href="https://youtu.be/Nj3YFprqAr8?t=894" target="_blank" rel="noopener">publish all of my account data</a> publicly without revealing anything other than how long I’ve had Signal installed (it’s since I last replaced my phone) and the last date I had Signal installed (it’s today btw).<br>因為我們在做 Signal 時，就是完全避免存儲任何敏感信息的，我可以面對幾千人站在舞台上公開地<a href="https://youtu.be/Nj3YFprqAr8?t=894" target="_blank" rel="noopener">發布我所有的個人賬戶數據</a>（譯注：YouTube 視頻，內地需科學上網才能查看），包括我安裝 Signal 多久了（因為我後來換了手機）以及我最後的安裝日期（也就是今天）。</p>
+<p>If you ask the CEO of any other major communication platform to publicly publish their account data from their platform, they won’t.<br>如果你讓任何其他主要通信平臺的首席執行官（CEO，類似于我們的總經理），公開他們在他們平臺上自己的賬號數據的話，他們是不會公開的。</p>
+<p>I don’t blame them – it’s a lot of data that they would probably be uncomfortable sharing with you – but it raises the question of whether we should be comfortable sharing the same data with them.<br>我并不是在指責他們——那會有很多數據如果分享給你會引起他們不適——而這便引發了一個問題：難道我們的數據（因存放在他們服務器上而）分享給了他們，我們就會舒適嗎？</p>
+<h3 id="Sync-different（不一樣的同步）"><a href="#Sync-different（不一樣的同步）" class="headerlink" title="Sync different（不一樣的同步）"></a>Sync different（不一樣的同步）</h3><p>This represents a fundamental difference in how we think about concepts like privacy, security, and trust. We do not believe that security and privacy are about “responsibly” managing your data under our control, but rather about keeping your data out of anyone else’s hands – including our own.<br>這體現了我們在如何思考諸如隱私權、安全性和信任等觀念上的根本不同。我們相信，安全性與隱私權，不是如何在我們的控制下負責任地管理你們的數據，而是讓你們的數據不落入任何其他人的手中——包括我們的。</p>
+<p>We believe this because, even after 30 years of trying, anything else has proven to be a losing strategy. Data breach after data breach, and the incentives that have emerged from the monetary value of data, have led to a dramatic loss of privacy online, especially for some of the most intimate conversations we have.<br>我們之所以如此相信，是因為，即使已經嘗試了三十年，任何其他的做法都已被證明是失敗的策略。一次次數據洩漏，以及所暴露出來的在數據的金錢價值上的誘惑，已經導致了互聯網線上隱私的戲劇性的巨大損失，尤其是在一些我們最私密的對話上。</p>
+<p>We don’t believe that trust is about trusting us with your data, but rather about trusting our engineering abilities and know-how to design software that keeps your data in your hands rather than ours or anyone else’s. In order to help build that trust, we’ve made <a href="https://github.com/signalapp/" target="_blank" rel="noopener">all of our software open source</a> so anyone can look at how we design and build things. There are no secrets in there, because we never have access to your secrets to begin with.<br>我們相信，信任不是信任我們如何保有和使用你們的數據，而是信任我們的工程能力以及知道如何設計軟體以將你們的數據保留在你們自己手中而非我們或任何其他方手中。為了幫助建立此信任，我們已經<a href="https://github.com/signalapp/" target="_blank" rel="noopener">開源了我們所有的軟件</a>，這樣任何人都可以直接通過軟件源碼來查看我們是如何設計和構建這些的。那裡沒有秘密，因為我們從來沒接觸到你們的秘密及以其開展軟件系統的開發等。</p>
+<p>We also make this technology publicly available for free because Signal is a <a href="https://signal.org/donate/" target="_blank" rel="noopener">501(c)(3) nonprofit</a>. Our mission is to increase privacy online, so we publish our technology and share knowledge to encourage other companies to adopt it in their own products and services.<br>我們也公開了這項端到端加密技術（即暗號協議（Signal Protocol）并使公眾可自由免費使用，因為暗號 （Signal）是一個在美國注冊成立的<a href="https://signal.org/donate/" target="_blank" rel="noopener">“501(c)3”型的非營利組織</a>（即暗號基金會（Signal Foundation））。我們的使命是增強在線隱私權，所以我們公開我們的技術和分享這些知識，以鼓勵其他公司在他們的產品和服務中採用這些技術。</p>
+<h3 id="Moving-forward-with-you（與你一同向前）"><a href="#Moving-forward-with-you（與你一同向前）" class="headerlink" title="Moving forward with you（與你一同向前）"></a>Moving forward with you（與你一同向前）</h3><p>Every feature that we add to Signal is a new opportunity to make sure that your information is only accessible to you. This isn’t how most organizations handle user data, but it has always felt like the right approach to us. These are your contacts, your conversations, your photos, and your information – not ours – and it’s your powerful voices that are out there organizing and advocating for change.<br>暗號（Signal）所添加的每一個功能，都是一個確保使你的信息僅被你所訪問的新機會。雖然大部分組織和公司都不是這麼處理用戶數據的，但是對於我們來說，這始終感覺才像是正確的方式。這些都是你的聯系人、對話、照片及信息——不是我們的——它們也是你組織和提倡變革的強有力的聲音。</p>
+<p>Keep on sending a message, and we’ll keep making sure they get delivered securely.<br>你們繼續發送消息，我們也將繼續會確保安全地傳送它們。</p>
+<p>（完（END））</p>
+<h2 id="譯注（Notes）"><a href="#譯注（Notes）" class="headerlink" title="譯注（Notes）"></a>譯注（Notes）</h2><p>（1）首先需要聲明的是，平民與 Signal 沒有商業利益關係，于此翻譯和分享僅作為一種價值上的認可和推薦。</p>
+<p>（2）Signal Messenger 是平民首選的安全即時通訊工具。另，據 @李仲偉 律師所說，律師也基本都用 Signal。因為 Signal 是以手機號為賬號（服務器上保存的實則是截取了手機號哈希值的一部分作為賬號識別 ID）的，所以使用 Signal 的我們，通常會優先留存聯系人的手機號，因為我們都互相很信任，同時也我們也會優先考慮公開自己的手機號作為聯繫方式，因為使用Signal并具有相同價值取向的我們一看就懂。</p>
+<p>（3）這次翻譯，是平民自 2007 年首次嘗試翻譯喬布斯 2005 年在斯坦福大學的演講稿以來的第二次翻譯嘗試，所以目前只是以作為技術人員的職業視角來翻譯的，沒有刻意去追求翻譯的“信、達、雅＂要求。同時，也歡迎指教！</p>
+<p>（4）感興趣或同樣注重通訊安全的話，可以試下 Signal（可隨時注銷，不留痕跡）：</p>
+<blockquote>
+<p><a href="https://signal.org" target="_blank" rel="noopener">Signal - Private Messenger（暗號 - 私密聊天工具）</a></p>
+<p><a href="https://itunes.apple.com/cn/app/signal-private-messenger/id874139669" target="_blank" rel="noopener">Signal for iOS</a></p>
+<p><a href="https://signal.org/android/apk/" target="_blank" rel="noopener">Signal for Android</a> (如：點此下載<a href="https://updates.signal.org/android/Signal-Android-website-prod-universal-release-4.76.3.apk" target="_blank" rel="noopener">當前最新版(v4.76.3)的 apk</a>)</p>
+<p>更多可參考此個人筆記：<a href="https://fenlly.org/favorites" target="_blank" rel="noopener">Favorites（收藏）</a>。</p>
+<p>另，對於安裝與使用上的問題，需要的話，你可以在公眾號後臺留言，平民自願免費提供技術支持！</p>
+</blockquote>
+<h2 id="印记-Imprints"><a href="#印记-Imprints" class="headerlink" title="印记(Imprints)"></a>印记(Imprints)</h2><p>（1）20200609-0612：利用空闲时间（在地鐵二號線及唐鎮住所）完成譯文， 20200612 首次公開於公衆號”风灵学园FENLLY”。<br>（2）20201112：整理和完善文本，調整排版，同步發布到此<a href="https://pingmin.blog">個人博客</a>。<br>（Next）xxxx：更新了xxx。<br>（Todo）待做：同步英文翻译。</p>
+<p>平民（Pingmin Fenlly Liu）<br>20200609-1112</p>
+
       
     </div>
 
@@ -1210,102 +1333,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/collect-donations-for-a-primary-school.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/think-copyleft.png">
-      <meta itemprop="name" content="平民（Pingmin Fenlly Liu）">
-      <meta itemprop="description" content="平民的个人博客（Pingmin Fenlly Liu's Personal Blog）">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="平民·寻梦（Pingmin Fenlly Liu）">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/post/collect-donations-for-a-primary-school.html" class="post-title-link" itemprop="url">关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2011-11-08 20:12:36" itemprop="dateCreated datePublished" datetime="2011-11-08T20:12:36+08:00">2011-11-08</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-04-05 23:35:09" itemprop="dateModified" datetime="2018-04-05T23:35:09+08:00">2018-04-05</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
-                </span>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>2k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》/《十万个为什么》、字典、磁带或教学视频(VCD)等等。</p>
-<p>得知此事后，因这也是我当初和现在一直想做的事情之一，所以便答应参与了。经过综合考虑，发现最好的途径是发动一切有缘人一起参与，欢迎大家在参与的同时也能通过您的方式一起发动您所认识的人等。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/post/collect-donations-for-a-primary-school.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1361,13 +1388,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">42k</span>
+    <span title="站点总字数">48k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">38 分钟</span>
+    <span title="站点阅读时长">44 分钟</span>
 </div>
 
         
