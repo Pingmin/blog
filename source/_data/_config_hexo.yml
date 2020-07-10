@@ -99,9 +99,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  #repo: ssh://git@github.com/Pingmin/pingmin.github.io.git
-  repo: https://LiuZeping@github.com/LiuZeping/liuzeping.github.io.git
-  branch: master
+  repo: ssh://git@github.com/Pingmin/blog.git
+  branch: gh-pages
 
 # Feed
 ## https://github.com/hexojs/hexo-generator-feed
