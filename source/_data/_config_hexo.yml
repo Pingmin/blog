@@ -17,7 +17,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://pingmin.me
+url: https://pingmin.blog
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: post/:title.html
