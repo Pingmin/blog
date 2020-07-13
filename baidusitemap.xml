@@ -1,300 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    
   <url>
-    <loc>https://pingmin.me/post/cemetery.html</loc>
-    <lastmod>2018-11-18T16:00:11.000Z</lastmod>
-    <data>
-        <display>
-        <title>墓中人(People in the Cemetery)</title>
-        <pubTime>2018-04-07T13:20:36.000Z</pubTime>
-        
-        <tag>墓地(Cemetery)</tag>
-         
-         
-           
-             
-              <breadCrumb title="平民日记(Pingmin Diary)" url="https://pingmin.me/categories/pingmin-diary/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-  <url>
-    <loc>https://pingmin.me/post/collect-donations-for-a-primary-school.html</loc>
-    <lastmod>2018-04-05T15:39:17.000Z</lastmod>
-    <data>
-        <display>
-        <title>关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)</title>
-        <pubTime>2011-11-08T12:12:36.000Z</pubTime>
-        
-        <tag>捐赠(Donation)</tag>
-         
-         
-           
-             
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/the-donation-details-for-a-primary-school.html</loc>
-    <lastmod>2018-04-05T15:33:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>图书收集与募捐的详情与处理结果(Details of the Donation for A Primary School)</title>
-        <pubTime>2013-01-05T13:58:30.000Z</pubTime>
-        
-        <tag>捐赠(Donation)</tag>
-         
-         
-           
-             
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/find-what-you-love-by-steve-jobs.html</loc>
-    <lastmod>2018-03-25T11:48:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Steve Jobs: Find What You Love(乔布斯：找到你所爱)</title>
-        <pubTime>2007-03-30T13:30:36.000Z</pubTime>
-        
-        <tag>推荐(Recommended)</tag>
-         
-        <tag>苹果公司(Apple Inc.)</tag>
-         
-        <tag>史蒂夫·乔布斯(Steve Jobs)</tag>
-         
-         
-           
-             
-              <breadCrumb title="美文共赏(Beauty Essays)" url="https://pingmin.me/categories/beauty-essays/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/think-different-by-apple-inc.html</loc>
-    <lastmod>2018-03-25T11:46:33.000Z</lastmod>
-    <data>
-        <display>
-        <title>Think Different(非同凡想)</title>
-        <pubTime>2007-03-30T14:10:02.000Z</pubTime>
-        
-        <tag>推荐(Recommended)</tag>
-         
-        <tag>苹果公司(Apple Inc.)</tag>
-         
-         
-           
-             
-              <breadCrumb title="美文共赏(Beauty Essays)" url="https://pingmin.me/categories/beauty-essays/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/to-the-sea-by-alexander-pushkin.html</loc>
-    <lastmod>2018-03-25T10:44:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>To The Sea, by Alexander Pushkin (普希金《致大海》)</title>
-        <pubTime>2007-11-01T11:45:03.000Z</pubTime>
-        
-        <tag>推荐(Recommended)</tag>
-         
-         
-           
-             
-              <breadCrumb title="美文共赏(Beauty Essays)" url="https://pingmin.me/categories/beauty-essays/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html</loc>
-    <lastmod>2018-03-25T10:40:34.000Z</lastmod>
-    <data>
-        <display>
-        <title>徐志摩《再别康桥》(Saying Goodbye to Cambridge Again, by Xu Zhimo)</title>
-        <pubTime>2007-11-01T11:01:12.000Z</pubTime>
-        
-        <tag>推荐(Recommended)</tag>
-         
-         
-           
-             
-              <breadCrumb title="美文共赏(Beauty Essays)" url="https://pingmin.me/categories/beauty-essays/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/youth-by-samuel-ullman.html</loc>
-    <lastmod>2018-03-25T10:33:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>Youth Is Not A Time of Life(青春不是年华)</title>
-        <pubTime>2007-11-01T12:12:06.000Z</pubTime>
-        
-        <tag>推荐(Recommended)</tag>
-         
-        <tag>青春(Youth)</tag>
-         
-         
-           
-             
-              <breadCrumb title="美文共赏(Beauty Essays)" url="https://pingmin.me/categories/beauty-essays/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/manifesto.html</loc>
-    <lastmod>2018-03-25T06:35:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>博客宣言(Blogging Manifesto)</title>
-        <pubTime>2012-10-14T12:29:36.000Z</pubTime>
-        
-        <tag>宣言(Manifesto)</tag>
-         
-         
-           
-             
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/song-of-code-farmer.html</loc>
-    <lastmod>2018-03-25T06:35:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>码农之歌(Song of Code Farmer)</title>
-        <pubTime>2014-01-15T08:51:36.000Z</pubTime>
-        
-        <tag>音乐(Music)</tag>
-         
-         
-           
-             
-              <breadCrumb title="平民日记(Pingmin Diary)" url="https://pingmin.me/categories/pingmin-diary/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/no-messaging-by-wechat-and-qq.html</loc>
-    <lastmod>2018-03-25T06:35:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</title>
-        <pubTime>2017-12-31T14:43:36.000Z</pubTime>
-        
-        <tag>宣言(Manifesto)</tag>
-         
-         
-           
-             
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/cremation.html</loc>
-    <lastmod>2018-03-25T06:29:44.000Z</lastmod>
-    <data>
-        <display>
-        <title>死后火化(Cremation)</title>
-        <pubTime>2012-10-14T13:30:36.000Z</pubTime>
-        
-        <tag>火化(Cremation)</tag>
-         
-         
-           
-             
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/she.html</loc>
-    <lastmod>2018-03-25T06:29:44.000Z</lastmod>
-    <data>
-        <display>
-        <title>寻她(Seeking Her)</title>
-        <pubTime>2013-11-24T05:56:57.000Z</pubTime>
-        
-        <tag>她(She)</tag>
-         
-         
-           
-             
-              <breadCrumb title="公告(Bulletin)" url="https://pingmin.me/categories/bulletin/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://pingmin.me/post/secure-im.html</loc>
-    <lastmod>2018-03-25T06:29:44.000Z</lastmod>
-    <data>
-        <display>
-        <title>安全即时通讯(Secure IM)</title>
-        <pubTime>2017-08-29T12:29:36.000Z</pubTime>
-        
-        <tag>安全(Security)</tag>
-         
-         
-           
-             
-              <breadCrumb title="信息技术(IT)" url="https://pingmin.me/categories/it/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
+    <loc>https://pingmin.blog/post/cemetery.html</loc>
+    <lastmod>2020-07-13</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/collect-donations-for-a-primary-school.html</loc>
+    <lastmod>2018-04-05</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/the-donation-details-for-a-primary-school.html</loc>
+    <lastmod>2018-04-05</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/find-what-you-love-by-steve-jobs.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/think-different-by-apple-inc.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/to-the-sea-by-alexander-pushkin.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/youth-by-samuel-ullman.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/manifesto.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/no-messaging-by-wechat-and-qq.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/song-of-code-farmer.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/cremation.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/secure-im.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>  <url>
+    <loc>https://pingmin.blog/post/she.html</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>
 </urlset>
