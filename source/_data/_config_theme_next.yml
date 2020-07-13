@@ -101,8 +101,8 @@ creative_commons:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-#scheme: Pisces
-scheme: Gemini
+scheme: Pisces
+#scheme: Gemini
 
 # Dark Mode
 darkmode: false
@@ -203,7 +203,7 @@ links_settings:
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  #Title: https://pingmin.blog
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -270,7 +270,7 @@ tag_icon: false
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
   enable: true
-  animation: false
+  animation: true
   comment: 如果喜欢，欢迎打赏(Rewarding)，多谢鼓励！
 
 reward:
@@ -844,7 +844,7 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/HubSpot/pace
 pace:
-  enable: false
+  enable: true
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
