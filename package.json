@@ -26,7 +26,6 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "hexo-submit-urls-to-search-engine": "^1.0.1",
     "hexo-uglify": "^1.1.0",
     "marked": "^1.1.0",
     "uglify-js": "^3.10.0"
