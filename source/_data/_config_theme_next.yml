@@ -198,12 +198,12 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-globe
-  title: Links
+  title: 链接 (Links)
   # Available values: block | inline
   layout: block
 
 links:
-  #Title: https://pingmin.blog
+  平民主页 (Pingmin's Homepage) : https://pingmin.me
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
