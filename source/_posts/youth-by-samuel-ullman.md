@@ -13,6 +13,8 @@ categories:
 **Youth is not a time of life**; **it is a state of mind**; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of imagination, a vigor of the emotions; it is the freshness of the deep springs of life.
 **青春不是年华，而是一种心态**；青春不是桃面、丹唇、柔膝，而是深沉意志，恢宏想象，炙热恋情；青春是生命深泉在涌流。
 
+<!-- more -->
+
 Youth means a temperamental predominance of courage over timidity, of the appetite for adventure over the love of ease. This often exists in a man of 60 more than a boy of 20. **Nobody grows old merely by a number of years. We grow old by deserting our ideals.**
 青春气贯长虹，勇锐盖过怯弱，进取压倒苟安。如此锐气，二十后生而有之，六旬男子则多见。**年岁有加，并非垂老，理想丢弃，方堕暮年。**
 
@@ -24,4 +26,3 @@ Youth means a temperamental predominance of courage over timidity, of the appeti
 
 When the aerials are down, and **your spirit is covered with snows of cynicism and the ice of pessimism, then you are grown old, even at 20**, but as long as your aerials are up, to catch waves of optimism, there is hope you may die young at 80.
 一旦天线下降，**锐气便被冰雪覆盖，玩世不恭、自暴自弃油然而生，即使年方二十，实已垂垂老矣**；然则只要树起天线，捕捉乐观信号，你就有望在八十高龄告别尘寰时仍觉年轻。
-

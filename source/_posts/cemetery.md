@@ -17,6 +17,8 @@ categories:
 
 墓志铭中，有怀念父母、儿女和夫妻的，也有歌颂生平贡献的，还有以诗词格言形式告诫后人的等。在此，平民仅上传了当时感触和印象特别深的几张，且因图片文件比较大，也只直接显示了两张。
 
+<!-- more -->
+
 > [点击查看“海湾园大门”](https://media.githubusercontent.com/media/Pingmin/img/gh-pages/cemetery-haiwanyuan/20180407-cemetery-haiwanyuan-gate.jpg)
 > [点击查看“海湾园局部风景”](https://media.githubusercontent.com/media/Pingmin/img/gh-pages/cemetery-haiwanyuan/20180407-cemetery-haiwanyuan-part-scenery.jpg)
 

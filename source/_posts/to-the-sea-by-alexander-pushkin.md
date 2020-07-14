@@ -9,6 +9,8 @@ categories:
 
 > “《致大海》是俄国浪漫主义诗人普希金的一首政治抒情诗，全诗通过海之恋，海之思，海之念的“三步曲”，表达了诗人反抗暴政，反对独裁，追求光明，讴歌自由的思想感情。”
 
+<!-- more -->
+
 ## 普希金 - 致大海
 
 **再见吧，自由奔放的大海！**
@@ -94,4 +96,3 @@ categories:
 >    - [致大海（百度百科）](https://baike.baidu.com/item/致大海/3109)
 >    - [亚历山大·谢尔盖耶维奇·普希金（维基百科）](https://zh.wikipedia.org/wiki/亚历山大·谢尔盖耶维奇·普希金)
 >    - [Alexander Pushkin(Wikipedia)](https://en.wikipedia.org/wiki/Alexander_Pushkin)
-

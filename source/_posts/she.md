@@ -18,6 +18,7 @@ Actually, I am also describing myself, hoping you'll get it...
 关键词：珍爱生命，感恩的心，孝敬长辈，尊敬孩子，终身体育，终身学习，独立思考，崇尚自由和民主，生活自然、简单、真实、快乐和有意义。
 Keywords: Cherishing lives; Having a grateful heart; Treating elders with filial piety and respect; Respecting children; Lifelong physical education(conception and practice); Lifelong learning(conception and practice); Independent thinking and mind; Advocating and longing for freedom and democracy; Living in natural, simple, real and valuable happiness and "Living in truth".
 
+<!-- more -->
 
 ## 正文(Body)
 

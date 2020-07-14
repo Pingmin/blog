@@ -17,6 +17,8 @@ categories:
 Here’s to the crazy ones.
 向那些疯狂的家伙们致敬。
 
+<!-- more -->
+
 The misfits.
 那些我行我素的家伙。
 
@@ -88,4 +90,3 @@ Pablo Ruiz Picasso (巴勃罗·路易兹·毕加索)
 ### 更多详情
 
 请查看维基百科上的“Think Different( https://zh.wikipedia.org/zh-cn/Think_Different )”词条，或者自行到网上搜集( https://www.google.com.hk/search?hl=zh-CN&q=Think+Different )。
-
