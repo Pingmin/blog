@@ -1,3 +1,12 @@
+## 1.0.0 (2020-07-14)
+
+- Update [Hexo](https://hexo.io) to v4.2.1 .
+- Update theme [NexT](https://theme-next.js.org) to v8.0.0-rc.4 .
+- Enable some new useful Hexo plugins, such as word counter and Gitalk.
+- Move my blog domain from https://pingmin.me to new https://pingmin.blog .
+- Update my avatar image to Think Copyleft v2.0(20191023).
+- Add and publish my WeChat official account QR code.
+
 ## 0.7.0 (2018-04-05)
 
 - Change the tag to "apple-inc".
