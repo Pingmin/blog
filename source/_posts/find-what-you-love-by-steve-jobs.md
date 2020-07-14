@@ -22,6 +22,8 @@ categories:
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNDU3OTgyMTky' frameborder=2 'allowfullscreen'></iframe>
 
+<!-- more -->
+
 
 Thank you.
 谢谢大家。
@@ -122,4 +124,3 @@ Thank you all very much.
 >    - [斯坦福大学英文视频（YouTube）](https://news.stanford.edu/news/2005/june15/videos/987.html)
 >    - [中英文字幕版视频（优酷）](https://v.youku.com/v_show/id_XNDU3OTgyMTky.html)
 >    - [中英文字幕版视频（土豆）](https://new-play.tudou.com/v/493790744.html)
-
