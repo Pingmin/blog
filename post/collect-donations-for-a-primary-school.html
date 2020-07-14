@@ -14,12 +14,14 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  
+  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.min.css">
   <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="正文(Body)在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》&#x2F;《十万个为什么》、字典、磁带或教学视频(VCD)等等。 得知此事后，因这也是我当初和现在一直想做的事情之一，所以便答应参与了。经过综合考虑，发现最好的">
@@ -30,7 +32,7 @@
 <meta property="og:description" content="正文(Body)在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》&#x2F;《十万个为什么》、字典、磁带或教学视频(VCD)等等。 得知此事后，因这也是我当初和现在一直想做的事情之一，所以便答应参与了。经过综合考虑，发现最好的">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2011-11-08T12:12:36.000Z">
-<meta property="article:modified_time" content="2018-04-05T15:39:17.000Z">
+<meta property="article:modified_time" content="2018-04-05T15:35:09.000Z">
 <meta property="article:author" content="平民 (Pingmin Fenlly Liu)">
 <meta property="article:tag" content="捐赠(Donation)">
 <meta name="twitter:card" content="summary">
@@ -95,7 +97,7 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container">
+  <div class="container use-motion">
     <div class="headband"></div>
 
     <main class="main">
@@ -121,6 +123,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -134,9 +137,24 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页（Home）</a>
 
   </li>
+        <li class="menu-item menu-item-pingmin">
+
+    <a href="https://pingmin.me/" rel="noopener" target="_blank"><i class="fas fa-snowflake fa-fw"></i>主页（Pingmin）</a>
+
+  </li>
         <li class="menu-item menu-item-about">
 
     <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于（About）</a>
+
+  </li>
+        <li class="menu-item menu-item-guides">
+
+    <a href="/guides/" rel="section"><i class="fas fa-hand-point-right fa-fw"></i>指南（Guides）</a>
+
+  </li>
+        <li class="menu-item menu-item-she">
+
+    <a href="https://pingmin.blog/post/she.html" rel="section"><i class="fas fa-female fa-fw"></i>寻她（Seeking Her）</a>
 
   </li>
         <li class="menu-item menu-item-tags">
@@ -159,11 +177,38 @@
     <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图（Sitemap）</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索（Search）
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
           
@@ -241,6 +286,16 @@
   </div>
 
 
+  <div class="links-of-blogroll animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      链接 (Links)
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页 (Pingmin's Homepage)</a>
+        </li>
+    </ul>
+  </div>
 
       </section>
     </div>
@@ -301,7 +356,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-04-05 23:39:17" itemprop="dateModified" datetime="2018-04-05T23:39:17+08:00">2018-04-05</time>
+                <time title="修改时间：2018-04-05 23:35:09" itemprop="dateModified" datetime="2018-04-05T23:35:09+08:00">2018-04-05</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -320,6 +375,20 @@
               </span>
               <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
             </span>
 
         </div>
@@ -333,6 +402,8 @@
       
         <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》/《十万个为什么》、字典、磁带或教学视频(VCD)等等。</p>
 <p>得知此事后，因这也是我当初和现在一直想做的事情之一，所以便答应参与了。经过综合考虑，发现最好的途径是发动一切有缘人一起参与，欢迎大家在参与的同时也能通过您的方式一起发动您所认识的人等。</p>
+<a id="more"></a>
+
 <p>现主要方式有以下两种：</p>
 <ul>
 <li><p>如果您身边（公司或家中等）现在有没用的、比较完整的、前面所说的那些适合他们的资料，不妨帮我们收集起来，捐献给我们。请寄送到我们的指定地址（见后面的附录）。但在寄送之前请先与我们“中转站”的联系人（见后面的附录）沟通，确认相关物品的适当性，以避免浪费，或给大家造成不必要的麻烦，甚至是做无用功。</p>
@@ -517,6 +588,18 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">平民 (Pingmin Fenlly Liu)</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">38k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">34 分钟</span>
 </div>
 
         
@@ -557,6 +640,8 @@
 
 <script src="/js/utils.js"></script>
 
+<script src="/js/motion.js"></script>
+
 
 <script src="/js/next-boot.js"></script>
 
@@ -573,6 +658,10 @@
   </script>
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
