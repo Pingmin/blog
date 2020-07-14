@@ -1,30 +1,30 @@
-# 0.7.0 (2018-04-05)
+## 0.7.0 (2018-04-05)
 
 - Change the tag to "apple-inc".
 - Add two posts of the donation for a primary school.
 
-# 0.6.2 (2018-03-25)
+## 0.6.2 (2018-03-25)
 
 - Just change the video links to https type.
 
-# 0.6.1 (2018-03-25)
+## 0.6.1 (2018-03-25)
 
 - Update and add some new video links for the Steve Jobs address post.
 - Add the baidusitemap.xml to robots.txt .
 
-# 0.6.0 (2018-03-25)
+## 0.6.0 (2018-03-25)
 
 - Add the post "Saying Goodbye to Cambridge Again, by Xu Zhimo".
 - Add the post "To The Sea, by Alexander Pushkin".
 
-# 0.5.0 (2018-03-25)
+## 0.5.0 (2018-03-25)
 
 - Add the post "Song of Code Farmer".
 - Add the post "Think Different(by Apple Inc.)".
 - Add the post "Youth(by Samuel Ulman)".
 - Amend the text style and add new post tags for the Steve Jobs address post.
 
-# 0.4.0 (2018-03-11)
+## 0.4.0 (2018-03-11)
 
 - Change the category and tag's URL style.
 - Update the "Secure IM" post.
@@ -32,22 +32,22 @@
 - Change the title of the "Manifesto" post.
 - Update the robots.txt : only publish some pages.
 
-# 0.3.1 (2018-01-08)
+## 0.3.1 (2018-01-08)
 
 - Add the "FaceTime" and amend my attribution.
 
-# 0.3.0 (2018-01-07)
+## 0.3.0 (2018-01-07)
 
 - Update package "marked" to v0.3.9 for security, issued by GitHub.
 - Add the WeChatPay for rewarding.
 - Add the "Secure IM" post.
 - Add the "No Messaging By WeChat and QQ" post.
 
-# 0.2.1 (2017-12-24)
+## 0.2.1 (2017-12-24)
 
 - Enable the auto excerpting(with 300 words) feature.
 
-# 0.2.0 (2017-12-24)
+## 0.2.0 (2017-12-24)
 
 - Add the Steve Jobs' speech.
 - Add the "She" post.
@@ -56,7 +56,7 @@
 - Allow robots to visit some pages.
 - Some other text and site configuration changes.
 
-# 0.1.1 (2017-12-07)
+## 0.1.1 (2017-12-07)
 
 - Add the translations for the memu items.
 - Update theme NexT to v5.1.3 .
@@ -64,8 +64,7 @@
 - And especially update the Uglify-JS package to v3.2.1 for security
   (issued by GitHub).
 
-# 0.1.0 (2017-09-04)
+## 0.1.0 (2017-09-04)
 
 - Initialize the new git-based blog with one post by [Hexo](https://hexo.io)
   and theme [NexT](https://github.com/iissnan/hexo-theme-next).
-
