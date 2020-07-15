@@ -1,6 +1,7 @@
 ---
 title: 关于(About)
 date: 2009-12-27 19:32:56
+updated: 2012-11-10 20:13:39
 ---
 
 ## 概要(Abstract)
@@ -110,4 +111,3 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 20091227-20121110
 
 ## 结束(End)
-
