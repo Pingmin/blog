@@ -121,7 +121,7 @@ menu:
   home: / || fa fa-home
   pingmin: https://pingmin.me || fas fa-snowflake
   about: /about/ || fa fa-user
-  guides: /guides/ || fas fa-hand-o-right
+  guides: /guides/ || fas fa-hand-point-right
   she: https://pingmin.blog/post/she.html || fas fa-female
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
