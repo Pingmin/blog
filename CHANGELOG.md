@@ -1,3 +1,10 @@
+## 1.0.1 (2020-07-15)
+
+- Add the "Pingmin.me", "Guides" and "She" menus.
+- Add the updated date for all posts and pages.
+- Add and fix the keywords for SEO.
+- Trailing the */index.html from permalinks.
+
 ## 1.0.0 (2020-07-14)
 
 - Update [Hexo](https://hexo.io) to v4.2.1 .
