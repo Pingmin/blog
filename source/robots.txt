@@ -8,6 +8,7 @@ sitemap: /sitemap.xml
 
 
 User-Agent: Googlebot
+Allow: /post/*.html
 Disallow: /tags
 Disallow: /categories
 Disallow: /archives
@@ -28,6 +29,7 @@ Disallow: /jobs
 User-Agent: *
 Allow: /about
 Allow: /guides
+#Allow: /post/*.html
 Allow: /post/she.html
 Allow: /post/find-what-you-love-by-steve-jobs.html
 Allow: /post/to-the-sea-by-alexander-pushkin.html
