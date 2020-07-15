@@ -35,7 +35,7 @@ post:
     author: 作者
     link: 文章連結
     license_title: 版權聲明
-    license_content: "本網誌所有原創文章，除特別聲明，均採用 %s 許可協議。轉載請註明出處！"
+    license_content: "本網誌所有文章除特別聲明外，均採用 %s 許可協議。轉載請註明出處！"
 footer:
   powered: "由 %s 強力驅動"
   total_views: 總瀏覽次數
