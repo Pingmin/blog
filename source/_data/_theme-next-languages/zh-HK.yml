@@ -7,6 +7,7 @@ title:
   schedule: 日程表
 menu:
   home: 首頁（Home）
+  pingmin: 主頁（Pingmin）
   archives: 歸檔（Archives）
   categories: 分類（Categories）
   tags: 標籤（Tags）
@@ -14,6 +15,7 @@ menu:
   guides: 指南（Guides）
   search: 檢索（Search）
   schedule: 日程表（Schedule）
+  she: 尋她（Seeking Her）
   sitemap: 站點地圖（Sitemap）
   commonweal: 公益（Commonweal）404
 sidebar:

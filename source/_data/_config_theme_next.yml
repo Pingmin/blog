@@ -119,8 +119,10 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
+  pingmin: https://pingmin.me || fas fa-snowflake
   about: /about/ || fa fa-user
   guides: /guides/ || fas fa-hand-o-right
+  she: https://pingmin.blog/post/she.html || fas fa-female
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
