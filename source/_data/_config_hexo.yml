@@ -73,6 +73,7 @@ category_map:
   公告(Bulletin): bulletin
   信息技术(IT): it
   平民日记(Pingmin Diary): pingmin-diary
+  平民記憶(Pingmin Memory): pingmin-memory
 tag_map:
   火化(Cremation): cremation
   宣言(Manifesto): manifesto
@@ -85,6 +86,7 @@ tag_map:
   音乐(Music): music
   捐赠(Donation): donation
   墓地(Cemetery): cemetery
+  回憶錄(Memoirs): memoirs
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
