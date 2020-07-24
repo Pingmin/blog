@@ -1,5 +1,6 @@
 ---
 title: "Youth Is Not A Time of Life(青春不是年华)"
+author: 塞缪尔·厄尔曼(Samuel Ullman)
 date: 2007-11-01 20:12:06
 updated: 2018-03-25 15:49:19
 tags:
@@ -9,7 +10,7 @@ categories:
 - 美文共赏(Beauty Essays)
 ---
 
-## Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春》)
+## Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春/年轻》)
 
 **Youth is not a time of life**; **it is a state of mind**; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of imagination, a vigor of the emotions; it is the freshness of the deep springs of life.
 **青春不是年华，而是一种心态**；青春不是桃面、丹唇、柔膝，而是深沉意志，恢宏想象，炙热恋情；青春是生命深泉在涌流。
