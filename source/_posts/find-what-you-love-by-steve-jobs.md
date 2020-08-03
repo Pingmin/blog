@@ -110,12 +110,17 @@ This was the closest I’ve been to facing death, and I hope its the closest I g
 When I was young, there was an amazing publication called The Whole Earth Catalog, which was one of the bibles of my generation. It was created by a fellow named Stewart Brand not far from here in Menlo Park, and he brought it to life with his poetic touch. This was in the late 1960′s, before personal computers and desktop publishing, so it was all made with typewriters, scissors, and polaroid cameras. It was sort of like Google in paperback form, 35 years before Google came along: it was idealistic, and overflowing with neat tools and great notions.
 在我年轻时，有本神奇的杂志叫做“全球概览(Whole Earth Catalog)”，是我们那一代人的“圣经”之一。那是一位住在离这不远的Menlo Park的Stewart Brand发行的，他把杂志办得很有诗意。那是1960年代末期，个人计算机跟桌上出版还没发明，所有内容都是打字机、剪刀跟拍立得相机做出来的。杂志内 容有点像印在纸上的Google，在Google出现之前35年就有了：理想化，充满新奇工具与神奇的注记。
 
-Stewart and his team put out several issues of The Whole Earth Catalog, and then when it had run its course, they put out a final issue. It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous. Beneath it were the words: “**Stay Hungry, Stay Foolish**.” It was their farewell message as they signed off. **Stay Hungry. Stay Foolish. And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.**
-Stewart跟他的出版团队出了好几期“全球概览”，然后出了停刊号。当时是1970年代中期，我正是你们现在这个年龄的时候。在停刊号的封底，有张早晨乡间小路的照片，那种你去爬山时会经 过的乡间小路。在照片下有行小字：“**求知若饥，虚心若愚（保持饥饿，保持愚蠢）**”，那是他们亲笔写下的告别讯息。**求知若饥，虚心若愚。我总是以此自许。当你们毕业，展开新生活，我也以此期许你们。**
+Stewart and his team put out several issues of The Whole Earth Catalog, and then when it had run its course, they put out a final issue. It was the mid-1970s, and I was your age. On the back cover of their final issue was a photograph of an early morning country road, the kind you might find yourself hitchhiking on if you were so adventurous. Beneath it were the words: “**Stay Hungry. Stay Foolish**.” It was their farewell message as they signed off. **Stay Hungry. Stay Foolish. And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.**
+Stewart跟他的出版团队出了好几期“全球概览”，然后出了停刊号。当时是1970年代中期，我正是你们现在这个年龄的时候。在停刊号的封底，有张早晨乡间小路的照片，那种你去爬山时会经 过的乡间小路。在照片下有行小字：“**保持饥饿，保持愚蠢（求知若饥，虚心若愚）**”，那是他们亲笔写下的告别讯息。**保持饥饿，保持愚蠢（求知若饥，虚心若愚）。我总是以此自许。当你们毕业，展开新生活，我也以此期许你们。**
 
 
-**Stay Hungry, Stay Foolish.**
-**求知若饥，虚心若愚。**
+![The Whole Earth Epilog's Back Cover(Oct. 1974): "Stay hungry. Stay foolish."](https://pingmin.me/img/steve-jobs/stay-hungry-stay-foolish-on-whole-earth-epilog-back-cover-197410.jpg "The Whole Earth Epilog's Back Cover(Oct. 1974): 'Stay hungry. Stay foolish.'")
+
+![The Whole Earth Epilog's Back(Oct. 1974): "Stay hungry. Stay foolish."](https://pingmin.me/img/steve-jobs/stay-hungry-stay-foolish-on-whole-earth-epilog-back-197410.jpg "The Whole Earth Epilog's Back(Oct. 1974): 'Stay hungry. Stay foolish.'")
+
+
+**Stay Hungry. Stay Foolish.**
+**保持饥饿，保持愚蠢（求知若饥，虚心若愚）。**
 
 Thank you all very much.
 非常感谢大家。
