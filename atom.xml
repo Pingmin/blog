@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>平民·寻梦 (Pingmin Fenlly Liu)</title>
+  <title>平民·寻梦（Pingmin Fenlly Liu）</title>
   
-  <subtitle>淡泊明志，宁静致远 (Longing for My Nature, Always)</subtitle>
+  <subtitle>淡泊明志，宁静致远（Longing for My Nature, Always）</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://pingmin.blog/"/>
@@ -10,7 +10,7 @@
   <id>https://pingmin.blog/</id>
   
   <author>
-    <name>平民 (Pingmin Fenlly Liu)</name>
+    <name>平民（Pingmin Fenlly Liu）</name>
     
   </author>
   
