@@ -1,7 +1,7 @@
 ---
 title: 关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)
-date: 2011-11-08 20:12:36
-updated: 2018-04-05 23:35:09
+date: 2011-11-08 20:12:36 +0800
+updated: 2018-04-05 23:35:09 +0800
 tags:
 -  捐赠(Donation)
 categories:

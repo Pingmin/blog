@@ -1,7 +1,7 @@
 ---
 title: 图书收集与募捐的详情与处理结果(Details of the Donation for A Primary School)
-date: 2013-01-05 21:58:30
-updated: 2018-04-05 23:35:09
+date: 2013-01-05 21:58:30 +0800
+updated: 2018-04-05 23:35:09 +0800
 tags:
 -  捐赠(Donation)
 categories:

@@ -1,8 +1,8 @@
 ---
 title: "Steve Jobs: Find What You Love(乔布斯：找到你所爱)"
 author: 史蒂夫·乔布斯(Steve Jobs)
-date: 2007-03-30 21:30:36
-updated: 2018-03-25 19:38:04
+date: 2007-03-30 21:30:36 +0800
+updated: 2018-03-25 19:38:04 +0800
 tags:
 - 史蒂夫·乔布斯(Steve Jobs)
 - 苹果公司(Apple Inc.)

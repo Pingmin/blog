@@ -1,8 +1,8 @@
 ---
 title: "Youth Is Not A Time of Life(青春不是年华)"
 author: 塞缪尔·厄尔曼(Samuel Ullman)
-date: 2007-11-01 20:12:06
-updated: 2018-03-25 15:49:19
+date: 2007-11-01 20:12:06 +0800
+updated: 2018-03-25 15:49:19 +0800
 tags:
 - 青春(Youth)
 - 推荐(Recommended)

@@ -1,7 +1,7 @@
 ---
 title: 死后火化(Cremation)
-date: 2012-10-14 21:30:36
-updated: 2012-11-03 20:12:09
+date: 2012-10-14 21:30:36 +0800
+updated: 2012-11-03 20:12:09 +0800
 tags:
 - 火化(Cremation)
 categories:

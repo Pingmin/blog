@@ -1,8 +1,8 @@
 ---
 title: "徐志摩《再别康桥》(Saying Goodbye to Cambridge Again, by Xu Zhimo)"
 author: 徐志摩(Xu Zhimo)
-date: 2007-11-01 19:01:12
-updated: 2018-03-25 18:47:48
+date: 2007-11-01 19:01:12 +0800
+updated: 2018-03-25 18:47:48 +0800
 tags:
 - 推荐(Recommended)
 categories:

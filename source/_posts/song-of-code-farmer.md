@@ -1,7 +1,7 @@
 ---
 title: 码农之歌(Song of Code Farmer)
-date: 2014-01-15 16:51:36
-updated: 2014-01-19 22:39:26
+date: 2014-01-15 16:51:36 +0800
+updated: 2014-01-19 22:39:26 +0800
 tags:
 - 音乐(Music)
 categories:
