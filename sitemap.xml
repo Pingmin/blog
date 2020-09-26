@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pingmin.blog/categories/</loc>
+    
+    <lastmod>2020-09-21T02:05:11.439Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://pingmin.blog/tags/</loc>
+    
+    <lastmod>2020-09-21T02:05:03.611Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://pingmin.blog/post/a-plan-scheduled-in-one-decade-ago.html</loc>
     
     <lastmod>2020-07-16T13:28:55.000Z</lastmod>
@@ -110,20 +124,6 @@
     <loc>https://pingmin.blog/post/she.html</loc>
     
     <lastmod>2017-12-24T12:15:32.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://pingmin.blog/tags/</loc>
-    
-    <lastmod>2017-12-24T11:34:24.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://pingmin.blog/categories/</loc>
-    
-    <lastmod>2017-12-24T11:34:00.000Z</lastmod>
     
   </url>
   
