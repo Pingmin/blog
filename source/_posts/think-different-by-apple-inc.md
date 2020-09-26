@@ -1,5 +1,5 @@
 ---
-title: "Think Different(非同凡想)"
+title: 非同凡想(Think Different)
 date: 2007-03-30 22:10:02 +0800
 updated: 2018-03-25 15:48:35 +0800
 tags:
