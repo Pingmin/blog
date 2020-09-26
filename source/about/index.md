@@ -1,5 +1,6 @@
 ---
 title: 关于(About)
+author: 平民（Pingmin Fenlly Liu）
 date: 2009-12-27 19:32:56 +0800
 updated: 2012-11-10 20:13:39 +0800
 ---

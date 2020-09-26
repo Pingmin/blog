@@ -1,5 +1,6 @@
 ---
 title: 暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)
+author: 平民（Pingmin Fenlly Liu）
 date: 2017-12-31 22:43:36 +0800
 updated: 2018-01-08 00:28:47 +0800
 tags:

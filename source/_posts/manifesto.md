@@ -1,5 +1,6 @@
 ---
 title: 博客宣言(Blogging Manifesto)
+author: 平民（Pingmin Fenlly Liu）
 date: 2012-10-14 20:29:36 +0800
 updated: 2018-03-11 16:52:03 +0800
 tags:

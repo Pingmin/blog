@@ -1,5 +1,6 @@
 ---
 title: 寻她(Seeking Her)
+author: 平民（Pingmin Fenlly Liu）
 date: 2013-11-24 13:56:57 +0800
 updated: 2017-12-24 20:15:32 +0800
 tags:

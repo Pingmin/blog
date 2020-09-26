@@ -1,5 +1,6 @@
 ---
 title: 死后火化(Cremation)
+author: 平民（Pingmin Fenlly Liu）
 date: 2012-10-14 21:30:36 +0800
 updated: 2012-11-03 20:12:09 +0800
 tags:

@@ -1,5 +1,6 @@
 ---
 title: 指南(Guides)
+author: 平民（Pingmin Fenlly Liu）
 date: 2009-08-19 20:29:36 +0800
 updated: 2017-01-14 21:50:03 +0800
 ---
