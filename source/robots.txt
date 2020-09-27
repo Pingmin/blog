@@ -8,9 +8,9 @@ sitemap: /sitemap.xml
 
 
 User-Agent: Googlebot
-Allow: /guides
-Allow: /categories
-Allow: /post/*.html
+Allow: /guides/$
+Allow: /categories/
+Allow: /post/*.html$
 Disallow: /about
 Disallow: /archives
 Disallow: /tags
@@ -29,14 +29,14 @@ Disallow: /jobs
 #User-Agent: Bingbot
 #User-Agent: Baiduspider
 User-Agent: *
-Allow: /guides
-Allow: /categories
-#Allow: /post/*.html
-Allow: /post/she.html
-Allow: /post/find-what-you-love-by-steve-jobs.html
-Allow: /post/to-the-sea-by-alexander-pushkin.html
-Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
-Disallow: /post
+Allow: /guides/$
+Allow: /categories/
+#Allow: /post/she.html
+#Allow: /post/find-what-you-love-by-steve-jobs.html
+#Allow: /post/to-the-sea-by-alexander-pushkin.html
+#Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
+#Disallow: /post
+Allow: /post/*.html$
 Disallow: /about
 Disallow: /archives
 Disallow: /tags
