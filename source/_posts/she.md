@@ -159,7 +159,7 @@ I will always appreciate you for your self-recommendation, recommendation or/and
 （3）QQ: Pingmin(at)Fenlly.org (“(at)” -—> “@”)；
 （4）微博： http://weibo.com/iPingmin ；
 （5）微信： iPingmin ；
-（6）手机： +86,150-0062,9925 。
+（6）手机： +86,150,xxxx,9925 (xxxx = 0062)。
 
 为方便记忆和使用，本文可访问链接有： http://pingmin.me/she 和 http://pingmin.me/post/she.html （后者是最终的链接）。
 
