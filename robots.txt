@@ -8,9 +8,11 @@ sitemap: /sitemap.xml
 
 
 User-Agent: Googlebot
+Allow: /$
 Allow: /guides/$
 Allow: /categories/
 Allow: /post/*.html$
+#Disallow: /
 Disallow: /about
 Disallow: /archives
 Disallow: /tags
@@ -29,6 +31,7 @@ Disallow: /jobs
 #User-Agent: Bingbot
 #User-Agent: Baiduspider
 User-Agent: *
+Allow: /$
 Allow: /guides/$
 Allow: /categories/
 #Allow: /post/she.html
@@ -37,6 +40,7 @@ Allow: /categories/
 #Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
 #Disallow: /post
 Allow: /post/*.html$
+#Disallow: /
 Disallow: /about
 Disallow: /archives
 Disallow: /tags
