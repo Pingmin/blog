@@ -131,3 +131,17 @@ Thank you all very much.
 >    - [斯坦福大学英文视频（YouTube）](https://news.stanford.edu/news/2005/june15/videos/987.html)
 >    - [中英文字幕版视频（优酷）](https://v.youku.com/v_show/id_XNDU3OTgyMTky.html)
 >    - [中英文字幕版视频（土豆）](https://new-play.tudou.com/v/493790744.html)
+
+
+## 印记(Imprint)
+
+（1）20071101（根据可查记录）：首次转载于个人很早的一个曾用 QQ（“漫步风灵”）的空间。
+（2）20090417：迁移到个人 FENLLY CN 域名之子域名 planet（即 `planet.fenlly.cn`）空间（基于 WordPress 搭建）下，并对内容有所修改（注：此 FENLLY CN 域名现已于 20180417 弃用，故已无法访问）。
+（3）20110724：迁移到新启用的个人网站 https://pingmin.me 下（基于 WordPress）。
+（4）20170904：迁移到使用 GitHub Pages、Hexo 及其主题 NexT 的静态网站 https://pingmin.github.io ，便于使用 Git 管理，同时绑定了个人独立域名 pingmin.me ，以自动跳转到 https://pingmin.me 。
+（5）20200713：迁移到新启用的个人独立博客 https://pingmin.blog 下（基于 GitHub Pages、Hexo 及其 NexT 主题） 。
+（6）20200803：补充两张"Stay hungry. Stay foolish."的《全球概览》杂志封底图片，来自维基百科和网络。
+（7）20201001：根据视频/音频，修正英文文本和完善中文翻译。
+（8）20201009：修改日期，并增加此 “印记(Imprint)” 内容块。
+（Next）xxxx：更新了xxx。
+（Todo）待做：同步英文翻译。
