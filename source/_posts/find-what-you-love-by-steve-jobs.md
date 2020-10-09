@@ -1,7 +1,7 @@
 ---
 title: "乔布斯：找到你所爱(Steve Jobs: Find What You Love)"
 author: 史蒂夫·乔布斯(Steve Jobs)
-date: 2007-03-30 21:30:36 +0800
+date: 2007-11-01 21:30:36 +0800
 updated: 2020-10-01 19:26:50 +0800
 tags:
 - 史蒂夫·乔布斯(Steve Jobs)
