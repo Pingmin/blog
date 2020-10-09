@@ -1,7 +1,7 @@
 ---
 title: 非同凡想(Think Different)
 author: 苹果公司(Apple Inc.)
-date: 2007-03-30 22:10:02 +0800
+date: 2007-11-01 22:10:02 +0800
 updated: 2018-03-25 15:48:35 +0800
 tags:
 - 苹果公司(Apple Inc.)
