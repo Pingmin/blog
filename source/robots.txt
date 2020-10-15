@@ -6,39 +6,15 @@
 sitemap: /sitemap.xml
 #sitemap: /baidusitemap.xml
 
-
-User-Agent: Googlebot
-Allow: /$
-Allow: /guides/$
-Allow: /categories/
-Allow: /post/*.html$
-#Disallow: /
-Disallow: /about
-Disallow: /archives
-Disallow: /tags
-#Disallow: /page
-#Disallow: /*/page/
-Disallow: /*page/
-Disallow: /images
-Disallow: /media
-Disallow: /lib
-Disallow: /js
-Disallow: /css
-Disallow: /she
-Disallow: /jobs
-
-
+# Robots
+#User-Agent: Googlebot
 #User-Agent: Bingbot
 #User-Agent: Baiduspider
 User-Agent: *
-Allow: /$
+#Allow: /$
 Allow: /guides/$
 Allow: /categories/
-#Allow: /post/she.html
-#Allow: /post/find-what-you-love-by-steve-jobs.html
-#Allow: /post/to-the-sea-by-alexander-pushkin.html
-#Allow: /post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html
-#Disallow: /post
+#Disallow: /post/*donation*-for-a-primary-school.html
 Allow: /post/*.html$
 #Disallow: /
 Disallow: /about
