@@ -2,7 +2,7 @@
 title: "乔布斯：找到你所爱(Steve Jobs: Find What You Love)"
 author: 史蒂夫·乔布斯(Steve Jobs)
 date: 2007-11-01 21:30:36 +0800
-updated: 2020-10-01 19:26:50 +0800
+updated: 2020-11-01 12:29:50 +0800
 tags:
 - 史蒂夫·乔布斯(Steve Jobs)
 - 苹果公司(Apple Inc.)
@@ -125,23 +125,29 @@ Stewart 跟他的出版团队出了好几期“全球概览”，然后当它完
 Thank you all very much.
 非常感谢大家。
 
-
-> 参考
->    - [斯坦福大学英文原文](https://news-service.stanford.edu/news/2005/june15/jobs-061505.html) （本文根据视频音频对原文有所补充与修正）
->    - [斯坦福大学英文视频（YouTube）](https://news.stanford.edu/news/2005/june15/videos/987.html)
->    - [中英文字幕版视频（优酷）](https://v.youku.com/v_show/id_XNDU3OTgyMTky.html)
->    - [中英文字幕版视频（土豆）](https://new-play.tudou.com/v/493790744.html)
+（完（END））
 
 
-## 印记(Imprint)
+## 参考(References)
+
+- [斯坦福大学英文原文](https://news-service.stanford.edu/news/2005/june15/jobs-061505.html) （本文根据视频音频对原文有所补充与修正）
+- [斯坦福大学英文视频（YouTube）](https://news.stanford.edu/news/2005/june15/videos/987.html)
+- [中英文字幕版视频（优酷）](https://v.youku.com/v_show/id_XNDU3OTgyMTky.html)
+- [中英文字幕版视频（土豆）](https://new-play.tudou.com/v/493790744.html)
+- [關於對“Stay Hungry, Stay Foolish.”的理解（Jamie，林之晨）](https://mrjamie.cc/2011/09/16/stay-hungry-stay-foolish/)
+- [《Stay hungry, Stay foolish 的原义》（阮一峰）](https://www.ruanyifeng.com/blog/2015/05/stay_hungry_stay_foolish.html)
+
+
+## 印记(Imprints)
 
 （1）20071101（根据可查记录）：首次转载于个人很早的一个曾用 QQ（“漫步风灵”）的空间。
 （2）20090417：迁移到个人 FENLLY CN 域名之子域名 planet（即 `planet.fenlly.cn`）空间（基于 WordPress 搭建）下，并对内容有所修改（注：此 FENLLY CN 域名现已于 20180417 弃用，故已无法访问）。
 （3）20110724：迁移到新启用的个人网站 https://pingmin.me 下（基于 WordPress）。
-（4）20170904：迁移到使用 GitHub Pages、Hexo 及其主题 NexT 的静态网站 https://pingmin.github.io ，便于使用 Git 管理，同时绑定了个人独立域名 pingmin.me ，以自动跳转到 https://pingmin.me 。
-（5）20200713：迁移到新启用的个人独立博客 https://pingmin.blog 下（基于 GitHub Pages、Hexo 及其 NexT 主题） 。
-（6）20200803：补充两张"Stay hungry. Stay foolish."的《全球概览》杂志封底图片，来自维基百科和网络。
-（7）20201001：根据视频/音频，修正英文文本和完善中文翻译。
-（8）20201009：修改日期，并增加此 “印记(Imprint)” 内容块。
+（4）20170904：迁移到使用 GitHub Pages、Hexo 及其主题 NexT 的静态网站 https://pingmin.github.io ，以便于使用 Git 管理，同时绑定了个人独立域名 pingmin.me ，以自动跳转到 https://pingmin.me 。
+（5）20190223：增加林之晨（Jamie）關於“Stay hungry. Stay foolish.”的參考博文鏈接。
+（6）20200713：迁移到新启用的个人独立博客 https://pingmin.blog 下（基于 GitHub Pages、Hexo 及其 NexT 主题） 。
+（7）20200803：补充两张"Stay hungry. Stay foolish."的《全球概览》杂志封底图片，来自维基百科和阮一峰博客。
+（8）20201001：根据视频/音频，修正英文文本和完善中文翻译。
+（9）20201101：增加阮一峰關於“Stay hungry. Stay foolish.”的參考博文鏈接。
 （Next）xxxx：更新了xxx。
 （Todo）待做：同步英文翻译。
