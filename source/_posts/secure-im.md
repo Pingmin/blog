@@ -2,7 +2,7 @@
 title: 安全即时通讯(Secure IM)
 author: 平民（Pingmin Fenlly Liu）
 date: 2017-08-29 20:29:36 +0800
-updated: 2018-03-11 20:28:26 +0800
+updated: 2020-11-01 20:49:15 +0800
 tags:
 - 安全(Security)
 categories:
@@ -42,36 +42,37 @@ categories:
 >    网络运营者不得收集与其提供的服务无关的个人信息，不得违反法律、行政法规的规定和双方的约定收集、使用个人信息，并应当依照法律、行政法规的规定和与用户的约定，处理其保存的个人信息。
 
 
+而在通讯中，对通讯内容进行＂端到端加密（或叫点对点加密，即 End-to-End Encryption, E2EE）＂，只有通信双方才能解密（运营/服务商也无法解密），可最大限度地防止除通讯双方以外的第三方（包括应用程序本身的运营方）窃取通讯內容。故推荐使用支持＂端到端加密＂的通讯应用进行通讯（包括含文字、语音、文件和音视频通话等），中华内地目前首推一个叫“**Signal（暗号）**”的开源应用（详见文末的附录部分）。
 
-而在通讯中，对通讯内容进行＂端到端加密（End-to-End Encryption, E2EE）＂，可最大限度地防止除通讯双方以外的第三方（包括应用程序本身的运营方）窃取通讯內容。故推荐使用支持＂端到端加密＂的通讯应用进行通讯（包括含文字、语音、文件和音视频通话等），中华内地目前推荐一个叫“Signal（暗号）”的开源应用（详见文末的附录部分）。
+目前，除了 Signal ，此类安全应用还有 Session、WhatsApp、Telegram、Bleep、Line、Apple iMessage/FaceTime、Google Allo、Facebook Messenger、超信和安司密信（安司密信另有企业、政务和军采版）等。不幸的是，前面提到的大部分应用，都受到了“防火长城（GFW）”等的影响，导致有时无法正常登录使用，且有的已经完全被屏蔽和下架了。
 
-目前，除了 Signal ，此类安全应用还有 WhatsApp 、Telegram、Bleep、Line 、Apple iMessage/FaceTime、Google Allo 、Facebook Messenger 、超信 和 安司密信（安司密信另有企业、政务和军采版）等。不幸的是，前面提到的大部分应用，都受到了“防火长城（GFW）”等的影响，导致有时无法正常登录使用，且有的已经完全被屏蔽和下架了。
+不过，目前 Signal 还可以正常使用，且支持 iOS、Android 以及三大桌面系统（Windows、macOS、Debian-based Linux）（参见下面附录部分）。Session 与 Signal 类似，其本身就基于 Signal 开发，但采用了去中心化的洋葱路由网络，无需手机号即可使用，通过 AppImage 格式支持多种 Linux 发行版等。当然，鉴于内地我们当局的惯用做法，不排除将来 Signal 和 Session 等也都被屏蔽的可能性。
 
-不过，目前 Signal 还可以正常使用，且支持 iOS、Android 以及三大桌面系统（Windows、macOS、Debian-based Linux）（参见下面附录部分）。而 WhatsApp 平常一般都能正常使用，也支持多个系统平台，只是偶尔（特殊时期）会受到一点干扰。所以，现在个人用 Signal 比较多，而之前则用 WhatsApp 要多一些（始于 2016 仲夏或更早）。当然，鉴于我们当局的惯用做法，不排除他们将来会把 Signal 和 WhatsApp 等也都完全屏蔽的可能性。
+温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iMessage 和 FaceTime 进行安全通讯（但 Signal 更安全），只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。
 
-温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iMessage 和 FaceTime 进行安全通讯，只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。
-
-值得一提的是，开源应用 Signal 更加注重对隐私的保护。前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的泄密者“爱德华·斯诺登”也对 Signal 做了推荐（参见 Signal 官网）。
+值得一提的是，开源应用 Signal 更加注重对个人信息与隐私的保护。前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的曝光者爱德华·斯诺登（Edward Snowden，现以政治避难的方式居住于俄罗斯）等对 Signal 也做了推荐（参见 Signal 官网）。
 
 
 ### 附：
 
-#### 一、Signal（暗号）
+#### 一、Signal（暗号） - Private Messenger（私密信使）
 
-1. 官方网站： https://signal.org/ 。
+Signal Messenger
 
-2. 开源项目： https://github.com/signalapp/ 。
+1. 官网： https://signal.org/ 。
 
-3. Android 版：下载页面为 https://www.signal.org/android/apk ，目前最新版为 https://updates.signal.org/android/Signal-website-release-4.15.5.apk （手机上请复制粘贴到浏览器中打开，以下载安装）。
+2. 源码： https://github.com/signalapp/ 。
 
-4. iOS 版： https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8 。
+3. Android 版：下载页面为 https://www.signal.org/android/apk ，目前最新版为 https://updates.signal.org/android/Signal-website-release-4.75.4.apk （手机上请复制粘贴到浏览器中打开，以下载安装）。
 
-5. macOS 版： https://updates.signal.org/desktop/signal-desktop-mac-1.5.2.zip 。
+4. iOS 版： https://itunes.apple.com/cn/app/signal-private-messenger/id874139669 。
 
-6. Windows 版： https://updates.signal.org/desktop/signal-desktop-win-1.5.2.exe 。
+5. macOS 版： https://updates.signal.org/desktop/signal-desktop-mac-1.37.2.dmg 。
+
+6. Windows 版： https://updates.signal.org/desktop/signal-desktop-win-1.37.2.exe 。
 
 7. Linux (Debian-based) 版：
-    （1）直接下载： https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.5.2_amd64.deb
+    （1）直接下载： https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.37.2_amd64.deb
 
     （2）或通过添加官方仓库来安装（以后可随系统自动更新）：
     ``` bash
@@ -81,22 +82,33 @@ categories:
     ```
 
 
-#### 二、安全性说明（Signal 与 WhatsApp 等都类似）
+#### 二、安全性（Security）
+
+Signal、Session 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）”的端到端加密的通信技术。
 
 参见：
-（1）https://www.whatsapp.com/security/ 。
-（2）https://support.signal.org/ （目前是全英文）。
 
-#### 三、WhatsApp
+ https://support.signal.org/ （English）
 
-官方网站： https://www.whatsapp.com/ 。
-Android 版： https://www.whatsapp.com/android/current/WhatsApp.apk 。
-iOS 版： http://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8 。
-其他版本可在其官网下载： https://www.whatsapp.com/download/ 。
+ https://support.signal.org/hc/zh-tw/ （繁體中文）
 
-#### 四、备用下载
+ https://support.signal.org/hc/zh-tw/categories/360000674811 （繁體中文）
 
-百度网盘（含 Signal 与 WhatsApp）： https://pan.baidu.com/s/1miFtFxI 。
+
+#### 三、Session（会话） - Private Messenger（私密信使）
+
+Session Messenger
+
+官网： https://getsession.org/ 。
+
+源码： https://github.com/Loki-project 。
+
+
+#### 四、备用下载（Standby Downloads）
+
+（1）Fenlly favorites on GitHub: https://fenlly.org/favorites/ 。
+
+（2）百度网盘（含 Signal 与 Session）： https://pan.baidu.com/s/1miFtFxI 。
 
 ## 印记(Imprint)
 
@@ -106,6 +118,7 @@ iOS 版： http://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8 �
 （4）20171119：增加国内支持端到端加密的部分通讯应用，以及相关法律条文。
 （5）20180107：重新排版和组织并更新相关内容。
 （6）20180311：（a）增加另外两个新的法条并优化排版，并完善相关正文内容；（b）更新 Signal 和 WhatsApp 官方的相关下载连接；（c）修正备用的百度网盘下载链接。
+（7）20201101：完善和更新文本内容，更新 Signal 相关链接，去掉未开源的 WhatsApp，同时增加开源的 Session。
 （N）下一步（Next）: xxx。
 （T）待做（TODO）：同步英文翻译。
 
@@ -118,6 +131,6 @@ iOS 版： http://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8 �
 
 刘水良(Pingmin Fenlly Liu)
 
-20170829-20180311
+20170829-20201101
 
 ## 结束(End)
