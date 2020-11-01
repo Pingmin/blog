@@ -32,7 +32,7 @@
 <meta property="og:description" content="概要(Abstract)本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。 正文(Body)先来看下我国当前相关的法律条文：">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2017-08-29T12:29:36.000Z">
-<meta property="article:modified_time" content="2018-03-11T12:28:26.000Z">
+<meta property="article:modified_time" content="2020-11-01T12:49:15.000Z">
 <meta property="article:author" content="平民（Pingmin Fenlly Liu）">
 <meta property="article:tag" content="安全(Security)">
 <meta name="twitter:card" content="summary">
@@ -233,7 +233,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概要-Abstract"><span class="nav-number">1.</span> <span class="nav-text">概要(Abstract)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#正文-Body"><span class="nav-number">2.</span> <span class="nav-text">正文(Body)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#附："><span class="nav-number">2.1.</span> <span class="nav-text">附：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、Signal（暗号）"><span class="nav-number">2.1.1.</span> <span class="nav-text">一、Signal（暗号）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、安全性说明（Signal-与-WhatsApp-等都类似）"><span class="nav-number">2.1.2.</span> <span class="nav-text">二、安全性说明（Signal 与 WhatsApp 等都类似）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、WhatsApp"><span class="nav-number">2.1.3.</span> <span class="nav-text">三、WhatsApp</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#四、备用下载"><span class="nav-number">2.1.4.</span> <span class="nav-text">四、备用下载</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#印记-Imprint"><span class="nav-number">3.</span> <span class="nav-text">印记(Imprint)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#署名-Attribution"><span class="nav-number">4.</span> <span class="nav-text">署名(Attribution)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结束-End"><span class="nav-number">5.</span> <span class="nav-text">结束(End)</span></a></li></ol></div>
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概要-Abstract"><span class="nav-number">1.</span> <span class="nav-text">概要(Abstract)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#正文-Body"><span class="nav-number">2.</span> <span class="nav-text">正文(Body)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#附："><span class="nav-number">2.1.</span> <span class="nav-text">附：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、Signal（暗号）-Private-Messenger（私密信使）"><span class="nav-number">2.1.1.</span> <span class="nav-text">一、Signal（暗号） - Private Messenger（私密信使）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、安全性（Security）"><span class="nav-number">2.1.2.</span> <span class="nav-text">二、安全性（Security）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、Session（会话）-Private-Messenger（私密信使）"><span class="nav-number">2.1.3.</span> <span class="nav-text">三、Session（会话） - Private Messenger（私密信使）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#四、备用下载（Standby-Downloads）"><span class="nav-number">2.1.4.</span> <span class="nav-text">四、备用下载（Standby Downloads）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#印记-Imprint"><span class="nav-number">3.</span> <span class="nav-text">印记(Imprint)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#署名-Attribution"><span class="nav-number">4.</span> <span class="nav-text">署名(Attribution)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结束-End"><span class="nav-number">5.</span> <span class="nav-text">结束(End)</span></a></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -356,7 +356,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-03-11 20:28:26" itemprop="dateModified" datetime="2018-03-11T20:28:26+08:00">2018-03-11</time>
+                <time title="修改时间：2020-11-01 20:49:15" itemprop="dateModified" datetime="2020-11-01T20:49:15+08:00">2020-11-01</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -381,7 +381,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>3.2k</span>
+              <span>3.5k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -422,38 +422,46 @@
 </li>
 </ol>
 </blockquote>
-<p>而在通讯中，对通讯内容进行＂端到端加密（End-to-End Encryption, E2EE）＂，可最大限度地防止除通讯双方以外的第三方（包括应用程序本身的运营方）窃取通讯內容。故推荐使用支持＂端到端加密＂的通讯应用进行通讯（包括含文字、语音、文件和音视频通话等），中华内地目前推荐一个叫“Signal（暗号）”的开源应用（详见文末的附录部分）。</p>
-<p>目前，除了 Signal ，此类安全应用还有 WhatsApp 、Telegram、Bleep、Line 、Apple iMessage/FaceTime、Google Allo 、Facebook Messenger 、超信 和 安司密信（安司密信另有企业、政务和军采版）等。不幸的是，前面提到的大部分应用，都受到了“防火长城（GFW）”等的影响，导致有时无法正常登录使用，且有的已经完全被屏蔽和下架了。</p>
-<p>不过，目前 Signal 还可以正常使用，且支持 iOS、Android 以及三大桌面系统（Windows、macOS、Debian-based Linux）（参见下面附录部分）。而 WhatsApp 平常一般都能正常使用，也支持多个系统平台，只是偶尔（特殊时期）会受到一点干扰。所以，现在个人用 Signal 比较多，而之前则用 WhatsApp 要多一些（始于 2016 仲夏或更早）。当然，鉴于我们当局的惯用做法，不排除他们将来会把 Signal 和 WhatsApp 等也都完全屏蔽的可能性。</p>
-<p>温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iMessage 和 FaceTime 进行安全通讯，只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。</p>
-<p>值得一提的是，开源应用 Signal 更加注重对隐私的保护。前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的泄密者“爱德华·斯诺登”也对 Signal 做了推荐（参见 Signal 官网）。</p>
-<h3 id="附："><a href="#附：" class="headerlink" title="附："></a>附：</h3><h4 id="一、Signal（暗号）"><a href="#一、Signal（暗号）" class="headerlink" title="一、Signal（暗号）"></a>一、Signal（暗号）</h4><ol>
-<li><p>官方网站： <a href="https://signal.org/" target="_blank" rel="noopener">https://signal.org/</a> 。</p>
+<p>而在通讯中，对通讯内容进行＂端到端加密（或叫点对点加密，即 End-to-End Encryption, E2EE）＂，只有通信双方才能解密（运营/服务商也无法解密），可最大限度地防止除通讯双方以外的第三方（包括应用程序本身的运营方）窃取通讯內容。故推荐使用支持＂端到端加密＂的通讯应用进行通讯（包括含文字、语音、文件和音视频通话等），中华内地目前首推一个叫“<strong>Signal（暗号）</strong>”的开源应用（详见文末的附录部分）。</p>
+<p>目前，除了 Signal ，此类安全应用还有 Session、WhatsApp、Telegram、Bleep、Line、Apple iMessage/FaceTime、Google Allo、Facebook Messenger、超信和安司密信（安司密信另有企业、政务和军采版）等。不幸的是，前面提到的大部分应用，都受到了“防火长城（GFW）”等的影响，导致有时无法正常登录使用，且有的已经完全被屏蔽和下架了。</p>
+<p>不过，目前 Signal 还可以正常使用，且支持 iOS、Android 以及三大桌面系统（Windows、macOS、Debian-based Linux）（参见下面附录部分）。Session 与 Signal 类似，其本身就基于 Signal 开发，但采用了去中心化的洋葱路由网络，无需手机号即可使用，通过 AppImage 格式支持多种 Linux 发行版等。当然，鉴于内地我们当局的惯用做法，不排除将来 Signal 和 Session 等也都被屏蔽的可能性。</p>
+<p>温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iMessage 和 FaceTime 进行安全通讯（但 Signal 更安全），只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。</p>
+<p>值得一提的是，开源应用 Signal 更加注重对个人信息与隐私的保护。前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的曝光者爱德华·斯诺登（Edward Snowden，现以政治避难的方式居住于俄罗斯）等对 Signal 也做了推荐（参见 Signal 官网）。</p>
+<h3 id="附："><a href="#附：" class="headerlink" title="附："></a>附：</h3><h4 id="一、Signal（暗号）-Private-Messenger（私密信使）"><a href="#一、Signal（暗号）-Private-Messenger（私密信使）" class="headerlink" title="一、Signal（暗号） - Private Messenger（私密信使）"></a>一、Signal（暗号） - Private Messenger（私密信使）</h4><p>Signal Messenger</p>
+<ol>
+<li><p>官网： <a href="https://signal.org/" target="_blank" rel="noopener">https://signal.org/</a> 。</p>
 </li>
-<li><p>开源项目： <a href="https://github.com/signalapp/" target="_blank" rel="noopener">https://github.com/signalapp/</a> 。</p>
+<li><p>源码： <a href="https://github.com/signalapp/" target="_blank" rel="noopener">https://github.com/signalapp/</a> 。</p>
 </li>
-<li><p>Android 版：下载页面为 <a href="https://www.signal.org/android/apk" target="_blank" rel="noopener">https://www.signal.org/android/apk</a> ，目前最新版为 <a href="https://updates.signal.org/android/Signal-website-release-4.15.5.apk" target="_blank" rel="noopener">https://updates.signal.org/android/Signal-website-release-4.15.5.apk</a> （手机上请复制粘贴到浏览器中打开，以下载安装）。</p>
+<li><p>Android 版：下载页面为 <a href="https://www.signal.org/android/apk" target="_blank" rel="noopener">https://www.signal.org/android/apk</a> ，目前最新版为 <a href="https://updates.signal.org/android/Signal-website-release-4.75.4.apk" target="_blank" rel="noopener">https://updates.signal.org/android/Signal-website-release-4.75.4.apk</a> （手机上请复制粘贴到浏览器中打开，以下载安装）。</p>
 </li>
-<li><p>iOS 版： <a href="https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8" target="_blank" rel="noopener">https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8</a> 。</p>
+<li><p>iOS 版： <a href="https://itunes.apple.com/cn/app/signal-private-messenger/id874139669" target="_blank" rel="noopener">https://itunes.apple.com/cn/app/signal-private-messenger/id874139669</a> 。</p>
 </li>
-<li><p>macOS 版： <a href="https://updates.signal.org/desktop/signal-desktop-mac-1.5.2.zip" target="_blank" rel="noopener">https://updates.signal.org/desktop/signal-desktop-mac-1.5.2.zip</a> 。</p>
+<li><p>macOS 版： <a href="https://updates.signal.org/desktop/signal-desktop-mac-1.37.2.dmg" target="_blank" rel="noopener">https://updates.signal.org/desktop/signal-desktop-mac-1.37.2.dmg</a> 。</p>
 </li>
-<li><p>Windows 版： <a href="https://updates.signal.org/desktop/signal-desktop-win-1.5.2.exe" target="_blank" rel="noopener">https://updates.signal.org/desktop/signal-desktop-win-1.5.2.exe</a> 。</p>
+<li><p>Windows 版： <a href="https://updates.signal.org/desktop/signal-desktop-win-1.37.2.exe" target="_blank" rel="noopener">https://updates.signal.org/desktop/signal-desktop-win-1.37.2.exe</a> 。</p>
 </li>
-<li><p>Linux (Debian-based) 版：<br> （1）直接下载： <a href="https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.5.2_amd64.deb" target="_blank" rel="noopener">https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.5.2_amd64.deb</a></p>
+<li><p>Linux (Debian-based) 版：<br> （1）直接下载： <a href="https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.37.2_amd64.deb" target="_blank" rel="noopener">https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.37.2_amd64.deb</a></p>
 <p> （2）或通过添加官方仓库来安装（以后可随系统自动更新）：</p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -</span><br><span class="line">$ <span class="built_in">echo</span> <span class="string">"deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main"</span> | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list</span><br><span class="line">$ sudo apt update &amp;&amp; sudo apt install signal-desktop</span><br></pre></td></tr></table></figure>
 
 
 </li>
 </ol>
-<h4 id="二、安全性说明（Signal-与-WhatsApp-等都类似）"><a href="#二、安全性说明（Signal-与-WhatsApp-等都类似）" class="headerlink" title="二、安全性说明（Signal 与 WhatsApp 等都类似）"></a>二、安全性说明（Signal 与 WhatsApp 等都类似）</h4><p>参见：<br>（1）<a href="https://www.whatsapp.com/security/" target="_blank" rel="noopener">https://www.whatsapp.com/security/</a> 。<br>（2）<a href="https://support.signal.org/" target="_blank" rel="noopener">https://support.signal.org/</a> （目前是全英文）。</p>
-<h4 id="三、WhatsApp"><a href="#三、WhatsApp" class="headerlink" title="三、WhatsApp"></a>三、WhatsApp</h4><p>官方网站： <a href="https://www.whatsapp.com/" target="_blank" rel="noopener">https://www.whatsapp.com/</a> 。<br>Android 版： <a href="https://www.whatsapp.com/android/current/WhatsApp.apk" target="_blank" rel="noopener">https://www.whatsapp.com/android/current/WhatsApp.apk</a> 。<br>iOS 版： <a href="http://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8" target="_blank" rel="noopener">http://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8</a> 。<br>其他版本可在其官网下载： <a href="https://www.whatsapp.com/download/" target="_blank" rel="noopener">https://www.whatsapp.com/download/</a> 。</p>
-<h4 id="四、备用下载"><a href="#四、备用下载" class="headerlink" title="四、备用下载"></a>四、备用下载</h4><p>百度网盘（含 Signal 与 WhatsApp）： <a href="https://pan.baidu.com/s/1miFtFxI" target="_blank" rel="noopener">https://pan.baidu.com/s/1miFtFxI</a> 。</p>
-<h2 id="印记-Imprint"><a href="#印记-Imprint" class="headerlink" title="印记(Imprint)"></a>印记(Imprint)</h2><p>（1）20170829：首次作为手稿和内部消息（《推荐使用更安全的手机通讯应用（含简洁版和详细版）》）公开于部分微信好友群聊中。<br>（2）20170901：简化并增加部分英文翻译，并首次作为“评论”公开于个人最近的一条微信朋友圈动态下。<br>（3）20170905-1012：进行了多次修改、更新和完善。<br>（4）20171119：增加国内支持端到端加密的部分通讯应用，以及相关法律条文。<br>（5）20180107：重新排版和组织并更新相关内容。<br>（6）20180311：（a）增加另外两个新的法条并优化排版，并完善相关正文内容；（b）更新 Signal 和 WhatsApp 官方的相关下载连接；（c）修正备用的百度网盘下载链接。<br>（N）下一步（Next）: xxx。<br>（T）待做（TODO）：同步英文翻译。</p>
+<h4 id="二、安全性（Security）"><a href="#二、安全性（Security）" class="headerlink" title="二、安全性（Security）"></a>二、安全性（Security）</h4><p>Signal、Session 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）”的端到端加密的通信技术。</p>
+<p>参见：</p>
+<p> <a href="https://support.signal.org/" target="_blank" rel="noopener">https://support.signal.org/</a> （English）</p>
+<p> <a href="https://support.signal.org/hc/zh-tw/" target="_blank" rel="noopener">https://support.signal.org/hc/zh-tw/</a> （繁體中文）</p>
+<p> <a href="https://support.signal.org/hc/zh-tw/categories/360000674811" target="_blank" rel="noopener">https://support.signal.org/hc/zh-tw/categories/360000674811</a> （繁體中文）</p>
+<h4 id="三、Session（会话）-Private-Messenger（私密信使）"><a href="#三、Session（会话）-Private-Messenger（私密信使）" class="headerlink" title="三、Session（会话） - Private Messenger（私密信使）"></a>三、Session（会话） - Private Messenger（私密信使）</h4><p>Session Messenger</p>
+<p>官网： <a href="https://getsession.org/" target="_blank" rel="noopener">https://getsession.org/</a> 。</p>
+<p>源码： <a href="https://github.com/Loki-project" target="_blank" rel="noopener">https://github.com/Loki-project</a> 。</p>
+<h4 id="四、备用下载（Standby-Downloads）"><a href="#四、备用下载（Standby-Downloads）" class="headerlink" title="四、备用下载（Standby Downloads）"></a>四、备用下载（Standby Downloads）</h4><p>（1）Fenlly favorites on GitHub: <a href="https://fenlly.org/favorites/" target="_blank" rel="noopener">https://fenlly.org/favorites/</a> 。</p>
+<p>（2）百度网盘（含 Signal 与 Session）： <a href="https://pan.baidu.com/s/1miFtFxI" target="_blank" rel="noopener">https://pan.baidu.com/s/1miFtFxI</a> 。</p>
+<h2 id="印记-Imprint"><a href="#印记-Imprint" class="headerlink" title="印记(Imprint)"></a>印记(Imprint)</h2><p>（1）20170829：首次作为手稿和内部消息（《推荐使用更安全的手机通讯应用（含简洁版和详细版）》）公开于部分微信好友群聊中。<br>（2）20170901：简化并增加部分英文翻译，并首次作为“评论”公开于个人最近的一条微信朋友圈动态下。<br>（3）20170905-1012：进行了多次修改、更新和完善。<br>（4）20171119：增加国内支持端到端加密的部分通讯应用，以及相关法律条文。<br>（5）20180107：重新排版和组织并更新相关内容。<br>（6）20180311：（a）增加另外两个新的法条并优化排版，并完善相关正文内容；（b）更新 Signal 和 WhatsApp 官方的相关下载连接；（c）修正备用的百度网盘下载链接。<br>（7）20201101：完善和更新文本内容，更新 Signal 相关链接，去掉未开源的 WhatsApp，同时增加开源的 Session。<br>（N）下一步（Next）: xxx。<br>（T）待做（TODO）：同步英文翻译。</p>
 <h2 id="署名-Attribution"><a href="#署名-Attribution" class="headerlink" title="署名(Attribution)"></a>署名(Attribution)</h2><p>如果转载，请至少保证“正文”部分的完整性且至少须以链接形式给出的原文链接。<br>具体请参见“<a href="/guides">指南(Guides)</a>”页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。</p>
 <p>刘水良(Pingmin Fenlly Liu)</p>
-<p>20170829-20180311</p>
+<p>20170829-20201101</p>
 <h2 id="结束-End"><a href="#结束-End" class="headerlink" title="结束(End)"></a>结束(End)</h2>
     </div>
 
@@ -603,7 +611,7 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">41k</span>
+    <span title="站点总字数">42k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
