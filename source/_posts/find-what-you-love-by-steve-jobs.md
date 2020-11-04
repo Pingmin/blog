@@ -146,7 +146,7 @@ Thank you all very much.
 （4）20170904：迁移到使用 GitHub Pages、Hexo 及其主题 NexT 的静态网站 https://pingmin.github.io ，以便于使用 Git 管理，同时绑定了个人独立域名 pingmin.me ，以自动跳转到 https://pingmin.me 。
 （5）20190223：增加林之晨（Jamie）關於“Stay hungry. Stay foolish.”的參考博文鏈接。
 （6）20200713：迁移到新启用的个人独立博客 https://pingmin.blog 下（基于 GitHub Pages、Hexo 及其 NexT 主题） 。
-（7）20200803：补充两张"Stay hungry. Stay foolish."的《全球概览》杂志封底图片，来自维基百科和阮一峰博客。
+（7）20200803：补充两张“Stay hungry. Stay foolish.”的《全球概览》杂志封底图片，来自维基百科和阮一峰博客。
 （8）20201001：根据视频/音频，修正英文文本和完善中文翻译。
 （9）20201101：增加阮一峰關於“Stay hungry. Stay foolish.”的參考博文鏈接。
 （Next）xxxx：更新了xxx。
