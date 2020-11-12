@@ -5,6 +5,8 @@ date: 2017-08-29 20:29:36 +0800
 updated: 2020-11-01 20:49:15 +0800
 tags:
 - 安全(Security)
+- 端到端加密(End-to-End Ecryption, E2EE)
+- 暗號(Signal Messenger)
 categories:
 - 信息技术(IT)
 ---

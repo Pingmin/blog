@@ -5,6 +5,8 @@ date: 2017-12-31 22:43:36 +0800
 updated: 2018-01-08 00:28:47 +0800
 tags:
 - 宣言(Manifesto)
+- 端到端加密(End-to-End Ecryption, E2EE)
+- 暗號(Signal Messenger)
 categories:
 - 公告(Bulletin)
 ---
