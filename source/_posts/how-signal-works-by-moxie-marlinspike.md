@@ -4,12 +4,14 @@ author: 馬克希·馬琳斯巴克(Moxie Marlinspike)
 date: 2020-06-12 23:13:40 +0800
 updated: 2020-11-12 14:30:50 +0800
 tags:
+- 安全(Security)
 - 端到端加密(End-to-End Ecryption, E2EE)
 - 馬克希·馬琳斯巴克(Moxie Marlinspike)
 - 暗號(Signal Messenger)
 - 推荐(Recommended)
+- 翻譯(Translation)
 categories:
-- 美文共赏(Beauty Essays)
+- 信息技术(IT)
 ---
 
 ![Signal Logo](https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png)

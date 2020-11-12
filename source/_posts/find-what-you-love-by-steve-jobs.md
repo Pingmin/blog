@@ -7,6 +7,7 @@ tags:
 - 史蒂夫·乔布斯(Steve Jobs)
 - 苹果公司(Apple Inc.)
 - 推荐(Recommended)
+- 翻譯(Translation)
 categories:
 - 美文共赏(Beauty Essays)
 ---
