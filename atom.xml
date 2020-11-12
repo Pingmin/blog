@@ -57,16 +57,20 @@
     </summary>
     
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
+      <category term="信息技术(IT)" scheme="https://pingmin.blog/categories/it/"/>
     
     
       <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
+    
+      <category term="安全(Security)" scheme="https://pingmin.blog/tags/security/"/>
     
       <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
     
       <category term="馬克希·馬琳斯巴克(Moxie Marlinspike)" scheme="https://pingmin.blog/tags/moxie-marlinspike/"/>
     
       <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
+    
+      <category term="翻譯(Translation)" scheme="https://pingmin.blog/tags/translation/"/>
     
   </entry>
   
@@ -416,6 +420,8 @@
       <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.blog/tags/apple-inc/"/>
     
       <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
+    
+      <category term="翻譯(Translation)" scheme="https://pingmin.blog/tags/translation/"/>
     
   </entry>
   

@@ -186,6 +186,7 @@
         <tag>史蒂夫·乔布斯(Steve Jobs)</tag>
         <tag>苹果公司(Apple Inc.)</tag>
         <tag>推荐(Recommended)</tag>
+        <tag>翻譯(Translation)</tag>
       </tags>
   </entry>
   <entry>
@@ -632,13 +633,15 @@
 <p>平民（Pingmin Fenlly Liu）<br>20200609-1112</p>
 ]]></content>
       <categories>
-        <category>美文共赏(Beauty Essays)</category>
+        <category>信息技术(IT)</category>
       </categories>
       <tags>
         <tag>推荐(Recommended)</tag>
+        <tag>安全(Security)</tag>
         <tag>暗號(Signal Messenger)</tag>
         <tag>馬克希·馬琳斯巴克(Moxie Marlinspike)</tag>
         <tag>端到端加密(End-to-End Ecryption, E2EE)</tag>
+        <tag>翻譯(Translation)</tag>
       </tags>
   </entry>
 </search>
