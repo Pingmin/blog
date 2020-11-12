@@ -24,18 +24,18 @@
     var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的） （英文作者：馬克希·馬琳斯巴克(Moxie Marlinspike)（譯注：Signal 和開放密語系統的創始人，如下圖），英文原文，20200605）   （中文譯者：平民（Pingmin Fenlly Liu），20200609-0612">
+  <meta name="description" content="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）   （英文作者：馬克希·馬琳斯巴克(Moxie Marlinspike)（譯注：Signal 和開放密語系統的創始人，如下圖），英文原文，20200605） （中文譯者：平民（Pingmin Fenlly Liu），20200609-0612">
 <meta property="og:type" content="article">
 <meta property="og:title" content="當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）">
 <meta property="og:url" content="https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html">
 <meta property="og:site_name" content="平民·寻梦（Pingmin Fenlly Liu）">
-<meta property="og:description" content="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的） （英文作者：馬克希·馬琳斯巴克(Moxie Marlinspike)（譯注：Signal 和開放密語系統的創始人，如下圖），英文原文，20200605）   （中文譯者：平民（Pingmin Fenlly Liu），20200609-0612">
+<meta property="og:description" content="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）   （英文作者：馬克希·馬琳斯巴克(Moxie Marlinspike)（譯注：Signal 和開放密語系統的創始人，如下圖），英文原文，20200605） （中文譯者：平民（Pingmin Fenlly Liu），20200609-0612">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png">
 <meta property="og:image" content="https://moxie.org/images/moxiemarlinspike2.jpg">
 <meta property="og:image" content="https://signal.org/blog/images/subpoena-screenshot.jpg">
 <meta property="article:published_time" content="2020-06-12T15:13:40.000Z">
-<meta property="article:modified_time" content="2020-11-12T06:30:50.000Z">
+<meta property="article:modified_time" content="2020-11-12T13:30:50.000Z">
 <meta property="article:author" content="平民（Pingmin Fenlly Liu）">
 <meta property="article:tag" content="推荐(Recommended)">
 <meta property="article:tag" content="安全(Security)">
@@ -365,7 +365,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-12 14:30:50" itemprop="dateModified" datetime="2020-11-12T14:30:50+08:00">2020-11-12</time>
+                <time title="修改时间：2020-11-12 21:30:50" itemprop="dateModified" datetime="2020-11-12T21:30:50+08:00">2020-11-12</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -411,12 +411,14 @@
       
         <p><img src="https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png" alt="Signal Logo"></p>
 <h2 id="Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）"><a href="#Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）" class="headerlink" title="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）"></a>Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）</h2><blockquote>
-<p>（英文作者：<a href="https://github.com/moxie0" target="_blank" rel="noopener">馬克希·馬琳斯巴克(Moxie Marlinspike)</a>（譯注：Signal 和開放密語系統的創始人，如下圖），<a href="https://signal.org/blog/looking-back-as-the-world-moves-forward/" target="_blank" rel="noopener">英文原文</a>，20200605）</p>
 <img src="https://moxie.org/images/moxiemarlinspike2.jpg" width="30%" height="30%" alt="馬克希·馬琳斯巴克(Moxie Marlinspike)">
 
+<p>（英文作者：<a href="https://github.com/moxie0" target="_blank" rel="noopener">馬克希·馬琳斯巴克(Moxie Marlinspike)</a>（譯注：Signal 和開放密語系統的創始人，如下圖），<a href="https://signal.org/blog/looking-back-as-the-world-moves-forward/" target="_blank" rel="noopener">英文原文</a>，20200605）</p>
 <p>（中文譯者：<a href="https://pingmin.me" target="_blank" rel="noopener">平民（Pingmin Fenlly Liu）</a>，20200609-0612）</p>
 </blockquote>
 <p>In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We’ve gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we’ve designed Signal, and how we think about concepts like privacy, security, and trust.<br>在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。</p>
+<a id="more"></a>
+
 <p>What if the worst should happen, and some unauthorized party were to compromise Signal? We don’t have to speak hypothetically, because the US government already tried this, so we can examine what that looked like. In 2016, the US government obtained access to Signal user data through a grand jury subpoena from the Eastern District of Virginia. However, there wasn’t (and still isn’t) really anything to obtain. At the time, <a href="https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company" target="_blank" rel="noopener">we worked with the ACLU</a> to fight the gag order that was intended to prevent us from publishing this information, so you can <a href="https://signal.org/bigbrother/eastern-virginia-grand-jury/" target="_blank" rel="noopener">see the full subpoena and response here</a>.<br>要是發生了最壞情況，以及一些未授權方想違背或損害 Signal（的隱私保護等相關原則/價值觀），結果會怎樣？我們無須假設，因為美國政府已經如此嘗試過。2016 年，美國政府（執法部門）通過弗吉尼亞東區法院一大陪審團傳票（司法程序）的授權得以獲取相關 Signal 用戶的數據。然而，我們這（服務器上）當時（至今也是）實際上并沒有什麼數據可取到的。那時，<a href="https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company" target="_blank" rel="noopener">我們也與美國公民自由權聯盟（ACLU）一起</a>，與意欲阻止我們公開這些信息的壓制言論自由的政令做抗爭，你可以在這裏<a href="https://signal.org/bigbrother/eastern-virginia-grand-jury/" target="_blank" rel="noopener">查看完整的傳票及其回應的內容</a>。</p>
 <p>The only Signal user data we have, and the only data the US government obtained as a result, was the date of account creation and the date of last use – not user messages, groups, contacts, profile information, or anything else.<br>我們所擁有的 Signal 用戶的唯一數據，也是美國政府最終所獲得的唯一數據，是賬號創建日期和最後使用日期——沒有用戶的消息、群組、聯系人、個人資料等其他任何信息（見下圖）。</p>
 <p><img src="https://signal.org/blog/images/subpoena-screenshot.jpg" alt="Signal user data（用戶數據）"></p>
