@@ -2,7 +2,7 @@
 title: "當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）"
 author: 馬克希·馬琳斯巴克(Moxie Marlinspike)
 date: 2020-06-12 23:13:40 +0800
-updated: 2020-11-12 14:30:50 +0800
+updated: 2020-11-12 21:30:50 +0800
 tags:
 - 安全(Security)
 - 端到端加密(End-to-End Ecryption, E2EE)
@@ -18,15 +18,17 @@ categories:
 
 ## Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）
 
-> （英文作者：[馬克希·馬琳斯巴克(Moxie Marlinspike)](https://github.com/moxie0)（譯注：Signal 和開放密語系統的創始人，如下圖），[英文原文](https://signal.org/blog/looking-back-as-the-world-moves-forward/)，20200605）
->
 > <img src="https://moxie.org/images/moxiemarlinspike2.jpg" width="30%" height="30%" alt="馬克希·馬琳斯巴克(Moxie Marlinspike)">
+>
+> （英文作者：[馬克希·馬琳斯巴克(Moxie Marlinspike)](https://github.com/moxie0)（譯注：Signal 和開放密語系統的創始人，如下圖），[英文原文](https://signal.org/blog/looking-back-as-the-world-moves-forward/)，20200605）
 >
 > （中文譯者：[平民（Pingmin Fenlly Liu）](https://pingmin.me)，20200609-0612）
 
 
 In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We’ve gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we’ve designed Signal, and how we think about concepts like privacy, security, and trust.
 在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。
+
+<!-- more -->
 
 What if the worst should happen, and some unauthorized party were to compromise Signal? We don’t have to speak hypothetically, because the US government already tried this, so we can examine what that looked like. In 2016, the US government obtained access to Signal user data through a grand jury subpoena from the Eastern District of Virginia. However, there wasn’t (and still isn’t) really anything to obtain. At the time, [we worked with the ACLU](https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company) to fight the gag order that was intended to prevent us from publishing this information, so you can [see the full subpoena and response here](https://signal.org/bigbrother/eastern-virginia-grand-jury/).
 要是發生了最壞情況，以及一些未授權方想違背或損害 Signal（的隱私保護等相關原則/價值觀），結果會怎樣？我們無須假設，因為美國政府已經如此嘗試過。2016 年，美國政府（執法部門）通過弗吉尼亞東區法院一大陪審團傳票（司法程序）的授權得以獲取相關 Signal 用戶的數據。然而，我們這（服務器上）當時（至今也是）實際上并沒有什麼數據可取到的。那時，[我們也與美國公民自由權聯盟（ACLU）一起](https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company)，與意欲阻止我們公開這些信息的壓制言論自由的政令做抗爭，你可以在這裏[查看完整的傳票及其回應的內容](https://signal.org/bigbrother/eastern-virginia-grand-jury/)。
