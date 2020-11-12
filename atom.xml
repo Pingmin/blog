@@ -66,6 +66,8 @@
     
       <category term="馬克希·馬琳斯巴克(Moxie Marlinspike)" scheme="https://pingmin.blog/tags/moxie-marlinspike/"/>
     
+      <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
+    
   </entry>
   
   <entry>
@@ -115,6 +117,10 @@
     
       <category term="宣言(Manifesto)" scheme="https://pingmin.blog/tags/manifesto/"/>
     
+      <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
+    
+      <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
+    
   </entry>
   
   <entry>
@@ -136,6 +142,10 @@
     
     
       <category term="安全(Security)" scheme="https://pingmin.blog/tags/security/"/>
+    
+      <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
+    
+      <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
     
   </entry>
   

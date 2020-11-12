@@ -256,6 +256,8 @@
       </categories>
       <tags>
         <tag>宣言(Manifesto)</tag>
+        <tag>暗號(Signal Messenger)</tag>
+        <tag>端到端加密(End-to-End Ecryption, E2EE)</tag>
       </tags>
   </entry>
   <entry>
@@ -360,6 +362,8 @@
       </categories>
       <tags>
         <tag>安全(Security)</tag>
+        <tag>暗號(Signal Messenger)</tag>
+        <tag>端到端加密(End-to-End Ecryption, E2EE)</tag>
       </tags>
   </entry>
   <entry>
@@ -634,6 +638,7 @@
         <tag>推荐(Recommended)</tag>
         <tag>暗號(Signal Messenger)</tag>
         <tag>馬克希·馬琳斯巴克(Moxie Marlinspike)</tag>
+        <tag>端到端加密(End-to-End Ecryption, E2EE)</tag>
       </tags>
   </entry>
 </search>
