@@ -16,7 +16,7 @@ categories:
 
 ### 文本内容(Texts)
 
-Here’s to the crazy ones.
+Here's to the crazy ones.
 向那些疯狂的家伙们致敬。
 
 <!-- more -->
@@ -36,7 +36,7 @@ The round pegs in the square holes.
 The ones who see things differently.
 他们总是异想天开，
 
-They’re not fond of rules.
+They're not fond of rules.
 既不喜欢循规蹈矩，
 
 And they have no respect for the status quo.
@@ -45,7 +45,7 @@ And they have no respect for the status quo.
 You can quote them, disagree with them, glorify or vilify them.
 你尽可以赞美他们，否定他们，引用他们，质疑他们，颂扬抑或是诋毁他们。
 
-About the only thing you can’t do is ignore them.
+About the only thing you can't do is ignore them.
 不过唯独不能漠视他们。
 
 Because they change things.
