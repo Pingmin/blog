@@ -54,7 +54,7 @@ categories:
 
 ### 邮箱
 
-Pingmin(at)Fenlly.org 或 Pingmin.Fenlly(at)Gmail.com （请用‘@’代替‘(at)’）
+Pingmin(at)Fenlly.org 或 Pingmin.Fenlly(at)Gmail.com （请用“@”代替“(at)”）
 
 ### 转帐/汇款信息
 
@@ -75,7 +75,7 @@ Pingmin(at)Fenlly.org 或 Pingmin.Fenlly(at)Gmail.com （请用‘@’代替‘(
 ### 其他信息
 
 - 刘泽平
-  Email：Pingmin(at)Fenlly.org（请用‘@’代替‘(at)’）
+  Email：Pingmin(at)Fenlly.org（请用“@”代替“(at)”）
   https://weibo.com/iPingmin
 
 - 周晔湘（老师）
