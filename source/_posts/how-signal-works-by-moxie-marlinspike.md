@@ -14,16 +14,15 @@ categories:
 - 信息技术(IT)
 ---
 
-![Signal Logo](https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png)
-
 ## Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）
 
 > <img src="https://moxie.org/images/moxiemarlinspike2.jpg" width="30%" height="30%" alt="馬克希·馬琳斯巴克(Moxie Marlinspike)">
 >
-> （英文作者：[馬克希·馬琳斯巴克(Moxie Marlinspike)](https://github.com/moxie0)（譯注：Signal 和開放密語系統的創始人，如下圖），[英文原文](https://signal.org/blog/looking-back-as-the-world-moves-forward/)，20200605）
+> 英文作者：[馬克希·馬琳斯巴克(Moxie Marlinspike)](https://github.com/moxie0)（譯注：Signal 和開放密語系統的創始人，如上圖），[英文原文](https://signal.org/blog/looking-back-as-the-world-moves-forward/)，20200605。
 >
-> （中文譯者：[平民（Pingmin Fenlly Liu）](https://pingmin.me)，20200609-0612）
+> 中文譯者：[平民（Pingmin Fenlly Liu）](https://pingmin.me)，20200609-0612。
 
+![Signal Logo](https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png)
 
 In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We've gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we've designed Signal, and how we think about concepts like privacy, security, and trust.
 在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。
