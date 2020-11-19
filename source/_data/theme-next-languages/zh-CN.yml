@@ -6,18 +6,15 @@ title:
   tag: 标签
   schedule: 日程表
 menu:
-  home: 首页（Home）
-  pingmin: 主页（Pingmin）
-  archives: 归档（Archives）
-  categories: 分类（Categories）
-  tags: 标签（Tags）
-  about: 关于（About）
-  guides: 指南（Guides）
-  search: 搜索（Search）
-  schedule: 日程表（Schedule）
-  she: 寻她（Seeking Her）
-  sitemap: 站点地图（Sitemap）
-  commonweal: 公益（Commonweal）404
+  home: 首页
+  archives: 归档
+  categories: 分类
+  tags: 标签
+  about: 关于
+  search: 搜索
+  schedule: 日程表
+  sitemap: 站点地图
+  commonweal: 公益 404
 sidebar:
   overview: 站点概览
   toc: 文章目录
@@ -36,8 +33,10 @@ post:
   copyright:
     author: 本文作者
     link: 本文链接
+    post_author: 原作者
+    post_link: 原文链接
     license_title: 版权声明
-    license_content: "本博客所有原创文章，除特别声明外，均采用 %s 许可协议。转载请注明出处！"
+    license_content: "本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"
 footer:
   powered: "由 %s 强力驱动"
   total_views: 总访问量
@@ -61,6 +60,9 @@ state:
   categories: 分类
 search:
   placeholder: 搜索...
+  empty: "没有找到任何搜索结果：%s"
+  hits_time: "找到 %s 个搜索结果（用时 %s 毫秒）"
+  hits: "找到 %s 个搜索结果"
 cheers:
   um: 嗯..
   ok: 还行

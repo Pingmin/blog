@@ -6,18 +6,15 @@ title:
   tag: 標籤
   schedule: 時間表
 menu:
-  home: 首頁（Home）
-  pingmin: 主頁（Pingmin）
-  archives: 歸檔（Archives）
-  categories: 分類（Categories）
-  tags: 標籤（Tags）
-  about: 關於（About）
-  guides: 指南（Guides）
-  search: 檢索（Search）
-  schedule: 日程表（Schedule）
-  she: 尋她（Seeking Her）
-  sitemap: 站點地圖（Sitemap）
-  commonweal: 公益（Commonweal）404
+  home: 首頁
+  archives: 歸檔
+  categories: 分類
+  tags: 標籤
+  about: 關於
+  search: 搜尋
+  schedule: 時間表
+  sitemap: 網站地圖
+  commonweal: 公益 404
 sidebar:
   overview: 本站概要
   toc: 文章目錄
@@ -36,6 +33,8 @@ post:
   copyright:
     author: 作者
     link: 文章連結
+    post_author: Written by
+    post_link: This article originally appeared on
     license_title: 版權聲明
     license_content: "本網誌所有文章除特別聲明外，均採用 %s 許可協議。轉載請註明出處！"
 footer:
@@ -61,6 +60,9 @@ state:
   categories: 分類
 search:
   placeholder: 搜尋...
+  empty: "We didn't find any results for the search: %s"
+  hits_time: "%s results found in %s ms"
+  hits: "%s results found"
 cheers:
   um: 嗯..
   ok: 還行
