@@ -683,7 +683,7 @@ gitalk:
   #distraction_free_mode: true # Facebook-like distraction free mode
   enable: true
   github_id: Pingmin # GitHub repo owner
-  repo: blog # Repository name to store issues
+  repo: comments # Repository name to store issues
   client_id: b9ef5263af16582fc83c # GitHub Application Client ID
   client_secret: c09fc62c68b952d9da648d906bde590161879427 # GitHub Application Client Secret
   admin_user: Pingmin # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
