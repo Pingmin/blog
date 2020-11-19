@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.2.0">
+
+
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
@@ -13,15 +15,15 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-  
-  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.min.css">
-  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="这是苹果(Apple)公司早期(19970928)的一个电视广告 Think Different (非同凡想) ，觉得很不错，后来据说是因为当时被误认为有语病(详见下面的维基词条)而被撤下荧幕。   文本内容(Texts)Here’s to the crazy ones.向那些疯狂的家伙们致敬。">
@@ -34,9 +36,10 @@
 <meta property="article:published_time" content="2007-11-01T14:10:02.000Z">
 <meta property="article:modified_time" content="2018-03-25T07:48:35.000Z">
 <meta property="article:author" content="平民（Pingmin Fenlly Liu）">
-<meta property="article:tag" content="苹果公司(Apple Inc.)">
 <meta property="article:tag" content="推荐(Recommended)">
+<meta property="article:tag" content="苹果公司(Apple Inc.)">
 <meta name="twitter:card" content="summary">
+
 
 <link rel="canonical" href="https://pingmin.blog/post/think-different-by-apple-inc.html">
 
@@ -97,18 +100,17 @@
 <link rel="alternate" href="/atom.xml" title="平民·寻梦（Pingmin Fenlly Liu）" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
-    <main class="main">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-        <div class="header-inner"><div class="site-brand-container">
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
-        <span class="toggle-line toggle-line-first"></span>
-        <span class="toggle-line toggle-line-middle"></span>
-        <span class="toggle-line toggle-line-last"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -120,6 +122,7 @@
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">淡泊明志，宁静致远（Longing for My Nature, Always）</p>
+      <img class="custom-logo-image" src="/images/think-copyleft.png" alt="平民·寻梦（Pingmin Fenlly Liu）">
   </div>
 
   <div class="site-nav-right">
@@ -132,7 +135,7 @@
 
 
 <nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
+  <ul class="main-menu menu">
         <li class="menu-item menu-item-home">
 
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页（Home）</a>
@@ -194,7 +197,7 @@
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
            placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
@@ -202,8 +205,8 @@
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result">
-  <div id="no-result">
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
     <i class="fa fa-spinner fa-pulse fa-5x"></i>
   </div>
 </div>
@@ -212,12 +215,12 @@
   </div>
 
 </div>
-          
+        
   
   <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
   </div>
 
   <aside class="sidebar">
@@ -232,20 +235,21 @@
         </li>
       </ul>
 
-      <!--noindex-->
-      <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#文本内容-Texts"><span class="nav-number">1.</span> <span class="nav-text">文本内容(Texts)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#广告中出现的人物-People-appeared-in-this-Ad"><span class="nav-number">2.</span> <span class="nav-text">广告中出现的人物(People appeared in this Ad)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#更多详情"><span class="nav-number">3.</span> <span class="nav-text">更多详情</span></a></li></ol></div>
-      </section>
-      <!--/noindex-->
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E6%9C%AC%E5%86%85%E5%AE%B9-Texts"><span class="nav-number">1.</span> <span class="nav-text">文本内容(Texts)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B9%BF%E5%91%8A%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E4%BA%BA%E7%89%A9-People-appeared-in-this-Ad"><span class="nav-number">2.</span> <span class="nav-text">广告中出现的人物(People appeared in this Ad)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E5%A4%9A%E8%AF%A6%E6%83%85"><span class="nav-number">3.</span> <span class="nav-text">更多详情</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
 
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="平民（Pingmin Fenlly Liu）"
       src="/images/think-copyleft.png">
   <p class="site-author-name" itemprop="name">平民（Pingmin Fenlly Liu）</p>
   <div class="site-description" itemprop="description">平民的个人博客（Pingmin Fenlly Liu's Personal Blog）</div>
 </div>
-<div class="site-state-wrap animated">
+<div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
@@ -268,7 +272,7 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author animated">
+  <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
         <a href="https://github.com/Pingmin" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Pingmin" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
@@ -282,51 +286,55 @@
         <a href="https://www.facebook.com/iPingmin" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;iPingmin" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>FB Page</a>
       </span>
   </div>
-  <div class="cc-license animated" itemprop="license">
+  <div class="cc-license site-overview-item animated" itemprop="license">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-sa.svg" alt="Creative Commons"></a>
   </div>
 
 
-  <div class="links-of-blogroll animated">
+  <div class="links-of-blogroll site-overview-item animated">
     <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-      链接 (Links)
+      链接(Links)
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页 (Pingmin's Homepage)</a>
+          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页(Pingmin's Homepage)</a>
         </li>
     </ul>
   </div>
 
-      </section>
+        </section>
+      </div>
     </div>
   </aside>
-  <div id="sidebar-dimmer"></div>
+  <div class="sidebar-dimmer"></div>
 
 
-      </header>
+    </header>
 
-      
+    
   <div class="back-to-top">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
 
 <noscript>
-  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
 
 
-      <div class="main-inner">
-        
+    <div class="main-inner post posts-expand">
+      
 
-        <div class="content post posts-expand">
-          
+      
 
-    
+  
+
+
+<div class="post-block">
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/think-different-by-apple-inc.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -343,54 +351,58 @@
           非同凡想(Think Different)<a href="https://github.com/Pingmin/blog/tree/master/source/_posts/think-different-by-apple-inc.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pen-nib"></i></a>
         </h1>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2007-11-01 22:10:02" itemprop="dateCreated datePublished" datetime="2007-11-01T22:10:02+08:00">2007-11-01</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-03-25 15:48:35" itemprop="dateModified" datetime="2018-03-25T15:48:35+08:00">2018-03-25</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/beauty-essays/" itemprop="url" rel="index"><span itemprop="name">美文共赏(Beauty Essays)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2007-11-01 22:10:02" itemprop="dateCreated datePublished" datetime="2007-11-01T22:10:02+08:00">2007-11-01</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2018-03-25 15:48:35" itemprop="dateModified" datetime="2018-03-25T15:48:35+08:00">2018-03-25</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/beauty-essays/" itemprop="url" rel="index"><span itemprop="name">美文共赏(Beauty Essays)</span></a>
+        </span>
+    </span>
 
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>1.4k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.4k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -399,9 +411,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
-        <p>这是苹果(Apple)公司早期(19970928)的一个电视广告 <a href="https://v.youku.com/v_show/id_XNTkxODY4MTI=.html" target="_blank" rel="noopener">Think Different (非同凡想)</a> ，觉得很不错，后来据说是因为当时被误认为有语病(详见下面的维基词条)而被撤下荧幕。</p>
+        <p>这是苹果(Apple)公司早期(19970928)的一个电视广告 <a target="_blank" rel="noopener" href="https://v.youku.com/v_show/id_XNTkxODY4MTI=.html">Think Different (非同凡想)</a> ，觉得很不错，后来据说是因为当时被误认为有语病(详见下面的维基词条)而被撤下荧幕。</p>
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNTkxODY4MTI=' frameborder=2 'allowfullscreen'></iframe>
 
 <h3 id="文本内容-Texts"><a href="#文本内容-Texts" class="headerlink" title="文本内容(Texts)"></a>文本内容(Texts)</h3><p>Here’s to the crazy ones.<br>向那些疯狂的家伙们致敬。</p>
@@ -424,111 +434,106 @@
 <p>they can change the world,<br>自己能够改变世界的人，</p>
 <p>Are the ones who do.<br>才能真正做到这一点。</p>
 <h3 id="广告中出现的人物-People-appeared-in-this-Ad"><a href="#广告中出现的人物-People-appeared-in-this-Ad" class="headerlink" title="广告中出现的人物(People appeared in this Ad)"></a>广告中出现的人物(People appeared in this Ad)</h3><p><strong>Albert Einstein (阿尔伯特·爱因斯坦)</strong><br>Bob Dylan (鲍博·迪兰)<br><strong>Martin Luther King (马丁·路德·金)</strong><br>Richard Branson (理查德·布兰森)<br>John Lennon &amp; Yoko Ono (约翰·列农 &amp; 大野洋子)<br>Richard Buckminster Fuller (理查德·巴克明斯特·富勒)<br>Thomas Edison (托马斯·爱迪生)<br>Mohammed Ali (穆罕默德·阿里)<br>Ted Turner (泰德·特纳)<br>Maria Callas (马莉亚·卡拉斯)<br><strong>Mohandas Karamchand Gandhi (莫罕达斯·卡拉姆昌德·甘地)</strong><br>Amelia Earhart (爱蜜莉亚·埃尔哈特)<br>Alfred Hitchcock (阿尔弗雷德·希区柯克)<br>Martha Graham (玛莎·葛兰姆)<br>Jim Henson (吉姆·汉森)<br>Frank Lloyd Wright (弗兰克·劳埃德·莱特)<br>Pablo Ruiz Picasso (巴勃罗·路易兹·毕加索)</p>
-<h3 id="更多详情"><a href="#更多详情" class="headerlink" title="更多详情"></a>更多详情</h3><p>请查看维基百科上的“Think Different( <a href="https://zh.wikipedia.org/zh-cn/Think_Different" target="_blank" rel="noopener">https://zh.wikipedia.org/zh-cn/Think_Different</a> )”词条，或者自行到网上搜集( <a href="https://www.google.com.hk/search?hl=zh-CN&amp;q=Think+Different" target="_blank" rel="noopener">https://www.google.com.hk/search?hl=zh-CN&amp;q=Think+Different</a> )。</p>
+<h3 id="更多详情"><a href="#更多详情" class="headerlink" title="更多详情"></a>更多详情</h3><p>请查看维基百科上的“Think Different( <a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-cn/Think_Different">https://zh.wikipedia.org/zh-cn/Think_Different</a> )”词条，或者自行到网上搜集( <a target="_blank" rel="noopener" href="https://www.google.com.hk/search?hl=zh-CN&amp;q=Think+Different">https://www.google.com.hk/search?hl=zh-CN&amp;q=Think+Different</a> )。</p>
 
     </div>
 
     
     
     
-        <div class="reward-container">
+
+    <footer class="post-footer">
+          <div class="reward-container">
   <div>如果喜欢，欢迎打赏(Rewarding)，多谢鼓励！</div>
-  <button onclick="document.getElementById('post-reward').classList.toggle('active');">
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
     赞赏
   </button>
-  <div id="post-reward">
-      
+  <div class="post-reward">
       <div>
         <img src="/images/wechatpay-rewarding.jpg" alt="平民（Pingmin Fenlly Liu） 微信">
-        <p>微信</p>
+        <span>微信</span>
       </div>
-      
       <div>
         <img src="/images/alipay.jpg" alt="平民（Pingmin Fenlly Liu） 支付宝">
-        <p>支付宝</p>
+        <span>支付宝</span>
       </div>
 
   </div>
 </div>
 
-        
+          
 
-<div>
-<ul class="post-copyright">
+<div class="post-copyright">
+<ul>
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>苹果公司(Apple Inc.)
+      <strong>原作者： </strong>苹果公司(Apple Inc.)
   </li>
   <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://pingmin.blog/post/think-different-by-apple-inc.html" title="非同凡想(Think Different)">https://pingmin.blog/post/think-different-by-apple-inc.html</a>
+      <strong>本文链接：</strong>
+      <a href="https://pingmin.blog/post/think-different-by-apple-inc.html" title="非同凡想(Think Different)">https://pingmin.blog/post/think-different-by-apple-inc.html</a>
   </li>
   <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有原创文章，除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-SA</a> 许可协议。转载请注明出处！
+    <strong>版权声明： </strong>本博客所有由平民所原创的文章等，除特别声明（如转载或翻译他人作品，即作者非平民本人）外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-SA</a> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
 
-        
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
 
-  <div class="followme">
-    <p>欢迎关注我的其它发布渠道</p>
+  <div class="social-list">
 
-    <div class="social-list">
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/images/wechat-public.jpg">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
 
-        <div class="social-item">
-          <a target="_blank" class="social-link" href="/images/wechat-public.jpg">
-            <span class="icon">
-              <i class="fab fa-weixin"></i>
-            </span>
+          <span class="label">WeChat</span>
+        </a>
+      </div>
 
-            <span class="label">WeChat</span>
-          </a>
-        </div>
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
 
-        <div class="social-item">
-          <a target="_blank" class="social-link" href="/atom.xml">
-            <span class="icon">
-              <i class="fa fa-rss"></i>
-            </span>
-
-            <span class="label">RSS</span>
-          </a>
-        </div>
-    </div>
+          <span class="label">RSS</span>
+        </a>
+      </div>
   </div>
+</div>
 
-
-      <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/apple-inc/" rel="tag"># 苹果公司(Apple Inc.)</a>
               <a href="/tags/recommended/" rel="tag"># 推荐(Recommended)</a>
+              <a href="/tags/apple-inc/" rel="tag"># 苹果公司(Apple Inc.)</a>
           </div>
 
         
 
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/post/find-what-you-love-by-steve-jobs.html" rel="prev" title="乔布斯：找到你所爱(Steve Jobs: Find What You Love)">
-      <i class="fa fa-chevron-left"></i> 乔布斯：找到你所爱(Steve Jobs: Find What You Love)
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html" rel="next" title="徐志摩《再别康桥》(Saying Goodbye to Cambridge Again, by Xu Zhimo)">
-      徐志摩《再别康桥》(Saying Goodbye to Cambridge Again, by Xu Zhimo) <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/find-what-you-love-by-steve-jobs.html" rel="prev" title="乔布斯：找到你所爱(Steve Jobs: Find What You Love)">
+                  <i class="fa fa-chevron-left"></i> 乔布斯：找到你所爱(Steve Jobs: Find What You Love)
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/saying-goodbye-to-cambridge-again-by-xu-zhimo.html" rel="next" title="徐志摩《再别康桥》(Saying Goodbye to Cambridge Again, by Xu Zhimo)">
+                  徐志摩《再别康桥》(Saying Goodbye to Cambridge Again, by Xu Zhimo) <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
   </article>
-  
-  
-  
+</div>
 
 
 
-        </div>
-        
+
+
+
+      
     <div class="comments" id="gitalk-container"></div>
 
 <script>
@@ -538,7 +543,7 @@
       activeClass = localStorage.getItem('comments_active') || activeClass;
     }
     if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
       if (activeTab) {
         activeTab.click();
       }
@@ -547,20 +552,20 @@
   if (CONFIG.comments.storage) {
     window.addEventListener('tabs:click', event => {
       if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
+      const commentClass = event.target.classList[1];
       localStorage.setItem('comments_active', commentClass);
     });
   }
 </script>
 
-      </div>
-    </main>
+    </div>
+  </main>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        
+  <footer class="footer">
+    <div class="footer-inner">
+      
 
-        
+      
 
 <div class="copyright">
   
@@ -570,23 +575,24 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">平民（Pingmin Fenlly Liu）</span>
-    <span class="post-meta-divider">|</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
-      <i class="fa fa-chart-area"></i>
+      <i class="fa fa-chart-line"></i>
     </span>
-      <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">48k</span>
-    <span class="post-meta-divider">|</span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">49k</span>
+  </span>
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+      <span>站点阅读时长 &asymp;</span>
     <span title="站点阅读时长">44 分钟</span>
+  </span>
 </div>
-
-        
 <div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
@@ -595,7 +601,6 @@
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
-    <span class="post-meta-divider">|</span>
     <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
@@ -606,27 +611,12 @@
     </span>
 </div>
 
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 
   
-  <script src="/lib/anime.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
   <script>
@@ -642,13 +632,44 @@
 
 
 
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+
   
-<script src="/js/local-search.js"></script>
-
-
-
-
-
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -661,11 +682,11 @@
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
 
 <script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+NexT.utils.loadComments('#gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
     var gitalk = new Gitalk({
       clientID    : 'b9ef5263af16582fc83c',
       clientSecret: 'c09fc62c68b952d9da648d906bde590161879427',

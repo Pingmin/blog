@@ -3,7 +3,7 @@
   <title>平民·寻梦（Pingmin Fenlly Liu）</title>
   
   <subtitle>淡泊明志，宁静致远（Longing for My Nature, Always）</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="https://pingmin.blog/atom.xml" rel="self"/>
   
   <link href="https://pingmin.blog/"/>
   <updated>2020-07-16T13:28:55.000Z</updated>
@@ -23,20 +23,18 @@
     <published>2020-07-03T15:10:18.000Z</published>
     <updated>2020-07-16T13:28:55.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;關於即將開始寫的紀傳體回憶錄《平民記憶》及其子內容《公民的自我修養》。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;關於即將開始寫的紀傳體回憶錄《平民記憶》及其子內容《公民的自我修養》。&lt;/p&gt;
 &lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;“光陰似箭，日月如梭（suō）”。&lt;/p&gt;
 &lt;p&gt;記得小時候（約小（學）五（年級）小六），同學們總是喜歡用“光陰似箭，日月如梭”來形容快而樂的童年時光。那時的我們，對于“箭”，還是很容易理解的，因為我們有用樹枝做過簡單的弓和箭；而對於“梭”，可能就比較陌生了，那時我們一開始也都沒字典、電腦和手機等可檢索，尤其是查圖片或視頻資料。直到稍微大一點（應該是進入初中時），有小商人來家鄉織布，我們才第一次（也是迄今唯一的一次）親眼看到了織布機，以及往返于經線之間、左右來回牽引緯線的“梭”。當然，那时候我們也一開始并不知道那個小東西叫“梭”。&lt;/p&gt;
-&lt;p&gt;（此處爲一羅大佑《童年》的歌曲及其鋼琴曲（待添加））&lt;br&gt;（小時候父親曾將《童年》的歌詞寫在一本子上，平民當時以為是其原創）&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;（此處爲一羅大佑《童年》的歌曲及其鋼琴曲（待添加））&lt;br&gt;（小時候父親曾將《童年》的歌詞寫在一本子上，平民當時以為是其原創）&lt;/p&gt;</summary>
     
     
-      <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.blog/categories/pingmin-memory/"/>
+    
+    <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.blog/categories/pingmin-memory/"/>
     
     
-      <category term="回憶錄(Memoirs)" scheme="https://pingmin.blog/tags/memoirs/"/>
+    <category term="回憶錄(Memoirs)" scheme="https://pingmin.blog/tags/memoirs/"/>
     
   </entry>
   
@@ -47,34 +45,32 @@
     <published>2020-06-12T15:13:40.000Z</published>
     <updated>2020-11-12T13:30:50.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）&quot;&gt;&lt;a href=&quot;#Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）&quot; class=&quot;headerlink&quot; title=&quot;Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）&quot;&gt;&lt;/a&gt;Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;h2 id=&quot;Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）&quot;&gt;&lt;a href=&quot;#Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）&quot; class=&quot;headerlink&quot; title=&quot;Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）&quot;&gt;&lt;/a&gt;Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）&lt;/h2&gt;&lt;blockquote&gt;
 &lt;img src=&quot;https://moxie.org/images/moxiemarlinspike2.jpg&quot; width=&quot;30%&quot; height=&quot;30%&quot; alt=&quot;馬克希·馬琳斯巴克(Moxie Marlinspike)&quot;&gt;
 
-&lt;p&gt;英文作者：&lt;a href=&quot;https://github.com/moxie0&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;馬克希·馬琳斯巴克(Moxie Marlinspike)&lt;/a&gt;（譯注：Signal 和開放密語系統的創始人，如上圖），&lt;a href=&quot;https://signal.org/blog/looking-back-as-the-world-moves-forward/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;英文原文&lt;/a&gt;，20200605。&lt;/p&gt;
-&lt;p&gt;中文譯者：&lt;a href=&quot;https://pingmin.me&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;平民（Pingmin Fenlly Liu）&lt;/a&gt;，20200609-0612。&lt;/p&gt;
+&lt;p&gt;英文作者：&lt;a href=&quot;https://github.com/moxie0&quot;&gt;馬克希·馬琳斯巴克(Moxie Marlinspike)&lt;/a&gt;（譯注：Signal 和開放密語系統的創始人，如上圖），&lt;a href=&quot;https://signal.org/blog/looking-back-as-the-world-moves-forward/&quot;&gt;英文原文&lt;/a&gt;，20200605。&lt;/p&gt;
+&lt;p&gt;中文譯者：&lt;a href=&quot;https://pingmin.me/&quot;&gt;平民（Pingmin Fenlly Liu）&lt;/a&gt;，20200609-0612。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png&quot; alt=&quot;Signal Logo&quot;&gt;&lt;/p&gt;
-&lt;p&gt;In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We’ve gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we’ve designed Signal, and how we think about concepts like privacy, security, and trust.&lt;br&gt;在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We’ve gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we’ve designed Signal, and how we think about concepts like privacy, security, and trust.&lt;br&gt;在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。&lt;/p&gt;</summary>
     
     
-      <category term="信息技术(IT)" scheme="https://pingmin.blog/categories/it/"/>
+    
+    <category term="信息技术(IT)" scheme="https://pingmin.blog/categories/it/"/>
     
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
+    <category term="安全(Security)" scheme="https://pingmin.blog/tags/security/"/>
     
-      <category term="安全(Security)" scheme="https://pingmin.blog/tags/security/"/>
+    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
     
-      <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
+    <category term="馬克希·馬琳斯巴克(Moxie Marlinspike)" scheme="https://pingmin.blog/tags/moxie-marlinspike/"/>
     
-      <category term="馬克希·馬琳斯巴克(Moxie Marlinspike)" scheme="https://pingmin.blog/tags/moxie-marlinspike/"/>
+    <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
     
-      <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
     
-      <category term="翻譯(Translation)" scheme="https://pingmin.blog/tags/translation/"/>
+    <category term="翻譯(Translation)" scheme="https://pingmin.blog/tags/translation/"/>
     
   </entry>
   
@@ -85,19 +81,17 @@
     <published>2018-04-07T13:20:36.000Z</published>
     <updated>2018-11-18T14:54:58.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;记录平生第一次拜访公墓。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;记录平生第一次拜访公墓。&lt;/p&gt;
 &lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;之前有看过一篇文章，大意是说，人生要多去三个地方去看看：医院、监狱和墓地。所以，趁着自己还有这个机会，今年的清明节便特地去拜访了下所在城市的一个公墓。&lt;/p&gt;
-&lt;p&gt;墓志铭中，有怀念父母、儿女和夫妻的，也有歌颂生平贡献的，还有以诗词格言形式告诫后人的等。在此，平民仅上传了当时感触和印象特别深的几张，且因图片文件比较大，也只直接显示了两张。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;墓志铭中，有怀念父母、儿女和夫妻的，也有歌颂生平贡献的，还有以诗词格言形式告诫后人的等。在此，平民仅上传了当时感触和印象特别深的几张，且因图片文件比较大，也只直接显示了两张。&lt;/p&gt;</summary>
     
     
-      <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
+    
+    <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
     
     
-      <category term="墓地(Cemetery)" scheme="https://pingmin.blog/tags/cemetery/"/>
+    <category term="墓地(Cemetery)" scheme="https://pingmin.blog/tags/cemetery/"/>
     
   </entry>
   
@@ -108,26 +102,24 @@
     <published>2017-12-31T14:43:36.000Z</published>
     <updated>2018-01-07T16:28:47.000Z</updated>
     
-    <summary type="html">
     
-      &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;#简体中文（中华內地）&quot;&gt;简体中文（中华內地）&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#正體中文（未本地化）&quot;&gt;正體中文（未本地化）&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#English-Unlocalized&quot;&gt;English(Unlocalized)&lt;/a&gt;&lt;/p&gt;
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%EF%BC%88%E4%B8%AD%E5%8D%8E%E5%85%A7%E5%9C%B0%EF%BC%89&quot;&gt;简体中文（中华內地）&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87%EF%BC%88%E6%9C%AA%E6%9C%AC%E5%9C%B0%E5%8C%96%EF%BC%89&quot;&gt;正體中文（未本地化）&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#English-Unlocalized&quot;&gt;English(Unlocalized)&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;个人一个关于“2018 年起暂停使用微信和 QQ 等非安全应用聊天”的“艰难”决定。&lt;/p&gt;
 &lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;h3 id=&quot;简体中文（中华內地）&quot;&gt;&lt;a href=&quot;#简体中文（中华內地）&quot; class=&quot;headerlink&quot; title=&quot;[简体中文（中华內地）]&quot;&gt;&lt;/a&gt;[简体中文（中华內地）]&lt;/h3&gt;&lt;p&gt;正如你们（中的绝大部分）所知，这是我第二次广播。不过，别担心，这次我只是想让你们知道我个人的一个＂艰难＂的决定。&lt;/p&gt;
-&lt;p&gt;为了通讯安全，个人将于 2018 年起暂停使用微信等非安全应用聊天（直到它们也变得足夠安全和可信仼），且将尽量仅使用采用了＂端到端加密＂的安全应用进行通讯（包括文本、语音、文件、音视频通话等），如 Signal（暗号）、WhatsApp 、iMessage/FaceTime 等（中华內地目前推荐 Signal），可参见个人最近一条朋友圈动态下的相关评论等。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;为了通讯安全，个人将于 2018 年起暂停使用微信等非安全应用聊天（直到它们也变得足夠安全和可信仼），且将尽量仅使用采用了＂端到端加密＂的安全应用进行通讯（包括文本、语音、文件、音视频通话等），如 Signal（暗号）、WhatsApp 、iMessage/FaceTime 等（中华內地目前推荐 Signal），可参见个人最近一条朋友圈动态下的相关评论等。&lt;/p&gt;</summary>
     
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
+    
+    <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
     
     
-      <category term="宣言(Manifesto)" scheme="https://pingmin.blog/tags/manifesto/"/>
+    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
     
-      <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
+    <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
     
-      <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
+    <category term="宣言(Manifesto)" scheme="https://pingmin.blog/tags/manifesto/"/>
     
   </entry>
   
@@ -138,22 +130,20 @@
     <published>2017-08-29T12:29:36.000Z</published>
     <updated>2020-11-01T12:49:15.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。&lt;/p&gt;
-&lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;先来看下我国当前相关的法律条文：&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。&lt;/p&gt;
+&lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;先来看下我国当前相关的法律条文：&lt;/p&gt;</summary>
     
     
-      <category term="信息技术(IT)" scheme="https://pingmin.blog/categories/it/"/>
+    
+    <category term="信息技术(IT)" scheme="https://pingmin.blog/categories/it/"/>
     
     
-      <category term="安全(Security)" scheme="https://pingmin.blog/tags/security/"/>
+    <category term="安全(Security)" scheme="https://pingmin.blog/tags/security/"/>
     
-      <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
+    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
     
-      <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
+    <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
     
   </entry>
   
@@ -164,21 +154,19 @@
     <published>2014-01-15T08:51:36.000Z</published>
     <updated>2014-01-19T14:39:26.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;码农之歌（v1-0）&quot;&gt;&lt;a href=&quot;#码农之歌（v1-0）&quot; class=&quot;headerlink&quot; title=&quot;码农之歌（v1.0）&quot;&gt;&lt;/a&gt;码农之歌（v1.0）&lt;/h2&gt;&lt;p&gt;曲：刘炽&lt;br&gt;词：刘水良（Pingmin Fenlly Liu）&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;码农之歌（v1-0）&quot;&gt;&lt;a href=&quot;#码农之歌（v1-0）&quot; class=&quot;headerlink&quot; title=&quot;码农之歌（v1.0）&quot;&gt;&lt;/a&gt;码农之歌（v1.0）&lt;/h2&gt;&lt;p&gt;曲：刘炽&lt;br&gt;词：刘水良（Pingmin Fenlly Liu）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;此为1955年的歌曲《让我们荡起双桨》的词作改编，下面第一段即乔羽先生所作的原词。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;  让我们荡起双桨，小船儿推开波浪，海面倒映着 美丽的白塔，四  周 环绕着绿树红墙，小船儿轻轻，飘荡在水中，迎面吹来了凉爽的风！&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;  让我们荡起双桨，小船儿推开波浪，海面倒映着 美丽的白塔，四  周 环绕着绿树红墙，小船儿轻轻，飘荡在水中，迎面吹来了凉爽的风！&lt;/p&gt;</summary>
     
     
-      <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
+    
+    <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
     
     
-      <category term="音乐(Music)" scheme="https://pingmin.blog/tags/music/"/>
+    <category term="音乐(Music)" scheme="https://pingmin.blog/tags/music/"/>
     
   </entry>
   
@@ -189,19 +177,17 @@
     <published>2013-11-24T05:56:57.000Z</published>
     <updated>2017-12-24T12:15:32.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文描述了自己一直在找的那个人，那个可以/愿意与对方共享余生的她。&lt;br&gt;Describe the one of the girls who I’m looking for and then we will share the rest of our lives with each other in the future.&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文描述了自己一直在找的那个人，那个可以/愿意与对方共享余生的她。&lt;br&gt;Describe the one of the girls who I’m looking for and then we will share the rest of our lives with each other in the future.&lt;/p&gt;
 &lt;p&gt;实际上，我这也正是在描述我自己，希望你能看明白……&lt;br&gt;Actually, I am also describing myself, hoping you’ll get it…&lt;/p&gt;
-&lt;p&gt;关键词：珍爱生命，感恩的心，孝敬长辈，尊敬孩子，终身体育，终身学习，独立思考，崇尚自由和民主，生活自然、简单、真实、快乐和有意义。&lt;br&gt;Keywords: Cherishing lives; Having a grateful heart; Treating elders with filial piety and respect; Respecting children; Lifelong physical education(conception and practice); Lifelong learning(conception and practice); Independent thinking and mind; Advocating and longing for freedom and democracy; Living in natural, simple, real and valuable happiness and “Living in truth”.&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;关键词：珍爱生命，感恩的心，孝敬长辈，尊敬孩子，终身体育，终身学习，独立思考，崇尚自由和民主，生活自然、简单、真实、快乐和有意义。&lt;br&gt;Keywords: Cherishing lives; Having a grateful heart; Treating elders with filial piety and respect; Respecting children; Lifelong physical education(conception and practice); Lifelong learning(conception and practice); Independent thinking and mind; Advocating and longing for freedom and democracy; Living in natural, simple, real and valuable happiness and “Living in truth”.&lt;/p&gt;</summary>
     
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
+    
+    <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
     
     
-      <category term="她(She)" scheme="https://pingmin.blog/tags/she/"/>
+    <category term="她(She)" scheme="https://pingmin.blog/tags/she/"/>
     
   </entry>
   
@@ -212,20 +198,18 @@
     <published>2013-01-05T13:58:30.000Z</published>
     <updated>2018-04-05T15:35:09.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;因为最后的处理结果不是很理想，所以一直很想更新却又不想更新，从而推迟到一年多后的今天才更新，尽管自己一直都惦记着。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;因为最后的处理结果不是很理想，所以一直很想更新却又不想更新，从而推迟到一年多后的今天才更新，尽管自己一直都惦记着。&lt;/p&gt;
 &lt;p&gt;公开与透明，一向是这份事业的基本原则，且这种事情必须要有始有终。&lt;/p&gt;
 &lt;p&gt;而这次更加促使了自己“要尽快实现自己在校的想法”，同时也更新了自己的一此思考，现于此不便细说。&lt;/p&gt;
-&lt;p&gt;好了，下面便交代一下一年多前的一次图书收集的具体详情与处理结果。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;好了，下面便交代一下一年多前的一次图书收集的具体详情与处理结果。&lt;/p&gt;</summary>
     
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
+    
+    <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
     
     
-      <category term="捐赠(Donation)" scheme="https://pingmin.blog/tags/donation/"/>
+    <category term="捐赠(Donation)" scheme="https://pingmin.blog/tags/donation/"/>
     
   </entry>
   
@@ -236,21 +220,19 @@
     <published>2012-10-14T13:30:36.000Z</published>
     <updated>2012-11-03T12:12:09.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;摘要-Abstract&quot;&gt;&lt;a href=&quot;#摘要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;摘要(Abstract)&quot;&gt;&lt;/a&gt;摘要(Abstract)&lt;/h2&gt;&lt;p&gt;宣示自己的一个决定或心愿：死后火化。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;摘要-Abstract&quot;&gt;&lt;a href=&quot;#摘要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;摘要(Abstract)&quot;&gt;&lt;/a&gt;摘要(Abstract)&lt;/h2&gt;&lt;p&gt;宣示自己的一个决定或心愿：死后火化。&lt;/p&gt;
 &lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;月有阴晴圆缺，人有旦夕祸福。&lt;/p&gt;
 &lt;p&gt;摔死，天灾，交通事故，食物中毒，文字狱致死，大病重病，老死……总之，自觉未来人生将会是不一般的无常。&lt;/p&gt;
 &lt;p&gt;出于环保和对生命的考虑等，决定死后火化，除非因自己旅行死于野外而被动物吃掉或其他无法找到尸体时。&lt;/p&gt;
-&lt;p&gt;尽管这会使自己的后人无法进行清明扫墓活动，但他们可以祭祀其他长辈来代替。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;尽管这会使自己的后人无法进行清明扫墓活动，但他们可以祭祀其他长辈来代替。&lt;/p&gt;</summary>
     
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
+    
+    <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
     
     
-      <category term="火化(Cremation)" scheme="https://pingmin.blog/tags/cremation/"/>
+    <category term="火化(Cremation)" scheme="https://pingmin.blog/tags/cremation/"/>
     
   </entry>
   
@@ -261,20 +243,18 @@
     <published>2012-10-14T12:29:36.000Z</published>
     <updated>2018-03-11T08:52:03.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容等。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容等。&lt;/p&gt;
 &lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;先来看一下以下所列出的这些变化，我想多少总能明白些什么：&lt;/p&gt;
 &lt;p&gt;（1）人类文字记录：木棍泥土标记，甲骨上刻字，竹简上刻字，纸上写字，活字印刷，机械印制，电磁记录，多媒体化和数字化。&lt;br&gt;（2）人类通信方式：马拉松长跑，快马加鞭和飞鸽传书，汽车、轮船、飞机，电报电话，手机、电子邮件、Web2.0+。&lt;br&gt;（3）人类社会制度：部落酋长，母系和父系氏族，奴隶交易，地主佃农，人人生而平等、天赋人权，民主共和，公民社会与共产社会。&lt;/p&gt;
-&lt;p&gt;每个人的认识，都会随着时间的推进或者是认识的增多而不断变化发展。&lt;/p&gt;
-    
-    </summary>
+&lt;p&gt;每个人的认识，都会随着时间的推进或者是认识的增多而不断变化发展。&lt;/p&gt;</summary>
     
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
+    
+    <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
     
     
-      <category term="宣言(Manifesto)" scheme="https://pingmin.blog/tags/manifesto/"/>
+    <category term="宣言(Manifesto)" scheme="https://pingmin.blog/tags/manifesto/"/>
     
   </entry>
   
@@ -285,18 +265,16 @@
     <published>2011-11-08T12:12:36.000Z</published>
     <updated>2018-04-05T15:35:09.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》/《十万个为什么》、字典、磁带或教学视频(VCD)等等。&lt;/p&gt;
-&lt;p&gt;得知此事后，因这也是我当初和现在一直想做的事情之一，所以便答应参与了。经过综合考虑，发现最好的途径是发动一切有缘人一起参与，欢迎大家在参与的同时也能通过您的方式一起发动您所认识的人等。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》/《十万个为什么》、字典、磁带或教学视频(VCD)等等。&lt;/p&gt;
+&lt;p&gt;得知此事后，因这也是我当初和现在一直想做的事情之一，所以便答应参与了。经过综合考虑，发现最好的途径是发动一切有缘人一起参与，欢迎大家在参与的同时也能通过您的方式一起发动您所认识的人等。&lt;/p&gt;</summary>
     
     
-      <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
+    
+    <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
     
     
-      <category term="捐赠(Donation)" scheme="https://pingmin.blog/tags/donation/"/>
+    <category term="捐赠(Donation)" scheme="https://pingmin.blog/tags/donation/"/>
     
   </entry>
   
@@ -307,19 +285,17 @@
     <published>2007-11-03T12:12:06.000Z</published>
     <updated>2018-03-25T07:49:19.000Z</updated>
     
-    <summary type="html">
     
-      &lt;h2 id=&quot;Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春-年轻》&quot;&gt;&lt;a href=&quot;#Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春-年轻》&quot; class=&quot;headerlink&quot; title=&quot;Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春/年轻》)&quot;&gt;&lt;/a&gt;Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春/年轻》)&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Youth is not a time of life&lt;/strong&gt;; &lt;strong&gt;it is a state of mind&lt;/strong&gt;; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of imagination, a vigor of the emotions; it is the freshness of the deep springs of life.&lt;br&gt;&lt;strong&gt;青春不是年华，而是一种心态&lt;/strong&gt;；青春不是桃面、丹唇、柔膝，而是深沉意志，恢宏想象，炙热恋情；青春是生命深泉在涌流。&lt;/p&gt;
-    
-    </summary>
+    <summary type="html">&lt;h2 id=&quot;Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春-年轻》&quot;&gt;&lt;a href=&quot;#Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春-年轻》&quot; class=&quot;headerlink&quot; title=&quot;Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春/年轻》)&quot;&gt;&lt;/a&gt;Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春/年轻》)&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Youth is not a time of life&lt;/strong&gt;; &lt;strong&gt;it is a state of mind&lt;/strong&gt;; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of imagination, a vigor of the emotions; it is the freshness of the deep springs of life.&lt;br&gt;&lt;strong&gt;青春不是年华，而是一种心态&lt;/strong&gt;；青春不是桃面、丹唇、柔膝，而是深沉意志，恢宏想象，炙热恋情；青春是生命深泉在涌流。&lt;/p&gt;</summary>
     
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
+    
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
     
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
     
-      <category term="青春(Youth)" scheme="https://pingmin.blog/tags/youth/"/>
+    <category term="青春(Youth)" scheme="https://pingmin.blog/tags/youth/"/>
     
   </entry>
   
@@ -330,19 +306,17 @@
     <published>2007-11-03T11:45:03.000Z</published>
     <updated>2018-03-25T10:48:05.000Z</updated>
     
-    <summary type="html">
     
-      &lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;“《致大海》是俄国浪漫主义诗人普希金的一首政治抒情诗，全诗通过海之恋、海之思、海之念的‘三步曲’，表达了诗人反抗暴政，反对独裁，追求光明，讴歌自由的思想感情。”&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
+&lt;/blockquote&gt;</summary>
     
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
+    
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
     
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
     
   </entry>
   
@@ -353,19 +327,17 @@
     <published>2007-11-03T11:01:12.000Z</published>
     <updated>2018-03-25T10:47:48.000Z</updated>
     
-    <summary type="html">
     
-      &lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;“《再别康桥》是现代诗人徐志摩脍炙人口的诗篇，是新月派诗歌的代表作品。全诗以离别康桥时感情起伏为线索，抒发了对康桥依依惜别的深情。语言轻盈柔和，形式精巧圆熟，诗人用虚实相间的手法，描绘了一幅幅流动的画面，构成了一处处美妙的意境，细致入微地将诗人对康桥的爱恋，对往昔生活的憧憬，对眼前的无可奈何的离愁，表现得真挚、浓郁、隽永，是徐志摩诗作中的绝唱。”&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
+&lt;/blockquote&gt;</summary>
     
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
+    
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
     
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
     
   </entry>
   
@@ -376,22 +348,20 @@
     <published>2007-11-01T14:10:02.000Z</published>
     <updated>2018-03-25T07:48:35.000Z</updated>
     
-    <summary type="html">
     
-      &lt;p&gt;这是苹果(Apple)公司早期(19970928)的一个电视广告 &lt;a href=&quot;https://v.youku.com/v_show/id_XNTkxODY4MTI=.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Think Different (非同凡想)&lt;/a&gt; ，觉得很不错，后来据说是因为当时被误认为有语病(详见下面的维基词条)而被撤下荧幕。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;这是苹果(Apple)公司早期(19970928)的一个电视广告 &lt;a href=&quot;https://v.youku.com/v_show/id_XNTkxODY4MTI=.html&quot;&gt;Think Different (非同凡想)&lt;/a&gt; ，觉得很不错，后来据说是因为当时被误认为有语病(详见下面的维基词条)而被撤下荧幕。&lt;/p&gt;
 &lt;iframe height=498 width=510 src=&#39;https://player.youku.com/embed/XNTkxODY4MTI=&#39; frameborder=2 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;文本内容-Texts&quot;&gt;&lt;a href=&quot;#文本内容-Texts&quot; class=&quot;headerlink&quot; title=&quot;文本内容(Texts)&quot;&gt;&lt;/a&gt;文本内容(Texts)&lt;/h3&gt;&lt;p&gt;Here’s to the crazy ones.&lt;br&gt;向那些疯狂的家伙们致敬。&lt;/p&gt;
-    
-    </summary>
+&lt;h3 id=&quot;文本内容-Texts&quot;&gt;&lt;a href=&quot;#文本内容-Texts&quot; class=&quot;headerlink&quot; title=&quot;文本内容(Texts)&quot;&gt;&lt;/a&gt;文本内容(Texts)&lt;/h3&gt;&lt;p&gt;Here’s to the crazy ones.&lt;br&gt;向那些疯狂的家伙们致敬。&lt;/p&gt;</summary>
     
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
+    
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
     
     
-      <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.blog/tags/apple-inc/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
+    <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.blog/tags/apple-inc/"/>
     
   </entry>
   
@@ -402,30 +372,28 @@
     <published>2007-11-01T13:30:36.000Z</published>
     <updated>2020-11-01T04:29:50.000Z</updated>
     
-    <summary type="html">
     
-      &lt;blockquote&gt;
+    <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;Stanford Report, June 14, 2005&lt;br&gt;史丹佛大学公告，2005年6月14日&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;“You’ve-got-to-find-what-you-love”-Jobs-says&quot;&gt;&lt;a href=&quot;#“You’ve-got-to-find-what-you-love”-Jobs-says&quot; class=&quot;headerlink&quot; title=&quot;“You’ve got to find what you love”, Jobs says&quot;&gt;&lt;/a&gt;“You’ve got to find what you love”, Jobs says&lt;/h2&gt;&lt;p&gt;乔布斯：一定要知道自己喜欢什么&lt;br&gt;(原意：你得找到自己所喜爱的生活/事业)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, delivered on June 12, 2005.&lt;br&gt;这是史蒂夫·乔布斯(Steve Paul Jobs, 19550224-20111005)——苹果电脑公司(注：因2007年发布了iPhone而改名为苹果公司，Apple Inc.)和皮克斯动画工作室(注：已于2006年被迪斯尼收购)首席执行官——2005年6月12日在史丹佛大学毕业典礼上的演讲文稿。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;iframe height=498 width=510 src=&#39;https://player.youku.com/embed/XNDU3OTgyMTky&#39; frameborder=2 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;
-    
-    </summary>
+&lt;iframe height=498 width=510 src=&#39;https://player.youku.com/embed/XNDU3OTgyMTky&#39; frameborder=2 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;</summary>
     
     
-      <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
+    
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
     
     
-      <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://pingmin.blog/tags/steve-jobs/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
     
-      <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.blog/tags/apple-inc/"/>
+    <category term="翻譯(Translation)" scheme="https://pingmin.blog/tags/translation/"/>
     
-      <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
+    <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.blog/tags/apple-inc/"/>
     
-      <category term="翻譯(Translation)" scheme="https://pingmin.blog/tags/translation/"/>
+    <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://pingmin.blog/tags/steve-jobs/"/>
     
   </entry>
   

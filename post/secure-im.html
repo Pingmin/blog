@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.2.0">
+
+
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
@@ -13,15 +15,15 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-  
-  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.min.css">
-  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="概要(Abstract)本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。 正文(Body)先来看下我国当前相关的法律条文：">
@@ -35,9 +37,10 @@
 <meta property="article:modified_time" content="2020-11-01T12:49:15.000Z">
 <meta property="article:author" content="平民（Pingmin Fenlly Liu）">
 <meta property="article:tag" content="安全(Security)">
-<meta property="article:tag" content="暗號(Signal Messenger)">
 <meta property="article:tag" content="端到端加密(End-to-End Ecryption, E2EE)">
+<meta property="article:tag" content="暗號(Signal Messenger)">
 <meta name="twitter:card" content="summary">
+
 
 <link rel="canonical" href="https://pingmin.blog/post/secure-im.html">
 
@@ -98,18 +101,17 @@
 <link rel="alternate" href="/atom.xml" title="平民·寻梦（Pingmin Fenlly Liu）" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
-    <main class="main">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-        <div class="header-inner"><div class="site-brand-container">
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
-        <span class="toggle-line toggle-line-first"></span>
-        <span class="toggle-line toggle-line-middle"></span>
-        <span class="toggle-line toggle-line-last"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -121,6 +123,7 @@
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">淡泊明志，宁静致远（Longing for My Nature, Always）</p>
+      <img class="custom-logo-image" src="/images/think-copyleft.png" alt="平民·寻梦（Pingmin Fenlly Liu）">
   </div>
 
   <div class="site-nav-right">
@@ -133,7 +136,7 @@
 
 
 <nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
+  <ul class="main-menu menu">
         <li class="menu-item menu-item-home">
 
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页（Home）</a>
@@ -195,7 +198,7 @@
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
            placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
@@ -203,8 +206,8 @@
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result">
-  <div id="no-result">
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
     <i class="fa fa-spinner fa-pulse fa-5x"></i>
   </div>
 </div>
@@ -213,12 +216,12 @@
   </div>
 
 </div>
-          
+        
   
   <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
   </div>
 
   <aside class="sidebar">
@@ -233,20 +236,21 @@
         </li>
       </ul>
 
-      <!--noindex-->
-      <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概要-Abstract"><span class="nav-number">1.</span> <span class="nav-text">概要(Abstract)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#正文-Body"><span class="nav-number">2.</span> <span class="nav-text">正文(Body)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#附："><span class="nav-number">2.1.</span> <span class="nav-text">附：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、Signal（暗号）-Private-Messenger（私密信使）"><span class="nav-number">2.1.1.</span> <span class="nav-text">一、Signal（暗号） - Private Messenger（私密信使）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、安全性（Security）"><span class="nav-number">2.1.2.</span> <span class="nav-text">二、安全性（Security）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、Session（会话）-Private-Messenger（私密信使）"><span class="nav-number">2.1.3.</span> <span class="nav-text">三、Session（会话） - Private Messenger（私密信使）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#四、备用下载（Standby-Downloads）"><span class="nav-number">2.1.4.</span> <span class="nav-text">四、备用下载（Standby Downloads）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#印记-Imprint"><span class="nav-number">3.</span> <span class="nav-text">印记(Imprint)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#署名-Attribution"><span class="nav-number">4.</span> <span class="nav-text">署名(Attribution)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结束-End"><span class="nav-number">5.</span> <span class="nav-text">结束(End)</span></a></li></ol></div>
-      </section>
-      <!--/noindex-->
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A6%82%E8%A6%81-Abstract"><span class="nav-number">1.</span> <span class="nav-text">概要(Abstract)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A3%E6%96%87-Body"><span class="nav-number">2.</span> <span class="nav-text">正文(Body)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%99%84%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">附：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E3%80%81Signal%EF%BC%88%E6%9A%97%E5%8F%B7%EF%BC%89-Private-Messenger%EF%BC%88%E7%A7%81%E5%AF%86%E4%BF%A1%E4%BD%BF%EF%BC%89"><span class="nav-number">2.1.1.</span> <span class="nav-text">一、Signal（暗号） - Private Messenger（私密信使）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%AE%89%E5%85%A8%E6%80%A7%EF%BC%88Security%EF%BC%89"><span class="nav-number">2.1.2.</span> <span class="nav-text">二、安全性（Security）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%89%E3%80%81Session%EF%BC%88%E4%BC%9A%E8%AF%9D%EF%BC%89-Private-Messenger%EF%BC%88%E7%A7%81%E5%AF%86%E4%BF%A1%E4%BD%BF%EF%BC%89"><span class="nav-number">2.1.3.</span> <span class="nav-text">三、Session（会话） - Private Messenger（私密信使）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%A4%87%E7%94%A8%E4%B8%8B%E8%BD%BD%EF%BC%88Standby-Downloads%EF%BC%89"><span class="nav-number">2.1.4.</span> <span class="nav-text">四、备用下载（Standby Downloads）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%B0%E8%AE%B0-Imprint"><span class="nav-number">3.</span> <span class="nav-text">印记(Imprint)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%B2%E5%90%8D-Attribution"><span class="nav-number">4.</span> <span class="nav-text">署名(Attribution)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E6%9D%9F-End"><span class="nav-number">5.</span> <span class="nav-text">结束(End)</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
 
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="平民（Pingmin Fenlly Liu）"
       src="/images/think-copyleft.png">
   <p class="site-author-name" itemprop="name">平民（Pingmin Fenlly Liu）</p>
   <div class="site-description" itemprop="description">平民的个人博客（Pingmin Fenlly Liu's Personal Blog）</div>
 </div>
-<div class="site-state-wrap animated">
+<div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
@@ -269,7 +273,7 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author animated">
+  <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
         <a href="https://github.com/Pingmin" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Pingmin" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
@@ -283,51 +287,55 @@
         <a href="https://www.facebook.com/iPingmin" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;iPingmin" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>FB Page</a>
       </span>
   </div>
-  <div class="cc-license animated" itemprop="license">
+  <div class="cc-license site-overview-item animated" itemprop="license">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-sa.svg" alt="Creative Commons"></a>
   </div>
 
 
-  <div class="links-of-blogroll animated">
+  <div class="links-of-blogroll site-overview-item animated">
     <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-      链接 (Links)
+      链接(Links)
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页 (Pingmin's Homepage)</a>
+          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页(Pingmin's Homepage)</a>
         </li>
     </ul>
   </div>
 
-      </section>
+        </section>
+      </div>
     </div>
   </aside>
-  <div id="sidebar-dimmer"></div>
+  <div class="sidebar-dimmer"></div>
 
 
-      </header>
+    </header>
 
-      
+    
   <div class="back-to-top">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
 
 <noscript>
-  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
 
 
-      <div class="main-inner">
-        
+    <div class="main-inner post posts-expand">
+      
 
-        <div class="content post posts-expand">
-          
+      
 
-    
+  
+
+
+<div class="post-block">
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/secure-im.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -344,54 +352,58 @@
           安全即时通讯(Secure IM)<a href="https://github.com/Pingmin/blog/tree/master/source/_posts/secure-im.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pen-nib"></i></a>
         </h1>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2017-08-29 20:29:36" itemprop="dateCreated datePublished" datetime="2017-08-29T20:29:36+08:00">2017-08-29</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-01 20:49:15" itemprop="dateModified" datetime="2020-11-01T20:49:15+08:00">2020-11-01</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/it/" itemprop="url" rel="index"><span itemprop="name">信息技术(IT)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2017-08-29 20:29:36" itemprop="dateCreated datePublished" datetime="2017-08-29T20:29:36+08:00">2017-08-29</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-11-01 20:49:15" itemprop="dateModified" datetime="2020-11-01T20:49:15+08:00">2020-11-01</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/it/" itemprop="url" rel="index"><span itemprop="name">信息技术(IT)</span></a>
+        </span>
+    </span>
 
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3.5k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3.5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -400,8 +412,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
         <h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。</p>
 <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>先来看下我国当前相关的法律条文：</p>
 <a id="more"></a>
@@ -431,35 +441,35 @@
 <p>值得一提的是，开源应用 Signal 更加注重对个人信息与隐私的保护。前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的曝光者爱德华·斯诺登（Edward Snowden，现以政治避难的方式居住于俄罗斯）等对 Signal 也做了推荐（参见 Signal 官网）。</p>
 <h3 id="附："><a href="#附：" class="headerlink" title="附："></a>附：</h3><h4 id="一、Signal（暗号）-Private-Messenger（私密信使）"><a href="#一、Signal（暗号）-Private-Messenger（私密信使）" class="headerlink" title="一、Signal（暗号） - Private Messenger（私密信使）"></a>一、Signal（暗号） - Private Messenger（私密信使）</h4><p>Signal Messenger</p>
 <ol>
-<li><p>官网： <a href="https://signal.org/" target="_blank" rel="noopener">https://signal.org/</a> 。</p>
+<li><p>官网： <a target="_blank" rel="noopener" href="https://signal.org/">https://signal.org/</a> 。</p>
 </li>
-<li><p>源码： <a href="https://github.com/signalapp/" target="_blank" rel="noopener">https://github.com/signalapp/</a> 。</p>
+<li><p>源码： <a target="_blank" rel="noopener" href="https://github.com/signalapp/">https://github.com/signalapp/</a> 。</p>
 </li>
-<li><p>Android 版：下载页面为 <a href="https://www.signal.org/android/apk" target="_blank" rel="noopener">https://www.signal.org/android/apk</a> ，目前最新版为 <a href="https://updates.signal.org/android/Signal-website-release-4.75.4.apk" target="_blank" rel="noopener">https://updates.signal.org/android/Signal-website-release-4.75.4.apk</a> （手机上请复制粘贴到浏览器中打开，以下载安装）。</p>
+<li><p>Android 版：下载页面为 <a target="_blank" rel="noopener" href="https://www.signal.org/android/apk">https://www.signal.org/android/apk</a> ，目前最新版为 <a target="_blank" rel="noopener" href="https://updates.signal.org/android/Signal-website-release-4.75.4.apk">https://updates.signal.org/android/Signal-website-release-4.75.4.apk</a> （手机上请复制粘贴到浏览器中打开，以下载安装）。</p>
 </li>
-<li><p>iOS 版： <a href="https://itunes.apple.com/cn/app/signal-private-messenger/id874139669" target="_blank" rel="noopener">https://itunes.apple.com/cn/app/signal-private-messenger/id874139669</a> 。</p>
+<li><p>iOS 版： <a target="_blank" rel="noopener" href="https://itunes.apple.com/cn/app/signal-private-messenger/id874139669">https://itunes.apple.com/cn/app/signal-private-messenger/id874139669</a> 。</p>
 </li>
-<li><p>macOS 版： <a href="https://updates.signal.org/desktop/signal-desktop-mac-1.37.2.dmg" target="_blank" rel="noopener">https://updates.signal.org/desktop/signal-desktop-mac-1.37.2.dmg</a> 。</p>
+<li><p>macOS 版： <a target="_blank" rel="noopener" href="https://updates.signal.org/desktop/signal-desktop-mac-1.37.2.dmg">https://updates.signal.org/desktop/signal-desktop-mac-1.37.2.dmg</a> 。</p>
 </li>
-<li><p>Windows 版： <a href="https://updates.signal.org/desktop/signal-desktop-win-1.37.2.exe" target="_blank" rel="noopener">https://updates.signal.org/desktop/signal-desktop-win-1.37.2.exe</a> 。</p>
+<li><p>Windows 版： <a target="_blank" rel="noopener" href="https://updates.signal.org/desktop/signal-desktop-win-1.37.2.exe">https://updates.signal.org/desktop/signal-desktop-win-1.37.2.exe</a> 。</p>
 </li>
-<li><p>Linux (Debian-based) 版：<br> （1）直接下载： <a href="https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.37.2_amd64.deb" target="_blank" rel="noopener">https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.37.2_amd64.deb</a></p>
+<li><p>Linux (Debian-based) 版：<br> （1）直接下载： <a target="_blank" rel="noopener" href="https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.37.2_amd64.deb">https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.37.2_amd64.deb</a></p>
 <p> （2）或通过添加官方仓库来安装（以后可随系统自动更新）：</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -</span><br><span class="line">$ <span class="built_in">echo</span> <span class="string">"deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main"</span> | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list</span><br><span class="line">$ sudo apt update &amp;&amp; sudo apt install signal-desktop</span><br></pre></td></tr></table></figure>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -</span><br><span class="line">$ <span class="built_in">echo</span> <span class="string">&quot;deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main&quot;</span> | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list</span><br><span class="line">$ sudo apt update &amp;&amp; sudo apt install signal-desktop</span><br></pre></td></tr></table></figure>
 
 
 </li>
 </ol>
 <h4 id="二、安全性（Security）"><a href="#二、安全性（Security）" class="headerlink" title="二、安全性（Security）"></a>二、安全性（Security）</h4><p>Signal、Session 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）”的端到端加密的通信技术。</p>
 <p>参见：</p>
-<p> <a href="https://support.signal.org/" target="_blank" rel="noopener">https://support.signal.org/</a> （English）</p>
-<p> <a href="https://support.signal.org/hc/zh-tw/" target="_blank" rel="noopener">https://support.signal.org/hc/zh-tw/</a> （繁體中文）</p>
-<p> <a href="https://support.signal.org/hc/zh-tw/categories/360000674811" target="_blank" rel="noopener">https://support.signal.org/hc/zh-tw/categories/360000674811</a> （繁體中文）</p>
+<p> <a target="_blank" rel="noopener" href="https://support.signal.org/">https://support.signal.org/</a> （English）</p>
+<p> <a target="_blank" rel="noopener" href="https://support.signal.org/hc/zh-tw/">https://support.signal.org/hc/zh-tw/</a> （繁體中文）</p>
+<p> <a target="_blank" rel="noopener" href="https://support.signal.org/hc/zh-tw/categories/360000674811">https://support.signal.org/hc/zh-tw/categories/360000674811</a> （繁體中文）</p>
 <h4 id="三、Session（会话）-Private-Messenger（私密信使）"><a href="#三、Session（会话）-Private-Messenger（私密信使）" class="headerlink" title="三、Session（会话） - Private Messenger（私密信使）"></a>三、Session（会话） - Private Messenger（私密信使）</h4><p>Session Messenger</p>
-<p>官网： <a href="https://getsession.org/" target="_blank" rel="noopener">https://getsession.org/</a> 。</p>
-<p>源码： <a href="https://github.com/Loki-project" target="_blank" rel="noopener">https://github.com/Loki-project</a> 。</p>
-<h4 id="四、备用下载（Standby-Downloads）"><a href="#四、备用下载（Standby-Downloads）" class="headerlink" title="四、备用下载（Standby Downloads）"></a>四、备用下载（Standby Downloads）</h4><p>（1）Fenlly favorites on GitHub: <a href="https://fenlly.org/favorites/" target="_blank" rel="noopener">https://fenlly.org/favorites/</a> 。</p>
-<p>（2）百度网盘（含 Signal 与 Session）： <a href="https://pan.baidu.com/s/1miFtFxI" target="_blank" rel="noopener">https://pan.baidu.com/s/1miFtFxI</a> 。</p>
+<p>官网： <a target="_blank" rel="noopener" href="https://getsession.org/">https://getsession.org/</a> 。</p>
+<p>源码： <a target="_blank" rel="noopener" href="https://github.com/Loki-project">https://github.com/Loki-project</a> 。</p>
+<h4 id="四、备用下载（Standby-Downloads）"><a href="#四、备用下载（Standby-Downloads）" class="headerlink" title="四、备用下载（Standby Downloads）"></a>四、备用下载（Standby Downloads）</h4><p>（1）Fenlly favorites on GitHub: <a target="_blank" rel="noopener" href="https://fenlly.org/favorites/">https://fenlly.org/favorites/</a> 。</p>
+<p>（2）百度网盘（含 Signal 与 Session）： <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1miFtFxI">https://pan.baidu.com/s/1miFtFxI</a> 。</p>
 <h2 id="印记-Imprint"><a href="#印记-Imprint" class="headerlink" title="印记(Imprint)"></a>印记(Imprint)</h2><p>（1）20170829：首次作为手稿和内部消息（《推荐使用更安全的手机通讯应用（含简洁版和详细版）》）公开于部分微信好友群聊中。<br>（2）20170901：简化并增加部分英文翻译，并首次作为“评论”公开于个人最近的一条微信朋友圈动态下。<br>（3）20170905-1012：进行了多次修改、更新和完善。<br>（4）20171119：增加国内支持端到端加密的部分通讯应用，以及相关法律条文。<br>（5）20180107：重新排版和组织并更新相关内容。<br>（6）20180311：（a）增加另外两个新的法条并优化排版，并完善相关正文内容；（b）更新 Signal 和 WhatsApp 官方的相关下载连接；（c）修正备用的百度网盘下载链接。<br>（7）20201101：完善和更新文本内容，更新 Signal 相关链接，去掉未开源的 WhatsApp，同时增加开源的 Session。<br>（N）下一步（Next）: xxx。<br>（T）待做（TODO）：同步英文翻译。</p>
 <h2 id="署名-Attribution"><a href="#署名-Attribution" class="headerlink" title="署名(Attribution)"></a>署名(Attribution)</h2><p>如果转载，请至少保证“正文”部分的完整性且至少须以链接形式给出的原文链接。<br>具体请参见“<a href="/guides">指南(Guides)</a>”页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。</p>
 <p>刘水良(Pingmin Fenlly Liu)</p>
@@ -470,105 +480,100 @@
     
     
     
-        <div class="reward-container">
+
+    <footer class="post-footer">
+          <div class="reward-container">
   <div>如果喜欢，欢迎打赏(Rewarding)，多谢鼓励！</div>
-  <button onclick="document.getElementById('post-reward').classList.toggle('active');">
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
     赞赏
   </button>
-  <div id="post-reward">
-      
+  <div class="post-reward">
       <div>
         <img src="/images/wechatpay-rewarding.jpg" alt="平民（Pingmin Fenlly Liu） 微信">
-        <p>微信</p>
+        <span>微信</span>
       </div>
-      
       <div>
         <img src="/images/alipay.jpg" alt="平民（Pingmin Fenlly Liu） 支付宝">
-        <p>支付宝</p>
+        <span>支付宝</span>
       </div>
 
   </div>
 </div>
 
-        
+          
 
-<div>
-<ul class="post-copyright">
+<div class="post-copyright">
+<ul>
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>平民（Pingmin Fenlly Liu）
+      <strong>原作者： </strong>平民（Pingmin Fenlly Liu）
   </li>
   <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://pingmin.blog/post/secure-im.html" title="安全即时通讯(Secure IM)">https://pingmin.blog/post/secure-im.html</a>
+      <strong>本文链接：</strong>
+      <a href="https://pingmin.blog/post/secure-im.html" title="安全即时通讯(Secure IM)">https://pingmin.blog/post/secure-im.html</a>
   </li>
   <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有原创文章，除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-SA</a> 许可协议。转载请注明出处！
+    <strong>版权声明： </strong>本博客所有由平民所原创的文章等，除特别声明（如转载或翻译他人作品，即作者非平民本人）外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-SA</a> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
 
-        
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
 
-  <div class="followme">
-    <p>欢迎关注我的其它发布渠道</p>
+  <div class="social-list">
 
-    <div class="social-list">
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/images/wechat-public.jpg">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
 
-        <div class="social-item">
-          <a target="_blank" class="social-link" href="/images/wechat-public.jpg">
-            <span class="icon">
-              <i class="fab fa-weixin"></i>
-            </span>
+          <span class="label">WeChat</span>
+        </a>
+      </div>
 
-            <span class="label">WeChat</span>
-          </a>
-        </div>
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
 
-        <div class="social-item">
-          <a target="_blank" class="social-link" href="/atom.xml">
-            <span class="icon">
-              <i class="fa fa-rss"></i>
-            </span>
-
-            <span class="label">RSS</span>
-          </a>
-        </div>
-    </div>
+          <span class="label">RSS</span>
+        </a>
+      </div>
   </div>
+</div>
 
-
-      <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/security/" rel="tag"># 安全(Security)</a>
-              <a href="/tags/signal-messenger/" rel="tag"># 暗號(Signal Messenger)</a>
               <a href="/tags/e2ee/" rel="tag"># 端到端加密(End-to-End Ecryption, E2EE)</a>
+              <a href="/tags/signal-messenger/" rel="tag"># 暗號(Signal Messenger)</a>
           </div>
 
         
 
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/post/song-of-code-farmer.html" rel="prev" title="码农之歌(Song of Code Farmer)">
-      <i class="fa fa-chevron-left"></i> 码农之歌(Song of Code Farmer)
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/post/no-messaging-by-wechat-and-qq.html" rel="next" title="暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)">
-      暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ) <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/song-of-code-farmer.html" rel="prev" title="码农之歌(Song of Code Farmer)">
+                  <i class="fa fa-chevron-left"></i> 码农之歌(Song of Code Farmer)
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/no-messaging-by-wechat-and-qq.html" rel="next" title="暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)">
+                  暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ) <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
   </article>
-  
-  
-  
+</div>
 
 
 
-        </div>
-        
+
+
+
+      
     <div class="comments" id="gitalk-container"></div>
 
 <script>
@@ -578,7 +583,7 @@
       activeClass = localStorage.getItem('comments_active') || activeClass;
     }
     if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
       if (activeTab) {
         activeTab.click();
       }
@@ -587,20 +592,20 @@
   if (CONFIG.comments.storage) {
     window.addEventListener('tabs:click', event => {
       if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
+      const commentClass = event.target.classList[1];
       localStorage.setItem('comments_active', commentClass);
     });
   }
 </script>
 
-      </div>
-    </main>
+    </div>
+  </main>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        
+  <footer class="footer">
+    <div class="footer-inner">
+      
 
-        
+      
 
 <div class="copyright">
   
@@ -610,23 +615,24 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">平民（Pingmin Fenlly Liu）</span>
-    <span class="post-meta-divider">|</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
-      <i class="fa fa-chart-area"></i>
+      <i class="fa fa-chart-line"></i>
     </span>
-      <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">48k</span>
-    <span class="post-meta-divider">|</span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">49k</span>
+  </span>
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+      <span>站点阅读时长 &asymp;</span>
     <span title="站点阅读时长">44 分钟</span>
+  </span>
 </div>
-
-        
 <div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
@@ -635,7 +641,6 @@
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
-    <span class="post-meta-divider">|</span>
     <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
@@ -646,27 +651,12 @@
     </span>
 </div>
 
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 
   
-  <script src="/lib/anime.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
   <script>
@@ -682,13 +672,44 @@
 
 
 
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+
   
-<script src="/js/local-search.js"></script>
-
-
-
-
-
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -701,11 +722,11 @@
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
 
 <script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+NexT.utils.loadComments('#gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
     var gitalk = new Gitalk({
       clientID    : 'b9ef5263af16582fc83c',
       clientSecret: 'c09fc62c68b952d9da648d906bde590161879427',

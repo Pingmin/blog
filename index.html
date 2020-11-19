@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.2.0">
+
+
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
@@ -13,15 +15,15 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-  
-  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.min.css">
-  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="平民的个人博客（Pingmin Fenlly Liu&#39;s Personal Blog）">
@@ -32,18 +34,9 @@
 <meta property="og:description" content="平民的个人博客（Pingmin Fenlly Liu&#39;s Personal Blog）">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="平民（Pingmin Fenlly Liu）">
-<meta property="article:tag" content="平民·寻梦">
-<meta property="article:tag" content="平民寻梦">
-<meta property="article:tag" content="平民">
-<meta property="article:tag" content="寻梦">
-<meta property="article:tag" content="平">
-<meta property="article:tag" content="Pingmin Fenlly Liu">
-<meta property="article:tag" content="Pingmin F. Liu">
-<meta property="article:tag" content="Pingmin Liu">
-<meta property="article:tag" content="博客">
-<meta property="article:tag" content="刘水良">
-<meta property="article:tag" content="Pingmin">
+<meta property="article:tag" content="平民·寻梦,平民寻梦,平民,寻梦,平,Pingmin Fenlly Liu,Pingmin F. Liu,Pingmin Liu,博客,刘水良,Pingmin">
 <meta name="twitter:card" content="summary">
+
 
 <link rel="canonical" href="https://pingmin.blog/">
 
@@ -104,18 +97,17 @@
 <link rel="alternate" href="/atom.xml" title="平民·寻梦（Pingmin Fenlly Liu）" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
-    <main class="main">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-        <div class="header-inner"><div class="site-brand-container">
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
-        <span class="toggle-line toggle-line-first"></span>
-        <span class="toggle-line toggle-line-middle"></span>
-        <span class="toggle-line toggle-line-last"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -127,6 +119,7 @@
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">淡泊明志，宁静致远（Longing for My Nature, Always）</p>
+      <img class="custom-logo-image" src="/images/think-copyleft.png" alt="平民·寻梦（Pingmin Fenlly Liu）">
   </div>
 
   <div class="site-nav-right">
@@ -139,7 +132,7 @@
 
 
 <nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
+  <ul class="main-menu menu">
         <li class="menu-item menu-item-home">
 
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页（Home）</a>
@@ -201,7 +194,7 @@
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
            placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
@@ -209,8 +202,8 @@
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result">
-  <div id="no-result">
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
     <i class="fa fa-spinner fa-pulse fa-5x"></i>
   </div>
 </div>
@@ -219,12 +212,12 @@
   </div>
 
 </div>
-          
+        
   
   <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
   </div>
 
   <aside class="sidebar">
@@ -239,19 +232,20 @@
         </li>
       </ul>
 
-      <!--noindex-->
-      <section class="post-toc-wrap sidebar-panel">
-      </section>
-      <!--/noindex-->
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+        </section>
+        <!--/noindex-->
 
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="平民（Pingmin Fenlly Liu）"
       src="/images/think-copyleft.png">
   <p class="site-author-name" itemprop="name">平民（Pingmin Fenlly Liu）</p>
   <div class="site-description" itemprop="description">平民的个人博客（Pingmin Fenlly Liu's Personal Blog）</div>
 </div>
-<div class="site-state-wrap animated">
+<div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
@@ -274,7 +268,7 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author animated">
+  <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
         <a href="https://github.com/Pingmin" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Pingmin" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
@@ -288,50 +282,54 @@
         <a href="https://www.facebook.com/iPingmin" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;iPingmin" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>FB Page</a>
       </span>
   </div>
-  <div class="cc-license animated" itemprop="license">
+  <div class="cc-license site-overview-item animated" itemprop="license">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-sa.svg" alt="Creative Commons"></a>
   </div>
 
 
-  <div class="links-of-blogroll animated">
+  <div class="links-of-blogroll site-overview-item animated">
     <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-      链接 (Links)
+      链接(Links)
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页 (Pingmin's Homepage)</a>
+          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页(Pingmin's Homepage)</a>
         </li>
     </ul>
   </div>
 
-      </section>
+        </section>
+      </div>
     </div>
   </aside>
-  <div id="sidebar-dimmer"></div>
+  <div class="sidebar-dimmer"></div>
 
 
-      </header>
+    </header>
 
-      
+    
   <div class="back-to-top">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
 
 <noscript>
-  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
 
 
-      <div class="main-inner">
-        
-
-        <div class="content index posts-expand">
-          
+    <div class="main-inner index posts-expand">
       
+
+      
+    
+
+
+<div class="post-block">
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/a-plan-scheduled-in-one-decade-ago.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -349,47 +347,51 @@
             <a href="/post/a-plan-scheduled-in-one-decade-ago.html" class="post-title-link" itemprop="url">十年之約（A Plan Scheduled In One Decade Ago）</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-07-03 23:10:18" itemprop="dateCreated datePublished" datetime="2020-07-03T23:10:18+08:00">2020-07-03</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-07-16 21:28:55" itemprop="dateModified" datetime="2020-07-16T21:28:55+08:00">2020-07-16</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/pingmin-memory/" itemprop="url" rel="index"><span itemprop="name">平民記憶(Pingmin Memory)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2020-07-03 23:10:18" itemprop="dateCreated datePublished" datetime="2020-07-03T23:10:18+08:00">2020-07-03</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-07-16 21:28:55" itemprop="dateModified" datetime="2020-07-16T21:28:55+08:00">2020-07-16</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/pingmin-memory/" itemprop="url" rel="index"><span itemprop="name">平民記憶(Pingmin Memory)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>2.5k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>2.5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -398,8 +400,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>關於即將開始寫的紀傳體回憶錄《平民記憶》及其子內容《公民的自我修養》。</p>
 <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>“光陰似箭，日月如梭（suō）”。</p>
 <p>記得小時候（約小（學）五（年級）小六），同學們總是喜歡用“光陰似箭，日月如梭”來形容快而樂的童年時光。那時的我們，對于“箭”，還是很容易理解的，因為我們有用樹枝做過簡單的弓和箭；而對於“梭”，可能就比較陌生了，那時我們一開始也都沒字典、電腦和手機等可檢索，尤其是查圖片或視頻資料。直到稍微大一點（應該是進入初中時），有小商人來家鄉織布，我們才第一次（也是迄今唯一的一次）親眼看到了織布機，以及往返于經線之間、左右來回牽引緯線的“梭”。當然，那时候我們也一開始并不知道那個小東西叫“梭”。</p>
@@ -418,18 +418,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -447,47 +454,51 @@
             <a href="/post/how-signal-works-by-moxie-marlinspike.html" class="post-title-link" itemprop="url">當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2020-06-12 23:13:40" itemprop="dateCreated datePublished" datetime="2020-06-12T23:13:40+08:00">2020-06-12</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-12 21:30:50" itemprop="dateModified" datetime="2020-11-12T21:30:50+08:00">2020-11-12</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/it/" itemprop="url" rel="index"><span itemprop="name">信息技术(IT)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2020-06-12 23:13:40" itemprop="dateCreated datePublished" datetime="2020-06-12T23:13:40+08:00">2020-06-12</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-11-12 21:30:50" itemprop="dateModified" datetime="2020-11-12T21:30:50+08:00">2020-11-12</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/it/" itemprop="url" rel="index"><span itemprop="name">信息技术(IT)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>6.3k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>6 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>6.3k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>6 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -496,13 +507,11 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）"><a href="#Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）" class="headerlink" title="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）"></a>Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）</h2><blockquote>
 <img src="https://moxie.org/images/moxiemarlinspike2.jpg" width="30%" height="30%" alt="馬克希·馬琳斯巴克(Moxie Marlinspike)">
 
-<p>英文作者：<a href="https://github.com/moxie0" target="_blank" rel="noopener">馬克希·馬琳斯巴克(Moxie Marlinspike)</a>（譯注：Signal 和開放密語系統的創始人，如上圖），<a href="https://signal.org/blog/looking-back-as-the-world-moves-forward/" target="_blank" rel="noopener">英文原文</a>，20200605。</p>
-<p>中文譯者：<a href="https://pingmin.me" target="_blank" rel="noopener">平民（Pingmin Fenlly Liu）</a>，20200609-0612。</p>
+<p>英文作者：<a target="_blank" rel="noopener" href="https://github.com/moxie0">馬克希·馬琳斯巴克(Moxie Marlinspike)</a>（譯注：Signal 和開放密語系統的創始人，如上圖），<a target="_blank" rel="noopener" href="https://signal.org/blog/looking-back-as-the-world-moves-forward/">英文原文</a>，20200605。</p>
+<p>中文譯者：<a target="_blank" rel="noopener" href="https://pingmin.me/">平民（Pingmin Fenlly Liu）</a>，20200609-0612。</p>
 </blockquote>
 <p><img src="https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png" alt="Signal Logo"></p>
 <p>In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We’ve gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we’ve designed Signal, and how we think about concepts like privacy, security, and trust.<br>在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。</p>
@@ -520,18 +529,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/cemetery.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -549,47 +565,51 @@
             <a href="/post/cemetery.html" class="post-title-link" itemprop="url">墓中人(People in the Cemetery)</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2018-04-07 21:20:36" itemprop="dateCreated datePublished" datetime="2018-04-07T21:20:36+08:00">2018-04-07</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-11-18 22:54:58" itemprop="dateModified" datetime="2018-11-18T22:54:58+08:00">2018-11-18</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/pingmin-diary/" itemprop="url" rel="index"><span itemprop="name">平民日记(Pingmin Diary)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2018-04-07 21:20:36" itemprop="dateCreated datePublished" datetime="2018-04-07T21:20:36+08:00">2018-04-07</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2018-11-18 22:54:58" itemprop="dateModified" datetime="2018-11-18T22:54:58+08:00">2018-11-18</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/pingmin-diary/" itemprop="url" rel="index"><span itemprop="name">平民日记(Pingmin Diary)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>600</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>600</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -598,8 +618,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>记录平生第一次拜访公墓。</p>
 <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>之前有看过一篇文章，大意是说，人生要多去三个地方去看看：医院、监狱和墓地。所以，趁着自己还有这个机会，今年的清明节便特地去拜访了下所在城市的一个公墓。</p>
 <p>墓志铭中，有怀念父母、儿女和夫妻的，也有歌颂生平贡献的，还有以诗词格言形式告诫后人的等。在此，平民仅上传了当时感触和印象特别深的几张，且因图片文件比较大，也只直接显示了两张。</p>
@@ -617,18 +635,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/no-messaging-by-wechat-and-qq.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -646,47 +671,51 @@
             <a href="/post/no-messaging-by-wechat-and-qq.html" class="post-title-link" itemprop="url">暂停使用微信和 QQ 聊天(No Messaging by WeChat and QQ)</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2017-12-31 22:43:36" itemprop="dateCreated datePublished" datetime="2017-12-31T22:43:36+08:00">2017-12-31</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-01-08 00:28:47" itemprop="dateModified" datetime="2018-01-08T00:28:47+08:00">2018-01-08</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2017-12-31 22:43:36" itemprop="dateCreated datePublished" datetime="2017-12-31T22:43:36+08:00">2017-12-31</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2018-01-08 00:28:47" itemprop="dateModified" datetime="2018-01-08T00:28:47+08:00">2018-01-08</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>1.6k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -695,10 +724,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <blockquote>
-<p><a href="#简体中文（中华內地）">简体中文（中华內地）</a><br><a href="#正體中文（未本地化）">正體中文（未本地化）</a><br><a href="#English-Unlocalized">English(Unlocalized)</a></p>
+<p><a href="#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%EF%BC%88%E4%B8%AD%E5%8D%8E%E5%85%A7%E5%9C%B0%EF%BC%89">简体中文（中华內地）</a><br><a href="#%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87%EF%BC%88%E6%9C%AA%E6%9C%AC%E5%9C%B0%E5%8C%96%EF%BC%89">正體中文（未本地化）</a><br><a href="#English-Unlocalized">English(Unlocalized)</a></p>
 </blockquote>
 <h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>个人一个关于“2018 年起暂停使用微信和 QQ 等非安全应用聊天”的“艰难”决定。</p>
 <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><h3 id="简体中文（中华內地）"><a href="#简体中文（中华內地）" class="headerlink" title="[简体中文（中华內地）]"></a>[简体中文（中华內地）]</h3><p>正如你们（中的绝大部分）所知，这是我第二次广播。不过，别担心，这次我只是想让你们知道我个人的一个＂艰难＂的决定。</p>
@@ -717,18 +744,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/secure-im.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -746,47 +780,51 @@
             <a href="/post/secure-im.html" class="post-title-link" itemprop="url">安全即时通讯(Secure IM)</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2017-08-29 20:29:36" itemprop="dateCreated datePublished" datetime="2017-08-29T20:29:36+08:00">2017-08-29</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-01 20:49:15" itemprop="dateModified" datetime="2020-11-01T20:49:15+08:00">2020-11-01</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/it/" itemprop="url" rel="index"><span itemprop="name">信息技术(IT)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2017-08-29 20:29:36" itemprop="dateCreated datePublished" datetime="2017-08-29T20:29:36+08:00">2017-08-29</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-11-01 20:49:15" itemprop="dateModified" datetime="2020-11-01T20:49:15+08:00">2020-11-01</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/it/" itemprop="url" rel="index"><span itemprop="name">信息技术(IT)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3.5k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3.5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -795,8 +833,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。</p>
 <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>先来看下我国当前相关的法律条文：</p>
           <!--noindex-->
@@ -813,18 +849,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/song-of-code-farmer.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -842,47 +885,51 @@
             <a href="/post/song-of-code-farmer.html" class="post-title-link" itemprop="url">码农之歌(Song of Code Farmer)</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2014-01-15 16:51:36" itemprop="dateCreated datePublished" datetime="2014-01-15T16:51:36+08:00">2014-01-15</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2014-01-19 22:39:26" itemprop="dateModified" datetime="2014-01-19T22:39:26+08:00">2014-01-19</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/pingmin-diary/" itemprop="url" rel="index"><span itemprop="name">平民日记(Pingmin Diary)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2014-01-15 16:51:36" itemprop="dateCreated datePublished" datetime="2014-01-15T16:51:36+08:00">2014-01-15</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2014-01-19 22:39:26" itemprop="dateModified" datetime="2014-01-19T22:39:26+08:00">2014-01-19</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/pingmin-diary/" itemprop="url" rel="index"><span itemprop="name">平民日记(Pingmin Diary)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>736</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>736</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -891,8 +938,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="码农之歌（v1-0）"><a href="#码农之歌（v1-0）" class="headerlink" title="码农之歌（v1.0）"></a>码农之歌（v1.0）</h2><p>曲：刘炽<br>词：刘水良（Pingmin Fenlly Liu）</p>
 <blockquote>
 <p>此为1955年的歌曲《让我们荡起双桨》的词作改编，下面第一段即乔羽先生所作的原词。</p>
@@ -912,18 +957,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/she.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -941,47 +993,51 @@
             <a href="/post/she.html" class="post-title-link" itemprop="url">寻她(Seeking Her)</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2013-11-24 13:56:57" itemprop="dateCreated datePublished" datetime="2013-11-24T13:56:57+08:00">2013-11-24</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2017-12-24 20:15:32" itemprop="dateModified" datetime="2017-12-24T20:15:32+08:00">2017-12-24</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2013-11-24 13:56:57" itemprop="dateCreated datePublished" datetime="2013-11-24T13:56:57+08:00">2013-11-24</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2017-12-24 20:15:32" itemprop="dateModified" datetime="2017-12-24T20:15:32+08:00">2017-12-24</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>6.5k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>6 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>6.5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>6 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -990,8 +1046,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>本文描述了自己一直在找的那个人，那个可以/愿意与对方共享余生的她。<br>Describe the one of the girls who I’m looking for and then we will share the rest of our lives with each other in the future.</p>
 <p>实际上，我这也正是在描述我自己，希望你能看明白……<br>Actually, I am also describing myself, hoping you’ll get it…</p>
 <p>关键词：珍爱生命，感恩的心，孝敬长辈，尊敬孩子，终身体育，终身学习，独立思考，崇尚自由和民主，生活自然、简单、真实、快乐和有意义。<br>Keywords: Cherishing lives; Having a grateful heart; Treating elders with filial piety and respect; Respecting children; Lifelong physical education(conception and practice); Lifelong learning(conception and practice); Independent thinking and mind; Advocating and longing for freedom and democracy; Living in natural, simple, real and valuable happiness and “Living in truth”.</p>
@@ -1009,18 +1063,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/the-donation-details-for-a-primary-school.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1038,47 +1099,51 @@
             <a href="/post/the-donation-details-for-a-primary-school.html" class="post-title-link" itemprop="url">图书收集与募捐的详情与处理结果(Details of the Donation for A Primary School)</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2013-01-05 21:58:30" itemprop="dateCreated datePublished" datetime="2013-01-05T21:58:30+08:00">2013-01-05</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-04-05 23:35:09" itemprop="dateModified" datetime="2018-04-05T23:35:09+08:00">2018-04-05</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2013-01-05 21:58:30" itemprop="dateCreated datePublished" datetime="2013-01-05T21:58:30+08:00">2013-01-05</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2018-04-05 23:35:09" itemprop="dateModified" datetime="2018-04-05T23:35:09+08:00">2018-04-05</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>1.6k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -1087,8 +1152,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>因为最后的处理结果不是很理想，所以一直很想更新却又不想更新，从而推迟到一年多后的今天才更新，尽管自己一直都惦记着。</p>
 <p>公开与透明，一向是这份事业的基本原则，且这种事情必须要有始有终。</p>
 <p>而这次更加促使了自己“要尽快实现自己在校的想法”，同时也更新了自己的一此思考，现于此不便细说。</p>
@@ -1107,18 +1170,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/cremation.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1136,47 +1206,51 @@
             <a href="/post/cremation.html" class="post-title-link" itemprop="url">死后火化(Cremation)</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2012-10-14 21:30:36" itemprop="dateCreated datePublished" datetime="2012-10-14T21:30:36+08:00">2012-10-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2012-11-03 20:12:09" itemprop="dateModified" datetime="2012-11-03T20:12:09+08:00">2012-11-03</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2012-10-14 21:30:36" itemprop="dateCreated datePublished" datetime="2012-10-14T21:30:36+08:00">2012-10-14</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2012-11-03 20:12:09" itemprop="dateModified" datetime="2012-11-03T20:12:09+08:00">2012-11-03</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>589</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>589</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -1185,8 +1259,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="摘要-Abstract"><a href="#摘要-Abstract" class="headerlink" title="摘要(Abstract)"></a>摘要(Abstract)</h2><p>宣示自己的一个决定或心愿：死后火化。</p>
 <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>月有阴晴圆缺，人有旦夕祸福。</p>
 <p>摔死，天灾，交通事故，食物中毒，文字狱致死，大病重病，老死……总之，自觉未来人生将会是不一般的无常。</p>
@@ -1206,18 +1278,25 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN,zh-TW,zh-HK,en,default">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/manifesto.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1235,47 +1314,51 @@
             <a href="/post/manifesto.html" class="post-title-link" itemprop="url">博客宣言(Blogging Manifesto)</a>
         </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2012-10-14 20:29:36" itemprop="dateCreated datePublished" datetime="2012-10-14T20:29:36+08:00">2012-10-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-03-11 16:52:03" itemprop="dateModified" datetime="2018-03-11T16:52:03+08:00">2018-03-11</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2012-10-14 20:29:36" itemprop="dateCreated datePublished" datetime="2012-10-14T20:29:36+08:00">2012-10-14</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2018-03-11 16:52:03" itemprop="dateModified" datetime="2018-03-11T16:52:03+08:00">2018-03-11</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
+        </span>
+    </span>
 
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -1284,8 +1367,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
           <h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容等。</p>
 <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>先来看一下以下所列出的这些变化，我想多少总能明白些什么：</p>
 <p>（1）人类文字记录：木棍泥土标记，甲骨上刻字，竹简上刻字，纸上写字，活字印刷，机械印制，电磁记录，多媒体化和数字化。<br>（2）人类通信方式：马拉松长跑，快马加鞭和飞鸽传书，汽车、轮船、飞机，电报电话，手机、电子邮件、Web2.0+。<br>（3）人类社会制度：部落酋长，母系和父系氏族，奴隶交易，地主佃农，人人生而平等、天赋人权，民主共和，公民社会与共产社会。</p>
@@ -1304,13 +1385,16 @@
     
     
     
-      <footer class="post-footer">
+
+    <footer class="post-footer">
         <div class="post-eof"></div>
-      </footer>
+      
+    </footer>
   </article>
-  
-  
-  
+</div>
+
+
+
 
 
   
@@ -1320,8 +1404,7 @@
 
 
 
-        </div>
-        
+      
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -1330,7 +1413,7 @@
       activeClass = localStorage.getItem('comments_active') || activeClass;
     }
     if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
       if (activeTab) {
         activeTab.click();
       }
@@ -1339,20 +1422,20 @@
   if (CONFIG.comments.storage) {
     window.addEventListener('tabs:click', event => {
       if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
+      const commentClass = event.target.classList[1];
       localStorage.setItem('comments_active', commentClass);
     });
   }
 </script>
 
-      </div>
-    </main>
+    </div>
+  </main>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        
+  <footer class="footer">
+    <div class="footer-inner">
+      
 
-        
+      
 
 <div class="copyright">
   
@@ -1362,23 +1445,24 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">平民（Pingmin Fenlly Liu）</span>
-    <span class="post-meta-divider">|</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
-      <i class="fa fa-chart-area"></i>
+      <i class="fa fa-chart-line"></i>
     </span>
-      <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">48k</span>
-    <span class="post-meta-divider">|</span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">49k</span>
+  </span>
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+      <span>站点阅读时长 &asymp;</span>
     <span title="站点阅读时长">44 分钟</span>
+  </span>
 </div>
-
-        
 <div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
@@ -1387,7 +1471,6 @@
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
-    <span class="post-meta-divider">|</span>
     <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
@@ -1398,27 +1481,12 @@
     </span>
 </div>
 
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 
   
-  <script src="/lib/anime.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
   <script>
@@ -1434,13 +1502,44 @@
 
 
 
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+
   
-<script src="/js/local-search.js"></script>
-
-
-
-
-
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

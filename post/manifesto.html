@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.2.0">
+
+
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
@@ -13,15 +15,15 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-  
-  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.min.css">
-  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="概要(Abstract)本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容等。 正文(Body)先来看一下以下所列出的这些变化，我想多少总能明白些什么： （1）人类文字记录：木棍泥土标记，甲骨上刻字，竹简上刻字，纸上写字，活字印刷，机械印制，电磁记录，多媒体化和数字化。（2）人类通信方式：马拉松长跑，快马加鞭和飞鸽传书，汽车、轮船、飞机，电报电话，手机、电子邮件、Web2.0+。（3">
@@ -36,6 +38,7 @@
 <meta property="article:author" content="平民（Pingmin Fenlly Liu）">
 <meta property="article:tag" content="宣言(Manifesto)">
 <meta name="twitter:card" content="summary">
+
 
 <link rel="canonical" href="https://pingmin.blog/post/manifesto.html">
 
@@ -96,18 +99,17 @@
 <link rel="alternate" href="/atom.xml" title="平民·寻梦（Pingmin Fenlly Liu）" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
-    <main class="main">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-        <div class="header-inner"><div class="site-brand-container">
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
-        <span class="toggle-line toggle-line-first"></span>
-        <span class="toggle-line toggle-line-middle"></span>
-        <span class="toggle-line toggle-line-last"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -119,6 +121,7 @@
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">淡泊明志，宁静致远（Longing for My Nature, Always）</p>
+      <img class="custom-logo-image" src="/images/think-copyleft.png" alt="平民·寻梦（Pingmin Fenlly Liu）">
   </div>
 
   <div class="site-nav-right">
@@ -131,7 +134,7 @@
 
 
 <nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
+  <ul class="main-menu menu">
         <li class="menu-item menu-item-home">
 
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页（Home）</a>
@@ -193,7 +196,7 @@
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
            placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
@@ -201,8 +204,8 @@
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result">
-  <div id="no-result">
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
     <i class="fa fa-spinner fa-pulse fa-5x"></i>
   </div>
 </div>
@@ -211,12 +214,12 @@
   </div>
 
 </div>
-          
+        
   
   <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
   </div>
 
   <aside class="sidebar">
@@ -231,20 +234,21 @@
         </li>
       </ul>
 
-      <!--noindex-->
-      <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概要-Abstract"><span class="nav-number">1.</span> <span class="nav-text">概要(Abstract)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#正文-Body"><span class="nav-number">2.</span> <span class="nav-text">正文(Body)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、为什么要使用独立博客"><span class="nav-number">2.1.</span> <span class="nav-text">一、为什么要使用独立博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、用此博客的写日志的意图"><span class="nav-number">2.2.</span> <span class="nav-text">二、用此博客的写日志的意图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、关于此博客的内容"><span class="nav-number">2.3.</span> <span class="nav-text">三、关于此博客的内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、个人博客的变迁史"><span class="nav-number">2.4.</span> <span class="nav-text">四、个人博客的变迁史</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五、其他事项"><span class="nav-number">2.5.</span> <span class="nav-text">五、其他事项</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#印记-Imprint"><span class="nav-number">3.</span> <span class="nav-text">印记(Imprint)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#署名-Attribution"><span class="nav-number">4.</span> <span class="nav-text">署名(Attribution)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结束-End"><span class="nav-number">5.</span> <span class="nav-text">结束(End)</span></a></li></ol></div>
-      </section>
-      <!--/noindex-->
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A6%82%E8%A6%81-Abstract"><span class="nav-number">1.</span> <span class="nav-text">概要(Abstract)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A3%E6%96%87-Body"><span class="nav-number">2.</span> <span class="nav-text">正文(Body)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2"><span class="nav-number">2.1.</span> <span class="nav-text">一、为什么要使用独立博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E7%94%A8%E6%AD%A4%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%99%E6%97%A5%E5%BF%97%E7%9A%84%E6%84%8F%E5%9B%BE"><span class="nav-number">2.2.</span> <span class="nav-text">二、用此博客的写日志的意图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%85%B3%E4%BA%8E%E6%AD%A4%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9"><span class="nav-number">2.3.</span> <span class="nav-text">三、关于此博客的内容</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%8F%98%E8%BF%81%E5%8F%B2"><span class="nav-number">2.4.</span> <span class="nav-text">四、个人博客的变迁史</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E5%85%B6%E4%BB%96%E4%BA%8B%E9%A1%B9"><span class="nav-number">2.5.</span> <span class="nav-text">五、其他事项</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%B0%E8%AE%B0-Imprint"><span class="nav-number">3.</span> <span class="nav-text">印记(Imprint)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%B2%E5%90%8D-Attribution"><span class="nav-number">4.</span> <span class="nav-text">署名(Attribution)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E6%9D%9F-End"><span class="nav-number">5.</span> <span class="nav-text">结束(End)</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
 
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="平民（Pingmin Fenlly Liu）"
       src="/images/think-copyleft.png">
   <p class="site-author-name" itemprop="name">平民（Pingmin Fenlly Liu）</p>
   <div class="site-description" itemprop="description">平民的个人博客（Pingmin Fenlly Liu's Personal Blog）</div>
 </div>
-<div class="site-state-wrap animated">
+<div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
@@ -267,7 +271,7 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author animated">
+  <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
         <a href="https://github.com/Pingmin" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Pingmin" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
@@ -281,51 +285,55 @@
         <a href="https://www.facebook.com/iPingmin" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;iPingmin" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>FB Page</a>
       </span>
   </div>
-  <div class="cc-license animated" itemprop="license">
+  <div class="cc-license site-overview-item animated" itemprop="license">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-sa.svg" alt="Creative Commons"></a>
   </div>
 
 
-  <div class="links-of-blogroll animated">
+  <div class="links-of-blogroll site-overview-item animated">
     <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-      链接 (Links)
+      链接(Links)
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页 (Pingmin's Homepage)</a>
+          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页(Pingmin's Homepage)</a>
         </li>
     </ul>
   </div>
 
-      </section>
+        </section>
+      </div>
     </div>
   </aside>
-  <div id="sidebar-dimmer"></div>
+  <div class="sidebar-dimmer"></div>
 
 
-      </header>
+    </header>
 
-      
+    
   <div class="back-to-top">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
 
 <noscript>
-  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
 
 
-      <div class="main-inner">
-        
+    <div class="main-inner post posts-expand">
+      
 
-        <div class="content post posts-expand">
-          
+      
 
-    
+  
+
+
+<div class="post-block">
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/manifesto.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -342,54 +350,58 @@
           博客宣言(Blogging Manifesto)<a href="https://github.com/Pingmin/blog/tree/master/source/_posts/manifesto.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pen-nib"></i></a>
         </h1>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2012-10-14 20:29:36" itemprop="dateCreated datePublished" datetime="2012-10-14T20:29:36+08:00">2012-10-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-03-11 16:52:03" itemprop="dateModified" datetime="2018-03-11T16:52:03+08:00">2018-03-11</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2012-10-14 20:29:36" itemprop="dateCreated datePublished" datetime="2012-10-14T20:29:36+08:00">2012-10-14</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2018-03-11 16:52:03" itemprop="dateModified" datetime="2018-03-11T16:52:03+08:00">2018-03-11</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
+        </span>
+    </span>
 
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>3k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>3 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -398,8 +410,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
         <h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容等。</p>
 <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>先来看一下以下所列出的这些变化，我想多少总能明白些什么：</p>
 <p>（1）人类文字记录：木棍泥土标记，甲骨上刻字，竹简上刻字，纸上写字，活字印刷，机械印制，电磁记录，多媒体化和数字化。<br>（2）人类通信方式：马拉松长跑，快马加鞭和飞鸽传书，汽车、轮船、飞机，电报电话，手机、电子邮件、Web2.0+。<br>（3）人类社会制度：部落酋长，母系和父系氏族，奴隶交易，地主佃农，人人生而平等、天赋人权，民主共和，公民社会与共产社会。</p>
@@ -419,9 +429,9 @@
 <p>非原创内容将主要是：<br>（1）自己喜欢的古代诗词；<br>（2）自己喜欢的现代美文（尽量不侵权）；<br>（3） 不侵权地转载或备份他人的好博客；<br>（4）不侵权地分享自己喜欢的音乐、电影和电视等。</p>
 <p>显然，以上内容中，定会有一些将含有那些所谓的敏感词或敏感内容的！</p>
 <h3 id="四、个人博客的变迁史"><a href="#四、个人博客的变迁史" class="headerlink" title="四、个人博客的变迁史"></a>四、个人博客的变迁史</h3><p>以时间先后为序：</p>
-<p>（1）曾用的一个QQ的用户空间： <a href="http://user.qzone.qq.com/691238773" target="_blank" rel="noopener">http://user.qzone.qq.com/691238773</a> ，开通于20070925或更早；<br>（2）曾用的一个百度空间： <a href="http://hi.baidu.com/Fenlly漫步风灵" target="_blank" rel="noopener">http://hi.baidu.com/Fenlly漫步风灵</a> ，即 <a href="http://hi.baidu.com/new/iFenlly" target="_blank" rel="noopener">http://hi.baidu.com/new/iFenlly</a> ，开通于20070925或更早；<br>（3）现备用的一个百度空间： <a href="http://hi.baidu.com/PingminFenlly" target="_blank" rel="noopener">http://hi.baidu.com/PingminFenlly</a> ，即 <a href="http://hi.baidu.com/new/PingminFenlly" target="_blank" rel="noopener">http://hi.baidu.com/new/PingminFenlly</a> ，开通于20091213或更早；<br>（4）曾用的独立博客： <a href="http://blog.Fenlly.cn/Pingmin" target="_blank" rel="noopener">http://blog.Fenlly.cn/Pingmin</a> ，开通或公布于200907或更早；<br>（5）现常用的微博：<a href="http://weibo.com/iPingmin" target="_blank" rel="noopener">http://weibo.com/iPingmin</a> ，<a href="http://t.qq.com/Pingmin" target="_blank" rel="noopener">http://t.qq.com/Pingmin</a> ，都开通于2010年；<br>（6）现在的这个独立博客（为了与 fenlly 分开）： <a href="http://Pingmin.me" target="_blank" rel="noopener">http://Pingmin.me</a> ，开通于20120902。</p>
+<p>（1）曾用的一个QQ的用户空间： <a target="_blank" rel="noopener" href="http://user.qzone.qq.com/691238773">http://user.qzone.qq.com/691238773</a> ，开通于20070925或更早；<br>（2）曾用的一个百度空间： <a target="_blank" rel="noopener" href="http://hi.baidu.com/Fenlly%E6%BC%AB%E6%AD%A5%E9%A3%8E%E7%81%B5">http://hi.baidu.com/Fenlly漫步风灵</a> ，即 <a target="_blank" rel="noopener" href="http://hi.baidu.com/new/iFenlly">http://hi.baidu.com/new/iFenlly</a> ，开通于20070925或更早；<br>（3）现备用的一个百度空间： <a target="_blank" rel="noopener" href="http://hi.baidu.com/PingminFenlly">http://hi.baidu.com/PingminFenlly</a> ，即 <a target="_blank" rel="noopener" href="http://hi.baidu.com/new/PingminFenlly">http://hi.baidu.com/new/PingminFenlly</a> ，开通于20091213或更早；<br>（4）曾用的独立博客： <a target="_blank" rel="noopener" href="http://blog.fenlly.cn/Pingmin">http://blog.Fenlly.cn/Pingmin</a> ，开通或公布于200907或更早；<br>（5）现常用的微博：<a target="_blank" rel="noopener" href="http://weibo.com/iPingmin">http://weibo.com/iPingmin</a> ，<a target="_blank" rel="noopener" href="http://t.qq.com/Pingmin">http://t.qq.com/Pingmin</a> ，都开通于2010年；<br>（6）现在的这个独立博客（为了与 fenlly 分开）： <a target="_blank" rel="noopener" href="http://pingmin.me/">http://Pingmin.me</a> ，开通于20120902。</p>
 <p>注：还有一个校内网的，由于非其注册用户不能访问（不喜欢这种），以及当时只是为了找同学和被同学找且没什么内容，故此不列出，开通 时间大致也是2007年。</p>
-<h3 id="五、其他事项"><a href="#五、其他事项" class="headerlink" title="五、其他事项"></a>五、其他事项</h3><p>（1）为了获得良好的体验，建议使用符合和支持W3C标准的网络浏览器，如Firefox、Chrome等。<br>（2）为了将来也能正常访问此博客，建议学习和掌握翻墙技能。<br>（3）零错误（含基本拼写和基本逻辑）和不侵权是我的完美追求，所以，如果愿意，当你发现存在不妥时，请告诉我（联系方式请见“关于(About)”页面， <a href="http://pingmin.me/about" target="_blank" rel="noopener">http://pingmin.me/about</a> ），非常感谢你的支持和帮助！<br>（4）如果你喜欢，请多交流，以共同学习、共同进步。</p>
+<h3 id="五、其他事项"><a href="#五、其他事项" class="headerlink" title="五、其他事项"></a>五、其他事项</h3><p>（1）为了获得良好的体验，建议使用符合和支持W3C标准的网络浏览器，如Firefox、Chrome等。<br>（2）为了将来也能正常访问此博客，建议学习和掌握翻墙技能。<br>（3）零错误（含基本拼写和基本逻辑）和不侵权是我的完美追求，所以，如果愿意，当你发现存在不妥时，请告诉我（联系方式请见“关于(About)”页面， <a target="_blank" rel="noopener" href="http://pingmin.me/about">http://pingmin.me/about</a> ），非常感谢你的支持和帮助！<br>（4）如果你喜欢，请多交流，以共同学习、共同进步。</p>
 <h2 id="印记-Imprint"><a href="#印记-Imprint" class="headerlink" title="印记(Imprint)"></a>印记(Imprint)</h2><p>（1）此文萌芽于20120902。<br>（2）中文部分起草于20121013下午，完稿于20121014下午。<br>（3）公开于20121014晚上。<br>（4）20121029重新排版。<br>（5）20121103：修正一些错字和去掉一些多余的字与空格；增加“如果不是独立博客，这篇日志肯定不能完整发表”；出于SEO考虑，去掉对曾用博客的链接。<br>（6）待做：同步英文翻译。</p>
 <h2 id="署名-Attribution"><a href="#署名-Attribution" class="headerlink" title="署名(Attribution)"></a>署名(Attribution)</h2><p>如果转载，请至少保证“正文”部分的完整性且至少须以链接形式给出的原文链接。<br>具体请参见“<a href="/guides">指南(Guides)</a>”页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。</p>
 <p>刘水良(Pingmin Fenlly Liu)<br>20121013-20121029</p>
@@ -431,103 +441,98 @@
     
     
     
-        <div class="reward-container">
+
+    <footer class="post-footer">
+          <div class="reward-container">
   <div>如果喜欢，欢迎打赏(Rewarding)，多谢鼓励！</div>
-  <button onclick="document.getElementById('post-reward').classList.toggle('active');">
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
     赞赏
   </button>
-  <div id="post-reward">
-      
+  <div class="post-reward">
       <div>
         <img src="/images/wechatpay-rewarding.jpg" alt="平民（Pingmin Fenlly Liu） 微信">
-        <p>微信</p>
+        <span>微信</span>
       </div>
-      
       <div>
         <img src="/images/alipay.jpg" alt="平民（Pingmin Fenlly Liu） 支付宝">
-        <p>支付宝</p>
+        <span>支付宝</span>
       </div>
 
   </div>
 </div>
 
-        
+          
 
-<div>
-<ul class="post-copyright">
+<div class="post-copyright">
+<ul>
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>平民（Pingmin Fenlly Liu）
+      <strong>原作者： </strong>平民（Pingmin Fenlly Liu）
   </li>
   <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://pingmin.blog/post/manifesto.html" title="博客宣言(Blogging Manifesto)">https://pingmin.blog/post/manifesto.html</a>
+      <strong>本文链接：</strong>
+      <a href="https://pingmin.blog/post/manifesto.html" title="博客宣言(Blogging Manifesto)">https://pingmin.blog/post/manifesto.html</a>
   </li>
   <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有原创文章，除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-SA</a> 许可协议。转载请注明出处！
+    <strong>版权声明： </strong>本博客所有由平民所原创的文章等，除特别声明（如转载或翻译他人作品，即作者非平民本人）外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-SA</a> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
 
-        
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
 
-  <div class="followme">
-    <p>欢迎关注我的其它发布渠道</p>
+  <div class="social-list">
 
-    <div class="social-list">
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/images/wechat-public.jpg">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
 
-        <div class="social-item">
-          <a target="_blank" class="social-link" href="/images/wechat-public.jpg">
-            <span class="icon">
-              <i class="fab fa-weixin"></i>
-            </span>
+          <span class="label">WeChat</span>
+        </a>
+      </div>
 
-            <span class="label">WeChat</span>
-          </a>
-        </div>
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
 
-        <div class="social-item">
-          <a target="_blank" class="social-link" href="/atom.xml">
-            <span class="icon">
-              <i class="fa fa-rss"></i>
-            </span>
-
-            <span class="label">RSS</span>
-          </a>
-        </div>
-    </div>
+          <span class="label">RSS</span>
+        </a>
+      </div>
   </div>
+</div>
 
-
-      <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/manifesto/" rel="tag"># 宣言(Manifesto)</a>
           </div>
 
         
 
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/post/collect-donations-for-a-primary-school.html" rel="prev" title="关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)">
-      <i class="fa fa-chevron-left"></i> 关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/post/cremation.html" rel="next" title="死后火化(Cremation)">
-      死后火化(Cremation) <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/collect-donations-for-a-primary-school.html" rel="prev" title="关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)">
+                  <i class="fa fa-chevron-left"></i> 关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/cremation.html" rel="next" title="死后火化(Cremation)">
+                  死后火化(Cremation) <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
   </article>
-  
-  
-  
+</div>
 
 
 
-        </div>
-        
+
+
+
+      
     <div class="comments" id="gitalk-container"></div>
 
 <script>
@@ -537,7 +542,7 @@
       activeClass = localStorage.getItem('comments_active') || activeClass;
     }
     if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
       if (activeTab) {
         activeTab.click();
       }
@@ -546,20 +551,20 @@
   if (CONFIG.comments.storage) {
     window.addEventListener('tabs:click', event => {
       if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
+      const commentClass = event.target.classList[1];
       localStorage.setItem('comments_active', commentClass);
     });
   }
 </script>
 
-      </div>
-    </main>
+    </div>
+  </main>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        
+  <footer class="footer">
+    <div class="footer-inner">
+      
 
-        
+      
 
 <div class="copyright">
   
@@ -569,23 +574,24 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">平民（Pingmin Fenlly Liu）</span>
-    <span class="post-meta-divider">|</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
-      <i class="fa fa-chart-area"></i>
+      <i class="fa fa-chart-line"></i>
     </span>
-      <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">48k</span>
-    <span class="post-meta-divider">|</span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">49k</span>
+  </span>
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+      <span>站点阅读时长 &asymp;</span>
     <span title="站点阅读时长">44 分钟</span>
+  </span>
 </div>
-
-        
 <div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
@@ -594,7 +600,6 @@
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
-    <span class="post-meta-divider">|</span>
     <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
@@ -605,27 +610,12 @@
     </span>
 </div>
 
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 
   
-  <script src="/lib/anime.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
   <script>
@@ -641,13 +631,44 @@
 
 
 
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+
   
-<script src="/js/local-search.js"></script>
-
-
-
-
-
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -660,11 +681,11 @@
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
 
 <script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+NexT.utils.loadComments('#gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
     var gitalk = new Gitalk({
       clientID    : 'b9ef5263af16582fc83c',
       clientSecret: 'c09fc62c68b952d9da648d906bde590161879427',

@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+<meta name="generator" content="Hexo 5.2.0">
+
+
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
@@ -13,15 +15,15 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-  
-  <link rel="stylesheet" href="/lib/animate-css/animate.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.min.css">
-  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+  <script src="//cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.0-rc.4","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"pingmin.blog","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="正文(Body)在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》&#x2F;《十万个为什么》、字典、磁带或教学视频(VCD)等等。 得知此事后，因这也是我当初和现在一直想做的事情之一，所以便答应参与了。经过综合考虑，发现最好的">
@@ -36,6 +38,7 @@
 <meta property="article:author" content="平民（Pingmin Fenlly Liu）">
 <meta property="article:tag" content="捐赠(Donation)">
 <meta name="twitter:card" content="summary">
+
 
 <link rel="canonical" href="https://pingmin.blog/post/collect-donations-for-a-primary-school.html">
 
@@ -96,18 +99,17 @@
 <link rel="alternate" href="/atom.xml" title="平民·寻梦（Pingmin Fenlly Liu）" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
-    <main class="main">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-        <div class="header-inner"><div class="site-brand-container">
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
-        <span class="toggle-line toggle-line-first"></span>
-        <span class="toggle-line toggle-line-middle"></span>
-        <span class="toggle-line toggle-line-last"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -119,6 +121,7 @@
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">淡泊明志，宁静致远（Longing for My Nature, Always）</p>
+      <img class="custom-logo-image" src="/images/think-copyleft.png" alt="平民·寻梦（Pingmin Fenlly Liu）">
   </div>
 
   <div class="site-nav-right">
@@ -131,7 +134,7 @@
 
 
 <nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
+  <ul class="main-menu menu">
         <li class="menu-item menu-item-home">
 
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页（Home）</a>
@@ -193,7 +196,7 @@
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
            placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
@@ -201,8 +204,8 @@
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div id="search-result">
-  <div id="no-result">
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
     <i class="fa fa-spinner fa-pulse fa-5x"></i>
   </div>
 </div>
@@ -211,12 +214,12 @@
   </div>
 
 </div>
-          
+        
   
   <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
   </div>
 
   <aside class="sidebar">
@@ -231,20 +234,21 @@
         </li>
       </ul>
 
-      <!--noindex-->
-      <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#正文-Body"><span class="nav-number">1.</span> <span class="nav-text">正文(Body)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#附录"><span class="nav-number">2.</span> <span class="nav-text">附录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#邮箱"><span class="nav-number">2.1.</span> <span class="nav-text">邮箱</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#转帐-汇款信息"><span class="nav-number">2.2.</span> <span class="nav-text">转帐&#x2F;汇款信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#邮寄或快递信息（自行寄送前请务必先联系此中转站联系人）"><span class="nav-number">2.3.</span> <span class="nav-text">邮寄或快递信息（自行寄送前请务必先联系此中转站联系人）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#捐赠-汇款信息"><span class="nav-number">2.4.</span> <span class="nav-text">捐赠&#x2F;汇款信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他信息"><span class="nav-number">2.5.</span> <span class="nav-text">其他信息</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#印记-Imprint"><span class="nav-number">3.</span> <span class="nav-text">印记(Imprint)</span></a></li></ol></div>
-      </section>
-      <!--/noindex-->
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A3%E6%96%87-Body"><span class="nav-number">1.</span> <span class="nav-text">正文(Body)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%99%84%E5%BD%95"><span class="nav-number">2.</span> <span class="nav-text">附录</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%82%AE%E7%AE%B1"><span class="nav-number">2.1.</span> <span class="nav-text">邮箱</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AC%E5%B8%90-%E6%B1%87%E6%AC%BE%E4%BF%A1%E6%81%AF"><span class="nav-number">2.2.</span> <span class="nav-text">转帐&#x2F;汇款信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%82%AE%E5%AF%84%E6%88%96%E5%BF%AB%E9%80%92%E4%BF%A1%E6%81%AF%EF%BC%88%E8%87%AA%E8%A1%8C%E5%AF%84%E9%80%81%E5%89%8D%E8%AF%B7%E5%8A%A1%E5%BF%85%E5%85%88%E8%81%94%E7%B3%BB%E6%AD%A4%E4%B8%AD%E8%BD%AC%E7%AB%99%E8%81%94%E7%B3%BB%E4%BA%BA%EF%BC%89"><span class="nav-number">2.3.</span> <span class="nav-text">邮寄或快递信息（自行寄送前请务必先联系此中转站联系人）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8D%90%E8%B5%A0-%E6%B1%87%E6%AC%BE%E4%BF%A1%E6%81%AF"><span class="nav-number">2.4.</span> <span class="nav-text">捐赠&#x2F;汇款信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E4%BF%A1%E6%81%AF"><span class="nav-number">2.5.</span> <span class="nav-text">其他信息</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%B0%E8%AE%B0-Imprint"><span class="nav-number">3.</span> <span class="nav-text">印记(Imprint)</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
 
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="平民（Pingmin Fenlly Liu）"
       src="/images/think-copyleft.png">
   <p class="site-author-name" itemprop="name">平民（Pingmin Fenlly Liu）</p>
   <div class="site-description" itemprop="description">平民的个人博客（Pingmin Fenlly Liu's Personal Blog）</div>
 </div>
-<div class="site-state-wrap animated">
+<div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
@@ -267,7 +271,7 @@
       </div>
   </nav>
 </div>
-  <div class="links-of-author animated">
+  <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
         <a href="https://github.com/Pingmin" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Pingmin" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
@@ -281,51 +285,55 @@
         <a href="https://www.facebook.com/iPingmin" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;iPingmin" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>FB Page</a>
       </span>
   </div>
-  <div class="cc-license animated" itemprop="license">
+  <div class="cc-license site-overview-item animated" itemprop="license">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-sa.svg" alt="Creative Commons"></a>
   </div>
 
 
-  <div class="links-of-blogroll animated">
+  <div class="links-of-blogroll site-overview-item animated">
     <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
-      链接 (Links)
+      链接(Links)
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页 (Pingmin's Homepage)</a>
+          <a href="https://pingmin.me/" title="https:&#x2F;&#x2F;pingmin.me" rel="noopener" target="_blank">平民主页(Pingmin's Homepage)</a>
         </li>
     </ul>
   </div>
 
-      </section>
+        </section>
+      </div>
     </div>
   </aside>
-  <div id="sidebar-dimmer"></div>
+  <div class="sidebar-dimmer"></div>
 
 
-      </header>
+    </header>
 
-      
+    
   <div class="back-to-top">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
 
 <noscript>
-  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
 
 
-      <div class="main-inner">
-        
+    <div class="main-inner post posts-expand">
+      
 
-        <div class="content post posts-expand">
-          
+      
 
-    
+  
+
+
+<div class="post-block">
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/collect-donations-for-a-primary-school.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -342,54 +350,58 @@
           关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)<a href="https://github.com/Pingmin/blog/tree/master/source/_posts/collect-donations-for-a-primary-school.md" class="post-edit-link" title="编辑" rel="noopener" target="_blank"><i class="fa fa-pen-nib"></i></a>
         </h1>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2011-11-08 20:12:36" itemprop="dateCreated datePublished" datetime="2011-11-08T20:12:36+08:00">2011-11-08</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2018-04-05 23:35:09" itemprop="dateModified" datetime="2018-04-05T23:35:09+08:00">2018-04-05</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
-                </span>
-            </span>
+      <time title="创建时间：2011-11-08 20:12:36" itemprop="dateCreated datePublished" datetime="2011-11-08T20:12:36+08:00">2011-11-08</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2018-04-05 23:35:09" itemprop="dateModified" datetime="2018-04-05T23:35:09+08:00">2018-04-05</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/bulletin/" itemprop="url" rel="index"><span itemprop="name">公告(Bulletin)</span></a>
+        </span>
+    </span>
 
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>2k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>2 分钟</span>
-            </span>
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>2.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
 
         </div>
       </header>
@@ -398,8 +410,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
         <h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》/《十万个为什么》、字典、磁带或教学视频(VCD)等等。</p>
 <p>得知此事后，因这也是我当初和现在一直想做的事情之一，所以便答应参与了。经过综合考虑，发现最好的途径是发动一切有缘人一起参与，欢迎大家在参与的同时也能通过您的方式一起发动您所认识的人等。</p>
 <a id="more"></a>
@@ -420,133 +430,128 @@
 </blockquote>
 <p>如：</p>
 <ul>
-<li><p>张三  公开  <a href="mailto:zhangsan@126.com">zhangsan@126.com</a> ,<a href="mailto:zhangsan@gmail.com">zhangsan@gmail.com</a>   民工 建行  RMB10.00   无</p>
+<li><p>张三  公开  <a href="mailto:&#x7a;&#x68;&#97;&#110;&#x67;&#x73;&#97;&#110;&#64;&#x31;&#50;&#54;&#x2e;&#99;&#x6f;&#x6d;">&#x7a;&#x68;&#97;&#110;&#x67;&#x73;&#97;&#110;&#64;&#x31;&#50;&#54;&#x2e;&#99;&#x6f;&#x6d;</a> ,<a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#x67;&#115;&#97;&#110;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x7a;&#104;&#x61;&#x6e;&#x67;&#115;&#97;&#110;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>   民工 建行  RMB10.00   无</p>
 </li>
-<li><p>李四   匿名/不公开  <a href="mailto:lisi@126.com">lisi@126.com</a> , <a href="mailto:lisi@gmail.com">lisi@gmail.com</a>    xxx公司公益慈善部  邮政  RMB100.00<br>另有实物：1本《新华字典》，3本《七龙珠》漫画，7本《哈利波特》，10张《唐老鸭和米老鼠》VCD，1张初级英语教学VCD，等</p>
+<li><p>李四   匿名/不公开  <a href="mailto:&#108;&#x69;&#x73;&#105;&#64;&#49;&#50;&#54;&#x2e;&#x63;&#x6f;&#109;">&#108;&#x69;&#x73;&#105;&#64;&#49;&#50;&#54;&#x2e;&#x63;&#x6f;&#109;</a> , <a href="mailto:&#108;&#x69;&#115;&#x69;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#108;&#x69;&#115;&#x69;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a>    xxx公司公益慈善部  邮政  RMB100.00<br>另有实物：1本《新华字典》，3本《七龙珠》漫画，7本《哈利波特》，10张《唐老鸭和米老鼠》VCD，1张初级英语教学VCD，等</p>
 </li>
-<li><p>王五  公开  <a href="mailto:zwangwu@126.com">zwangwu@126.com</a> ,<a href="mailto:zwangwu@gmail.com">zwangwu@gmail.com</a>   自由职业者  无  无<br>实物有：《皮皮鲁总动员》全套</p>
+<li><p>王五  公开  <a href="mailto:&#x7a;&#119;&#x61;&#x6e;&#103;&#119;&#x75;&#64;&#49;&#50;&#54;&#x2e;&#x63;&#x6f;&#x6d;">&#x7a;&#119;&#x61;&#x6e;&#103;&#119;&#x75;&#64;&#49;&#50;&#54;&#x2e;&#x63;&#x6f;&#x6d;</a> ,<a href="mailto:&#x7a;&#x77;&#x61;&#110;&#x67;&#x77;&#x75;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x7a;&#x77;&#x61;&#110;&#x67;&#x77;&#x75;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;</a>   自由职业者  无  无<br>实物有：《皮皮鲁总动员》全套</p>
 </li>
-<li><p>阿明  公开  <a href="mailto:aming@126.com">aming@126.com</a> ,<a href="mailto:aming@gmail.com">aming@gmail.com</a>   北京高一学生  无  无<br>实物有：《伊索寓言》、《安徒生童话》和《格林童话》各1本</p>
+<li><p>阿明  公开  <a href="mailto:&#97;&#x6d;&#x69;&#x6e;&#103;&#x40;&#x31;&#50;&#x36;&#46;&#x63;&#111;&#109;">&#97;&#x6d;&#x69;&#x6e;&#103;&#x40;&#x31;&#50;&#x36;&#46;&#x63;&#111;&#109;</a> ,<a href="mailto:&#97;&#x6d;&#105;&#x6e;&#103;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#97;&#x6d;&#105;&#x6e;&#103;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a>   北京高一学生  无  无<br>实物有：《伊索寓言》、《安徒生童话》和《格林童话》各1本</p>
 </li>
-<li><p>xxx基金会 公开  <a href="mailto:charity@xxx.org">charity@xxx.org</a>   xxx基金会基础教育事业部  工行  RMB1000.00<br>另有实物：10本《新华字典》，100本《现代汉语词典》，全套《十万个为什么》等</p>
+<li><p>xxx基金会 公开  <a href="mailto:&#99;&#104;&#97;&#x72;&#x69;&#x74;&#121;&#x40;&#x78;&#120;&#120;&#x2e;&#x6f;&#x72;&#103;">&#99;&#104;&#97;&#x72;&#x69;&#x74;&#121;&#x40;&#x78;&#120;&#120;&#x2e;&#x6f;&#x72;&#103;</a>   xxx基金会基础教育事业部  工行  RMB1000.00<br>另有实物：10本《新华字典》，100本《现代汉语词典》，全套《十万个为什么》等</p>
 </li>
 </ul>
 <h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><h3 id="邮箱"><a href="#邮箱" class="headerlink" title="邮箱"></a>邮箱</h3><p>Pingmin(at)Fenlly.org 或 Pingmin.Fenlly(at)Gmail.com （请用“@”代替“(at)”）</p>
 <h3 id="转帐-汇款信息"><a href="#转帐-汇款信息" class="headerlink" title="转帐/汇款信息"></a>转帐/汇款信息</h3><p>工行        62220210 0106 0887 434  刘泽平（新开专用）（2018年注：当前已无效）<br>建行        62270012 1626 0307 529  刘泽平<br>邮政储蓄卡   62218829 0005 1011 922  刘泽平</p>
 <h3 id="邮寄或快递信息（自行寄送前请务必先联系此中转站联系人）"><a href="#邮寄或快递信息（自行寄送前请务必先联系此中转站联系人）" class="headerlink" title="邮寄或快递信息（自行寄送前请务必先联系此中转站联系人）"></a>邮寄或快递信息（自行寄送前请务必先联系此中转站联系人）</h3><p>421500，湖南省常宁市新村路泉峰小区，周晔湘老师代收，139 7342 4742（2018年注：当前已无效）。</p>
-<h3 id="捐赠-汇款信息"><a href="#捐赠-汇款信息" class="headerlink" title="捐赠/汇款信息"></a>捐赠/汇款信息</h3><p>此次捐赠的所有相关信息，在没有正式的网站公布和邮件告知之前，您可能会在如下网站/页中找到相关的说明或预告，还请保持关注 <a href="http://hi.baidu.com/PingminFenlly" target="_blank" rel="noopener">http://hi.baidu.com/PingminFenlly</a> （2018年注：百度现已关闭其空间服务，故此当前已不能公开访问）。</p>
+<h3 id="捐赠-汇款信息"><a href="#捐赠-汇款信息" class="headerlink" title="捐赠/汇款信息"></a>捐赠/汇款信息</h3><p>此次捐赠的所有相关信息，在没有正式的网站公布和邮件告知之前，您可能会在如下网站/页中找到相关的说明或预告，还请保持关注 <a target="_blank" rel="noopener" href="http://hi.baidu.com/PingminFenlly">http://hi.baidu.com/PingminFenlly</a> （2018年注：百度现已关闭其空间服务，故此当前已不能公开访问）。</p>
 <h3 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h3><ul>
-<li><p>刘泽平<br>Email：Pingmin(at)Fenlly.org（请用“@”代替“(at)”）<br><a href="https://weibo.com/iPingmin" target="_blank" rel="noopener">https://weibo.com/iPingmin</a></p>
+<li><p>刘泽平<br>Email：Pingmin(at)Fenlly.org（请用“@”代替“(at)”）<br><a target="_blank" rel="noopener" href="https://weibo.com/iPingmin">https://weibo.com/iPingmin</a></p>
 </li>
-<li><p>周晔湘（老师）<br><a href="http://t.qq.com/yezi1666753853" target="_blank" rel="noopener">http://t.qq.com/yezi1666753853</a></p>
+<li><p>周晔湘（老师）<br><a target="_blank" rel="noopener" href="http://t.qq.com/yezi1666753853">http://t.qq.com/yezi1666753853</a></p>
 </li>
 </ul>
 <p>最后，请接受我们对您或/和您单位的由衷感谢和诚挚祝福！</p>
 <p>刘水良<br>20111028-1108</p>
-<h2 id="印记-Imprint"><a href="#印记-Imprint" class="headerlink" title="印记(Imprint)"></a>印记(Imprint)</h2><p>（1）20111028：开始起草。<br>（2）20111108：完稿，并首次公开于 <a href="http://hi.baidu.com/pingminfenlly" target="_blank" rel="noopener">http://hi.baidu.com/pingminfenlly</a> （2018年注：百度现已关闭其空间服务，故此当前已不能公开访问）。<br>（3）20180405：迁移至此 GitHub 站点（ <a href="https://pingmin.github.io" target="_blank" rel="noopener">https://pingmin.github.io</a> ），并稍作修改（主要是增加相关注解等）。</p>
+<h2 id="印记-Imprint"><a href="#印记-Imprint" class="headerlink" title="印记(Imprint)"></a>印记(Imprint)</h2><p>（1）20111028：开始起草。<br>（2）20111108：完稿，并首次公开于 <a target="_blank" rel="noopener" href="http://hi.baidu.com/pingminfenlly">http://hi.baidu.com/pingminfenlly</a> （2018年注：百度现已关闭其空间服务，故此当前已不能公开访问）。<br>（3）20180405：迁移至此 GitHub 站点（ <a target="_blank" rel="noopener" href="https://pingmin.github.io/">https://pingmin.github.io</a> ），并稍作修改（主要是增加相关注解等）。</p>
 
     </div>
 
     
     
     
-        <div class="reward-container">
+
+    <footer class="post-footer">
+          <div class="reward-container">
   <div>如果喜欢，欢迎打赏(Rewarding)，多谢鼓励！</div>
-  <button onclick="document.getElementById('post-reward').classList.toggle('active');">
+  <button onclick="document.querySelector('.post-reward').classList.toggle('active');">
     赞赏
   </button>
-  <div id="post-reward">
-      
+  <div class="post-reward">
       <div>
         <img src="/images/wechatpay-rewarding.jpg" alt="平民（Pingmin Fenlly Liu） 微信">
-        <p>微信</p>
+        <span>微信</span>
       </div>
-      
       <div>
         <img src="/images/alipay.jpg" alt="平民（Pingmin Fenlly Liu） 支付宝">
-        <p>支付宝</p>
+        <span>支付宝</span>
       </div>
 
   </div>
 </div>
 
-        
+          
 
-<div>
-<ul class="post-copyright">
+<div class="post-copyright">
+<ul>
   <li class="post-copyright-author">
-    <strong>本文作者： </strong>平民（Pingmin Fenlly Liu）
+      <strong>原作者： </strong>平民（Pingmin Fenlly Liu）
   </li>
   <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://pingmin.blog/post/collect-donations-for-a-primary-school.html" title="关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)">https://pingmin.blog/post/collect-donations-for-a-primary-school.html</a>
+      <strong>本文链接：</strong>
+      <a href="https://pingmin.blog/post/collect-donations-for-a-primary-school.html" title="关于小学生图书的一次收集与募捐(Collect Donations for A Primary School)">https://pingmin.blog/post/collect-donations-for-a-primary-school.html</a>
   </li>
   <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有原创文章，除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-SA</a> 许可协议。转载请注明出处！
+    <strong>版权声明： </strong>本博客所有由平民所原创的文章等，除特别声明（如转载或翻译他人作品，即作者非平民本人）外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-SA</a> 许可协议。转载请注明出处！
   </li>
 </ul>
 </div>
 
-        
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
 
-  <div class="followme">
-    <p>欢迎关注我的其它发布渠道</p>
+  <div class="social-list">
 
-    <div class="social-list">
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/images/wechat-public.jpg">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
 
-        <div class="social-item">
-          <a target="_blank" class="social-link" href="/images/wechat-public.jpg">
-            <span class="icon">
-              <i class="fab fa-weixin"></i>
-            </span>
+          <span class="label">WeChat</span>
+        </a>
+      </div>
 
-            <span class="label">WeChat</span>
-          </a>
-        </div>
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
 
-        <div class="social-item">
-          <a target="_blank" class="social-link" href="/atom.xml">
-            <span class="icon">
-              <i class="fa fa-rss"></i>
-            </span>
-
-            <span class="label">RSS</span>
-          </a>
-        </div>
-    </div>
+          <span class="label">RSS</span>
+        </a>
+      </div>
   </div>
+</div>
 
-
-      <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/donation/" rel="tag"># 捐赠(Donation)</a>
           </div>
 
         
 
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/post/youth-by-samuel-ullman.html" rel="prev" title="青春不是年华(Youth Is Not A Time of Life)">
-      <i class="fa fa-chevron-left"></i> 青春不是年华(Youth Is Not A Time of Life)
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/post/manifesto.html" rel="next" title="博客宣言(Blogging Manifesto)">
-      博客宣言(Blogging Manifesto) <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/post/youth-by-samuel-ullman.html" rel="prev" title="青春不是年华(Youth Is Not A Time of Life)">
+                  <i class="fa fa-chevron-left"></i> 青春不是年华(Youth Is Not A Time of Life)
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/post/manifesto.html" rel="next" title="博客宣言(Blogging Manifesto)">
+                  博客宣言(Blogging Manifesto) <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
   </article>
-  
-  
-  
+</div>
 
 
 
-        </div>
-        
+
+
+
+      
     <div class="comments" id="gitalk-container"></div>
 
 <script>
@@ -556,7 +561,7 @@
       activeClass = localStorage.getItem('comments_active') || activeClass;
     }
     if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
       if (activeTab) {
         activeTab.click();
       }
@@ -565,20 +570,20 @@
   if (CONFIG.comments.storage) {
     window.addEventListener('tabs:click', event => {
       if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
+      const commentClass = event.target.classList[1];
       localStorage.setItem('comments_active', commentClass);
     });
   }
 </script>
 
-      </div>
-    </main>
+    </div>
+  </main>
 
-    <footer class="footer">
-      <div class="footer-inner">
-        
+  <footer class="footer">
+    <div class="footer-inner">
+      
 
-        
+      
 
 <div class="copyright">
   
@@ -588,23 +593,24 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">平民（Pingmin Fenlly Liu）</span>
-    <span class="post-meta-divider">|</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
-      <i class="fa fa-chart-area"></i>
+      <i class="fa fa-chart-line"></i>
     </span>
-      <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">48k</span>
-    <span class="post-meta-divider">|</span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">49k</span>
+  </span>
+  <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+      <span>站点阅读时长 &asymp;</span>
     <span title="站点阅读时长">44 分钟</span>
+  </span>
 </div>
-
-        
 <div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
@@ -613,7 +619,6 @@
         <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
-    <span class="post-meta-divider">|</span>
     <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
@@ -624,27 +629,12 @@
     </span>
 </div>
 
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 
   
-  <script src="/lib/anime.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
   <script>
@@ -660,13 +650,44 @@
 
 
 
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    NProgress.configure({
+      showSpinner: true
+    });
+    NProgress.start();
+    document.addEventListener('readystatechange', () => {
+      if (document.readyState === 'interactive') {
+        NProgress.inc(0.8);
+      }
+      if (document.readyState === 'complete') {
+        NProgress.done();
+      }
+    });
+    document.addEventListener('pjax:send', () => {
+      NProgress.start();
+    });
+    document.addEventListener('pjax:success', () => {
+      NProgress.done();
+    });
+  </script>
+
+
   
-<script src="/js/local-search.js"></script>
-
-
-
-
-
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -679,11 +700,11 @@
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
 
 <script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+NexT.utils.loadComments('#gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
     var gitalk = new Gitalk({
       clientID    : 'b9ef5263af16582fc83c',
       clientSecret: 'c09fc62c68b952d9da648d906bde590161879427',
