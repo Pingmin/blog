@@ -3,27 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "平民·寻梦（Pingmin Fenlly Liu）"
-subtitle: "淡泊明志，宁静致远（Longing for My Nature, Always）"
-description: "平民的个人博客（Pingmin Fenlly Liu's Personal Blog）"
-keywords: "平民·寻梦,平民寻梦,平民,寻梦,平,Pingmin Fenlly Liu,Pingmin F. Liu,Pingmin Liu,博客,刘水良,Pingmin"
-author: "平民（Pingmin Fenlly Liu）"
-language:
-- zh-CN
-- zh-TW
-- zh-HK
-- en
-timezone: 'Asia/Shanghai'
+title: Hexo
+subtitle: ''
+description: ''
+keywords:
+author: John Doe
+language: en
+timezone: ''
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://pingmin.blog
+## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
+url: http://example.com
 root: /
-#permalink: :year/:month/:day/:title/
-permalink: post/:title.html
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
@@ -56,6 +51,11 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -69,28 +69,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  美文共赏(Beauty Essays): beauty-essays
-  公告(Bulletin): bulletin
-  信息技术(IT): it
-  平民日记(Pingmin Diary): pingmin-diary
-  平民記憶(Pingmin Memory): pingmin-memory
 tag_map:
-  火化(Cremation): cremation
-  宣言(Manifesto): manifesto
-  安全(Security): security
-  她(She): she
-  史蒂夫·乔布斯(Steve Jobs): steve-jobs
-  苹果公司(Apple Inc.): apple-inc
-  馬克希·馬琳斯巴克(Moxie Marlinspike): moxie-marlinspike
-  端到端加密(End-to-End Ecryption, E2EE): e2ee
-  暗號(Signal Messenger): signal-messenger
-  推荐(Recommended): recommended
-  翻譯(Translation): translation
-  青春(Youth): youth
-  音乐(Music): music
-  捐赠(Donation): donation
-  墓地(Cemetery): cemetery
-  回憶錄(Memoirs): memoirs
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -102,8 +81,8 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -119,26 +98,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: landscape
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: ssh://git@github.com/Pingmin/blog.git
-  branch: gh-pages
-
-# Feed
-## https://github.com/hexojs/hexo-generator-feed
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-
-# sitemap
-sitemap:
-  path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
+  type: ''
