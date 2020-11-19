@@ -36,13 +36,14 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 # Dark Mode
-darkmode: false
+#darkmode: false
+darkmode: true
 
 
 # ---------------------------------------------------------------
@@ -50,14 +51,19 @@ darkmode: false
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  #small: /images/favicon-16x16-next.png
+  #medium: /images/favicon-32x32-next.png
+  #apple_touch_icon: /images/apple-touch-icon-next.png
+  #safari_pinned_tab: /images/logo.svg
   #android_manifest: /manifest.json
+  small: /favicon.png
+  medium: /favicon.png
+  apple_touch_icon: /favicon.png
+  safari_pinned_tab: /favicon.png
 
 # Custom Logo (Warning: Do not support scheme Mist)
-custom_logo: #/uploads/custom-logo.jpg
+#custom_logo: #/uploads/custom-logo.jpg
+custom_logo: /images/think-copyleft.png
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
@@ -65,9 +71,12 @@ custom_logo: #/uploads/custom-logo.jpg
 # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
-  license: by-nc-sa
-  sidebar: false
-  post: false
+  #license: by-nc-sa
+  license: by-sa
+  #sidebar: false
+  sidebar: true
+  #post: false
+  post: true
   language:
 
 
@@ -88,6 +97,15 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
+  home: / || fa fa-home
+  pingmin: https://pingmin.me || fas fa-snowflake
+  about: /about/ || fa fa-user
+  guides: /guides/ || fas fa-hand-point-right
+  she: https://pingmin.blog/post/she.html || fas fa-female
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  sitemap: /sitemap.xml || fa fa-sitemap
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -125,7 +143,8 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  #url: #/images/avatar.gif
+  url: /images/think-copyleft.png
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -149,6 +168,13 @@ social:
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
+  GitHub: https://github.com/Pingmin || fab fa-github
+  #Weibo: https://weibo.com/p/1005051974266441 || fab fa-weibo
+  Weibo: https://weibo.com/LiuZeping || fab fa-weibo
+  Twitter: https://twitter.com/iPingmin || fab fa-twitter
+  FB Page: https://www.facebook.com/iPingmin || fab fa-facebook
+  #WeChat(Public): 平民梦PingminDream || fab fa-weixin
+
 
 social_icons:
   enable: true
@@ -158,12 +184,14 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-globe
-  title: Links
+  #title: Links
+  title: 链接(Links)
   # Available values: block | inline
   layout: block
 
 links:
   #Title: https://example.com
+  平民主页(Pingmin's Homepage) : https://pingmin.me
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -198,7 +226,8 @@ language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  ##since: 2015
+  since: 2007
 
   # Icon between year and copyright info.
   icon:
@@ -213,7 +242,8 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  #powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -252,7 +282,9 @@ post_meta:
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
   separated_meta: true
-  item_text_total: false
+  #item_text_total: false
+  item_text_total: true
+  item_text_post: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -261,15 +293,20 @@ tag_icon: false
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
-  enable: false
-  animation: false
-  #comment: Buy me a coffee
+  #enable: false
+  #animation: false
+  ##comment: Buy me a coffee
+  enable: true
+  animation: true
+  comment: 如果喜欢，欢迎打赏(Rewarding)，多谢鼓励！
 
 reward:
   #wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
+  wechatpay: /images/wechatpay-rewarding.jpg
+  alipay: /images/alipay.jpg
 
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
@@ -278,6 +315,8 @@ follow_me:
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
+  WeChat: /images/wechat-public.jpg || fab fa-weixin
+  RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -295,9 +334,11 @@ related_posts:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
-  #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
+  #enable: false
+  #url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
+  ##url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
+  enable: true
+  url: https://github.com/Pingmin/blog/tree/master/source/ # Link for view source
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
@@ -460,7 +501,8 @@ disable_baidu_transformation: false
 
 # If true, site-subtitle will be added to index page.
 # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-index_with_subtitle: false
+#index_with_subtitle: false
+index_with_subtitle: true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: false
@@ -482,7 +524,8 @@ yandex_site_verification:
 baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+#baidu_push: false
+baidu_push: true
 
 
 # ---------------------------------------------------------------
@@ -566,7 +609,8 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
+  #active:
+  active: gitalk
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -630,12 +674,19 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  #enable: false
+  #github_id: # GitHub repo owner
+  #repo: # Repository name to store issues
+  #client_id: # GitHub Application Client ID
+  #client_secret: # GitHub Application Client Secret
+  #admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  #distraction_free_mode: true # Facebook-like distraction free mode
+  enable: true
+  github_id: Pingmin # GitHub repo owner
+  repo: blog # Repository name to store issues
+  client_id: b9ef5263af16582fc83c # GitHub Application Client ID
+  client_secret: c09fc62c68b952d9da648d906bde590161879427 # GitHub Application Client Secret
+  admin_user: Pingmin # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
@@ -708,7 +759,8 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  #enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
@@ -732,7 +784,8 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/next-theme/hexo-generator-searchdb
 local_search:
-  enable: false
+  #enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -830,7 +883,8 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/rstacruz/nprogress
 nprogress:
-  enable: false
+  #enable: false
+  enable: true
   spinner: true
 
 # Canvas ribbon
