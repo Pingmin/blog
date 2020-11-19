@@ -16,13 +16,14 @@ language:
 timezone: 'Asia/Shanghai'
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://pingmin.blog
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: post/:title.html
 permalink_defaults:
 pretty_urls:
+  #trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
@@ -56,6 +57,11 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -102,8 +108,8 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -119,14 +125,16 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+#theme: landscape
 theme: next
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo: ssh://git@github.com/Pingmin/blog.git
   branch: gh-pages
+
 
 # Feed
 ## https://github.com/hexojs/hexo-generator-feed
@@ -137,7 +145,7 @@ feed:
   hub:
   content:
 
-# sitemap
+# Sitemap
 sitemap:
   path: sitemap.xml
 baidusitemap:

@@ -1,10 +1,10 @@
 ---
 name: 繁體中文（香港）
 title:
-  archive: 歸檔
-  category: 分類
-  tag: 標籤
-  schedule: 日程表
+  archive: 歸檔（Archives）
+  category: 分類（Categories）
+  tag: 標籤（Tags）
+  schedule: 日程表（Schedule）
 menu:
   home: 首頁（Home）
   pingmin: 主頁（Pingmin）
@@ -36,6 +36,8 @@ post:
   copyright:
     author: 博主
     link: 文章連結
+    post_author: Written by
+    post_link: This article originally appeared on
     license_title: 版權聲明
     license_content: "本網誌所有文章除特別聲明外，均採用 %s 許可協議。轉載請註明出處！"
 footer:
@@ -61,6 +63,9 @@ state:
   categories: 分類
 search:
   placeholder: 搜索...
+  empty: "We didn't find any results for the search: %s"
+  hits_time: "%s results found in %s ms"
+  hits: "%s results found"
 cheers:
   um: 嗯..
   ok: 還行
