@@ -1,20 +1,23 @@
 ---
 name: 繁體中文（香港）
 title:
-  archive: 歸檔
-  category: 分類
-  tag: 標籤
-  schedule: 日程表
+  archive: 歸檔（Archives）
+  category: 分類（Categories）
+  tag: 標籤（Tags）
+  schedule: 日程表（Schedule）
 menu:
-  home: 首頁
-  archives: 歸檔
-  categories: 分類
-  tags: 標籤
-  about: 關於
-  search: 檢索
-  schedule: 日程表
-  sitemap: 站點地圖
-  commonweal: 公益 404
+  home: 首頁（Home）
+  pingmin: 主頁（Pingmin）
+  archives: 歸檔（Archives）
+  categories: 分類（Categories）
+  tags: 標籤（Tags）
+  about: 關於（About）
+  guides: 指南（Guides）
+  search: 檢索（Search）
+  schedule: 日程表（Schedule）
+  she: 尋她（Seeking Her）
+  sitemap: 站點地圖（Sitemap）
+  commonweal: 公益（Commonweal）404
 sidebar:
   overview: 本站概覽
   toc: 文章目錄
