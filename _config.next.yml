@@ -338,7 +338,7 @@ post_edit:
   #url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
   ##url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
   enable: true
-  url: https://github.com/Pingmin/blog/tree/master/source/ # Link for view source
+  url: https://github.com/Pingmin/pingmin.blog/tree/master/source/ # Link for view source
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
