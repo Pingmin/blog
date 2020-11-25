@@ -16,7 +16,7 @@ categories:
 
 ## Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）
 
-> <img src="https://moxie.org/images/moxiemarlinspike2.jpg" width="30%" height="30%" alt="馬克希·馬琳斯巴克(Moxie Marlinspike)">
+> <img src="https://moxie.org/images/moxiemarlinspike2.jpg" width="40%" height="40%" alt="馬克希·馬琳斯巴克(Moxie Marlinspike)">
 >
 > 英文作者：[馬克希·馬琳斯巴克(Moxie Marlinspike)](https://github.com/moxie0)（譯注：Signal 和開放密語系統的創始人，如上圖），[英文原文](https://signal.org/blog/looking-back-as-the-world-moves-forward/)，20200605。
 >
