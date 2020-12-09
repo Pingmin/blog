@@ -68,7 +68,7 @@ We don't believe that trust is about trusting us with your data, but rather abou
 我們相信，信任不是信任我們如何保有和使用你們的數據，而是信任我們的工程能力以及知道如何設計軟體以將你們的數據保留在你們自己手中而非我們或任何其他方手中。為了幫助建立此信任，我們已經[開源了我們所有的軟件](https://github.com/signalapp/)，這樣任何人都可以直接通過軟件源碼來查看我們是如何設計和構建這些的。那裡沒有秘密，因為我們從來沒接觸到你們的秘密及以其開展軟件系統的開發等。
 
 We also make this technology publicly available for free because Signal is a [501(c)(3) nonprofit](https://signal.org/donate/). Our mission is to increase privacy online, so we publish our technology and share knowledge to encourage other companies to adopt it in their own products and services.
-我們也公開了這項端到端加密技術（即暗號協議（Signal Protocol）并使公眾可自由免費使用，因為暗號 （Signal）是一個在美國注冊成立的[“501(c)3”型的非營利組織](https://signal.org/donate/)（即暗號基金會（Signal Foundation））。我們的使命是增強在線隱私權，所以我們公開我們的技術和分享這些知識，以鼓勵其他公司在他們的產品和服務中採用這些技術。
+我們也公開了這項端到端加密技術（即暗號協議（Signal Protocol））并使公眾可自由免費使用，因為暗號 （Signal）是一個在美國注冊成立的[“501(c)3”型的非營利組織](https://signal.org/donate/)（即暗號基金會（Signal Foundation））。我們的使命是增強在線隱私權，所以我們公開我們的技術和分享這些知識，以鼓勵其他公司在他們的產品和服務中採用這些技術。
 
 ### Moving forward with you（與你一同向前）
 
@@ -85,7 +85,7 @@ Keep on sending a message, and we'll keep making sure they get delivered securel
 
 （1）首先需要聲明的是，平民與 Signal 沒有商業利益關係，于此翻譯和分享僅作為一種價值上的認可和推薦。
 
-（2）Signal Messenger 是平民首選的安全即時通訊工具。另，據 @李仲偉 律師所說，律師也基本都用 Signal。因為 Signal 是以手機號為賬號（服務器上保存的實則是截取了手機號哈希值的一部分作為賬號識別 ID）的，所以使用 Signal 的我們，通常會優先留存聯系人的手機號，因為我們都互相很信任，同時也我們也會優先考慮公開自己的手機號作為聯繫方式，因為使用Signal并具有相同價值取向的我們一看就懂。
+（2）Signal Messenger 是平民首選的安全即時通訊工具。另，據刑事律師 @李仲偉 所說，律師也基本都用 Signal。因為目前 Signal 是以手機號為賬號（服務器上保存的實則是截取了手機號哈希值的一部分作為賬號識別 ID）的，所以使用 Signal 的我們，通常會優先留存聯系人的手機號，因為我們都互相很信任，同時也我們也會優先考慮公開自己的手機號作為聯繫方式，因為使用 Signal 并具有相同價值取向的我們一看就懂。
 
 （3）這次翻譯，是平民自 2007 年首次嘗試翻譯喬布斯 2005 年在斯坦福大學的演講稿以來的第二次翻譯嘗試，所以目前只是以作為技術人員的職業視角來翻譯的，沒有刻意去追求翻譯的“信、達、雅＂要求。同時，也歡迎指教！
 
@@ -95,7 +95,7 @@ Keep on sending a message, and we'll keep making sure they get delivered securel
 >
 > [Signal for iOS](https://itunes.apple.com/cn/app/signal-private-messenger/id874139669)
 >
-> [Signal for Android](https://signal.org/android/apk/) (如：點此下載[當前最新版(v4.76.3)的 apk](https://updates.signal.org/android/Signal-Android-website-prod-universal-release-4.76.3.apk))
+> [Signal for Android](https://signal.org/android/apk/) (如：[點此下載當前最新版(v4.79.3)的 apk](https://updates.signal.org/android/Signal-Android-website-prod-universal-release-4.79.3.apk))
 >
 > 更多可參考此個人筆記：[Favorites（收藏）](https://fenlly.org/favorites)。
 >
