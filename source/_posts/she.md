@@ -182,7 +182,8 @@ I will always appreciate you for your self-recommendation, recommendation or/and
 （10）20140413（周日，小雨）：显示地说明我这也正是在描述我自己；抽取或概括一些重大的关键字；去掉一些可有可无的事项，简化或细化一些事项。
 （11）20140803（周日，雨转晴）：根据一些反馈，简化和调整一些事项。
 （12）20160904（周日，晴，AQI：68，中等）：根据反馈，修正一英文拼写；简化和调整一些自问事项等；改善一些内容链接和联系方式；并定此为第一个正式版（v1.0）。
-（12）20171224（周日，晴，AQI：180，不健康）：因 20170904 已将个人博客由 http://pingmin.me 迁到 https://pingmin.github.io ，故今重新公开此文章，出于安全考虑，已将个人信息泛化，并删除了个人在 GitHub 上的相关代码仓库（"pingmin-blog"），故以上所提到的相关修改历史细节现已无法查看。
+（13）20171224（周日，晴，AQI：180，不健康）：因 20170904 已将个人博客由 http://pingmin.me （基于 WordPress，空间托管服务商为 Godaddy）迁到了 https://pingmin.github.io （静态网页，基于 GitHub Pages、Hexo 及其 NexT 主题），故今重新公开此文章；同时，出于安全考虑，已将个人信息泛化，并删除了个人在 GitHub 上旧的相关代码仓库（"pingmin-blog"），故以上所提到的旧仓库（pingmin-blog）相关修改历史细节现已无法查看，只能查看当前新仓库（ https://github.com/Pingmin/pingmin.github.io/ ）下的修改记录。
+（14）20200713：将博客内容迁移到新启用的个人独立博客域名 https://pingmin.blog 下（仍基于 GitHub Pages、Hexo 及其 NexT 主题），新的仓库则变更为 https://github.com/Pingmin/blog/ ，原来的域名 http://pingmin.me 则作为个人主页且仅放了一些非常重要的东西。
 （Next）xxxx：更新了xxx。
 （Todo）待做：同步英文翻译。
 
