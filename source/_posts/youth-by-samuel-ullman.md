@@ -2,7 +2,7 @@
 title: 青春不是年华(Youth Is Not A Time of Life)
 author: 塞缪尔·厄尔曼(Samuel Ullman)
 date: 2007-11-03 20:12:06 +0800
-updated: 2018-03-25 15:49:19 +0800
+updated: 2020-12-23 11:23:10 +0800
 tags:
 - 青春(Youth)
 - 推荐(Recommended)
@@ -28,3 +28,20 @@ Youth means a temperamental predominance of courage over timidity, of the appeti
 
 When the aerials are down, and **your spirit is covered with snows of cynicism and the ice of pessimism, then you are grown old, even at 20**, but as long as your aerials are up, to catch waves of optimism, there is hope you may die young at 80.
 一旦天线下降，**锐气便被冰雪覆盖，玩世不恭、自暴自弃油然而生，即使年方二十，实已垂垂老矣**；然则只要树起天线，捕捉乐观信号，你就有望在八十高龄告别尘寰时仍觉年轻。
+
+
+## 参考（References）
+
+“青春/年轻是一种心态/境”：
+
+- 塞缪尔·厄尔曼（Samuel Ullman），1840~1924，其他可参见相关百科介绍。
+- 英文原文可参见[塞缪尔·厄尔曼博物馆（Samuel Ullman Museum）](https://www.uab.edu/ullmanmuseum/)上的说明。
+- 中文翻译主要为王佐良所译《青春（Youth）》。
+
+## 印记（Imprints）
+
+- 20071103（大概）：在校期间首次见于一本中英对照的英文散文集书上。
+- 20090417：公开到个人独立博客 `planet.fenlly.cn` 上。
+- 20110724：迁移到新启用的个人网站 https://pingmin.me 下（基于 WordPress）。
+- 20200713：迁移到新启用的个人独立博客 https://pingmin.blog 下（基于 GitHub Pages、Hexo 及其 NexT 主题），参见 https://github.com/Pingmin/blog/ 。
+- 20201223（周三，小雨）：增加“参考”与“印记”内容。
