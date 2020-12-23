@@ -2,7 +2,7 @@
 title: 寻她(Seeking Her)
 author: 平民（Pingmin Fenlly Liu）
 date: 2013-11-24 13:56:57 +0800
-updated: 2017-12-24 20:15:32 +0800
+updated: 2020-12-23 11:35:32 +0800
 tags:
 - 她(She)
 categories:
@@ -27,9 +27,9 @@ Keywords: Cherishing lives; Having a grateful heart; Treating elders with filial
 欢迎自荐、她荐和广而告之，本人感激不尽！
 I will always appreciate you for your self-recommendation, recommendation or/and broadcasts.
 
-温馨提示：不要被篇幅所吓，如果你能看完，说明我们很可能是潜在的对象；能看懂（含阅读能力和理解能力等）大部分(80%以上)，则说明我们现在已经是在同一个世界，或者说很多事情我们已经想到一块去了；但当且仅当你我的回答或观点大部分(80%以上)是相似的或相互赞同/欣赏/肯定的时（现在不是，还不要紧），我们最终才很可能会在一起。本人将会持续更新此文，直到感觉可以不用更新时；如有更新，我会在微博（见正文末尾）上告知。
+温馨提示：不要被篇幅所吓，如果你能看完，说明我们很可能是潜在的对象；能看懂（含阅读能力和理解能力等）大部分(80%以上)，则说明我们现在已经是在同一个世界，或者说很多事情我们已经想到一块去了；但当且仅当你我的回答或观点大部分(80%以上)是相似的或相互赞同/欣赏/肯定的时（现在不是，还不要紧），我们最终才很可能会在一起。本人将会持续更新此文，直到感觉可以不用更新时；如有更新，我会在个人微博或微信公众号（见正文末尾）上告知。
 
-事先声明：如果你追求的是大众意义上的高富帅，那肯定不是我，因为我现在和将来都不会是那种高富帅，所以，在这里，我祝你好运，也祝福你们！
+事先声明：如果你追求的是大众意义上的高富帅，那肯定不是我，因为我现在和将来都不会是那种高富帅，所以，在这里，我祝你好运，也祝你们幸福！
 
 好了，下面就正式开始。
 
@@ -82,7 +82,7 @@ I will always appreciate you for your self-recommendation, recommendation or/and
 （1）学计算机科学相关专业的优先，本人是学“计算机科学与技术”专业的；
 （2）学法学、体育学、医学、教育学、语言学、音乐、设计或财务等相关专业的。
 （3）出生日期最好落在“(1987-02, 1991-02]”区间中，可接受的区间是“(1986-08, 1993-02]”，本人出生于公元1988年2月。
-（4）厘米净身高最好落在“[160, 165]”区间中，在“(158, 170]”中有时也是可接受的，本人净身高是168厘米。也许，当你有160厘米时，你可能会想找一个170厘米的，所以，那就祝我们好运吧！
+（4）厘米净身高最好落在“[160, 165]”区间中，在“(158, 170]”中有时也是可接受的，本人净身高是170厘米。也许，当你有160厘米时，你可能会想找一个175厘米的，所以，那就祝我们好运吧！
 
 
 以上很多事物，可能只有在相互了解或相处后才能体现和判断出来。不过，有的则可通过我们对一些问题的思考与回答看出一些端倪，以下问题，我们都只需如实回答便可。
@@ -151,17 +151,17 @@ I will always appreciate you for your self-recommendation, recommendation or/and
 以上所有事项或问答，如果此时此刻我们不适合，但并不意味着我们以后还是不适合。因为时间在变，所以，有些人和事都会变，当然，有些还是都不会变的。
 
 最后，更多关于我的一些基本信息，可以在这里找到：
-（1）关于： http://pingmin.me/about 。
+（1）关于： http://pingmin.blog/about 。
 
 现在，你可以通过以下方式联系到我或与我交流：
 （1）直接在此文末尾留言；
-（2）Email: Pingmin(at)Fenlly.org (“(at)” -—> “@”)；
-（3）QQ: Pingmin(at)Fenlly.org (“(at)” -—> “@”)；
-（4）微博： http://weibo.com/iPingmin ；
+（2）Email/iMessage: Pingmin(at)Fenlly.org (“(at)” --> “@”)；
+（3）微信公众号：平民梦PingminDream；
+（4）微博： http://weibo.com/liuzeping ；
 （5）微信： iPingmin ；
-（6）手机： +86,150,xxxx,9925 (xxxx = 0062)。
+（6）手机/Signal Messenger： +86,150,xxxx,9925 (xxxx = 0062)。
 
-为方便记忆和使用，本文可访问链接有： http://pingmin.me/she 和 http://pingmin.me/post/she.html （后者是最终的链接）。
+为方便记忆和使用，本文可访问链接有： http://pingmin.blog/she 和 http://pingmin.blog/post/she.html （后者是最终的链接）。
 
 欢迎指教、评论、咨询和交流！另，如果你觉得你发现了任何的错别字或逻辑错误等，也请告诉我。
 
@@ -174,7 +174,7 @@ I will always appreciate you for your self-recommendation, recommendation or/and
 （2）手稿起草于20130311，再稿于20130315。
 （3）电子版起稿于20131007，并同步到了我的 Github ( https://github.com/Pingmin/pingmin-blog/blob/master/pingmin-bulletin/2013-10-07-she.txt )，但还未完成和公开发表。
 （4）20131116：改善一些用词，增加或完善一些事项等，详情可参见此文在Github上的修改历史（ https://github.com/Pingmin/pingmin-blog/commits/master/pingmin-bulletin/2013-10-07-she.txt ，下同）。
-（5）20131124：去掉一些不必要的定语修饰，调整年龄和身高数值和重要性等，至此基本完成中文稿并公开发表于 http://Pingmin.me/post/she.html 。
+（5）20131124：去掉一些不必要的定语修饰，调整年龄和身高数值和重要性等，至此基本完成中文稿并公开发表于 http://pingmin.me/post/she.html 。
 （6）20131215：增加自我认识部分；完善和归类相关问题列表。
 （7）20131216：增加和完善世界观中的一些问题项；去掉一多余的联系方式说明。
 （8）20131225：雅正一些用词；增加一些家庭和教育观相关项等。
@@ -184,6 +184,7 @@ I will always appreciate you for your self-recommendation, recommendation or/and
 （12）20160904（周日，晴，AQI：68，中等）：根据反馈，修正一英文拼写；简化和调整一些自问事项等；改善一些内容链接和联系方式；并定此为第一个正式版（v1.0）。
 （13）20171224（周日，晴，AQI：180，不健康）：因 20170904 已将个人博客由 http://pingmin.me （基于 WordPress，空间托管服务商为 Godaddy）迁到了 https://pingmin.github.io （静态网页，基于 GitHub Pages、Hexo 及其 NexT 主题），故今重新公开此文章；同时，出于安全考虑，已将个人信息泛化，并删除了个人在 GitHub 上旧的相关代码仓库（"pingmin-blog"），故以上所提到的旧仓库（pingmin-blog）相关修改历史细节现已无法查看，只能查看当前新仓库（ https://github.com/Pingmin/pingmin.github.io/ ）下的修改记录。
 （14）20200713：将博客内容迁移到新启用的个人独立博客域名 https://pingmin.blog 下（仍基于 GitHub Pages、Hexo 及其 NexT 主题），新的仓库则变更为 https://github.com/Pingmin/blog/ ，原来的域名 http://pingmin.me 则作为个人主页且仅放了一些非常重要的东西。
+（15）20201223（周三，小雨）：在“三、可选部分（Optional）”中所学相关专业项里特增加“法学”；联系方式中增加个人微信公众号，并更新个人微博账号（因之前的账号 http://weibo.com/iPingmin 已被封，非本人已无法查看）。
 （Next）xxxx：更新了xxx。
 （Todo）待做：同步英文翻译。
 
@@ -195,6 +196,6 @@ I will always appreciate you for your self-recommendation, recommendation or/and
 
 
 刘水良(Pingmin Fenlly Liu)
-201102-20171224
+201102-20201223
 
 ## 结束(End)
