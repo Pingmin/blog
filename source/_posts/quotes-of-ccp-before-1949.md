@@ -1,8 +1,8 @@
 ---
-title: 中国共产党在野党时期言论精选(Quotes of CCP/CPC before 1949)
-author: 中国共产党（The Chinese Communist Party, or Communist Party of China）
+title: 中國共產黨在野黨時期言論精選（Quotes of CCP/CPC Leaders and Presses before 1949）
+author: 中國共產黨（The Chinese Communist Party（CCP）, or The Communist Party of China（CPC））
 date: 2018-07-02 20:56:13 +0800
-updated: 2020-12-24 11:41:29 +0800
+updated: 2020-12-24 12:05:29 +0800
 tags:
 - 语录(Quotes)
 - 推荐(Recommended)
