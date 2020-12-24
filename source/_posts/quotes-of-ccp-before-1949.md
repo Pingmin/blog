@@ -256,7 +256,7 @@ categories:
 
 ## 参考（References）
 
-- 《中国共产党在野党时期言论精选》（原作者平民暂无法考证）：[郭家宝（BYVoid.com）](https://byvoid.com/zhs/blog/cpc-press/)（20081018），[程希冀（CeeJi.net）](https://ceeji.net/blog/中国共产党在野党时期言论精选/)（20100111）
+- 《中国共产党在野党时期言论精选》（原作者平民暂无法考证）：（1）[也贴几篇当年《新华日报》《解放日报》社论(转载)，“yujsch”（bbs.tianya.cn）](http://bbs.tianya.cn/post-stocks-122547-1.shtml)（20050731），（2）[我不同意你的意见，但我誓死捍卫你说话的权利(转载)，“神州有豪杰”等(bbs.tianya.cn)](http://bbs.tianya.cn/post-no04-699702-1.shtml)（20080511），（3）[中国共产党在野党时期言论精选(转载)，郭家宝(BYVoid.com)](https://byvoid.com/zhs/blog/cpc-press/)（20081018），（4）[中国共产党在野党时期言论精选(转载)，程希冀(CeeJi.net)](https://ceeji.net/blog/中国共产党在野党时期言论精选/)（20100111）
 
 - [李普：《〈历史的先声〉序言：还要走很长的路——一个老共产党人的真心话》](https://book.ifeng.com/yeneizixun/special/yueduzhongguo/list/detail_2009_09/24/313929_0.shtml)（20010425）
 
