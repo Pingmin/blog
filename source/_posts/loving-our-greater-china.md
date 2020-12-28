@@ -2,7 +2,7 @@
 title: “愛我中華”夢之“兩中華旗”系列(The "Two Flags of China" Series, of The "Loving Our Greater China" Dream)
 author: 平民（Pingmin Fenlly Liu）
 date: 2013-10-04 07:13:25 +0800
-updated: 2020-11-23 23:20:32 +0800
+updated: 2020-12-28 18:40:32 +0800
 tags:
 - 愛我中華(Loving Our Greater China, LOGC)
 - 兩中華旗(Two Flags of China, TFC)
@@ -10,9 +10,9 @@ categories:
 - 平民記憶(Pingmin Memory)
 ---
 
-> [English(Unlocalized)](#English-Unlocalized)
-> [正體中文（Traditional Chinese）（未本地化）](#正體中文（Traditional-Chinese）（未本地化）)
-> [简体中文（Simplified Chinese）（中华內地）](#简体中文（Simplified-Chinese）（中华內地）)
+> [正體中文（Traditional Chinese）（未本地化）](/post/loving-our-greater-china.html#正體中文（Traditional-Chinese）（未本地化）)
+> [简体中文（Simplified Chinese）（中华內地）](/post/loving-our-greater-china.html#简体中文（Simplified-Chinese）（中华內地）)
+> [English(Unlocalized)](/post/loving-our-greater-china.html#English-Unlocalized)
 
 ## 概要(Abstract)
 
