@@ -35,8 +35,8 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 昵称(Nickname)：平民·风灵·刘(Pingmin Fenlly Liu)
 笔名(Pseudonym/Pen-name)：刘水良(意即“流浪”)(ShuiLiang Liu, means “vagrant”)
 国籍(Nationality)：中国(China)
-身高(Height)：166cm
-体重(Weight)：60kg
+身高(Height)：170cm
+体重(Weight)：65kg
 星座(Constellation)：双鱼座(Pisces)
 
 > [乔布斯：一定要知道自己喜欢什么](/post/find-what-you-love-by-steve-jobs.html)
