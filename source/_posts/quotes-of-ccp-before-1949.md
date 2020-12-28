@@ -1,5 +1,5 @@
 ---
-title: 中國共產黨在野黨時期言論精選（Quotes of CCP/CPC Leaders and Presses before 1949）
+title: 中國共產黨在野黨時期言論精選（Quotes of CCP/CPC before 1949）
 author: 中國共產黨（The Chinese Communist Party（CCP）, or The Communist Party of China（CPC））
 date: 2018-07-02 20:56:13 +0800
 updated: 2020-12-24 12:32:29 +0800
@@ -16,7 +16,7 @@ categories:
 
 《历史的先声——半个世纪前的庄严承诺》书摘：
 
-　　“中国的缺点，一言以蔽之，就是缺乏民主……政治需要统一，但是只有建立在言论、出版、结社的自由与民主选举政府的基础上面，才是有力的政治。”（毛泽东，1944）
+　　“中国的缺点，一言以蔽之，就是缺乏民主……政治需要统一，但是只有建立在言论、出版、结社的自由与民主选举政府的基础上面，才是有力的政治。”（[毛泽东，1944年6月12日答中外记者团](https://book.ifeng.com/special/yueduzhongguo/list/200909/0924_8167_1363431.shtml)）
 
 　　“实行宪政……我们认为最重要的先决条件有三个：一是保障人民的民主自由；二是开放党禁；三是实行地方自治。人民的自由和权利很多，但目前全国人民最迫切需要的自由，是人身居住的自由，是集会结社的自由，是言论出版的自由。”（周恩来，1944）
 
@@ -258,7 +258,9 @@ categories:
 
 - 《中国共产党在野党时期言论精选》（原作者平民暂无法考证）：（1）[也贴几篇当年《新华日报》《解放日报》社论(转载)，“yujsch”（bbs.tianya.cn）](http://bbs.tianya.cn/post-stocks-122547-1.shtml)（20050731），（2）[我不同意你的意见，但我誓死捍卫你说话的权利(转载)，“神州有豪杰”等(bbs.tianya.cn)](http://bbs.tianya.cn/post-no04-699702-1.shtml)（20080511），（3）[中国共产党在野党时期言论精选(转载)，郭家宝(BYVoid.com)](https://byvoid.com/zhs/blog/cpc-press/)（20081018），（4）[中国共产党在野党时期言论精选(转载)，程希冀(CeeJi.net)](https://ceeji.net/blog/中国共产党在野党时期言论精选/)（20100111）
 
-- [李普：《〈历史的先声〉序言：还要走很长的路——一个老共产党人的真心话》](https://book.ifeng.com/yeneizixun/special/yueduzhongguo/list/detail_2009_09/24/313929_0.shtml)（20010425）
+- [李普：《〈历史的先声〉序言：还要走很长的路——一个老共产党人的真心话》，鳳凰網讀書（book.ifeng.com）](https://book.ifeng.com/yeneizixun/special/yueduzhongguo/list/detail_2009_09/24/313929_0.shtml)（20010425）
+
+- [“百年中國閱讀”專題，鳳凰網讀書（book.ifeng.com）](https://book.ifeng.com/special/yueduzhongguo/)
 
 - [笑蜀：公民社会是底线，底线就是生命线](https://opinion.huanqiu.com/article/9CaKrnJy5OG)
 
