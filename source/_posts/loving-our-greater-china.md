@@ -28,68 +28,72 @@ Keywords: Loving Our Greater China(LOGC), Two Flags of China(TFC).
 
 2013-2017: The "Two Flags of China" series, of the "Loving Our Greater China" Dream!
 
+
 Timeline and locations:
 
 2013:
 
-Mountain Taishan, Tai'an City, Shandong province, PRC (Photographied by Liu Hongwei).
+Mountain Taishan, Tai'an City, Shandong Province, PRC (20131004 07:13, Photographied by Liu Hongwei).
 
 <!-- more -->
 
 2014:
 
-Mountain Lotus, Shenzhen City, Guangdong Province, PRC (Photo by Liu Dan).
+Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, Photographied by Liu Dan).
 
 2015:
 
-The Chinese Temple, Lumbini, Nepal (Photo by Ma Qiang).
+The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographied by Ma Qiang).
 
-The Everest Base Camp and the Patala Palace, Tibet, PRC (Photo by Ma Qiang and a passerby).
+The Everest Base Camp(20151005 18:42, Photographied by Ma Qiang) and the Patala Palace(20150921 18:49, Photographied by a passerby), Tibet, PRC.
 
-The Jinji Lake (International Half Marathon), Suzhou City, Jiangsu Province, PRC (Photo by Ma Qiang).
+The Jinji Lake (International Half Marathon), Suzhou City, Jiangsu Province, PRC (20150329 11:31, Photographied by Ma Qiang).
 
 2016:
 
-Two photos are hiden here from the passports, Hong Kong SAR, PRC (Photo by two passersby).
+The Victory Park(Two photos are hiden here from the passport photos), Hong Kong SAR, PRC (20160604 18:57/19:01, Photographied by two passersby).
 
 2017:
 
-Mountain Ali, Taiwan province, ROC (Photo by a Beijing traveler).
+Mountain Ali, Chiayi County, Taiwan Province, ROC (20171006 06:38，Photographied by a Beijing traveler).
+
 
 BTW, the last two passport photos are just borrowed from the internet.
 
-Special thanks to my families and relatives, all friends who travelled together with me and helped me, the companies I worked and am working in!
+Special thanks to my families and relatives, all friends who travelled together with me and/or helped me/us, the companies I worked and am working in!
 
 
 ### 正體中文（Traditional Chinese）（未本地化）
 
 2013-2017: “愛我中華”夢（和平統一後的新中華/國）之“兩中華旗”系列。
 
+
 時間線與地點：
 
 2013:
 
-中華人民共和國山東省泰安市泰山（攝影：劉紅衛）。
+中華人民共和國山東省泰安市泰山（20131004 07:13，攝影：劉紅衛）。
 
 2014:
 
-中華人民共和國廣東省深圳市蓮花山（攝影：劉丹）。
+中華人民共和國廣東省深圳市蓮花山（20141004 17:29，攝影：劉丹）。
 
 2015:
 
-尼泊爾藍毗尼中華寺（攝影：馬強）。
+尼泊爾藍毗尼中華寺（20150926 19:53（當天的時間可能要早一點），攝影：馬強）。
 
-中華人民共和國西藏自治區珠峰大本營與布達拉宮（攝影：馬強及路人甲）。
+中華人民共和國西藏自治區珠峰大本營（20151005 18:42，攝影：馬強）與布達拉宮（20150921 18:49，攝影：路人甲）。
 
-中華人民共和國江蘇省蘇州市金雞湖（國際半程馬拉松）（攝影：馬強）。
+中華人民共和國江蘇省蘇州市金雞湖（國際半程馬拉松）（20150329 11:31，攝影：馬強）。
 
 2016:
 
-中華人民共和國香港特別行政區，“這里有兩張照片隱藏在護照後面了”（攝影：路人乙及丙）。
+中華人民共和國香港特別行政區維多利亞公園（這里有兩張照片隱藏在護照後面了）（20160604 18:57/19:01，攝影：路人乙及丙）。
 
 2017:
 
-中華民國臺灣省嘉義縣阿里山（攝影：一北京來的游客）。
+中華民國臺灣省嘉義縣阿里山（20171006 06:38，攝影：一北京來的游客）。
+
 
 最後的兩張中華護照相片借自互聯網。
 
@@ -100,31 +104,33 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 2013-2017: “爱我中华”梦（和平统一后的新中华/国）之“两中华旗”系列。
 
+
 时间轴及位置：
 
 2013:
 
-中华人民共和国山东省泰安市泰山（摄影：刘红卫）。
+中华人民共和国山东省泰安市泰山（20131004 07:13，摄影：刘红卫）。
 
 2014:
 
-中华人民共和国广东省深圳市莲花山（摄影：刘丹）。
+中华人民共和国广东省深圳市莲花山（20141004 17:29，摄影：刘丹）。
 
 2015:
 
-尼泊尔蓝毗尼中华寺（摄影：马强）。
+尼泊尔蓝毗尼中华寺（20150926 19:53（当天的时间可能要早一点），摄影：马强）。
 
-中华人民共和国西藏自治区珠峰大本营与布达拉宮（摄影：马强及路人甲）。
+中华人民共和国西藏自治区珠峰大本营（20151005 18:42，摄影：马强）与布达拉宮（20150921 18:49，摄影：路人甲）。
 
-中华人民共和国江苏省苏州市金鸡湖（国际半程马拉松）（摄影：马强）。
+中华人民共和国江苏省苏州市金鸡湖（国际半程马拉松）（20150329 11:31，摄影：马强）。
 
 2016:
 
-中华人民共和国香港特別行政区，“此有两张照片隐藏在護照後面了”（摄影：路人乙及丙）。
+中华人民共和国香港特別行政区维多利亚公园（此有两张照片隐藏在護照後面了）（20160604 18:57/19:01，摄影：路人乙及丙）。
 
 2017:
 
-中华民国台湾省嘉义县阿里山（摄影：一北京來的游客）。
+中华民国台湾省嘉义县阿里山（20171006 06:38，摄影：一北京來的游客）。
+
 
 最后的两张中华护照相片借自互联网。
 
@@ -136,6 +142,7 @@ Special thanks to my families and relatives, all friends who travelled together 
 （1）20131004-20171006：從泰山（2013）開始，陆续涉足深圳（2014）、西藏（2015）、尼泊爾（2015）、香港（2016）、澳門（2016）和臺灣（2017）。
 （2）20181010：部分图片首次公開於個人微信公衆號“平民梦PingminDream”， https://mp.weixin.qq.com/s/bFgXny4REg4QYSq3c5BEjA 。
 （3）20201123：當晚首次以微信朋友圈動態形式公開了幾乎所有的“兩中華旗”系列照片（有兩張香港的圖片暫未公開）。
+（4）20201228：根據手機上照片的時間信息，增加所有照片拍攝時當天的詳細時間。
 （Next）xxxx：更新了xxx。
 （Todo）待做：同步英文翻译。
 
@@ -147,6 +154,6 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 
 刘水良(Pingmin Fenlly Liu)
-20131004-20201123
+20131004-20201228
 
 ## 结束(End)
