@@ -31,6 +31,8 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 
 ### 个人档案(Profile)
 
+> [塞缪尔·厄尔曼：青春不是年华，而是一种心态](/post/youth-by-samuel-ullman.html)
+
 原名(Realname)：刘泽平(自解为“留下帮助平民”)(Zeping Liu, “Stay to help civilians” as its explanatory of myself)
 昵称(Nickname)：平民·风灵·刘(Pingmin Fenlly Liu)
 笔名(Pseudonym/Pen-name)：刘水良(意即“流浪”)(ShuiLiang Liu, means “vagrant”)
@@ -39,9 +41,9 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 体重(Weight)：65kg
 星座(Constellation)：双鱼座(Pisces)
 
-> [乔布斯：一定要知道自己喜欢什么](/post/find-what-you-love-by-steve-jobs.html)
-
 ### 兴趣爱好(Hobbies)
+
+> [乔布斯：一定要知道自己喜欢什么（Find What You Love, by Steve Jobs）](/post/find-what-you-love-by-steve-jobs.html)
 
 喜欢去的地方：“小桥流水人家”
 想去的地方或高校：布达拉宫、长城、泰山、西双版纳和斯坦福大学等
@@ -65,8 +67,12 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 
 ### 理想心愿(Ideals)
 
+> [喬布斯：找到你所愛（Find What You Love, by Steve Jobs）](/post/find-what-you-love-by-steve-jobs.html)
+
 最大的人生理想（2010 畢業前所寫，更新於 20201228）：为青少年/教育/开源/言论自由/真正的法治做点什么！
+
 最大的个人心愿（2010 畢業前所寫）：做自己喜欢做的事，过自己想过的生活，为自己争取自由！
+
 近期（2010-2013）心愿（2010 畢業前所寫）：不是去支教，就是找一份有意义的心仪工作。
 
 2013-2020 的心願（已過去，現（20201228）添加/補充後記）：
@@ -94,8 +100,6 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 2013-2017：“愛我中華”夢之“两中華旗”系列（The "Two Flags of China" Series, of "Loving Our Greater China" Dream）（图片待添加）
 
 最后，愿好人一生平安！
-
-> [青春不是年华，而是一种心态](/post/youth-by-samuel-ullman.html)
 
 (注：以上所有资料仅供参考(可信度均为99%，如体重和照片等总是会有变化和失真的)，以‘实物’为准，谢谢。)
 
