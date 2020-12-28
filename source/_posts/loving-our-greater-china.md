@@ -2,7 +2,7 @@
 title: “愛我中華”夢之“兩中華旗”系列(The "Two Flags of China" Series, of The "Loving Our Greater China" Dream)
 author: 平民（Pingmin Fenlly Liu）
 date: 2013-10-04 07:13:25 +0800
-updated: 2020-12-28 18:40:32 +0800
+updated: 2020-12-28 19:22:32 +0800
 tags:
 - 愛我中華(Loving Our Greater China, LOGC)
 - 兩中華旗(Two Flags of China, TFC)
@@ -24,6 +24,14 @@ Keywords: Loving Our Greater China(LOGC), Two Flags of China(TFC).
 
 ## 正文(Body)
 
+中華人民共和國護照（PRC Passport）：
+
+![中華人民共和國護照（PRC Passport）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0usGsWSHupghkw0aiahS70RbQVibDm96Qrp1ibLAv4ZcyNstZDiaoTz1Zenw/640 "中華人民共和國護照（PRC Passport）")
+
+中華民國臺灣地區護照（ROC Taiwan Passport）：
+
+![中華民國臺灣地區護照（ROC Taiwan Passport）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uIP29XY3ZtN23JicG3RVibN4eqSe6aHcYC1r5rMWx4bMDqZdBA5oBiabAw/640 "中華民國臺灣地區護照（ROC Taiwan Passport）")
+
 ### English(Unlocalized)
 
 2013-2017: The "Two Flags of China" series, of the "Loving Our Greater China" Dream!
@@ -32,6 +40,8 @@ Keywords: Loving Our Greater China(LOGC), Two Flags of China(TFC).
 Timeline and locations:
 
 2013:
+
+![Mountain Taishan, Tai'an City, Shandong Province, PRC (20131004 07:13, Photographied by Liu Hongwei)](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uKxWdmwOtlKdn5bNx02DOLMeQcJSFXffUgzWtDtY75SqN2DFZ26q1Ug/640 "Mountain Taishan, Tai'an City, Shandong Province, PRC (20131004 07:13, Photographied by Liu Hongwei)")
 
 Mountain Taishan, Tai'an City, Shandong Province, PRC (20131004 07:13, Photographied by Liu Hongwei).
 
@@ -42,6 +52,8 @@ Mountain Taishan, Tai'an City, Shandong Province, PRC (20131004 07:13, Photograp
 Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, Photographied by Liu Dan).
 
 2015:
+
+![The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographied by Ma Qiang)](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uNgkTdVOZBNbkvhPflqQZibgyeibfGtVnTbQsvfd7ibuBtRgCW32rgj5kA/640 "The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographied by Ma Qiang)")
 
 The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographied by Ma Qiang).
 
@@ -54,6 +66,8 @@ The Jinji Lake (International Half Marathon), Suzhou City, Jiangsu Province, PRC
 The Victory Park(Two photos are hiden here from the passport photos), Hong Kong SAR, PRC (20160604 18:57/19:01, Photographied by two passersby).
 
 2017:
+
+![Mountain Ali, Chiayi County, Taiwan Province, ROC (20171006 06:38，Photographied by a Beijing traveler)](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uBLBPYibibVACpJQaAujzg2uiayns5MOpZ5CZ8APWXcZvefOJLvhkOly5g/640 "Mountain Ali, Chiayi County, Taiwan Province, ROC (20171006 06:38，Photographied by a Beijing traveler)")
 
 Mountain Ali, Chiayi County, Taiwan Province, ROC (20171006 06:38，Photographied by a Beijing traveler).
 
@@ -72,6 +86,8 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 2013:
 
+![中華人民共和國山東省泰安市泰山（20131004 07:13，攝影：劉紅衛）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uKxWdmwOtlKdn5bNx02DOLMeQcJSFXffUgzWtDtY75SqN2DFZ26q1Ug/640 "中華人民共和國山東省泰安市泰山（20131004 07:13，攝影：劉紅衛）")
+
 中華人民共和國山東省泰安市泰山（20131004 07:13，攝影：劉紅衛）。
 
 2014:
@@ -79,6 +95,8 @@ Special thanks to my families and relatives, all friends who travelled together 
 中華人民共和國廣東省深圳市蓮花山（20141004 17:29，攝影：劉丹）。
 
 2015:
+
+![尼泊爾藍毗尼中華寺（20150926 19:53（當天的時間可能要早一點），攝影：馬強）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uNgkTdVOZBNbkvhPflqQZibgyeibfGtVnTbQsvfd7ibuBtRgCW32rgj5kA/640 "尼泊爾藍毗尼中華寺（20150926 19:53（當天的時間可能要早一點），攝影：馬強）")
 
 尼泊爾藍毗尼中華寺（20150926 19:53（當天的時間可能要早一點），攝影：馬強）。
 
@@ -91,6 +109,8 @@ Special thanks to my families and relatives, all friends who travelled together 
 中華人民共和國香港特別行政區維多利亞公園（這里有兩張照片隱藏在護照後面了）（20160604 18:57/19:01，攝影：路人乙及丙）。
 
 2017:
+
+![中華民國臺灣省嘉義縣阿里山（20171006 06:38，攝影：一北京來的游客）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uBLBPYibibVACpJQaAujzg2uiayns5MOpZ5CZ8APWXcZvefOJLvhkOly5g/640 "中華民國臺灣省嘉義縣阿里山（20171006 06:38，攝影：一北京來的游客）")
 
 中華民國臺灣省嘉義縣阿里山（20171006 06:38，攝影：一北京來的游客）。
 
@@ -109,6 +129,8 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 2013:
 
+![中华人民共和国山东省泰安市泰山（20131004 07:13，摄影：刘红卫）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uKxWdmwOtlKdn5bNx02DOLMeQcJSFXffUgzWtDtY75SqN2DFZ26q1Ug/640 "中华人民共和国山东省泰安市泰山（20131004 07:13，摄影：刘红卫）")
+
 中华人民共和国山东省泰安市泰山（20131004 07:13，摄影：刘红卫）。
 
 2014:
@@ -116,6 +138,8 @@ Special thanks to my families and relatives, all friends who travelled together 
 中华人民共和国广东省深圳市莲花山（20141004 17:29，摄影：刘丹）。
 
 2015:
+
+![尼泊尔蓝毗尼中华寺（20150926 19:53（当天的时间可能要早一点），摄影：马强）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uNgkTdVOZBNbkvhPflqQZibgyeibfGtVnTbQsvfd7ibuBtRgCW32rgj5kA/640 "尼泊尔蓝毗尼中华寺（20150926 19:53（当天的时间可能要早一点），摄影：马强）")
 
 尼泊尔蓝毗尼中华寺（20150926 19:53（当天的时间可能要早一点），摄影：马强）。
 
@@ -128,6 +152,8 @@ Special thanks to my families and relatives, all friends who travelled together 
 中华人民共和国香港特別行政区维多利亚公园（此有两张照片隐藏在護照後面了）（20160604 18:57/19:01，摄影：路人乙及丙）。
 
 2017:
+
+![中华民国台湾省嘉义县阿里山（20171006 06:38，摄影：一北京來的游客）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uBLBPYibibVACpJQaAujzg2uiayns5MOpZ5CZ8APWXcZvefOJLvhkOly5g/640 "中华民国台湾省嘉义县阿里山（20171006 06:38，摄影：一北京來的游客）")
 
 中华民国台湾省嘉义县阿里山（20171006 06:38，摄影：一北京來的游客）。
 
