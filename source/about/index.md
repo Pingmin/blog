@@ -14,9 +14,9 @@ updated: 2020-12-28 12:48:39 +0800
 
 ### 平民(Pingmin Fenlly Liu)
 
-格言(Motto)：Think Different anyway and Make Differences someway(执着创新，产生影响)。
+格言(Motto)：[Think different](/post/think-different-by-apple-inc.html) anyway and make differences someway(执着创新，产生影响)。
 
-Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替“(at)”，首选Email)。
+Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)”）（推荐使用[Signal Messenger](/tags/signal-messenger/)）。
 
 常用完整签名（Signature）：“ 生命只有一次 / 从心而为 | 自由民主 / Think Copyleft | 久在樊笼里，不得返自然 / 苟全性命于乱世，不求闻达于诸候 | 向袁隆平致敬 / 为了忘却地纪念鲁迅 | 祝你好运 / Good luck ”。
 
@@ -31,7 +31,7 @@ Email(Preferred)、MSN、GTalk、QQ：Pingmin(at)Fenlly.org(请用“@”代替�
 
 ### 个人档案(Profile)
 
-> [塞缪尔·厄尔曼：青春不是年华，而是一种心态](/post/youth-by-samuel-ullman.html)
+> [塞缪尔·厄尔曼：青春不是年华，而是一种心态（Youth Is Not A Time of Life, by Samuel Ullman）](/post/youth-by-samuel-ullman.html)
 
 原名(Realname)：刘泽平(自解为“留下帮助平民”)(Zeping Liu, “Stay to help civilians” as its explanatory of myself)
 昵称(Nickname)：平民·风灵·刘(Pingmin Fenlly Liu)
