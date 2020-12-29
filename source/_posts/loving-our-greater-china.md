@@ -59,7 +59,7 @@ Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, Photogra
 
 The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographied by Ma Qiang).
 
-The Everest Base Camp(20151005 18:42, Photographied by Ma Qiang) and the Patala Palace(20150921 18:49, Photographied by a passerby), Tibet, PRC.
+The Everest Base Camp(20151005 18:42, Photographied by Ma Qiang) and the Potala Palace(20150921 18:49, Photographied by a passerby), Tibet, PRC.
 
 The Jinji Lake (International Half Marathon), Suzhou City, Jiangsu Province, PRC (20150329 11:31, Photographied by Ma Qiang).
 
