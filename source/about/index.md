@@ -12,6 +12,10 @@ updated: 2020-12-28 12:48:39 +0800
 
 ## 正文(Body)
 
+> [平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](/post/loving-our-greater-china.html)：
+>
+> ![平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg "平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）")
+
 ### 平民(Pingmin Fenlly Liu)
 
 格言(Motto)：[Think different](/post/think-different-by-apple-inc.html) anyway and make differences someway(执着创新，产生影响)。
@@ -78,7 +82,7 @@ Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)�
 2013-2020 的心願（已過去，現（20201228）添加/補充後記）：
 （1）改善了家人的生活環境；
 （2）20130508 在老家工商部門注冊成立了“风灵工作室”（暫未開門營業，僅用於注冊商標）并注冊了一些與“风灵”和“FENLLY”相关的商標（有的還在進行中）；
-（3）2013-2017 完成了平民個人標志性的“两中華旗”（中華民國（ROC）和中华人民共和国（PRC）的國旗）系列，這使得平民很可能是迄今（20201228）世上第一個也是唯一一個在 30 岁前于多個地方舉了两中華旗的人，盡管做和做到這些並不難；
+（3）2013-2017 完成了[平民個人標志性的“两中華旗”（中華民國（ROC）和中华人民共和国（PRC）的國旗）系列](/post/loving-our-greater-china.html)，這使得平民很可能是迄今（20201228）世上第一個也是唯一一個在 30 岁前于多個地方舉了两中華旗的人，盡管做和做到這些並不難；
 （4）學習（自學）了法學与法治相關知識（始于在校時，大概在 2007-2008 年間）；
 （5）學習（自學）了鋼琴（始於 20160326，现只會几首曲子（如《Mariage D'Amour(愛的婚姻/夢中的婚禮)》（三個版本）, 《夏天（Summer）》等），不過目前還處於“業餘中的業餘”水平）。
 
@@ -88,16 +92,16 @@ Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)�
 （3）斷續學習音樂与樂器，如当前已嘗試過的吉他（始於 2006 秋）与鋼琴（始於 20160326）；
 （4）有機會的话，會考慮選擇去境外（如香港等）讀个碩士（如計算機或法學相關專業）。
 
-### 感恩致谢(Thanks)
-
-感谢所有关心和帮助过我的人，也感谢那些让我成长起来的人！
-特别鸣谢：父母、梅花小学等。
-
 ## 相片留念(Photos)
 
 20091129：柳下羡渊明、“她们都老了吧”（图片待添加）
 20100621：Think Copyleft of HUT Memory（河西柳树行、为了忘却地纪念鲁迅）（图片待添加）
-2013-2017：“愛我中華”夢之“两中華旗”系列（The "Two Flags of China" Series, of "Loving Our Greater China" Dream）（图片待添加）
+2013-2017：[“愛我中華”夢之“两中華旗”系列（The "Two Flags of China" Series, of "Loving Our Greater China" Dream）](/post/loving-our-greater-china.html)
+
+### 感恩致谢(Thanks)
+
+感谢所有关心和帮助过我的人，也感谢那些让我成长起来的人！
+特别鸣谢：父母、梅花小学等。
 
 最后，愿好人一生平安！
 
