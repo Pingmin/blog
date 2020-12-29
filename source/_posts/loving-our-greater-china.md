@@ -26,11 +26,13 @@ Keywords: Loving Our Greater China(LOGC), Two Flags of China(TFC).
 
 中華人民共和國護照（PRC Passport）：
 
-![中華人民共和國護照（PRC Passport）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0usGsWSHupghkw0aiahS70RbQVibDm96Qrp1ibLAv4ZcyNstZDiaoTz1Zenw/640 "中華人民共和國護照（PRC Passport）")
+![中華人民共和國護照（PRC Passport）](https://pingmin.me/img/passports/prc-passport.png "中華人民共和國護照（PRC Passport）")
 
 中華民國臺灣地區護照（ROC Taiwan Passport）：
 
-![中華民國臺灣地區護照（ROC Taiwan Passport）](https://mmbiz.qpic.cn/mmbiz_jpg/J2PVgUqON8bfMDz095rk9RCvVUYgrK0uIP29XY3ZtN23JicG3RVibN4eqSe6aHcYC1r5rMWx4bMDqZdBA5oBiabAw/640 "中華民國臺灣地區護照（ROC Taiwan Passport）")
+![中華民國臺灣地區護照（ROC Taiwan Passport）](https://pingmin.me/img/passports/roc-taiwan-passport-20201021.png "中華民國臺灣地區護照（ROC Taiwan Passport）")
+
+> （圖片來源參見[中華民國外交部預訂於110年1月（202101）發行提升台灣辨識度的新版護照](https://www.mofa.gov.tw/News_Content_M_2.aspx?n=8742DCE7A2A28761&s=4FB2B115E3BA2497)（需科學上網））
 
 ### English(Unlocalized)
 
