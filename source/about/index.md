@@ -12,9 +12,9 @@ updated: 2020-12-28 12:48:39 +0800
 
 ## 正文(Body)
 
-> [平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](/post/loving-our-greater-china.html)：
->
 > ![平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg "平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）")
+>
+> [平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](/post/loving-our-greater-china.html)
 
 ### 平民(Pingmin Fenlly Liu)
 
