@@ -12,9 +12,9 @@ updated: 2020-12-28 12:48:39 +0800
 
 ## 正文(Body)
 
-> ![平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg "平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）")
+> ![平民泰山玉皇頂兩中華旗（Pingmin on the Jade Emperor Peak of Mount Tai with Two Flags of China, 20131004）（攝影：紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg "平民泰山玉皇頂兩中華旗（Pingmin on the Jade Emperor Peak of Mount Tai with Two Flags of China, 20131004）（攝影：紅衛）")
 >
-> [平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](/post/loving-our-greater-china.html)
+> [平民泰山玉皇頂兩中華旗（Pingmin on the Jade Emperor Peak of Mount Tai with Two Flags of China, 20131004）（攝影：紅衛）](/post/loving-our-greater-china.html)
 
 ### 平民(Pingmin Fenlly Liu)
 
@@ -115,7 +115,7 @@ Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)�
 （4）20121103：增加“郑重声明(Declaration)”，修改照片链接和上传照片，修改一些用词。
 （5）20121110：增加个人常用标签；补充自己对自己姓名的诠释(在校时已确立，约在2008到2009年间)；增加对微博的使用注解，且出于SEO考虑而去掉其外链；修改一些措词。
 （6）20200713：迁移至 https://pingmin.blog/about 。
-（7）20201228：移除腾讯微博帐号（因腾讯已停服），增加个人微信公众号帐号；政治人物中移除“昂山素季”；更新“理想心愿(Ideals)”：（A）增加“言论自由/真正的法治”，（B）補充“2013-2020 的心願”，（C）添加“2020-2030 的心願”,等等。
+（7）20201228：顯示平民在泰山的“兩中華旗”照片；移除腾讯微博帐号（因腾讯已停服），增加个人微信公众号帐号；政治人物中移除“昂山素季”；更新“理想心愿(Ideals)”：（a）增加“言论自由/真正的法治”，（b）補充“2013-2020 的心願”，（c）添加“2020-2030 的心願”；等等。
 （Next）yyyymmdd：更新了 xxx。
 （Todo）待做：同步英文翻译。
 

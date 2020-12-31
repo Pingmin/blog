@@ -24,9 +24,9 @@ Keywords: Loving Our Greater China(LOGC), Two Flags of China(TFC).
 
 ## 正文(Body)
 
-> ![平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg "平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）")
+> ![平民泰山玉皇頂兩中華旗（Pingmin on the Jade Emperor Peak of Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg "平民泰山玉皇頂兩中華旗（Pingmin on the Jade Emperor Peak of Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）")
 >
-> 平民泰山玉皇頂兩中華旗（Pingmin on Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）
+> [平民泰山玉皇頂兩中華旗（Pingmin on the Jade Emperor Peak of Mount Tai with Two Flags of China, 20131004）（攝影：劉紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg)
 
 ### English(Unlocalized)
 
@@ -226,7 +226,7 @@ Two Passports of China(TPC)/兩中華護照/两中华护照：
 （2）20131123：首次將個人在泰山舉兩中華旗的照片作爲微信朋友圈動態公開。
 （3）20181010：首次將部分图片（中華內地泰山、尼泊爾藍毗尼中華寺和中華臺灣阿裏山）公開於個人微信公衆號“[**平民梦PingminDream**](https://mp.weixin.qq.com/s/bFgXny4REg4QYSq3c5BEjA)”。
 （4）20201123：當晚首次以微信朋友圈動態形式公開了個人幾乎所有的“兩中華旗”系列照片（尚有兩張香港的圖片暫未公開）。
-（5）20201228：根據手機上照片的時間信息（有的時間不一定對），增加所有照片拍攝時當天的詳細時間。
+（5）20201228：顯示平民“兩中華旗”系列照片，並根據手機上照片的時間信息（有的時間不一定對），增加所有照片拍攝時當天的詳細時間。
 （Next）xxxx：更新了xxx。
 （Todo）待做：同步英文翻译。
 
