@@ -10,11 +10,11 @@ categories:
 - 美文共赏(Beauty Essays)
 ---
 
-> 按（Notes）：以下正文内容转自[网络](https://ceeji.net/blog/中国共产党在野党时期言论精选/)（此有少许改动），平民未作考证，仅供参考，真实性等请读者自酌。
+> 按（Notes）：以下正文内容转自网络(见末尾参考部分，此有少许改动），平民未作考证，仅供参考，真实性等请读者自酌。
 
 ## 中国共产党在野党时期言论精选
 
-《历史的先声——半个世纪前的庄严承诺》书摘：
+[《历史的先声——半个世纪前的庄严承诺》](https://zh.wikipedia.org/zh-hans/历史的先声)书摘：
 
 　　“中国的缺点，一言以蔽之，就是缺乏民主……政治需要统一，但是只有建立在言论、出版、结社的自由与民主选举政府的基础上面，才是有力的政治。”（[毛泽东，1944年6月12日答中外记者团](https://book.ifeng.com/special/yueduzhongguo/list/200909/0924_8167_1363431.shtml)）
 
@@ -255,13 +255,15 @@ categories:
 
 ## 参考（References）
 
-- 《中国共产党在野党时期言论精选》（原作者平民暂无法考证）：（1）[也贴几篇当年《新华日报》《解放日报》社论(转载)，“yujsch”（bbs.tianya.cn）](http://bbs.tianya.cn/post-stocks-122547-1.shtml)（20050731），（2）[我不同意你的意见，但我誓死捍卫你说话的权利(转载)，“神州有豪杰”等(bbs.tianya.cn)](http://bbs.tianya.cn/post-no04-699702-1.shtml)（20080511），（3）[中国共产党在野党时期言论精选(转载)，郭家宝(BYVoid.com)](https://byvoid.com/zhs/blog/cpc-press/)（20081018），（4）[中国共产党在野党时期言论精选(转载)，程希冀(CeeJi.net)](https://ceeji.net/blog/中国共产党在野党时期言论精选/)（20100111）
+- [《历史的先声——半个世纪前的庄严承诺》](https://zh.wikipedia.org/zh-hans/历史的先声)：由笑蜀（陈敏）编撰，1999 年汕头大学出版社出版，2002 年香港博思出版社出版，2013 年香港大学新闻及传媒研究中心再版。
 
 - [李普：《〈历史的先声〉序言：还要走很长的路——一个老共产党人的真心话》，鳳凰網讀書（book.ifeng.com）](https://book.ifeng.com/yeneizixun/special/yueduzhongguo/list/detail_2009_09/24/313929_0.shtml)（20010425）
 
 - [“百年中國閱讀”專題，鳳凰網讀書（book.ifeng.com）](https://book.ifeng.com/special/yueduzhongguo/)
 
 - [笑蜀：公民社会是底线，底线就是生命线](https://opinion.huanqiu.com/article/9CaKrnJy5OG)
+
+- 《中国共产党在野党时期言论精选》（原作者平民暂无法考证）：（1）[也贴几篇当年《新华日报》《解放日报》社论(转载)，“yujsch”（bbs.tianya.cn）](http://bbs.tianya.cn/post-stocks-122547-1.shtml)（20050731），（2）[我不同意你的意见，但我誓死捍卫你说话的权利(转载)，“神州有豪杰”等(bbs.tianya.cn)](http://bbs.tianya.cn/post-no04-699702-1.shtml)（20080511），（3）[中国共产党在野党时期言论精选(转载)，郭家宝(BYVoid.com)](https://byvoid.com/zhs/blog/cpc-press/)（20081018），（4）[中国共产党在野党时期言论精选(转载)，程希冀(CeeJi.net)](https://ceeji.net/blog/中国共产党在野党时期言论精选/)（20100111）
 
 
 ## 印记（Imprints）
