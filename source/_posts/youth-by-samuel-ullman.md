@@ -36,7 +36,7 @@ When the aerials are down, and **your spirit is covered with snows of cynicism a
 
 - [塞缪尔·厄尔曼（Samuel Ullman）](https://en.wikipedia.org/wiki/Samuel_Ullman)，1840~1924，其他信息可参见[维基百科](https://en.wikipedia.org/wiki/Samuel_Ullman)（需科学上网）等。
 - 英文原文可参见“[塞缪尔·厄尔曼博物馆（Samuel Ullman Museum）](https://www.uab.edu/ullmanmuseum/)”及“[サミュエル・ウルマンの詩「青春」（原文）](https://sybrma.sakura.ne.jp/170samuel.ullman.youth.html)”等。
-- 中文翻译主要为王佐良所译《青春（Youth）》。
+- 中文翻译主要为王佐良所译《青春（Youth）》，有改动。
 
 ## 印记（Imprints）
 
