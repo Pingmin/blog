@@ -103,7 +103,7 @@ Session Messenger
 
 官网： https://getsession.org/ 。
 
-源码： https://github.com/Loki-project 。
+源码： https://github.com/oxen-io 。
 
 
 #### 四、备用下载（Standby Downloads）
