@@ -50,12 +50,12 @@ categories:
 
 不过，目前 Signal 还可以正常使用，且支持 iOS、Android 以及三大桌面系统（Windows、macOS、Debian-based Linux）（参见下面附录部分）。Session 与 Signal 类似，其本身就基于 Signal 开发，但采用了去中心化的洋葱路由网络，无需手机号即可使用，通过 AppImage 格式支持多种 Linux 发行版等。当然，鉴于内地我们当局的惯用做法，不排除将来 Signal 和 Session 等也都被屏蔽的可能性。
 
-温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iMessage 和 FaceTime 进行安全通讯（但 Signal 更安全），只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。
+温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iOS 下的 iMessage 和 FaceTime 进行安全通讯（但 Signal 更安全），只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。
 
 值得一提的是，开源应用 Signal 更加注重对个人信息与隐私的保护。前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的曝光者爱德华·斯诺登（Edward Snowden，现以政治避难的方式居住于俄罗斯）等对 Signal 也做了推荐（参见 Signal 官网）。
 
 
-### 附：
+### 附（Appendix）
 
 #### 一、Signal（暗号） - Private Messenger（私密信使）
 
@@ -120,7 +120,7 @@ Session Messenger
 （4）20171119：增加国内支持端到端加密的部分通讯应用，以及相关法律条文。
 （5）20180107：重新排版和组织并更新相关内容。
 （6）20180311：（a）增加另外两个新的法条并优化排版，并完善相关正文内容；（b）更新 Signal 和 WhatsApp 官方的相关下载连接；（c）修正备用的百度网盘下载链接。
-（7）20201101：完善和更新文本内容，更新 Signal 相关链接，去掉未开源的 WhatsApp，同时增加开源的 Session。
+（7）20201101：完善和更新文本内容；更新附录中的 Signal 相关链接，并增加开源的 Session（见上面的“附三”），同时去掉附录中未开源的 WhatsApp。
 （N）下一步（Next）: xxx。
 （T）待做（TODO）：同步英文翻译。
 
