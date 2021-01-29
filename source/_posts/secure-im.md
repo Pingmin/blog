@@ -65,11 +65,13 @@ Signal Messenger
 
 2. 源码： https://github.com/signalapp/ 。
 
-3. Android 版：下载页面为 https://signal.org/android/apk/ ，目前最新版为 https://updates.signal.org/android/Signal-Android-website-prod-universal-release-5.1.9.apk （手机上请复制粘贴到浏览器中打开，以下载安装）。
+3. Android 版：最新版的下载页面为 https://signal.org/android/apk/ 。
+
+> 注：内地 Android 手机用户因不能正常访问 Google Play 应用商店，故可下拉到此页面底部下载其在网站上直接发布的版本）。如：当前（20210129）的最新版下载链接为 https://updates.signal.org/android/Signal-Android-website-prod-universal-release-5.3.7.apk （手机上请复制粘贴到浏览器中打开，以下载安装），另见 https://updates.signal.org/android/latest.json 。
 
 4. iOS 版： https://itunes.apple.com/cn/app/signal-private-messenger/id874139669 。
 
-5. macOS 版： https://updates.signal.org/desktop/signal-desktop-mac-1.39.6.dmg 或 https://updates.signal.org/desktop/signal-desktop-mac-1.39.6.zip 。
+5. macOS 版： https://updates.signal.org/desktop/signal-desktop-mac-1.39.6.zip 或 https://updates.signal.org/desktop/signal-desktop-mac-1.39.6.dmg 。
 
 6. Windows 版： https://updates.signal.org/desktop/signal-desktop-win-1.39.6.exe 。
 
