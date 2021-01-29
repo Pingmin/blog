@@ -1,3 +1,20 @@
+## 2.0.0 (2021-01-29)
+
+### Posts and Pages
+
+- Update the "[关于(About)](https://pingmin.blog/about/)" page.
+- Update the "[寻她(Seeking Her)](https://pingmin.blog/post/she.html)" post.
+- Update the "[“愛我中華”夢之“兩中華旗”系列(The "Two Flags of China" Series, of The "Loving Our Greater China" Dream)](https://pingmin.blog/post/loving-our-greater-china.html)" post.
+- Add the "[中國共產黨在野黨時期言論精選（Quotes of CCP/CPC Before 1949）](https://pingmin.blog/post/quotes-of-ccp-before-1949.html)" post.
+- Add the English-to-Chinese translation "[當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）](https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html)" post.
+- Add the "[十年之約（A Plan Scheduled In One Decade Ago）](https://pingmin.blog/post/a-plan-scheduled-in-one-decade-ago.html)" post.
+
+### Tools
+
+- Upgrade Hexo to v5.2.0 .
+- Upgrade theme NexT to v8.0.2 .
+
+
 ## 1.0.1 (2020-07-15)
 
 - Add the "Pingmin.me", "Guides" and "She" menus.
