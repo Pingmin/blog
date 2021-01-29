@@ -65,7 +65,7 @@
 
 ## 0.2.0 (2017-12-24)
 
-- Add the Steve Jobs' speech.
+- Add the Steve Jobs's speech.
 - Add the "She" post.
 - Add the "Think Copleft" picture as my avatar.
 - Enable the rewarding feature with my Alipay QR code.
@@ -82,5 +82,5 @@
 
 ## 0.1.0 (2017-09-04)
 
-- Initialize the new git-based blog with one post by [Hexo](https://hexo.io)
+- Initialize the new git-based blog with only one post(from my old blog sites, since 2009) by [Hexo](https://hexo.io) .
   and theme [NexT](https://github.com/iissnan/hexo-theme-next).
