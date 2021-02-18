@@ -2,7 +2,7 @@
 title: “愛我中華”夢之“兩中華旗”系列(The "Two Flags of China" Series, of The "Loving Our Greater China" Dream)
 author: 平民（Pingmin Fenlly Liu）
 date: 2013-10-04 07:13:25 +0800
-updated: 2020-12-31 15:30:32 +0800
+updated: 2021-02-18 13:42:32 +0800
 tags:
 - 愛我中華(Loving Our Greater China, LOGC)
 - 兩中華旗(Two Flags of China, TFC)
@@ -46,9 +46,9 @@ Timeline and locations:
 
 2014:
 
-> ![Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, Photographed by Liu Dan)](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, Photographed by Liu Dan)")
+> ![Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, with a "Forget Me" T-shirt, Photographed by Liu Dan)](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, with a "Forget Me" T-shirt, Photographed by Liu Dan)")
 >
-> [Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, Photographed by Liu Dan)](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg).
+> [Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, with a "Forget Me" T-shirt, Photographed by Liu Dan)](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg).
 
 
 2015:
@@ -103,9 +103,9 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 2014:
 
-> ![中華人民共和國廣東省深圳市蓮花山（20141004 17:29，攝影：劉丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "中華人民共和國廣東省深圳市蓮花山（20141004 17:29，攝影：劉丹）")
+> ![中華人民共和國廣東省深圳市蓮花山（20141004 17:29，T 恤上的字爲“忘記我”，攝影：劉丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "中華人民共和國廣東省深圳市蓮花山（20141004 17:29，T 恤上的字爲“忘記我”，攝影：劉丹）")
 >
-> [中華人民共和國廣東省深圳市蓮花山（20141004 17:29，攝影：劉丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg)。
+> [中華人民共和國廣東省深圳市蓮花山（20141004 17:29，T 恤上的字爲“忘記我”，攝影：劉丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg)。
 
 
 2015:
@@ -160,9 +160,9 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 2014:
 
-> ![中华人民共和国广东省深圳市莲花山（20141004 17:29，摄影：刘丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "中华人民共和国广东省深圳市莲花山（20141004 17:29，摄影：刘丹）")
+> ![中华人民共和国广东省深圳市莲花山（20141004 17:29，T 恤上的字为“忘记我”，摄影：刘丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "中华人民共和国广东省深圳市莲花山（20141004 17:29，T 恤上的字为“忘记我”，摄影：刘丹）")
 >
-> [中华人民共和国广东省深圳市莲花山（20141004 17:29，摄影：刘丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg)。
+> [中华人民共和国广东省深圳市莲花山（20141004 17:29，T 恤上的字为“忘记我”，摄影：刘丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg)。
 
 
 2015:
@@ -230,6 +230,7 @@ Two Passports of China(TPC)/兩中華護照/两中华护照：
 （6）20201229：修正一些英文拼寫錯誤("Photographed", "Potala")；上傳和更新個人圖片鏈接，並顯示三張平民“兩中華旗”系列照片。
 （7）20201230：顯示所有已經公開的平民“兩中華旗”系列照片。
 （8）20201231：修正錯別字（“繼續”），完善泰山照片的描述，更新“印記”內容。
+（9）20210218：注明 2014 年那张照片中 T 恤上的字。
 （Next）xxxx：更新了xxx。
 （Todo）待做：同步英文翻译。
 
