@@ -2,7 +2,7 @@
 title: 关于(About)
 author: 平民（Pingmin Fenlly Liu）
 date: 2009-12-27 19:32:56 +0800
-updated: 2021-01-05 16:26:39 +0800
+updated: 2021-03-02 14:36:39 +0800
 ---
 
 ## 概要(Abstract)
@@ -26,7 +26,7 @@ Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)�
 
 社交网络账号（Social Network Accounts）：（1）平民个人微信公众号（Personal WeChat official account）：“平民梦PingminDream” ；（2）新浪微博（Weibo），https://weibo.com/liuzeping ；（3）Twitter，https://twitter.com/iPingmin 。注：为了节约时间等，以上微博都有可能停止更新或/和同步，甚至停止使用。
 
-常用的自觉适合自己的个人标签(Self-tags)：生命只有一次(Only live once / Only one life), 从心而为(Follow your/my heart), 自由(Free and freedom), 自然(Nature and natural), 简洁(Simple and concise), 开放(Open), 严论自由(Serious to freedom), 自由民主(Liberal democracy), Copyleft(著佐权,开放版权), 执着(Clinging)(或固执, Stubborn), 聆听乐曲(Enjoy music), 非暴力(Nonviolence), Linux, 甘地(Mahatma Gandhi), 乔布斯(Steve Jobs), Linus Torvalds(林纳斯·托瓦兹), Apple(苹果(品牌)), Google(谷歌)……
+常用的自觉适合自己的个人标签(Self-tags)：生命只有一次(Only live once / Only one life), 从心而为(Follow your/my heart), 自由(Free and freedom), 自然(Nature and natural), 简洁(Simple and concise), 开放(Open), 严论自由(Serious to freedom), 自由民主(Liberal democracy), Copyleft(著佐权,开放版权), 执着(Clinging)(或固执, Stubborn), 聆听乐曲(Enjoy music), 非暴力(Nonviolence), Linux, 华盛顿(George Washington), 甘地(Mahatma Gandhi), 乔布斯(Steve Jobs), 埃隆·马斯克(Elon Musk), Linus Torvalds(林纳斯·托瓦兹), Apple(苹果(品牌)), Google(谷歌)……
 
 个人博客说明(Blog description)：此个人博客（20120902开通）主要是记录自己生活，记录自己的所想，分享自己的所见所闻和所学，以及表达一些个人观点等（更多说明请见《开篇明意(Manifesto)》等“公告说明(Bulletin)”）。对于社会焦点事物等，基本方向是“质疑过去，享受、批判和改善现在，相信未来”；对于生活和人生，则是“享受和追求”。
 
@@ -40,7 +40,7 @@ Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)�
 原名(Realname)：刘泽平(自解为“留下帮助平民”)(Zeping Liu, “Stay to help civilians” as its explanatory of myself)
 昵称(Nickname)：平民·风灵·刘(Pingmin Fenlly Liu)
 笔名(Pseudonym/Pen-name)：刘水良(意即“流浪”)(ShuiLiang Liu, means “vagrant”)
-国籍(Nationality)：中国(China)
+国籍(Nationality)：中华/中国(China, ROC & PRC, 中華民國 & 中华人民共和国)
 身高(Height)：170cm
 体重(Weight)：65kg
 星座(Constellation)：双鱼座(Pisces)
@@ -52,16 +52,16 @@ Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)�
 喜欢去的地方：“小桥流水人家”
 想去的地方或高校：布达拉宫、长城、泰山、西双版纳和斯坦福大学等
 喜欢的文人：鲁迅、杜甫、陶渊明等
-喜欢的书籍：《杂文选刊》、《沉思录》、《不抱怨的世界》、《世界是平的》等
+喜欢的书籍：《论自由》、《钢铁是怎样练成的》、《杂文选刊》、《沉思录》、《不抱怨的世界》、《世界是平的》、《宪法学导论：原理与应用》、《论法的精神》、《社会契约论》、《论犯罪与刑罚》、《为什么要废除死刑》、《思索死刑》等
 喜欢的行业/领域：自由开放/开放事业/Copyleft/计算机/互联网/LAMP
-喜欢的政治人物：甘地（Mohandas Gandhi）、周恩来、朱镕基、温家宝和刘晓波等
+喜欢的政治人物：华盛顿（George Washington）、甘地（Mohandas Gandhi）、周恩来、朱镕基、温家宝和刘晓波等
 喜欢的商业领袖：史蒂夫·乔布斯（Steve Jobs）、埃隆·马斯克（Elon Musk）等
 喜欢的科学家：爱因斯坦、袁隆平、霍金等
 喜欢的品牌/公司：Apple、Google、FSF、Copyleft、CC等
 喜欢的男演员：李连杰、周润发、成龙等
 喜欢的音乐人/乐团：神秘园、班得瑞、久石让、雅尼等
 喜欢的乐曲/声乐：中速而旋律动听的富有情感的音乐；器乐、弦乐(如古筝/琴、二胡、马头琴、小提琴等)、管乐、交响乐、钢琴曲等；好听的歌曲(包括民族的、美声的、通俗的等)
-喜欢的业余活动/运动：阅读、足球、跑步/漫野跑、散步/漫步山林
+喜欢的业余活动/运动：阅读、羽毛球、足球、跑步/漫野跑、散步/漫步山林
 喜欢的个人电脑/手机：iPad、 Mac(MacBook Pro/Air、 iMac、 Mac Pro)、 iPhone
 喜欢的生活/服饰：自然、简洁、舒适、大方、绿色
 不喜欢的音乐：节奏太快/重的、听了两遍还不知其所云的、Disco等
@@ -117,6 +117,7 @@ Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)�
 （6）20200713：迁移至 https://pingmin.blog/about 。
 （7）20201228：顯示平民在泰山的“兩中華旗”照片；移除腾讯微博帐号（因腾讯已停服），增加个人微信公众号帐号；政治人物中移除“昂山素季”；更新“理想心愿(Ideals)”：（a）增加“言论自由/真正的法治”，（b）補充“2011-2020 的心願”，（c）添加“2021-2030 的心願”；等等。
 （8）20210105：規範化心願的時間段並完善心願相關的描述。
+（9）20210302：國籍由“中国(China)”改成“中华/中国(China, ROC & PRC, 中華民國 & 中华人民共和国)”；書籍補上幾本法學相關的書；人物補上华盛顿；運動補上羽毛球。
 （Next）yyyymmdd：更新了 xxx。
 （Todo）待做：同步英文翻译。
 
@@ -131,6 +132,6 @@ Email/iMessage/FaceTime： Pingmin(at)Fenlly.org （请用“@”代替“(at)�
 
 
 刘水良(Pingmin Fenlly Liu)
-20091227-20210105
+20091227-20210302
 
 ## 结束(End)
