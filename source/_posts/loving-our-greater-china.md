@@ -2,7 +2,7 @@
 title: “愛我中華”夢之“兩中華旗”系列(The "Two Flags of China" Series, of The "Loving Our Greater China" Dream)
 author: 平民（Pingmin Fenlly Liu）
 date: 2013-10-04 07:13:25 +0800
-updated: 2021-02-18 13:42:32 +0800
+updated: 2021-03-04 14:21:32 +0800
 tags:
 - 愛我中華(Loving Our Greater China, LOGC)
 - 兩中華旗(Two Flags of China, TFC)
@@ -11,13 +11,15 @@ categories:
 ---
 
 > [正體中文（Traditional Chinese）（未本地化）](/post/loving-our-greater-china.html#正體中文（Traditional-Chinese）（未本地化）)
+>
 > [简体中文（Simplified Chinese）（中华內地）](/post/loving-our-greater-china.html#简体中文（Simplified-Chinese）（中华內地）)
+>
 > [English(Unlocalized)](/post/loving-our-greater-china.html#English-Unlocalized)
 
 ## 概要(Abstract)
 
-“愛我中華”之“兩中華旗”系列。
-The "Two Flags of China" Series, of The "Loving Our Greater China".
+“愛我中華”夢之“兩中華旗”系列。
+The "Two Flags of China" Series, of The "Loving Our Greater China" Dream.
 
 关键词：愛我中華，兩中華旗。
 Keywords: Loving Our Greater China(LOGC), Two Flags of China(TFC).
@@ -35,7 +37,7 @@ Keywords: Loving Our Greater China(LOGC), Two Flags of China(TFC).
 
 Timeline and locations:
 
-2013:
+#### 2013
 
 <!-- more -->
 
@@ -44,38 +46,41 @@ Timeline and locations:
 > [Mountain Taishan, Tai'an City, Shandong Province, PRC (20131004 07:13, Photographed by Liu Hongwei)](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg).
 
 
-2014:
+#### 2014
 
-> ![Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, with a "Forget Me" T-shirt, Photographed by Liu Dan)](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, with a "Forget Me" T-shirt, Photographed by Liu Dan)")
+> ![Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, with a "Forget Me" T-shirt, Photographed by Liu Dan)](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg 'Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, with a "Forget Me" T-shirt, Photographed by Liu Dan)')
 >
 > [Mountain Lotus, Shenzhen City, Guangdong Province, PRC (20141004 17:29, with a "Forget Me" T-shirt, Photographed by Liu Dan)](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg).
 
 
-2015:
-
-> ![The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20150926-LOGC-TFC-Nepal-Lumbini-Chinese-Temple-Photographed-by-Ma-Qiang.jpg "The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographed by Ma Qiang)")
->
-> [The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20150926-LOGC-TFC-Nepal-Lumbini-Chinese-Temple-Photographed-by-Ma-Qiang.jpg).
-
-
-> ![The Everest Base Camp, Tibet, PRC(20151005 18:42, Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg "The Everest Base Camp, Tibet, PRC(20151005 18:42, Photographed by Ma Qiang)")
->
-> ![The Potala Palace, Tibet, PRC(20150921 18:49, Photographed by a passerby)](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg "The Potala Palace, Tibet, PRC(20150921 18:49, Photographed by a passerby)")
->
-> [The Everest Base Camp(20151005 18:42, Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg) and [the Potala Palace(20150921 18:49, Photographed by a passerby)](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg), Tibet, PRC.
-
+#### 2015
 
 > ![The Jinji Lake (International Half Marathon), Suzhou City, Jiangsu Province, PRC (20150329 11:31, Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg "The Jinji Lake (International Half Marathon), Suzhou City, Jiangsu Province, PRC (20150329 11:31, Photographed by Ma Qiang)")
 >
 > [The Jinji Lake (International Half Marathon), Suzhou City, Jiangsu Province, PRC (20150329 11:31, Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg).
 
 
-2016:
+> ![The Potala Palace, Tibet, PRC(20150921 18:49, Photographed by a passerby)](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg "The Potala Palace, Tibet, PRC(20150921 18:49, Photographed by a passerby)")
+>
+> [The Potala Palace, Tibet, PRC(20150921 18:49, Photographed by a passerby)](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg).
 
-The Victory Park(Two photos are hiden here from the passport photos), Hong Kong SAR, PRC (20160604 18:57/19:01, Photographed by two passersby).
+
+> ![The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at an earlier clock), Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20150926-LOGC-TFC-Nepal-Lumbini-Chinese-Temple-Photographed-by-Ma-Qiang.jpg "The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at earlier clock), Photographed by Ma Qiang)")
+>
+> [The Chinese Temple, Lumbini, Nepal (20150926 19:53(Maybe at an earlier clock), Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20150926-LOGC-TFC-Nepal-Lumbini-Chinese-Temple-Photographed-by-Ma-Qiang.jpg).
 
 
-2017:
+> ![The Everest Base Camp, Tibet, PRC(20151005 18:42, Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg "The Everest Base Camp, Tibet, PRC(20151005 18:42, Photographed by Ma Qiang)")
+>
+> [The Everest Base Camp, Tibet, PRC(20151005 18:42, Photographed by Ma Qiang)](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg).
+
+
+#### 2016
+
+The Victory Park(Two photos are hiden here from the two passport photos), Hong Kong SAR, PRC (20160604 18:57/19:01, Photographed by two passersby).
+
+
+#### 2017
 
 > ![Mountain Ali, Chiayi County, Taiwan Province, ROC (20171006 06:38，Photographed by a Beijing traveler)](https://pingmin.me/img/loving-our-greater-china/20171006-LOGC-TFC-ROC-Taiwan-Mount-Ali-Photographed-by-a-Beijing-Traveler.jpg "Mountain Ali, Chiayi County, Taiwan Province, ROC (20171006 06:38，Photographed by a Beijing traveler)")
 >
@@ -94,21 +99,31 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 時間線與地點：
 
-2013:
+#### 2013
 
 > ![中華人民共和國山東省泰安市泰山（20131004 07:13，攝影：劉紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg "中華人民共和國山東省泰安市泰山（20131004 07:13，攝影：劉紅衛）")
 >
 > [中華人民共和國山東省泰安市泰山（20131004 07:13，攝影：劉紅衛）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg)。
 
 
-2014:
+#### 2014
 
 > ![中華人民共和國廣東省深圳市蓮花山（20141004 17:29，T 恤上的字爲“忘記我”，攝影：劉丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "中華人民共和國廣東省深圳市蓮花山（20141004 17:29，T 恤上的字爲“忘記我”，攝影：劉丹）")
 >
 > [中華人民共和國廣東省深圳市蓮花山（20141004 17:29，T 恤上的字爲“忘記我”，攝影：劉丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg)。
 
 
-2015:
+#### 2015
+
+> ![中華人民共和國江蘇省蘇州市金雞湖（國際半程馬拉松）（20150329 11:31，攝影：馬強）](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg "中華人民共和國江蘇省蘇州市金雞湖（國際半程馬拉松）（20150329 11:31，攝影：馬強）")
+>
+> [中華人民共和國江蘇省蘇州市金雞湖（國際半程馬拉松）（20150329 11:31，攝影：馬強）](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg)。
+
+
+> ![中華人民共和國西藏自治區布達拉宮（20150921 18:49，攝影：路人甲）](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg "中華人民共和國西藏自治區布達拉宮（20150921 18:49，攝影：路人甲）")
+>
+> [中華人民共和國西藏自治區布達拉宮（20150921 18:49，攝影：路人甲）](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg)。
+
 
 > ![尼泊爾藍毗尼中華寺（20150926 19:53（當天的時間可能要早一點），攝影：馬強）](https://pingmin.me/img/loving-our-greater-china/20150926-LOGC-TFC-Nepal-Lumbini-Chinese-Temple-Photographed-by-Ma-Qiang.jpg "尼泊爾藍毗尼中華寺（20150926 19:53（當天的時間可能要早一點），攝影：馬強）")
 >
@@ -117,22 +132,15 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 > ![中華人民共和國西藏自治區珠峰大本營（20151005 18:42，攝影：馬強）](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg "中華人民共和國西藏自治區珠峰大本營（20151005 18:42，攝影：馬強）")
 >
-> ![中華人民共和國西藏自治區布達拉宮（20150921 18:49，攝影：路人甲）](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg "中華人民共和國西藏自治區布達拉宮（20150921 18:49，攝影：路人甲）")
->
-> 中華人民共和國西藏自治區[珠峰大本營（20151005 18:42，攝影：馬強）](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg)與[布達拉宮（20150921 18:49，攝影：路人甲）](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg)。
+> [中華人民共和國西藏自治區珠峰大本營（20151005 18:42，攝影：馬強）](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg)。
 
 
-> ![中華人民共和國江蘇省蘇州市金雞湖（國際半程馬拉松）（20150329 11:31，攝影：馬強）](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg "中華人民共和國江蘇省蘇州市金雞湖（國際半程馬拉松）（20150329 11:31，攝影：馬強）")
->
-> [中華人民共和國江蘇省蘇州市金雞湖（國際半程馬拉松）（20150329 11:31，攝影：馬強）](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg)。
+#### 2016
+
+中華人民共和國香港特別行政區維多利亞公園（這里有兩張照片隱藏在兩中華護照相片後面了）（20160604 18:57/19:01，攝影：路人乙及丙）。
 
 
-2016:
-
-中華人民共和國香港特別行政區維多利亞公園（這里有兩張照片隱藏在護照後面了）（20160604 18:57/19:01，攝影：路人乙及丙）。
-
-
-2017:
+#### 2017
 
 > ![中華民國臺灣省嘉義縣阿里山（20171006 06:38，攝影：一北京來的游客）](https://pingmin.me/img/loving-our-greater-china/20171006-LOGC-TFC-ROC-Taiwan-Mount-Ali-Photographed-by-a-Beijing-Traveler.jpg "中華民國臺灣省嘉義縣阿里山（20171006 06:38，攝影：一北京來的游客）")
 >
@@ -151,21 +159,31 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 时间轴及位置：
 
-2013:
+#### 2013
 
 > ![中华人民共和国山东省泰安市泰山（20131004 07:13，摄影：刘红卫）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg "中华人民共和国山东省泰安市泰山（20131004 07:13，摄影：刘红卫）")
 >
 > [中华人民共和国山东省泰安市泰山（20131004 07:13，摄影：刘红卫）](https://pingmin.me/img/loving-our-greater-china/20131004-LOGC-TFC-PRC-Shandong-Mount-Tai-Jade-Emperor-Peak-Photographed-by-Liu-Hongwei.jpg)。
 
 
-2014:
+#### 2014
 
 > ![中华人民共和国广东省深圳市莲花山（20141004 17:29，T 恤上的字为“忘记我”，摄影：刘丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg "中华人民共和国广东省深圳市莲花山（20141004 17:29，T 恤上的字为“忘记我”，摄影：刘丹）")
 >
 > [中华人民共和国广东省深圳市莲花山（20141004 17:29，T 恤上的字为“忘记我”，摄影：刘丹）](https://pingmin.me/img/loving-our-greater-china/20141004-LOGC-TFC-PRC-Guangdong-Mount-Lotus-Photographed-by-Liu-Dan.jpg)。
 
 
-2015:
+#### 2015
+
+> ![中华人民共和国江苏省苏州市金鸡湖（国际半程马拉松）（20150329 11:31，摄影：马强）](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg "中华人民共和国江苏省苏州市金鸡湖（国际半程马拉松）（20150329 11:31，摄影：马强）")
+>
+> [中华人民共和国江苏省苏州市金鸡湖（国际半程马拉松）（20150329 11:31，摄影：马强）](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg)。
+
+
+> ![中华人民共和国西藏自治区布达拉宮（20150921 18:49，摄影：路人甲）](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg "中华人民共和国西藏自治区布达拉宮（20150921 18:49，摄影：路人甲）")
+>
+> [中华人民共和国西藏自治区布达拉宮（20150921 18:49，摄影：路人甲）](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg)。
+
 
 > ![尼泊尔蓝毗尼中华寺（20150926 19:53（当天的时间可能要早一点），摄影：马强）](https://pingmin.me/img/loving-our-greater-china/20150926-LOGC-TFC-Nepal-Lumbini-Chinese-Temple-Photographed-by-Ma-Qiang.jpg "尼泊尔蓝毗尼中华寺（20150926 19:53（当天的时间可能要早一点），摄影：马强）")
 >
@@ -174,21 +192,14 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 > ![中华人民共和国西藏自治区珠峰大本营（20151005 18:42，摄影：马强）](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg "中华人民共和国西藏自治区珠峰大本营（20151005 18:42，摄影：马强）")
 >
-> ![中华人民共和国西藏自治区布达拉宮（20150921 18:49，摄影：路人甲）](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg "中华人民共和国西藏自治区布达拉宮（20150921 18:49，摄影：路人甲）")
->
-> 中华人民共和国西藏自治区[珠峰大本营（20151005 18:42，摄影：马强）](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg)与[布达拉宮（20150921 18:49，摄影：路人甲）](https://pingmin.me/img/loving-our-greater-china/20150921-LOGC-TFC-PRC-Tibet-Potala-Palace-Photographed-by-a-Passerby.jpg)。
+> [中华人民共和国西藏自治区珠峰大本营（20151005 18:42，摄影：马强）](https://pingmin.me/img/loving-our-greater-china/20151005-LOGC-TFC-PRC-Tibet-Everest-Base-Camp-Photographed-by-Ma-Qiang.jpg)。
 
 
-> ![中华人民共和国江苏省苏州市金鸡湖（国际半程马拉松）（20150329 11:31，摄影：马强）](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg "中华人民共和国江苏省苏州市金鸡湖（国际半程马拉松）（20150329 11:31，摄影：马强）")
->
-> [中华人民共和国江苏省苏州市金鸡湖（国际半程马拉松）（20150329 11:31，摄影：马强）](https://pingmin.me/img/loving-our-greater-china/20150329-LOGC-TFC-PRC-Jiangsu-Jinji-Lake-Photographed-by-Ma-Qiang.jpg)。
+#### 2016
 
+中华人民共和国香港特別行政区维多利亚公园（此有两张照片隐藏在两中华护照相片后面了）（20160604 18:57/19:01，摄影：路人乙及丙）。
 
-2016:
-
-中华人民共和国香港特別行政区维多利亚公园（此有两张照片隐藏在護照後面了）（20160604 18:57/19:01，摄影：路人乙及丙）。
-
-2017:
+#### 2017
 
 > ![中华民国台湾省嘉义县阿里山（20171006 06:38，摄影：一北京來的游客）](https://pingmin.me/img/loving-our-greater-china/20171006-LOGC-TFC-ROC-Taiwan-Mount-Ali-Photographed-by-a-Beijing-Traveler.jpg "中华民国台湾省嘉义县阿里山（20171006 06:38，摄影：一北京來的游客）")
 >
@@ -230,7 +241,8 @@ Two Passports of China(TPC)/兩中華護照/两中华护照：
 （6）20201229：修正一些英文拼寫錯誤("Photographed", "Potala")；上傳和更新個人圖片鏈接，並顯示三張平民“兩中華旗”系列照片。
 （7）20201230：顯示所有已經公開的平民“兩中華旗”系列照片。
 （8）20201231：修正錯別字（“繼續”），完善泰山照片的描述，更新“印記”內容。
-（9）20210218：注明 2014 年那张照片中 T 恤上的字。
+（9）20210218：注明 2014 年那張照片中 T 恤上的文字——“忘记我”。
+（10）20210304：將個人相關照片重新按時間先後順序顯示。
 （Next）xxxx：更新了xxx。
 （Todo）待做：同步英文翻译。
 
@@ -242,6 +254,6 @@ Two Passports of China(TPC)/兩中華護照/两中华护照：
 
 
 刘水良(Pingmin Fenlly Liu)
-20131004-20201231
+20131004-20210304
 
 ## 结束(End)
