@@ -63,7 +63,7 @@ favicon:
 
 # Custom Logo (Warning: Do not support scheme Mist)
 #custom_logo: #/uploads/custom-logo.jpg
-custom_logo: /images/think-copyleft.png
+#custom_logo: /images/think-copyleft.png
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
