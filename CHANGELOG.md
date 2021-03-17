@@ -1,3 +1,17 @@
+## 2.1.0 (2021-03-17)
+
+### Posts and Pages
+
+- Update and amend the "LOGC" post.
+- Update and amend the "Secure IM" post.
+- Update and amend the "About" page.
+
+### Tools
+
+- Upgrade Hexo to v5.4.0 .
+- Upgrade theme NexT to v8.2.2 .
+- Add the favicon.ico .
+
 ## 2.0.0 (2021-01-29)
 
 ### Posts and Pages
