@@ -77,7 +77,7 @@ Timeline and locations:
 
 #### 2016
 
-The Victory Park(Two photos are hiden here from the two passport photos), Hong Kong SAR, PRC (20160604 18:57/19:01, Photographed by two passersby).
+The Victory Park(Two photos are hiden here from the two passport photos), Hong Kong SAR, PRC (18:57/19:01, Photographed by two passersby).
 
 
 #### 2017
@@ -137,7 +137,7 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 #### 2016
 
-中華人民共和國香港特別行政區維多利亞公園（這里有兩張照片隱藏在兩中華護照相片後面了）（20160604 18:57/19:01，攝影：路人乙及丙）。
+中華人民共和國香港特別行政區維多利亞公園（這里有兩張照片隱藏在兩中華護照相片後面了）（18:57/19:01，攝影：路人乙及丙）。
 
 
 #### 2017
@@ -197,7 +197,7 @@ Special thanks to my families and relatives, all friends who travelled together 
 
 #### 2016
 
-中华人民共和国香港特別行政区维多利亚公园（此有两张照片隐藏在两中华护照相片后面了）（20160604 18:57/19:01，摄影：路人乙及丙）。
+中华人民共和国香港特別行政区维多利亚公园（此有两张照片隐藏在两中华护照相片后面了）（18:57/19:01，摄影：路人乙及丙）。
 
 #### 2017
 
