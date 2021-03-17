@@ -17,6 +17,8 @@ categories:
 
 ## 正文(Body)
 
+![Signal Messenger App Logo](https://pingmin.me/img/signal-app/signal-android-icon-192x192.png "Signal Messenger App Logo")
+
 先来看下我国当前相关的法律条文：
 
 > 1. 《**中华人民共和国宪法**》第四十条
