@@ -45,50 +45,78 @@ categories:
 
 在通讯中，对通讯内容进行＂端到端加密（或叫点对点加密，即 End-to-End Encryption, E2EE）＂，只有通信双方才能解密（运营/服务商也无法解密），可最大限度地防止除通讯双方以外的第三方（包括应用程序本身的运营方）窃取通讯內容。故推荐使用支持＂端到端加密＂的通讯应用进行通讯（包括含文字、语音、文件和音视频通话等）。
 
-目前，此类应用有一个比较有代表性的，叫“**Signal（暗号）**”的开源应用（详见文末的附录部分），參見《[當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）](https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html)》。Signal 支持 iOS、Android 以及三大桌面系统（Windows、macOS、Debian-based Linux）（参见下面附录部分）。除了 Signal，此类安全应用还有 Session、WhatsApp、Telegram、Bleep、Line、Apple iMessage/FaceTime、Google Allo、Facebook Messenger、超信和安司密信（安司密信另有企业、政务和军采版）等。
+此类应用，目前有两个比较有代表性的开源应用，分别叫“**Signal（暗号）**”和“**Session（会话）**”（参见文末的附录部分，以及《[當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）](https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html)》）。Signal 和 Session 都支持 iOS、Android 以及三大桌面系统（Windows、macOS、Linux）（参见下面附录部分）。除了 Signal 和 Session， 此类安全应用还有 WhatsApp、Telegram、Bleep、Line、Apple iMessage/FaceTime、Google Allo、Facebook Messenger、超信和安司密信（安司密信另有企业、政务和军采版）等。
 
 不幸的是，前面提到的大部分应用，都受到了“防火长城（GFW）”等的影响，导致有时无法正常登录使用，且有的已经完全被屏蔽和下架了。其中，Signal 已于 20210316 也被內地所屏蔽。
 
-目前，**Session** 还可以正常使用。Session 与 Signal 类似，其本身就基于 Signal 开发，但采用了去中心化的洋葱路由网络，无需手机号即可使用，通过 AppImage 格式支持多种 Linux 发行版等。当然，鉴于内地我们当局的惯用做法，不排除将来 Session 等也都被屏蔽的可能性。
+不过，目前 **Session** 还可以正常使用。Session 与 Signal 类似，其本身就是基于早期的 Signal 开发的。Signal 目前需要使用手机号注册（将来会改成使用用户名），支持音视频通话，包括一对一的和多人群组的音视频通话。Session 目前尚不支持音视频通话，但**去掉了不必要的敏感数据**，采用了**去中心化的洋葱路由**，也**无需手机号**，其账号（Session ID）在本地生成，不打算用时删除即可，无需注销。同时，Session 通过 deb 格式和 AppImage 格式来支持多种 Linux 发行版。不过，鉴于内地我们当局的惯用做法，不排除内地将来也把 Session 屏蔽（如也屏蔽其官网和 GitHub 页面，以及下架其 App）的可能性，尤其是当有很多人用时。
 
-温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iOS 下的 iMessage 和 FaceTime 进行安全通讯（但 Signal 更安全），只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。
+值得一提的是，开源应用 Signal 因注重对个人信息与隐私权的保护，而受到了前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的曝光者爱德华·斯诺登（Edward Snowden，现以政治避难的方式居住于俄罗斯）等人的推荐（参见 Signal 官网）。而理论上，目前 Session 比 Signal 更安全。
 
-值得一提的是，开源应用 Signal 更加注重对个人信息与隐私的保护。前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的曝光者爱德华·斯诺登（Edward Snowden，现以政治避难的方式居住于俄罗斯）等对 Signal 也做了推荐（参见 Signal 官网）。
+温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iOS 下的 iMessage 和 FaceTime 进行安全通讯（但 Session 和 Signal 更安全），只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。
 
 
 ### 附（Appendix）
+
 
 **注：因 Signal 于 20210316 也被內地屏蔽，故以下 Signal 链接及 Signal 应用本身现已无法在内地正常访问和使用（需借助一些特殊的 VPN 才行），故目前可使用 Session。**
 
 #### 一、Session（会话） - Private Messenger（私密信使）
 
-Session Messenger
-
 ![Session Messenger Logo](https://getsession.org/wp-content/uploads/2020/01/logo-white.png "Session Messenger Logo")
 
+Session Messenger
 
-官网： https://getsession.org/ 。
+官网： https://getsession.org/ ，“ Session | Send Messages, Not Metadata. | Private Messenger ”。
 
 源码： https://github.com/oxen-io/ 。
 
 下载： https://getsession.org/download/ 。
 
-Android 版： https://github.com/loki-project/session-android/releases 。
 
-> 注：内地 Android 手机用户因不能正常访问 Google Play 应用商店，故可在 [其 GitHub 的发布页](https://github.com/loki-project/session-android/releases) 直接下载 APK 格式安装包。如：当前（20210322）的最新版下载链接为 https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-universal.apk 。
+##### Session Android 版
 
-iOS 版： https://apps.apple.com/cn/app/session-private-messenger/id1470168868 。
+参见： https://github.com/oxen-io/session-android/releases 。
 
-> 注： 内地 iOS 用户也可直接在 [其 GitHub 的发布页](https://github.com/loki-project/session-ios/releases) 直接下载 IPA 格式安装包。如： 当前（20210322）的最新版下载链接为 https://github.com/oxen-io/session-ios/releases/download/1.9.1/session-1.9.1.ipa 。
+> 注：内地 Android 手机用户因不能正常访问 Google Play 应用商店，故可在 [其 GitHub 的发布页](https://github.com/loki-project/session-android/releases) 直接下载 APK 格式安装包。
+> 如当前（20210322）的最新版（v1.8.1）下载链接为（一般的 Android 手机可以安装下面第一个 universal 版）：
+>     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-universal.apk
+>     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1.aab
+>     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-arm64-v8a.apk
+>     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-armeabi-v7a.apk
+>     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-x86.apk
+>     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-x86_64.apk
 
-桌面版： https://github.com/oxen-io/session-desktop/releases 。
+
+##### Session iOS 版
+
+参见： https://apps.apple.com/cn/app/session-private-messenger/id1470168868 。
+
+> 注： 内地 iOS 用户也可直接在 [其 GitHub 的发布页](https://github.com/loki-project/session-ios/releases) 直接下载 IPA 格式安装包。
+> 如当前（20210322）最新版（v1.9.1）的下载链接为：
+>     https://github.com/oxen-io/session-ios/releases/download/1.9.1/session-1.9.1.ipa 。
+
+
+##### Session 桌面版/电脑版
+
+参见： https://github.com/oxen-io/session-desktop/releases 。
+
+> 注：桌面版目前支持三大桌面系统，即 Linux，Windows 和 macOS。
+> 如当前（20210324）最新版（v1.5.2）的下载链接为：
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-linux-amd64-1.5.2.deb
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-linux-x86_64-1.5.2.AppImage
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-win-1.5.2.exe
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-mac-1.5.2.dmg
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-mac-1.5.2.zip
 
 
 #### 二、Signal（暗号） - Private Messenger（私密信使）
 
+![Signal Messenger Logo](https://pingmin.me/img/signal-app/signal-android-icon-192x192.png "Signal Messenger Logo")
+
 Signal Messenger
 
-![Signal Messenger Logo](https://pingmin.me/img/signal-app/signal-android-icon-192x192.png "Signal Messenger Logo")
+> 注：20210316 已被内地屏蔽，暂已无法正常使用，需借助工具能访问和使用。
 
 1. 官网： https://signal.org/ 。
 
@@ -127,9 +155,9 @@ Signal 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）
 
  https://support.signal.org/ （English）
 
- https://support.signal.org/hc/zh-tw/ （繁體中文）
+ https://support.signal.org/hc/zh-tw/ （正體中文）
 
- https://support.signal.org/hc/zh-tw/categories/360000674811 （繁體中文）
+ https://support.signal.org/hc/zh-tw/categories/360000674811 （正體中文）
 
 
 #### 四、备用下载（Standby Downloads）
@@ -137,6 +165,12 @@ Signal 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）
 （1）Fenlly favorites on GitHub: https://fenlly.org/favorites/ 。
 
 （2）百度网盘（含 Signal 与 Session）： https://pan.baidu.com/s/1miFtFxI 。
+
+
+## 参考(References)
+
+- 《[當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）](https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html)》
+
 
 ## 印记(Imprint)
 
