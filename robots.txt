@@ -3,20 +3,21 @@
 #
 
 # Sitemaps
-sitemap: /sitemap.xml
-#sitemap: /baidusitemap.xml
+Sitemap: /sitemap.xml
+#Sitemap: /baidusitemap.xml
 
 # Robots
 #User-Agent: Googlebot
 #User-Agent: Bingbot
 #User-Agent: Baiduspider
 User-Agent: *
-#Allow: /$
+Allow: /$
 Allow: /guides/$
 Allow: /categories/
+#Disallow: /post/collect-donations-for-a-primary-school.html
+#Disallow: /post/the-donation-details-for-a-primary-school.html
 #Disallow: /post/*donation*-for-a-primary-school.html
 Allow: /post/*.html$
-#Disallow: /
 Disallow: /about
 Disallow: /archives
 Disallow: /tags
