@@ -2,7 +2,7 @@
 title: 安全即时通讯(Secure IM)
 author: 平民（Pingmin Fenlly Liu）
 date: 2017-08-29 20:29:36 +0800
-updated: 2021-03-22 16:06:21 +0800
+updated: 2021-04-30 13:32:21 +0800
 tags:
 - 安全(Security)
 - 端到端加密(End-to-End Ecryption, E2EE)
@@ -61,7 +61,7 @@ categories:
 ### 附（Appendix）
 
 
-**注：因 Signal 于 20210316 也被內地屏蔽，故以下 Signal 链接及 Signal 应用本身现已无法在内地正常访问和使用（需借助一些特殊的 VPN 才行），故目前可使用 Session。**
+**注：因 Signal 于 20210316 也被內地屏蔽，故以下 Signal 链接及 Signal 应用本身现已无法在内地正常访问和使用（需借助一些特殊的工具才行），故目前可使用 Session。**
 
 #### 一、Session（会话） - Private Messenger（私密信使）
 
@@ -81,13 +81,13 @@ Session Messenger
 参见： https://github.com/oxen-io/session-android/releases 。
 
 > 注：内地 Android 手机用户因不能正常访问 Google Play 应用商店，故可在 [其 GitHub 的发布页](https://github.com/loki-project/session-android/releases) 直接下载 APK 格式安装包。
-> 如当前（20210322）的最新版（v1.8.1）下载链接为（一般的 Android 手机可以安装下面第一个 universal 版）：
->     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-universal.apk
->     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1.aab
->     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-arm64-v8a.apk
->     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-armeabi-v7a.apk
->     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-x86.apk
->     https://github.com/oxen-io/session-android/releases/download/1.8.1/session-1.8.1-x86_64.apk
+> 如当前（20210430）的最新版（v1.9.1）下载链接为（一般的 Android 手机可以安装下面第一个 universal 版）：
+>     https://github.com/oxen-io/session-android/releases/download/1.9.1/session-1.9.1-universal.apk
+>     https://github.com/oxen-io/session-android/releases/download/1.9.1/session-1.9.1.aab
+>     https://github.com/oxen-io/session-android/releases/download/1.9.1/session-1.9.1-arm64-v8a.apk
+>     https://github.com/oxen-io/session-android/releases/download/1.9.1/session-1.9.1-armeabi-v7a.apk
+>     https://github.com/oxen-io/session-android/releases/download/1.9.1/session-1.9.1-x86.apk
+>     https://github.com/oxen-io/session-android/releases/download/1.9.1/session-1.9.1-x86_64.apk
 
 
 ##### Session iOS 版
@@ -95,8 +95,8 @@ Session Messenger
 参见： https://apps.apple.com/cn/app/session-private-messenger/id1470168868 。
 
 > 注： 内地 iOS 用户也可直接在 [其 GitHub 的发布页](https://github.com/loki-project/session-ios/releases) 直接下载 IPA 格式安装包。
-> 如当前（20210322）最新版（v1.9.1）的下载链接为：
->     https://github.com/oxen-io/session-ios/releases/download/1.9.1/session-1.9.1.ipa 。
+> 如当前（20210430）最新版（v1.9.7）的下载链接为：
+>     https://github.com/oxen-io/session-ios/releases/download/1.9.7/session-1.9.7.ipa 。
 
 
 ##### Session 桌面版/电脑版
@@ -104,12 +104,12 @@ Session Messenger
 参见： https://github.com/oxen-io/session-desktop/releases 。
 
 > 注：桌面版目前支持三大桌面系统，即 Linux，Windows 和 macOS。
-> 如当前（20210324）最新版（v1.5.2）的下载链接为：
->     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-linux-amd64-1.5.2.deb
->     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-linux-x86_64-1.5.2.AppImage
->     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-win-1.5.2.exe
->     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-mac-1.5.2.dmg
->     https://github.com/oxen-io/session-desktop/releases/download/v1.5.2/session-desktop-mac-1.5.2.zip
+> 如当前（20210430）最新版（v1.5.4）的下载链接为：
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.4/session-desktop-linux-amd64-1.5.4.deb
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.4/session-desktop-linux-x86_64-1.5.4.AppImage
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.4/session-desktop-win-1.5.4.exe
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.4/session-desktop-mac-1.5.4.dmg
+>     https://github.com/oxen-io/session-desktop/releases/download/v1.5.4/session-desktop-mac-1.5.4.zip
 
 
 #### 二、Signal（暗号） - Private Messenger（私密信使）
@@ -126,16 +126,16 @@ Signal Messenger
 
 3. Android 版：最新版的下载页面为 https://signal.org/android/apk/ 。
 
-> 注：内地 Android 手机用户因不能正常访问 Google Play 应用商店，故可下拉到以上页面底部下载其在网站上直接发布的版本。如：当前（20210322）的最新版下载链接为 https://updates.signal.org/android/Signal-Android-website-prod-universal-release-5.4.12.apk （手机上请复制粘贴到浏览器中打开，以下载安装），另见 https://updates.signal.org/android/latest.json 。
+> 注：内地 Android 手机用户因不能正常访问 Google Play 应用商店，故可下拉到以上页面底部下载其在网站上直接发布的版本。如：当前（20210430）最新版的下载链接为 https://updates.signal.org/android/Signal-Android-website-prod-universal-release-5.8.10.apk （手机上请复制粘贴到浏览器中打开，以下载安装），另见 https://updates.signal.org/android/latest.json 。
 
 4. iOS 版： https://itunes.apple.com/cn/app/signal-private-messenger/id874139669 。
 
-5. macOS 版： https://updates.signal.org/desktop/signal-desktop-mac-1.40.1.dmg 或 https://updates.signal.org/desktop/signal-desktop-mac-1.40.1.zip 。
+5. macOS 版： https://updates.signal.org/desktop/signal-desktop-mac-5.0.0.dmg 或 https://updates.signal.org/desktop/signal-desktop-mac-5.0.0.zip 。
 
-6. Windows 版： https://updates.signal.org/desktop/signal-desktop-win-1.40.1.exe 。
+6. Windows 版： https://updates.signal.org/desktop/signal-desktop-win-5.0.0.exe 。
 
 7. Linux (Debian-based) 版：
-    （1）直接下载： https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_1.40.1_amd64.deb
+    （1）直接下载： https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_5.0.0_amd64.deb
 
     （2）或通过添加官方仓库来安装（以后可随系统自动更新）：
     ``` bash
@@ -200,6 +200,6 @@ Signal 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）
 
 刘水良(Pingmin Fenlly Liu)
 
-20170829-20210322
+20170829-20210430
 
 ## 结束(End)
