@@ -55,6 +55,8 @@ categories:
 
 温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iOS 下的 iMessage 和 FaceTime 进行安全通讯（但 Session 和 Signal 更安全），只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。
 
+更多可参考这个“[安全通讯应用比较（Secure Messaging Apps Comparison）](https://www.securemessagingapps.com)”网站（內容仅英文）。
+
 
 ### 附（Appendix）
 
@@ -169,6 +171,8 @@ Signal 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）
 
 ## 参考(References)
 
+- [安全通訊應用比較（Secure Messaging Apps Comparison）](https://www.securemessagingapps.com)（內容僅英文）
+
 - 《[當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）](https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html)》
 
 
@@ -183,6 +187,7 @@ Signal 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）
 （7）20201101：完善和更新文本内容；更新附录中的 Signal 相关链接，并增加开源的 Session（见上面的“附三”），同时去掉附录中未开源的 WhatsApp。
 （8）20210210：添加《當世界向前，回顧暗號是如何做的》鏈接，更新 Signal Android 的最新鏈接。
 （9）20210322：因 Signal 已於 20210316 被内地屏蔽，故修改了一些與 Signal 及目前可用的 Session 相關內容。
+（10）20210430：添加"[安全通訊應用比較（Secure Messaging Apps Comparison）](https://www.securemessagingapps.com)"參考網站鏈接。
 （N）下一步（Next）: xxx。
 （T）待做（TODO）：同步英文翻译。
 
