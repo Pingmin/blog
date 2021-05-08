@@ -1,3 +1,16 @@
+## 2.2.0 (2021-05-08)
+
+### Posts and Pages
+
+(No change)
+
+### Tools
+
+- Update NPM to v7.12 .
+- Update Hexo to v5.4 (globally).
+- Update theme NexT to v8.4 .
+
+
 ## 2.1.1 (2021-05-08)
 
 ### Posts and Pages
