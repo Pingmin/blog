@@ -1,3 +1,15 @@
+## 2.1.1 (2021-05-08)
+
+### Posts and Pages
+
+- Update the "Secure IM", "LOGC" and "How Signal Works" posts,
+  esp. because Singal is blocked in China on 20210316.
+- Disable the donation posts in robots.txt .
+
+### Tools
+
+(No change)
+
 ## 2.1.0 (2021-03-17)
 
 ### Posts and Pages
