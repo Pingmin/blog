@@ -13,10 +13,10 @@ menu:
   tags: 標籤（Tags）
   about: 關於（About）
   guides: 指南（Guides）
-  search: 檢索（Search）
-  schedule: 日程表（Schedule）
+  search: 搜尋（Search）
+  schedule: 時間表（Schedule）
   she: 尋她（Seeking Her）
-  sitemap: 站點地圖（Sitemap）
+  sitemap: 網站地圖（Sitemap）
   commonweal: 公益（Commonweal）404
 sidebar:
   overview: 本站概要
@@ -90,6 +90,8 @@ accessibility:
   nav_toggle: 切換導航欄
   prev_page: 上一頁
   next_page: 下一頁
+  back_to_top: 回到頂端
+  select_lang: 選擇語言
 symbols_count_time:
   count: 文章字數
   count_total: 總字數
