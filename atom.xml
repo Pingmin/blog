@@ -45,6 +45,35 @@
   </entry>
   
   <entry>
+    <title>從暗號到會話（From Signal Messenger to Session Messenger）</title>
+    <link href="https://pingmin.blog/post/from-signal-to-session.html"/>
+    <id>https://pingmin.blog/post/from-signal-to-session.html</id>
+    <published>2021-03-23T13:39:43.000Z</published>
+    <updated>2021-07-06T11:23:10.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;從使用暗號（Signal Messenger）應用到使用會話（Session Messenger）應用通訊的故事。&lt;/p&gt;
+&lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;按：為了避免在搜索引擎中被直接搜索到，所以換了個 Session ID，所以需要更新一下（之前的 ID 將被棄用，這次新的 ID 是用二維碼圖片來顯示，文章內容也有所修改），今（20210329）&lt;a href=&quot;https://mp.weixin.qq.com/s/HhMXQoqVu7DzPeaMuJwaJw&quot;&gt;於此重發&lt;/a&gt;。同時，上次（20210323）發的那篇公眾號文章，將在 24 小時後刪除，而其他已經公開的含有個人 Session ID 文本的內容（包括平民 GitHub 資料和朋友圈評論）則都會被刪除或修改，至於向朋友發過的相關短信，將會重新告知已更換和棄用等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;上週二（20210316）早上醒來，平民發現 Signal Messenger（暗號信使）應用（App）無法連接服務器刷新消息了，也發不出消息。本以為這只是像上次元月那樣臨時故障，即當 Facebook 收購的 WhatsApp 宣布將變更用戶協議，以使 FB 能夠使用 WhatsApp 的一些用戶數據時，馬斯克（Elon Musk）和多西（Jack Dorsey）在推特（Twitter）上也推荐使用 Signal，從而導致 Signal 因用戶激增而發生服務故障，之後大概在 24 小時內便恢復正常了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="信息技术(IT)" scheme="https://pingmin.blog/categories/it/"/>
+    
+    
+    <category term="安全(Security)" scheme="https://pingmin.blog/tags/security/"/>
+    
+    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
+    
+    <category term="暗號(Signal Messenger)" scheme="https://pingmin.blog/tags/signal-messenger/"/>
+    
+    <category term="會話(Session Messenger)" scheme="https://pingmin.blog/tags/session-messenger/"/>
+    
+  </entry>
+  
+  <entry>
     <title>十年之約（A Plan Scheduled In One Decade Ago）</title>
     <link href="https://pingmin.blog/post/a-plan-scheduled-in-one-decade-ago.html"/>
     <id>https://pingmin.blog/post/a-plan-scheduled-in-one-decade-ago.html</id>

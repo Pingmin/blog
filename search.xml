@@ -29,6 +29,37 @@
     
     
     <entry>
+      <title>從暗號到會話（From Signal Messenger to Session Messenger）</title>
+      <link href="post/from-signal-to-session.html"/>
+      <url>post/from-signal-to-session.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>從使用暗號（Signal Messenger）應用到使用會話（Session Messenger）應用通訊的故事。</p><h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><blockquote><p>按：為了避免在搜索引擎中被直接搜索到，所以換了個 Session ID，所以需要更新一下（之前的 ID 將被棄用，這次新的 ID 是用二維碼圖片來顯示，文章內容也有所修改），今（20210329）<a href="https://mp.weixin.qq.com/s/HhMXQoqVu7DzPeaMuJwaJw">於此重發</a>。同時，上次（20210323）發的那篇公眾號文章，將在 24 小時後刪除，而其他已經公開的含有個人 Session ID 文本的內容（包括平民 GitHub 資料和朋友圈評論）則都會被刪除或修改，至於向朋友發過的相關短信，將會重新告知已更換和棄用等。</p></blockquote><p>上週二（20210316）早上醒來，平民發現 Signal Messenger（暗號信使）應用（App）無法連接服務器刷新消息了，也發不出消息。本以為這只是像上次元月那樣臨時故障，即當 Facebook 收購的 WhatsApp 宣布將變更用戶協議，以使 FB 能夠使用 WhatsApp 的一些用戶數據時，馬斯克（Elon Musk）和多西（Jack Dorsey）在推特（Twitter）上也推荐使用 Signal，從而導致 Signal 因用戶激增而發生服務故障，之後大概在 24 小時內便恢復正常了。</p><span id="more"></span><p>第二天（20210317），平民發現 Signal（暗號）仍無法正常發出消息。于是，平民就到 Signal 用戶社區問了下，隨後便發現一些內地用戶也遇到了這個問題，以及看到了一些相關的媒體報導。于是，當天平民就不得不接受這樣一個殘忍的事實——正如 Google、YouTube、FB、Twitter、WhatsApp、Telegram 等一樣，Signal 也被內地屏蔽了（當時看是通過 DNS 污染的方式，盡管屏蔽這些對社會管理等有利有弊）！之所以用“殘忍”來形容，是因為，即使之前特朗普政府想要封鎖或下架海外版的微信和抖音，他們也都會提前公告，同時，相關民事主體（包括公司及用戶群體）也可在當地（美國）向法院提起行政訴訟等……總之，目前內地需借助工具才能用 Signal 了，也不知後面（尤其在今年（2021）“百週年”過後）內地是否還會再解封 Signal。于是，當晚平民也只好通過各種方式（如評論、短信等）更新或告知個人的一些關於 Signal 和 Session（會話） 的一些信息等。而這些，讓平民不禁想起了幾年前（約 201804）在網上一歷史老師石國鵬的一個課堂視頻《說話的權利》中首次聽到的“路人以目/道路以目”這個成語！</p><p>作為支持端到端加密（E2EE）的私密通訊下的一個新方案，內地用戶目前可以用 Session Messenger（會話信使）應用進行私密通訊，其官網（目前僅英文）為 <a href="https://getsession.org/">https://getsession.org</a> 。</p><p><img src="https://getsession.org/wp-content/uploads/2020/01/logo-white.png" alt="Session Messenger Logo" title="Session Messenger Logo"></p><p>Session 是基於早期 Signal 的一個分支（故當然也是開源的），目前（20210329）尚不支持音視頻通話，支持語音、文本和文件等消息，但與 Signal 不同且更好的是，它采用了去中心化的洋蔥路由，且無需手機號，其賬號（Session ID）也是在手機或電腦本地生成，不打算用時刪除應用即可，無需“注銷”。平民是去年秋天（20200903）因一次搜索偶然看到 Session Messenger 的，也在當天開始就安裝了。關於那次偶然的過程，可參見平民當時（20200904）在 GitHub 上提交的一個問題（僅英文）： <a href="https://github.com/signalapp/Signal-Android/issues/9987">https://github.com/signalapp/Signal-Android/issues/9987</a> 。</p><p>好了，如果需要及願意，目前你可以通過 Session 直接聯系到平民，平民的 Session ID 二維碼為：</p><p><img src="https://pingmin.me/img/pingmin-qr-codes/session-messenger.png" alt="Pingmin Session ID&#39;s QR Code" title="Pingmin Session ID&#39;s QR Code"></p><p>當然，不排除將來內地把 Session 也屏蔽，尤其當使用的人變很多之後。</p><p>更多詳情可參見平民今天（20210329）更新的這篇博客：<a href="https://pingmin.blog/post/secure-im.html">《安全即時通訊（Secure IM）》</a> 。</p><p>歡迎交流，謝謝！</p><p>平民·尋夢（Pingmin Fenlly Liu）<br>20210323 上下班通勤及夜間，于地鐵及唐鎮<br>20210329 夜，于唐鎮</p><h2 id="印记-Imprints"><a href="#印记-Imprints" class="headerlink" title="印记(Imprints)"></a>印记(Imprints)</h2><p>（1）20210323：完稿于地鐵及唐鎮，並首次公開於個人微信公眾號“平民梦PingminDream”。<br>（2）20210329：為了避免在搜索引擎中被直接搜索到，所以換掉了之前公開的 Session ID，並重新發布（參見 <a href="https://mp.weixin.qq.com/s/HhMXQoqVu7DzPeaMuJwaJw">https://mp.weixin.qq.com/s/HhMXQoqVu7DzPeaMuJwaJw</a> ）。<br>（3）20210706：同步到此個人博客（ <a href="https://pingmin.blog/">https://pingmin.blog</a> ），並做適當排版修改等。</p><h2 id="署名-Attribution"><a href="#署名-Attribution" class="headerlink" title="署名(Attribution)"></a>署名(Attribution)</h2><p>如果转载，请至少保证“正文”部分的完整性且至少须以链接形式给出的原文链接。<br>具体请参见“<a href="/guides/">指南(Guides)</a>”页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。</p><p>平民（Pingmin Fenlly Liu）<br>20210323-20210706</p><h2 id="结束-End"><a href="#结束-End" class="headerlink" title="结束(End)"></a>结束(End)</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 信息技术(IT) </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 安全(Security) </tag>
+            
+            <tag> 端到端加密(End-to-End Ecryption, E2EE) </tag>
+            
+            <tag> 暗號(Signal Messenger) </tag>
+            
+            <tag> 會話(Session Messenger) </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>十年之約（A Plan Scheduled In One Decade Ago）</title>
       <link href="post/a-plan-scheduled-in-one-decade-ago.html"/>
       <url>post/a-plan-scheduled-in-one-decade-ago.html</url>
