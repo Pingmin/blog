@@ -6,7 +6,7 @@
   <link href="https://pingmin.blog/atom.xml" rel="self"/>
   
   <link href="https://pingmin.blog/"/>
-  <updated>2021-07-08T09:17:25.000Z</updated>
+  <updated>2021-07-08T10:40:25.000Z</updated>
   <id>https://pingmin.blog/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>百姓點燈（Lighting Lamps/Lanterns）</title>
+    <link href="https://pingmin.blog/post/lighting-lamps-and-lanterns.html"/>
+    <id>https://pingmin.blog/post/lighting-lamps-and-lanterns.html</id>
+    <published>2021-06-29T13:57:23.000Z</published>
+    <updated>2021-07-08T10:40:25.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;關於“只許州官放火，不許百姓點燈”的一點隨筆。&lt;/p&gt;
+&lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://pingmin.me/img/sunflowers/20210620-the-sunflower-centered-in-lvbocheng-of-tang-town.jpg&quot; alt=&quot;向日葵/太陽花（20210620 14:20:58 攝于綠波城小区，大概有 20 年沒見了）&quot; title=&quot;向日葵/太陽花（20210620 14:20:58 攝于綠波城小区，大概有 20 年沒見了）&quot;&gt;&lt;/p&gt;
+&lt;p&gt;故事大概發生在農曆 2005 年末（公曆 2006 年元月）。對於這個時間，平民這幾天（20210614-0616）也特地跟堂兄反復推敲和確認過（目前來看，99% 的可能性是農曆 2005 年末，1% 的可能性是農曆 2004 年末）。&lt;/p&gt;
+&lt;p&gt;那時平民還在讀高中，不過當時已放寒假，回家等著過年了。因為那時平民家人都在廣東打工還沒回，所以平民就直接和祖母在一起吃，并睡在祖母所住（現在也還在住）的伯父家老房子樓上，就在平民自家房屋前面，中間只隔了一塊約三米寬的空地。後來（也有一點點可能是他比平民先回），堂兄也回來了，那時伯父母應該也都還沒回，正好也就和平民與祖母在一起吃，然後我們也就睡在樓上同一張牀上。堂兄是 2002 年夏天初中畢業，到 2005 年（農曆）冬天，已南下廣東打工大概有三年了。而那次回來，他帶回來了一個 MP4，當然，里面自然少不了他所下載的他自己喜歡的一些音樂的視頻。而正因如此，那一年，平民第一次聽到了唐朝樂隊的《國際歌》（搖滾版）和《夢回唐朝》，黑豹樂隊的《無地自容》，另外，還有許巍的《藍蓮花》、《曾經的你》，崔健的《一無所有》、《新長徵路上的搖滾》等。值得一提的是，他在 2003 年夏天《葉惠美》專輯剛出來不久就買了 CD。記得那時有一天晚上，我們躺在被窩裏聊天，當時具體聊到什麼，平民已無法記清，但他提到了一句諺語，平民至今一直都記得，那就是“只許州官放火，不許百姓點燈”，因為那是平民第一次聽到，形象、生動而又通俗易懂。記得那時有天早上，他還提到了另一句話（大概是他從網上看到的），“穿別人的鞋，走自己的路，堅持幾拾年如一日”，這句話自然也是平民第一次聽，但因為沒前面那句好懂，所以當時就特地問過他，這句所要表達的是什麼。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.blog/categories/pingmin-memory/"/>
+    
+    <category term="平民隨筆(Pingmin Essays)" scheme="https://pingmin.blog/categories/pingmin-essays/"/>
+    
+    
+    <category term="言論自由(Freedom of Speech)" scheme="https://pingmin.blog/tags/fos/"/>
+    
+    <category term="法治(Rule of Law)" scheme="https://pingmin.blog/tags/rol/"/>
+    
+    <category term="公正(Justice)" scheme="https://pingmin.blog/tags/justice/"/>
+    
+  </entry>
   
   <entry>
     <title>外祖父記憶（Memories of and about My Maternal Grandfather）</title>
@@ -54,13 +82,15 @@
     
     <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;從使用暗號（Signal Messenger）應用到使用會話（Session Messenger）應用通訊的故事。&lt;/p&gt;
 &lt;h2 id=&quot;正文-Body&quot;&gt;&lt;a href=&quot;#正文-Body&quot; class=&quot;headerlink&quot; title=&quot;正文(Body)&quot;&gt;&lt;/a&gt;正文(Body)&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;按：為了避免在搜索引擎中被直接搜索到，所以換了個 Session ID，所以需要更新一下（之前的 ID 將被棄用，這次新的 ID 是用二維碼圖片來顯示，文章內容也有所修改），今（20210329）&lt;a href=&quot;https://mp.weixin.qq.com/s/HhMXQoqVu7DzPeaMuJwaJw&quot;&gt;於此重發&lt;/a&gt;。同時，上次（20210323）發的那篇公眾號文章，將在 24 小時後刪除，而其他已經公開的含有個人 Session ID 文本的內容（包括平民 GitHub 資料和朋友圈評論）則都會被刪除或修改，至於向朋友發過的相關短信，將會重新告知已更換和棄用等。&lt;/p&gt;
+&lt;p&gt;按：為了避免在搜索引擎中被直接搜索到，所以換了個 Session ID，所以需要更新一下（之前的 ID 將被棄用，這次新的 ID 是用二維碼圖片來顯示，文章內容也有所修改），今（20210329）於此重發。同時，上次（20210323）發的那篇公眾號文章，將在 24 小時後刪除，而其他已經公開的含有個人 Session ID 文本的內容（包括平民 GitHub 資料和朋友圈評論）則都會被刪除或修改，至於向朋友發過的相關短信，將會重新告知已更換和棄用等。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;上週二（20210316）早上醒來，平民發現 Signal Messenger（暗號信使）應用（App）無法連接服務器刷新消息了，也發不出消息。本以為這只是像上次元月那樣臨時故障，即當 Facebook 收購的 WhatsApp 宣布將變更用戶協議，以使 FB 能夠使用 WhatsApp 的一些用戶數據時，馬斯克（Elon Musk）和多西（Jack Dorsey）在推特（Twitter）上也推荐使用 Signal，從而導致 Signal 因用戶激增而發生服務故障，之後大概在 24 小時內便恢復正常了。&lt;/p&gt;</summary>
     
     
     
     <category term="信息技术(IT)" scheme="https://pingmin.blog/categories/it/"/>
+    
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
     
     
     <category term="安全(Security)" scheme="https://pingmin.blog/tags/security/"/>
@@ -91,6 +121,8 @@
     
     
     <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.blog/categories/pingmin-memory/"/>
+    
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
     
     
     <category term="回憶錄(Memoirs)" scheme="https://pingmin.blog/tags/memoirs/"/>
@@ -175,7 +207,7 @@
     
     
     
-    <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
     
     
     <category term="墓地(Cemetery)" scheme="https://pingmin.blog/tags/cemetery/"/>
@@ -200,6 +232,8 @@
     
     
     <category term="公告(Bulletin)" scheme="https://pingmin.blog/categories/bulletin/"/>
+    
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
     
     
     <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.blog/tags/e2ee/"/>
@@ -271,7 +305,7 @@
     
     
     
-    <category term="平民日记(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
     
     
     <category term="音乐(Music)" scheme="https://pingmin.blog/tags/music/"/>
@@ -325,6 +359,8 @@
     
     
     <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.blog/categories/pingmin-memory/"/>
+    
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.blog/categories/pingmin-diary/"/>
     
     
     <category term="愛我中華(Loving Our Greater China, LOGC)" scheme="https://pingmin.blog/tags/loving-our-greater-china/"/>
@@ -504,42 +540,6 @@
     <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
     
     <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.blog/tags/apple-inc/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>乔布斯：找到你所爱(Steve Jobs: Find What You Love)</title>
-    <link href="https://pingmin.blog/post/find-what-you-love-by-steve-jobs.html"/>
-    <id>https://pingmin.blog/post/find-what-you-love-by-steve-jobs.html</id>
-    <published>2007-11-01T13:30:36.000Z</published>
-    <updated>2020-11-01T04:29:50.000Z</updated>
-    
-    
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Stanford Report, June 14, 2005&lt;br&gt;史丹佛大学公告，2005年6月14日&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;“You’ve-got-to-find-what-you-love”-Jobs-says&quot;&gt;&lt;a href=&quot;#“You’ve-got-to-find-what-you-love”-Jobs-says&quot; class=&quot;headerlink&quot; title=&quot;“You’ve got to find what you love”, Jobs says&quot;&gt;&lt;/a&gt;“You’ve got to find what you love”, Jobs says&lt;/h2&gt;&lt;p&gt;乔布斯：一定要知道自己喜欢什么&lt;br&gt;(原意：你得找到自己所喜爱的生活/事业)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, delivered on June 12, 2005.&lt;br&gt;这是史蒂夫·乔布斯(Steve Paul Jobs, 19550224-20111005)——苹果电脑公司(注：因2007年发布了iPhone而改名为苹果公司，Apple Inc.)和皮克斯动画工作室(注：已于2006年被迪斯尼收购)首席执行官——2005年6月12日在史丹佛大学毕业典礼上的演讲文稿。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;iframe height=498 width=510 src=&#39;https://player.youku.com/embed/XNDU3OTgyMTky&#39; frameborder=2 &#39;allowfullscreen&#39;&gt;&lt;/iframe&gt;
-
-
-&lt;p&gt;Thank you.&lt;br&gt;谢谢大家。&lt;/p&gt;
-&lt;p&gt;I am honored to be with you today at your commencement from one of the finest universities in the world. Truth be told, I never graduated from college, and this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories.&lt;br&gt;今天，很荣幸与你们一同参加这个世界上最好的学校之一的毕业典礼。我从来没从大学毕业。说实话，这是我离大学毕业最近的一刻。今天，我只说三个故事，不谈大道理，三个故事就好。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.blog/categories/beauty-essays/"/>
-    
-    
-    <category term="推荐(Recommended)" scheme="https://pingmin.blog/tags/recommended/"/>
-    
-    <category term="翻譯(Translation)" scheme="https://pingmin.blog/tags/translation/"/>
-    
-    <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.blog/tags/apple-inc/"/>
-    
-    <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://pingmin.blog/tags/steve-jobs/"/>
     
   </entry>
   
