@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pingmin.blog/post/manifesto.html</loc>
+    
+    <lastmod>2021-09-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://pingmin.blog/post/my-maternal-grandfather.html</loc>
     
     <lastmod>2021-07-14</lastmod>
@@ -159,13 +166,6 @@
     <loc>https://pingmin.blog/post/think-different-by-apple-inc.html</loc>
     
     <lastmod>2018-03-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://pingmin.blog/post/manifesto.html</loc>
-    
-    <lastmod>2018-03-11</lastmod>
     
   </url>
   
