@@ -77,7 +77,7 @@
     <link href="https://pingmin.blog/post/from-signal-to-session.html"/>
     <id>https://pingmin.blog/post/from-signal-to-session.html</id>
     <published>2021-03-23T13:39:43.000Z</published>
-    <updated>2021-07-06T11:23:10.000Z</updated>
+    <updated>2021-09-30T06:25:10.000Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;從使用暗號（Signal Messenger）應用到使用會話（Session Messenger）應用通訊的故事。&lt;/p&gt;
@@ -249,7 +249,7 @@
     <link href="https://pingmin.blog/post/secure-im.html"/>
     <id>https://pingmin.blog/post/secure-im.html</id>
     <published>2017-08-29T12:29:36.000Z</published>
-    <updated>2021-04-30T05:32:21.000Z</updated>
+    <updated>2021-09-30T07:09:21.000Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;概要-Abstract&quot;&gt;&lt;a href=&quot;#概要-Abstract&quot; class=&quot;headerlink&quot; title=&quot;概要(Abstract)&quot;&gt;&lt;/a&gt;概要(Abstract)&lt;/h2&gt;&lt;p&gt;本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。&lt;/p&gt;
@@ -269,6 +269,17 @@
 &lt;li&gt;&lt;p&gt;《&lt;strong&gt;中华人民共和国网络安全法&lt;/strong&gt;》第四十一条&lt;/p&gt;
 &lt;p&gt;网络运营者收集、使用个人信息，应当遵循合法、正当、必要的原则，公开收集、使用规则，明示收集、使用信息的目的、方式和范围，并经被收集者同意。&lt;/p&gt;
 &lt;p&gt;网络运营者不得收集与其提供的服务无关的个人信息，不得违反法律、行政法规的规定和双方的约定收集、使用个人信息，并应当依照法律、行政法规的规定和与用户的约定，处理其保存的个人信息。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;《&lt;strong&gt;中华人民共和国数据安全法&lt;/strong&gt;》第三十二条&lt;/p&gt;
+&lt;p&gt;任何组织、个人收集数据，应当采取合法、正当的方式，不得窃取或者以其他非法方式获取数据。&lt;/p&gt;
+&lt;p&gt;法律、行政法规对收集、使用数据的目的、范围有规定的，应当在法律、行政法规规定的目的和范围内收集、使用数据。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;《&lt;strong&gt;中华人民共和国个人信息保护法&lt;/strong&gt;》&lt;/p&gt;
+&lt;p&gt;第二条　自然人的个人信息受法律保护，任何组织、个人不得侵害自然人的个人信息权益。&lt;/p&gt;
+&lt;p&gt;第五条 处理个人信息应当遵循合法、正当、必要和诚信原则，不得通过误导、欺诈、胁迫等方式处理个人信息。&lt;/p&gt;
+&lt;p&gt;第六条 处理个人信息应当具有明确、合理的目的，并应当与处理目的直接相关，采取对个人权益影响最小的方式。&lt;/p&gt;
+&lt;p&gt;收集个人信息，应当限于实现处理目的的最小范围，不得过度收集个人信息。&lt;/p&gt;
+&lt;p&gt;第七条 处理个人信息应当遵循公开、透明原则，公开个人信息处理规则，明示处理的目的、方式和范围。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;</summary>
