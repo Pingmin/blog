@@ -30,6 +30,7 @@
 <meta property="og:description" content="概要(Abstract)本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。 正文(Body)先来看下我国当前相关的法律条文：   《中华人民共和国宪法》第四十条 中华人民共和国公民的通信自由和通信秘密受法律的保护。除因国家安全或者追查刑事犯罪的需要，由公安机关或者检察机关依照">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pingmin.me/img/session-messenger/20210607-what-data-does-each-app-collect-from-your-phone.jpg">
+<meta property="og:image" content="https://pingmin.me/img/session-messenger/20210127-instant-messaging-apps-user-data-collection-by-safenet.jpg">
 <meta property="og:image" content="https://pingmin.me/img/session-messenger/session-messenger-logo-white.png">
 <meta property="og:image" content="https://pingmin.me/img/signal-messenger/signal-android-icon-192x192.png">
 <meta property="article:published_time" content="2017-08-29T12:29:36.000Z">
@@ -370,6 +371,7 @@
 <p>不幸的是，前面提到的大部分应用，都受到了“防火长城（GFW）”等的影响，导致有时无法正常登录使用，且有的已经完全被屏蔽和下架了。其中，Signal 已于 20210316 也被內地所屏蔽。</p>
 <p>不过，目前 <strong>Session</strong> 还可以正常使用。Session 与 Signal 类似，其本身就是基于早期的 Signal 开发的。Signal 目前需要使用手机号注册（将来会改成使用用户名），支持音视频通话，包括一对一的和多人群组的音视频通话。Session 目前尚不支持音视频通话，但<strong>去掉了不必要的敏感数据</strong>，采用了<strong>去中心化的洋葱路由</strong>，也<strong>无需手机号</strong>，其账号（Session ID）在本地生成，不打算用时删除即可，无需注销。同时，Session 通过 deb 格式和 AppImage 格式来支持多种 Linux 发行版。不过，鉴于内地我们当局的惯用做法，不排除内地将来也把 Session 屏蔽（如也屏蔽其官网和 GitHub 页面，以及下架其 App）的可能性，尤其是当有很多人用时。</p>
 <p><img src="https://pingmin.me/img/session-messenger/20210607-what-data-does-each-app-collect-from-your-phone.jpg" alt="What data does each app collect from your phone?" title="What data does each app collect from your phone?"></p>
+<p><img src="https://pingmin.me/img/session-messenger/20210127-instant-messaging-apps-user-data-collection-by-safenet.jpg" alt="Instant Messaging Apps User&#39;s Data Collection, by SafeNet" title="Instant Messaging Apps User&#39;s Data Collection, by SafeNet"></p>
 <p>值得一提的是，开源应用 Signal 因注重对个人信息与隐私权的保护，而受到了前美国中央情报局（CIA）技术分析员、美国国家安全局的＂棱镜＂监听项目（参见著名的＂棱镜门＂事件）的曝光者爱德华·斯诺登（Edward Snowden，现以政治避难的方式居住于俄罗斯）等人的推荐（参见 Signal 官网）。而理论上，目前 Session 比 Signal 更安全。</p>
 <p>温馨提示一下，如果你用的是苹果公司的产品的话，如 iPhone、iPad 和 Mac 等，你也可以使用 iOS 下的 iMessage 和 FaceTime 进行安全通讯（但 Session 和 Signal 更安全），只不过需要通讯双方都使用苹果的设备（注：网上也有人开发了相应的 App 以使 Android 也可以与苹果设备发送 iMessage 消息）。</p>
 <p>更多可参考这个“<a target="_blank" rel="noopener" href="https://www.securemessagingapps.com/">安全通讯应用比较（Secure Messaging Apps Comparison）</a>”网站（內容仅英文）。</p>
