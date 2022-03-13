@@ -168,7 +168,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-count">24</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -237,6 +237,116 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/how-signal-works-by-moxie-marlinspike.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/think-copyleft.png">
+      <meta itemprop="name" content="平民（Pingmin Fenlly Liu）">
+      <meta itemprop="description" content="平民的个人博客（Pingmin Fenlly Liu's Personal Blog）">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="平民·寻梦（Pingmin Fenlly Liu）">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/post/how-signal-works-by-moxie-marlinspike.html" class="post-title-link" itemprop="url">當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2020-06-12 23:13:40" itemprop="dateCreated datePublished" datetime="2020-06-12T23:13:40+08:00">2020-06-12</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-11-12 21:30:50" itemprop="dateModified" datetime="2020-11-12T21:30:50+08:00">2020-11-12</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/it/" itemprop="url" rel="index"><span itemprop="name">信息技术(IT)</span></a>
+        </span>
+    </span>
+
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>6.4k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>6 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）"><a href="#Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）" class="headerlink" title="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）"></a>Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）</h2><blockquote>
+<p><img src="https://pingmin.me/img/signal-messenger/signal-android-icon-192x192.png" alt="Signal Messenger App Logo" title="Signal Messenger App Logo"></p>
+<img src="https://moxie.org/images/moxiemarlinspike2.jpg" width="40%" height="40%" alt="馬克希·馬琳斯巴克(Moxie Marlinspike)">
+
+<p>英文作者：<a target="_blank" rel="noopener" href="https://github.com/moxie0">馬克希·馬琳斯巴克(Moxie Marlinspike)</a>（譯注：Signal 和開放密語系統的創始人，如上圖），<a target="_blank" rel="noopener" href="https://signal.org/blog/looking-back-as-the-world-moves-forward/">英文原文</a>，20200605。</p>
+<p>中文譯者：<a target="_blank" rel="noopener" href="https://pingmin.me/">平民（Pingmin Fenlly Liu）</a>，20200609-0612。</p>
+</blockquote>
+<p>In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We’ve gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we’ve designed Signal, and how we think about concepts like privacy, security, and trust.<br>在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/post/how-signal-works-by-moxie-marlinspike.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -1222,109 +1332,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://pingmin.blog/post/youth-by-samuel-ullman.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/think-copyleft.png">
-      <meta itemprop="name" content="平民（Pingmin Fenlly Liu）">
-      <meta itemprop="description" content="平民的个人博客（Pingmin Fenlly Liu's Personal Blog）">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="平民·寻梦（Pingmin Fenlly Liu）">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/post/youth-by-samuel-ullman.html" class="post-title-link" itemprop="url">青春不是年华(Youth Is Not A Time of Life)</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2007-11-03 20:12:06" itemprop="dateCreated datePublished" datetime="2007-11-03T20:12:06+08:00">2007-11-03</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2020-12-23 11:23:10" itemprop="dateModified" datetime="2020-12-23T11:23:10+08:00">2020-12-23</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/beauty-essays/" itemprop="url" rel="index"><span itemprop="name">美文共赏(Beauty Essays)</span></a>
-        </span>
-    </span>
-
-  
-      </div>
-      <div class="post-meta">
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.9k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春-年轻》"><a href="#Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春-年轻》" class="headerlink" title="Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春/年轻》)"></a>Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春/年轻》)</h2><p><strong>Youth is not a time of life</strong>; <strong>it is a state of mind</strong>; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of imagination, a vigor of the emotions; it is the freshness of the deep springs of life.<br><strong>青春不是年华，而是一种心态</strong>；青春不是桃面、丹唇、柔膝，而是深沉意志，恢宏想象，炙热恋情；青春是生命深泉在涌流。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/post/youth-by-samuel-ullman.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
@@ -1350,14 +1357,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">87k</span>
+    <span title="站点总字数">88k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">1:19</span>
+    <span title="站点阅读时长">1:20</span>
   </span>
 </div>
 <div class="busuanzi-count">
