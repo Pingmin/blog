@@ -1,0 +1,42 @@
+#
+# robots.txt for pingmin blog
+#
+
+# Sitemaps
+Sitemap: /sitemap.xml
+#Sitemap: /baidusitemap.xml
+
+# Robots
+#User-Agent: Googlebot
+#User-Agent: Bingbot
+#User-Agent: Baiduspider
+User-Agent: *
+Allow: /$
+Allow: /guides/$
+Allow: /categories/
+#Disallow: /post/collect-donations-for-a-primary-school.html
+#Disallow: /post/the-donation-details-for-a-primary-school.html
+Disallow: /post/*donation*-for-a-primary-school.html
+Allow: /post/*.html$
+Disallow: /about
+Disallow: /archives
+Disallow: /tags
+#Disallow: /page
+#Disallow: /*/page/
+Disallow: /*page/
+Disallow: /images
+Disallow: /media
+Disallow: /lib
+Disallow: /js
+Disallow: /css
+Disallow: /she
+Disallow: /jobs
+Disallow: /atom.xml
+Disallow: /rss2.xml
+Disallow: /search.xml
+
+
+#
+# Pingmin Fenlly Liu
+# 20170904 - 20200927
+#
