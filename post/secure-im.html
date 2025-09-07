@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 5.4.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
@@ -15,10 +15,12 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"pingmin.blog","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.24.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"tomorrow-night"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false,"trigger":"auto"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"pingmin.blog","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.25.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="概要(Abstract)本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。 正文(Body)先来看下我国当前相关的法律条文：   《中华人民共和国宪法》第四十条 中华人民共和国公民的通信自由和通信秘密受法律的保护。除因国家安全或者追查刑事犯罪的需要，由公安机关或者检察机关依照">
 <meta property="og:type" content="article">
@@ -59,16 +61,17 @@
 
 
   
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
 <script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
 <script src="/js/third-party/search/local-search.js" defer></script>
 
 
 
 
 
+  <script src="/js/third-party/pace.js" defer></script>
 
 
   
@@ -221,7 +224,7 @@
       </span>
   </div>
   <div class="cc-license animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_sa.svg" alt="Creative Commons"></a>
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_sa.svg" alt="Creative Commons"></a>
   </div>
 
         </div>
@@ -371,8 +374,8 @@
 </li>
 </ol>
 </blockquote>
-<p>在通讯中，对通讯内容进行＂端到端加密（或叫‘点对点加密’，即 End-to-End Encryption, E2EE）＂，只有通信双方才能解密（运营/服务商也无法解密），可最大限度地防止除通讯双方以外的第三方（包括应用程序本身的运营方）窃取通讯內容。故推荐使用支持＂端到端加密＂的通讯应用进行通讯（包括含文字、语音、文件和音视频通话等）。</p>
-<p>此类应用，目前有两个比较有代表性的开源应用，分别叫“<strong>Signal（暗号）</strong>”和“<strong>Session（会话）</strong>”（参见文末的附录部分，以及《<a href="/post/how-signal-works-by-moxie-marlinspike.html">當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）</a>》）。Signal 和 Session 都支持 iOS、Android 以及三大桌面系统（Windows、macOS、Linux）（参见下面附录部分）。除了 Signal 和 Session， 此类安全应用还有 WhatsApp、Telegram、Bleep、Line、Apple iMessage/FaceTime、Google Allo、Facebook Messenger、超信和安司密信（安司密信另有企业、政务和军采版）等。</p>
+<p>在通讯中，对通讯内容进行＂端到端加密（或叫‘点对点加密’，即 End-to-End Encryption, E2EE）＂，只有通信双方才能解密（运营&#x2F;服务商也无法解密），可最大限度地防止除通讯双方以外的第三方（包括应用程序本身的运营方）窃取通讯內容。故推荐使用支持＂端到端加密＂的通讯应用进行通讯（包括含文字、语音、文件和音视频通话等）。</p>
+<p>此类应用，目前有两个比较有代表性的开源应用，分别叫“<strong>Signal（暗号）</strong>”和“<strong>Session（会话）</strong>”（参见文末的附录部分，以及《<a href="/post/how-signal-works-by-moxie-marlinspike.html">當世界向前，回顧暗號是如何做的（Looking back at how Signal works, as the world moves forward）</a>》）。Signal 和 Session 都支持 iOS、Android 以及三大桌面系统（Windows、macOS、Linux）（参见下面附录部分）。除了 Signal 和 Session， 此类安全应用还有 WhatsApp、Telegram、Bleep、Line、Apple iMessage&#x2F;FaceTime、Google Allo、Facebook Messenger、超信和安司密信（安司密信另有企业、政务和军采版）等。</p>
 <p>不幸的是，前面提到的大部分应用，都受到了“防火长城（GFW）”等的影响，导致有时无法正常登录使用，且有的已经完全被屏蔽和下架了。其中，Signal 已于 20210316 也被內地所屏蔽。</p>
 <p>不过，目前 <strong>Session</strong> 还可以正常使用。Session 与 Signal 类似，其本身就是基于早期的 Signal 开发的。Signal 目前需要使用手机号注册（将来会改成使用用户名），支持音视频通话，包括一对一的和多人群组的音视频通话。Session 目前尚不支持音视频通话，但<strong>去掉了不必要的敏感数据</strong>，采用了<strong>去中心化的洋葱路由</strong>，也<strong>无需手机号</strong>，其账号（Session ID）在本地生成，不打算用时删除即可，无需注销。同时，Session 通过 deb 格式和 AppImage 格式来支持多种 Linux 发行版。不过，鉴于内地我们当局的惯用做法，不排除内地将来也把 Session 屏蔽（如也屏蔽其官网和 GitHub 页面，以及下架其 App）的可能性，尤其是当有很多人用时。</p>
 <p><img src="https://pingmin.github.io/img/session-messenger/20210607-what-data-does-each-app-collect-from-your-phone.jpg" alt="What data does each app collect from your phone?" title="What data does each app collect from your phone?"></p>
@@ -394,12 +397,12 @@
 <blockquote>
 <p>注： 内地 iOS 用户也可直接在 <a target="_blank" rel="noopener" href="https://github.com/loki-project/session-ios/releases">其 GitHub 的发布页</a> 直接下载 IPA 格式安装包。<br>如当前（20210930）最新版（v1.11.16）的下载链接为：<br>    <a target="_blank" rel="noopener" href="https://github.com/oxen-io/session-ios/releases/download/1.11.16/session-1.11.16.ipa">https://github.com/oxen-io/session-ios/releases/download/1.11.16/session-1.11.16.ipa</a> 。</p>
 </blockquote>
-<h5 id="Session-桌面版-电脑版"><a href="#Session-桌面版-电脑版" class="headerlink" title="Session 桌面版/电脑版"></a>Session 桌面版/电脑版</h5><p>参见： <a target="_blank" rel="noopener" href="https://github.com/oxen-io/session-desktop/releases">https://github.com/oxen-io/session-desktop/releases</a> 。</p>
+<h5 id="Session-桌面版-电脑版"><a href="#Session-桌面版-电脑版" class="headerlink" title="Session 桌面版&#x2F;电脑版"></a>Session 桌面版&#x2F;电脑版</h5><p>参见： <a target="_blank" rel="noopener" href="https://github.com/oxen-io/session-desktop/releases">https://github.com/oxen-io/session-desktop/releases</a> 。</p>
 <blockquote>
 <p>注：桌面版目前支持三大桌面系统，即 Linux，Windows 和 macOS。<br>如当前（20210430）最新版（v1.7.3）的下载链接为：<br>    <a target="_blank" rel="noopener" href="https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-linux-amd64-1.7.3.deb">https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-linux-amd64-1.7.3.deb</a><br>    <a target="_blank" rel="noopener" href="https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-linux-x86_64-1.7.3.AppImage">https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-linux-x86_64-1.7.3.AppImage</a><br>    <a target="_blank" rel="noopener" href="https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-win-1.7.3.exe">https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-win-1.7.3.exe</a><br>    <a target="_blank" rel="noopener" href="https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-mac-1.7.3.dmg">https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-mac-1.7.3.dmg</a><br>    <a target="_blank" rel="noopener" href="https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-mac-1.7.3.zip">https://github.com/oxen-io/session-desktop/releases/download/v1.7.3/session-desktop-mac-1.7.3.zip</a></p>
 </blockquote>
 <p>对于 Debian 和 Ubuntu 等相关 Linux 桌面系统，也可通过添加 Oxen 的软件仓库来安装 Session 等：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo curl -so /etc/apt/trusted.gpg.d/oxen.gpg https://deb.oxen.io/pub.gpg</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;deb https://deb.oxen.io <span class="subst">$(lsb_release -sc)</span> main&quot;</span> | sudo tee /etc/apt/sources.list.d/oxen.list</span><br><span class="line">sudo apt update</span><br><span class="line">sudo apt install session-desktop</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> curl -so /etc/apt/trusted.gpg.d/oxen.gpg https://deb.oxen.io/pub.gpg</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;deb https://deb.oxen.io <span class="subst">$(lsb_release -sc)</span> main&quot;</span> | <span class="built_in">sudo</span> <span class="built_in">tee</span> /etc/apt/sources.list.d/oxen.list</span><br><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install session-desktop</span><br></pre></td></tr></table></figure>
 
 <p> 更多说明可参见 <a target="_blank" rel="noopener" href="https://deb.oxen.io/">https://deb.oxen.io</a> 。</p>
 <h4 id="二、Signal（暗号）-Private-Messenger（私密信使）"><a href="#二、Signal（暗号）-Private-Messenger（私密信使）" class="headerlink" title="二、Signal（暗号） - Private Messenger（私密信使）"></a>二、Signal（暗号） - Private Messenger（私密信使）</h4><p><img src="https://pingmin.github.io/img/signal-messenger/signal-android-icon-192x192.png" alt="Signal Messenger Logo" title="Signal Messenger Logo"></p>
@@ -427,10 +430,7 @@
 </li>
 <li><p>Linux (Debian-based) 版：<br> （1）直接下载： <a target="_blank" rel="noopener" href="https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_5.17.2_amd64.deb">https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_5.17.2_amd64.deb</a></p>
 <p> （2）或通过添加官方仓库来安装（以后可随系统自动更新）：</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -</span><br><span class="line">$ <span class="built_in">echo</span> <span class="string">&quot;deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main&quot;</span> | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list</span><br><span class="line">$ sudo apt update &amp;&amp; sudo apt install signal-desktop</span><br></pre></td></tr></table></figure>
-
-
-</li>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ curl -s https://updates.signal.org/desktop/apt/keys.asc | <span class="built_in">sudo</span> apt-key add -</span><br><span class="line">$ <span class="built_in">echo</span> <span class="string">&quot;deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main&quot;</span> | <span class="built_in">sudo</span> <span class="built_in">tee</span> -a /etc/apt/sources.list.d/signal-xenial.list</span><br><span class="line">$ <span class="built_in">sudo</span> apt update &amp;&amp; <span class="built_in">sudo</span> apt install signal-desktop</span><br></pre></td></tr></table></figure></li>
 </ol>
 <h4 id="三、安全性（Security）"><a href="#三、安全性（Security）" class="headerlink" title="三、安全性（Security）"></a>三、安全性（Security）</h4><p>Signal 和 WhatsApp 等都使用了开源的“暗号协议（Signal Protocol）”的端到端加密的通信技术。Session 则使用了修改后的“会话协议（Session Protocol）”。</p>
 <p>参见：</p>
@@ -498,6 +498,16 @@
   <span>欢迎关注我的其它发布渠道</span>
 
   <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="https://pingmin.me/@i">
+            <span class="icon">
+              <i class="fab fa-mastodon"></i>
+            </span>
+
+            <span class="label">Mastodon</span>
+          </a>
+      </div>
 
       <div class="social-item">
           <span class="social-link">
@@ -645,9 +655,9 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Pingmin","repo":"comments","client_id":"b9ef5263af16582fc83c","client_secret":"c09fc62c68b952d9da648d906bde590161879427","admin_user":"Pingmin","distraction_free_mode":true,"proxy":"https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"97c2fdb35fbb4cc7eb302f018a9cdf2d"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Pingmin","repo":"comments","client_id":"b9ef5263af16582fc83c","client_secret":"c09fc62c68b952d9da648d906bde590161879427","admin_user":"Pingmin","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"97c2fdb35fbb4cc7eb302f018a9cdf2d"}</script>
 <script src="/js/third-party/comments/gitalk.js" defer></script>
 
 </body>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 5.4.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
@@ -15,10 +15,12 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"pingmin.blog","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.24.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"tomorrow-night"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false,"trigger":"auto"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"pingmin.blog","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.25.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="概要(Abstract)從使用暗號（Signal Messenger）應用到使用會話（Session Messenger）應用通訊的故事。 正文(Body) 按：為了避免在搜索引擎中被直接搜索到，所以換了個 Session ID，所以需要更新一下（之前的 ID 將被棄用，這次新的 ID 是用二維碼圖片來顯示，文章內容也有所修改），今（20210329）於此重發。同時，上次（20210323）發的那">
 <meta property="og:type" content="article">
@@ -59,16 +61,17 @@
 
 
   
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
 <script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
 <script src="/js/third-party/search/local-search.js" defer></script>
 
 
 
 
 
+  <script src="/js/third-party/pace.js" defer></script>
 
 
   
@@ -221,7 +224,7 @@
       </span>
   </div>
   <div class="cc-license animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_sa.svg" alt="Creative Commons"></a>
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_sa.svg" alt="Creative Commons"></a>
   </div>
 
         </div>
@@ -350,7 +353,7 @@
 <p>上週二（20210316）早上醒來，平民發現 Signal Messenger（暗號信使）應用（App）無法連接服務器刷新消息了，也發不出消息。本以為這只是像上次元月那樣臨時故障，即當 Facebook 收購的 WhatsApp 宣布將變更用戶協議，以使 FB 能夠使用 WhatsApp 的一些用戶數據時，馬斯克（Elon Musk）和多西（Jack Dorsey）在推特（Twitter）上也推荐使用 Signal，從而導致 Signal 因用戶激增而發生服務故障，之後大概在 24 小時內便恢復正常了。</p>
 <span id="more"></span>
 
-<p>第二天（20210317），平民發現 Signal（暗號）仍無法正常發出消息。于是，平民就到 Signal 用戶社區問了下，隨後便發現一些內地用戶也遇到了這個問題，以及看到了一些相關的媒體報導。于是，當天平民就不得不接受這樣一個殘忍的事實——正如 Google、YouTube、FB、Twitter、WhatsApp、Telegram 等一樣，Signal 也被內地屏蔽了（當時看是通過 DNS 污染的方式，盡管屏蔽這些對社會管理等有利有弊）！之所以用“殘忍”來形容，是因為，即使之前特朗普政府想要封鎖或下架海外版的微信和抖音，他們也都會提前公告，同時，相關民事主體（包括公司及用戶群體）也可在當地（美國）向法院提起行政訴訟等……總之，目前內地需借助工具才能用 Signal 了，也不知後面（尤其在今年（2021）“百週年”過後）內地是否還會再解封 Signal。于是，當晚平民也只好通過各種方式（如評論、短信等）更新或告知個人的一些關於 Signal 和 Session（會話） 的一些信息等。而這些，讓平民不禁想起了幾年前（約 201804）在網上一歷史老師石國鵬的一個課堂視頻《說話的權利》中首次聽到的“路人以目/道路以目”這個成語！</p>
+<p>第二天（20210317），平民發現 Signal（暗號）仍無法正常發出消息。于是，平民就到 Signal 用戶社區問了下，隨後便發現一些內地用戶也遇到了這個問題，以及看到了一些相關的媒體報導。于是，當天平民就不得不接受這樣一個殘忍的事實——正如 Google、YouTube、FB、Twitter、WhatsApp、Telegram 等一樣，Signal 也被內地屏蔽了（當時看是通過 DNS 污染的方式，盡管屏蔽這些對社會管理等有利有弊）！之所以用“殘忍”來形容，是因為，即使之前特朗普政府想要封鎖或下架海外版的微信和抖音，他們也都會提前公告，同時，相關民事主體（包括公司及用戶群體）也可在當地（美國）向法院提起行政訴訟等……總之，目前內地需借助工具才能用 Signal 了，也不知後面（尤其在今年（2021）“百週年”過後）內地是否還會再解封 Signal。于是，當晚平民也只好通過各種方式（如評論、短信等）更新或告知個人的一些關於 Signal 和 Session（會話） 的一些信息等。而這些，讓平民不禁想起了幾年前（約 201804）在網上一歷史老師石國鵬的一個課堂視頻《說話的權利》中首次聽到的“路人以目&#x2F;道路以目”這個成語！</p>
 <p>作為支持端到端加密（E2EE）的私密通訊下的一個新方案，內地用戶目前可以用 Session Messenger（會話信使）應用進行私密通訊，其官網（目前僅英文）為 <a target="_blank" rel="noopener" href="https://getsession.org/">https://getsession.org</a> 。</p>
 <p><img src="https://pingmin.github.io/img/session-messenger/session-messenger-logo-white.png" alt="Session Messenger Logo" title="Session Messenger Logo"></p>
 <p>Session 是基於早期 Signal 的一個分支（故當然也是開源的），目前（20210329）尚不支持音視頻通話，支持語音、文本和文件等消息，但與 Signal 不同且更好的是，它采用了去中心化的洋蔥路由，且無需手機號，其賬號（Session ID）也是在手機或電腦本地生成，不打算用時刪除應用即可，無需“注銷”。平民是去年秋天（20200903）因一次搜索偶然看到 Session Messenger 的，也在當天開始就安裝了。關於那次偶然的過程，可參見平民當時（20200904）在 GitHub 上提交的一個問題（僅英文）： <a target="_blank" rel="noopener" href="https://github.com/signalapp/Signal-Android/issues/9987">https://github.com/signalapp/Signal-Android/issues/9987</a> 。</p>
@@ -412,6 +415,16 @@
   <span>欢迎关注我的其它发布渠道</span>
 
   <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="https://pingmin.me/@i">
+            <span class="icon">
+              <i class="fab fa-mastodon"></i>
+            </span>
+
+            <span class="label">Mastodon</span>
+          </a>
+      </div>
 
       <div class="social-item">
           <span class="social-link">
@@ -559,9 +572,9 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Pingmin","repo":"comments","client_id":"b9ef5263af16582fc83c","client_secret":"c09fc62c68b952d9da648d906bde590161879427","admin_user":"Pingmin","distraction_free_mode":true,"proxy":"https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"37f1d77a6418953eb51f329233d661ba"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Pingmin","repo":"comments","client_id":"b9ef5263af16582fc83c","client_secret":"c09fc62c68b952d9da648d906bde590161879427","admin_user":"Pingmin","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"37f1d77a6418953eb51f329233d661ba"}</script>
 <script src="/js/third-party/comments/gitalk.js" defer></script>
 
 </body>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 5.4.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
@@ -15,10 +15,12 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"pingmin.blog","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.24.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"tomorrow-night"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false,"trigger":"auto"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"pingmin.blog","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.25.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）    英文作者：馬克希·馬琳斯巴克(Moxie Marlinspike)（譯注：Signal 和開放密語系統的創始人，如上圖），英文原文，20200605。 中文譯者：平民（Pingmin Fenlly Liu），20200609-0612。">
 <meta property="og:type" content="article">
@@ -60,16 +62,17 @@
 
 
   
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
 <script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
 <script src="/js/third-party/search/local-search.js" defer></script>
 
 
 
 
 
+  <script src="/js/third-party/pace.js" defer></script>
 
 
   
@@ -222,7 +225,7 @@
       </span>
   </div>
   <div class="cc-license animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_sa.svg" alt="Creative Commons"></a>
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_sa.svg" alt="Creative Commons"></a>
   </div>
 
         </div>
@@ -350,7 +353,7 @@
 <p>In the midst of world-wide protests against racism and police brutality, a lot of people are becoming more immediately aware and concerned about the security of their data and online communication. We’ve gotten a lot of questions at Signal over the past week, so we wanted to briefly recap how it is that we’ve designed Signal, and how we think about concepts like privacy, security, and trust.<br>在波及全球的針對種族歧視和警察暴行的抗爭中，許許多多的人們正立刻變得更加有意識地去關注他們數據與在線通訊的安全性。在過去的一周里，我們收到了很多關於“Signal（暗號：秘密聊天工具）”的問詢。所以，我們想簡單地摡述下我們是如何設計 Signal 的，以及我們是如何思考諸如隱私、安全和信任等概念的。</p>
 <span id="more"></span>
 
-<p>What if the worst should happen, and some unauthorized party were to compromise Signal? We don’t have to speak hypothetically, because the US government already tried this, so we can examine what that looked like. In 2016, the US government obtained access to Signal user data through a grand jury subpoena from the Eastern District of Virginia. However, there wasn’t (and still isn’t) really anything to obtain. At the time, <a target="_blank" rel="noopener" href="https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company">we worked with the ACLU</a> to fight the gag order that was intended to prevent us from publishing this information, so you can <a target="_blank" rel="noopener" href="https://signal.org/bigbrother/eastern-virginia-grand-jury/">see the full subpoena and response here</a>.<br>要是發生了最壞情況，以及一些未授權方想違背或損害 Signal（的隱私保護等相關原則/價值觀），結果會怎樣？我們無須假設，因為美國政府已經如此嘗試過。2016 年，美國政府（執法部門）通過弗吉尼亞東區法院一大陪審團傳票（司法程序）的授權得以獲取相關 Signal 用戶的數據。然而，我們這（服務器上）當時（至今也是）實際上并沒有什麼數據可取到的。那時，<a target="_blank" rel="noopener" href="https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company">我們也與美國公民自由權聯盟（ACLU）一起</a>，與意欲阻止我們公開這些信息的壓制言論自由的政令做抗爭，你可以在這裏<a target="_blank" rel="noopener" href="https://signal.org/bigbrother/eastern-virginia-grand-jury/">查看完整的傳票及其回應的內容</a>。</p>
+<p>What if the worst should happen, and some unauthorized party were to compromise Signal? We don’t have to speak hypothetically, because the US government already tried this, so we can examine what that looked like. In 2016, the US government obtained access to Signal user data through a grand jury subpoena from the Eastern District of Virginia. However, there wasn’t (and still isn’t) really anything to obtain. At the time, <a target="_blank" rel="noopener" href="https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company">we worked with the ACLU</a> to fight the gag order that was intended to prevent us from publishing this information, so you can <a target="_blank" rel="noopener" href="https://signal.org/bigbrother/eastern-virginia-grand-jury/">see the full subpoena and response here</a>.<br>要是發生了最壞情況，以及一些未授權方想違背或損害 Signal（的隱私保護等相關原則&#x2F;價值觀），結果會怎樣？我們無須假設，因為美國政府已經如此嘗試過。2016 年，美國政府（執法部門）通過弗吉尼亞東區法院一大陪審團傳票（司法程序）的授權得以獲取相關 Signal 用戶的數據。然而，我們這（服務器上）當時（至今也是）實際上并沒有什麼數據可取到的。那時，<a target="_blank" rel="noopener" href="https://www.aclu.org/blog/free-future/new-documents-reveal-government-effort-impose-secrecy-encryption-company">我們也與美國公民自由權聯盟（ACLU）一起</a>，與意欲阻止我們公開這些信息的壓制言論自由的政令做抗爭，你可以在這裏<a target="_blank" rel="noopener" href="https://signal.org/bigbrother/eastern-virginia-grand-jury/">查看完整的傳票及其回應的內容</a>。</p>
 <p>The only Signal user data we have, and the only data the US government obtained as a result, was the date of account creation and the date of last use – not user messages, groups, contacts, profile information, or anything else.<br>我們所擁有的 Signal 用戶的唯一數據，也是美國政府最終所獲得的唯一數據，是賬號創建日期和最後使用日期——沒有用戶的消息、群組、聯系人、個人資料等其他任何信息（見下圖）。</p>
 <p><img src="https://signal.org/blog/images/subpoena-screenshot.jpg" alt="Signal user data（用戶數據）"></p>
 <p>This is because we’ve designed Signal to keep your data in your hands rather than ours. Signal uses end-to-end encryption so that we never have access to the contents of the messages you send; they are only visible to you and the intended recipients. However, Signal also applies this design philosophy to the rest of your data as well.<br>這是因為我們把 Signal 設計成將你的數據保存在你的手中而不是我們手中。Signal 采用了端到端加密（E2EE）技術，這樣即使是我們也無法訪問你所發的消息明文（因已加密且第三方幾乎無法解密），它們只能被你自己和消息的接收者所看到。同時， Signal 也將此設計哲學應用在了你的其他數據上。</p>
@@ -426,6 +429,16 @@
   <span>欢迎关注我的其它发布渠道</span>
 
   <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="https://pingmin.me/@i">
+            <span class="icon">
+              <i class="fab fa-mastodon"></i>
+            </span>
+
+            <span class="label">Mastodon</span>
+          </a>
+      </div>
 
       <div class="social-item">
           <span class="social-link">
@@ -575,9 +588,9 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Pingmin","repo":"comments","client_id":"b9ef5263af16582fc83c","client_secret":"c09fc62c68b952d9da648d906bde590161879427","admin_user":"Pingmin","distraction_free_mode":true,"proxy":"https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"7cb10978a6d73d2b0e38757337cd56f6"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Pingmin","repo":"comments","client_id":"b9ef5263af16582fc83c","client_secret":"c09fc62c68b952d9da648d906bde590161879427","admin_user":"Pingmin","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"7cb10978a6d73d2b0e38757337cd56f6"}</script>
 <script src="/js/third-party/comments/gitalk.js" defer></script>
 
 </body>

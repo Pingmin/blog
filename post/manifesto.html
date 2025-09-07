@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 5.4.0">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.3.0">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
@@ -15,10 +15,12 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous" defer></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"pingmin.blog","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.24.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"tomorrow-night"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false,"trigger":"auto"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"pingmin.blog","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.25.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="概要(Abstract)本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容等。 正文(Body)先来看一下以下所列出的这些变化，我想多少总能明白些什么： （1）人类文字记录：木棍泥土标记，甲骨上刻字，竹简上刻字，纸上写字，活字印刷，机械印制，电磁记录，多媒体化和数字化。（2）人类通信方式：马拉松长跑，快马加鞭和飞鸽传书，汽车、轮船、飞机，电报电话，手机、电子邮件、Web2.0+。（3">
 <meta property="og:type" content="article">
@@ -51,16 +53,17 @@
 
 
   
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
 <script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.5.0/dist/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
 <script src="/js/third-party/search/local-search.js" defer></script>
 
 
 
 
 
+  <script src="/js/third-party/pace.js" defer></script>
 
 
   
@@ -213,7 +216,7 @@
       </span>
   </div>
   <div class="cc-license animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_sa.svg" alt="Creative Commons"></a>
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_sa.svg" alt="Creative Commons"></a>
   </div>
 
         </div>
@@ -355,7 +358,7 @@
 <h3 id="五、其他事项"><a href="#五、其他事项" class="headerlink" title="五、其他事项"></a>五、其他事项</h3><p>（1）为了获得良好的体验，建议使用符合和支持W3C标准的网络浏览器，如Firefox、Chrome等。<br>（2）为了将来也能正常访问此博客，建议学习和掌握翻墙技能。<br>（3）零错误（含基本拼写和基本逻辑）和不侵权是我的完美追求，所以，如果愿意，当你发现存在不妥时，请告诉我（联系方式请见“关于(About)”页面， <a target="_blank" rel="noopener" href="https://pingmin.github.io/blog/about">https://pingmin.github.io/blog/about</a> ），非常感谢你的支持和帮助！<br>（4）如果你喜欢，请多交流，以共同学习、共同进步。</p>
 <h2 id="印记-Imprints"><a href="#印记-Imprints" class="headerlink" title="印记(Imprints)"></a>印记(Imprints)</h2><p>（1）此文萌芽于 20120902。<br>（2）中文部分起草于 20121013 下午，完稿于 20121014 下午。<br>（3）公开于 20121014 晚上。<br>（4）20121029 重新排版。<br>（5）20121103：修正一些错字和去掉一些多余的字与空格；增加“如果不是独立博客，这篇日志肯定不能完整发表”；出于SEO考虑，去掉对曾用博客的链接。<br>（6）20210918：更新个人博客变迁史的说明。<br>（Todo）待做：同步英文翻译。</p>
 <h2 id="署名-Attribution"><a href="#署名-Attribution" class="headerlink" title="署名(Attribution)"></a>署名(Attribution)</h2><p>如果转载，请至少保证“正文”部分的完整性且至少须以链接形式给出的原文链接。<br>具体请参见“<a target="_blank" rel="noopener" href="https://pingmin.github.io/blog/guides/">指南(Guides)</a>”页面中与版权相关的CC授权协议及注意事项等。请不要构成侵权行为，谢谢合作。</p>
-<p>平民/刘水良(Pingmin Fenlly Liu)<br>20121013-20210918</p>
+<p>平民&#x2F;刘水良(Pingmin Fenlly Liu)<br>20121013-20210918</p>
 <h2 id="结束-End"><a href="#结束-End" class="headerlink" title="结束(End)"></a>结束(End)</h2>
     </div>
 
@@ -403,6 +406,16 @@
   <span>欢迎关注我的其它发布渠道</span>
 
   <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="https://pingmin.me/@i">
+            <span class="icon">
+              <i class="fab fa-mastodon"></i>
+            </span>
+
+            <span class="label">Mastodon</span>
+          </a>
+      </div>
 
       <div class="social-item">
           <span class="social-link">
@@ -547,9 +560,9 @@
 <noscript>
   <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
 </noscript>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
-<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Pingmin","repo":"comments","client_id":"b9ef5263af16582fc83c","client_secret":"c09fc62c68b952d9da648d906bde590161879427","admin_user":"Pingmin","distraction_free_mode":true,"proxy":"https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"d99c6ef1bc273de64f88fe9df1eca0ca"}</script>
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"Pingmin","repo":"comments","client_id":"b9ef5263af16582fc83c","client_secret":"c09fc62c68b952d9da648d906bde590161879427","admin_user":"Pingmin","distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"d99c6ef1bc273de64f88fe9df1eca0ca"}</script>
 <script src="/js/third-party/comments/gitalk.js" defer></script>
 
 </body>
