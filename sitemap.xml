@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.pingmin.me/p/find-what-you-love-by-steve-jobs/</loc>
+    
+    <lastmod>2026-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.pingmin.me/p/secure-im/</loc>
+    
+    <lastmod>2026-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.pingmin.me/fos/</loc>
     
     <lastmod>2026-08-01</lastmod>
@@ -119,15 +137,6 @@
   </url>
   
   <url>
-    <loc>https://blog.pingmin.me/p/secure-im/</loc>
-    
-    <lastmod>2021-09-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.pingmin.me/p/from-signal-to-session/</loc>
     
     <lastmod>2021-09-30</lastmod>
@@ -203,15 +212,6 @@
     <loc>https://blog.pingmin.me/p/how-signal-works-by-moxie-marlinspike/</loc>
     
     <lastmod>2020-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.pingmin.me/p/find-what-you-love-by-steve-jobs/</loc>
-    
-    <lastmod>2020-11-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -438,6 +438,13 @@
   </url>
   
   <url>
+    <loc>https://blog.pingmin.me/tags/manifesto/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.pingmin.me/tags/loving-our-greater-china/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -446,13 +453,6 @@
   
   <url>
     <loc>https://blog.pingmin.me/tags/two-flags-of-china/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.pingmin.me/tags/manifesto/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
