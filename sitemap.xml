@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.pingmin.me/404.html</loc>
+    <loc>https://blog.pingmin.me/fos/</loc>
     
     <lastmod>2026-08-01</lastmod>
     
@@ -29,9 +29,18 @@
   </url>
   
   <url>
-    <loc>https://blog.pingmin.me/fos/</loc>
+    <loc>https://blog.pingmin.me/404.html</loc>
     
     <lastmod>2026-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.pingmin.me/p/she/</loc>
+    
+    <lastmod>2026-07-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -50,15 +59,6 @@
     <loc>https://blog.pingmin.me/categories/</loc>
     
     <lastmod>2026-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.pingmin.me/p/she/</loc>
-    
-    <lastmod>2025-05-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -438,13 +438,6 @@
   </url>
   
   <url>
-    <loc>https://blog.pingmin.me/tags/manifesto/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.pingmin.me/tags/loving-our-greater-china/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -459,6 +452,13 @@
   </url>
   
   <url>
+    <loc>https://blog.pingmin.me/tags/manifesto/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.pingmin.me/tags/quotes/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -466,14 +466,14 @@
   </url>
   
   <url>
-    <loc>https://blog.pingmin.me/tags/she/</loc>
+    <loc>https://blog.pingmin.me/tags/music/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.pingmin.me/tags/music/</loc>
+    <loc>https://blog.pingmin.me/tags/she/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
