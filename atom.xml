@@ -4,9 +4,9 @@
     <name>平民（Pingmin Fenlly Liu）</name>
   </author>
   <generator uri="https://hexo.io/">Hexo</generator>
-  <id>https://blog.pingmin.me/</id>
-  <link href="https://blog.pingmin.me/" rel="alternate"/>
-  <link href="https://blog.pingmin.me/atom.xml" rel="self"/>
+  <id>https://pingmin.github.io/blog/</id>
+  <link href="https://pingmin.github.io/blog/" rel="alternate"/>
+  <link href="https://pingmin.github.io/blog/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, 平民（Pingmin Fenlly Liu）</rights>
   <subtitle>淡泊明志，宁静致远（Longing for My Nature, Always）</subtitle>
   <title>平民·博客/部落格（Pingmin Blog）</title>
@@ -15,10 +15,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="言論自由(Freedom of Speech)" scheme="https://blog.pingmin.me/tags/fos/"/>
-    <id>https://blog.pingmin.me/p/the-4-year-and-10-year-style/</id>
-    <link href="https://blog.pingmin.me/p/the-4-year-and-10-year-style/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="言論自由(Freedom of Speech)" scheme="https://pingmin.github.io/blog/tags/fos/"/>
+    <id>https://pingmin.github.io/blog/p/the-4-year-and-10-year-style/</id>
+    <link href="https://pingmin.github.io/blog/p/the-4-year-and-10-year-style/"/>
     <published>2022-06-19T10:43:52.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>關於個人公眾號“平民梦PingminDream”被封等的一些說明。</p>
@@ -32,11 +32,11 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="公告(Bulletin)" scheme="https://blog.pingmin.me/categories/bulletin/"/>
-    <category term="平民隨筆(Pingmin Essays)" scheme="https://blog.pingmin.me/categories/pingmin-essays/"/>
-    <category term="宣言(Manifesto)" scheme="https://blog.pingmin.me/tags/manifesto/"/>
-    <id>https://blog.pingmin.me/p/pingmin-position-20220301/</id>
-    <link href="https://blog.pingmin.me/p/pingmin-position-20220301/"/>
+    <category term="公告(Bulletin)" scheme="https://pingmin.github.io/blog/categories/bulletin/"/>
+    <category term="平民隨筆(Pingmin Essays)" scheme="https://pingmin.github.io/blog/categories/pingmin-essays/"/>
+    <category term="宣言(Manifesto)" scheme="https://pingmin.github.io/blog/tags/manifesto/"/>
+    <id>https://pingmin.github.io/blog/p/pingmin-position-20220301/</id>
+    <link href="https://pingmin.github.io/blog/p/pingmin-position-20220301/"/>
     <published>2022-03-01T15:16:08.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>平民對八孩鐵鏈女和俄烏戰爭的簡要立場聲明。</p>
@@ -54,10 +54,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="言論自由(Freedom of Speech)" scheme="https://blog.pingmin.me/tags/fos/"/>
-    <id>https://blog.pingmin.me/p/recent-events-and-new-ideas-in-2021-q4/</id>
-    <link href="https://blog.pingmin.me/p/recent-events-and-new-ideas-in-2021-q4/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="言論自由(Freedom of Speech)" scheme="https://pingmin.github.io/blog/tags/fos/"/>
+    <id>https://pingmin.github.io/blog/p/recent-events-and-new-ideas-in-2021-q4/</id>
+    <link href="https://pingmin.github.io/blog/p/recent-events-and-new-ideas-in-2021-q4/"/>
     <published>2021-12-31T17:15:39.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>2021 第四季度的一些事情和新的想法。</p>
@@ -76,12 +76,12 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民記憶(Pingmin Memory)" scheme="https://blog.pingmin.me/categories/pingmin-memory/"/>
-    <category term="平民隨筆(Pingmin Essays)" scheme="https://blog.pingmin.me/categories/pingmin-essays/"/>
-    <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://blog.pingmin.me/tags/steve-jobs/"/>
-    <category term="苹果公司(Apple Inc.)" scheme="https://blog.pingmin.me/tags/apple-inc/"/>
-    <id>https://blog.pingmin.me/p/the-10th-anniversary-of-steve-jobs-death/</id>
-    <link href="https://blog.pingmin.me/p/the-10th-anniversary-of-steve-jobs-death/"/>
+    <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.github.io/blog/categories/pingmin-memory/"/>
+    <category term="平民隨筆(Pingmin Essays)" scheme="https://pingmin.github.io/blog/categories/pingmin-essays/"/>
+    <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://pingmin.github.io/blog/tags/steve-jobs/"/>
+    <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.github.io/blog/tags/apple-inc/"/>
+    <id>https://pingmin.github.io/blog/p/the-10th-anniversary-of-steve-jobs-death/</id>
+    <link href="https://pingmin.github.io/blog/p/the-10th-anniversary-of-steve-jobs-death/"/>
     <published>2021-10-06T08:18:34.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>關於個人在喬布斯逝世十週年紀念時的回顧等。</p>
@@ -104,13 +104,13 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民記憶(Pingmin Memory)" scheme="https://blog.pingmin.me/categories/pingmin-memory/"/>
-    <category term="平民隨筆(Pingmin Essays)" scheme="https://blog.pingmin.me/categories/pingmin-essays/"/>
-    <category term="言論自由(Freedom of Speech)" scheme="https://blog.pingmin.me/tags/fos/"/>
-    <category term="法治(Rule of Law)" scheme="https://blog.pingmin.me/tags/rol/"/>
-    <category term="公正(Justice)" scheme="https://blog.pingmin.me/tags/justice/"/>
-    <id>https://blog.pingmin.me/p/lighting-lamps-and-lanterns/</id>
-    <link href="https://blog.pingmin.me/p/lighting-lamps-and-lanterns/"/>
+    <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.github.io/blog/categories/pingmin-memory/"/>
+    <category term="平民隨筆(Pingmin Essays)" scheme="https://pingmin.github.io/blog/categories/pingmin-essays/"/>
+    <category term="言論自由(Freedom of Speech)" scheme="https://pingmin.github.io/blog/tags/fos/"/>
+    <category term="法治(Rule of Law)" scheme="https://pingmin.github.io/blog/tags/rol/"/>
+    <category term="公正(Justice)" scheme="https://pingmin.github.io/blog/tags/justice/"/>
+    <id>https://pingmin.github.io/blog/p/lighting-lamps-and-lanterns/</id>
+    <link href="https://pingmin.github.io/blog/p/lighting-lamps-and-lanterns/"/>
     <published>2021-06-29T13:57:23.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>關於“只許州官放火，不許百姓點燈”的一點隨筆。</p>
@@ -124,10 +124,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民記憶(Pingmin Memory)" scheme="https://blog.pingmin.me/categories/pingmin-memory/"/>
-    <category term="回憶錄(Memoirs)" scheme="https://blog.pingmin.me/tags/memoirs/"/>
-    <id>https://blog.pingmin.me/p/my-maternal-grandfather/</id>
-    <link href="https://blog.pingmin.me/p/my-maternal-grandfather/"/>
+    <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.github.io/blog/categories/pingmin-memory/"/>
+    <category term="回憶錄(Memoirs)" scheme="https://pingmin.github.io/blog/tags/memoirs/"/>
+    <id>https://pingmin.github.io/blog/p/my-maternal-grandfather/</id>
+    <link href="https://pingmin.github.io/blog/p/my-maternal-grandfather/"/>
     <published>2021-05-29T13:57:23.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>關於外祖父（1946-2021）的記憶，包括他自己的和我們的。</p>
@@ -148,14 +148,14 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="信息技术(IT)" scheme="https://blog.pingmin.me/categories/it/"/>
-    <category term="安全(Security)" scheme="https://blog.pingmin.me/tags/security/"/>
-    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://blog.pingmin.me/tags/e2ee/"/>
-    <category term="會話(Session Messenger)" scheme="https://blog.pingmin.me/tags/session-messenger/"/>
-    <category term="暗號(Signal Messenger)" scheme="https://blog.pingmin.me/tags/signal-messenger/"/>
-    <id>https://blog.pingmin.me/p/from-signal-to-session/</id>
-    <link href="https://blog.pingmin.me/p/from-signal-to-session/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="信息技术(IT)" scheme="https://pingmin.github.io/blog/categories/it/"/>
+    <category term="安全(Security)" scheme="https://pingmin.github.io/blog/tags/security/"/>
+    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.github.io/blog/tags/e2ee/"/>
+    <category term="會話(Session Messenger)" scheme="https://pingmin.github.io/blog/tags/session-messenger/"/>
+    <category term="暗號(Signal Messenger)" scheme="https://pingmin.github.io/blog/tags/signal-messenger/"/>
+    <id>https://pingmin.github.io/blog/p/from-signal-to-session/</id>
+    <link href="https://pingmin.github.io/blog/p/from-signal-to-session/"/>
     <published>2021-03-23T13:39:43.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>從使用暗號（Signal Messenger）應用到使用會話（Session Messenger）應用通訊的故事。</p>
@@ -171,11 +171,11 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民記憶(Pingmin Memory)" scheme="https://blog.pingmin.me/categories/pingmin-memory/"/>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="回憶錄(Memoirs)" scheme="https://blog.pingmin.me/tags/memoirs/"/>
-    <id>https://blog.pingmin.me/p/a-plan-scheduled-in-one-decade-ago/</id>
-    <link href="https://blog.pingmin.me/p/a-plan-scheduled-in-one-decade-ago/"/>
+    <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.github.io/blog/categories/pingmin-memory/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="回憶錄(Memoirs)" scheme="https://pingmin.github.io/blog/tags/memoirs/"/>
+    <id>https://pingmin.github.io/blog/p/a-plan-scheduled-in-one-decade-ago/</id>
+    <link href="https://pingmin.github.io/blog/p/a-plan-scheduled-in-one-decade-ago/"/>
     <published>2020-07-03T15:10:18.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>關於即將開始寫的紀傳體回憶錄《平民記憶》及其子內容《公民的自我修養》。</p>
@@ -192,15 +192,15 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="信息技术(IT)" scheme="https://blog.pingmin.me/categories/it/"/>
-    <category term="推荐(Recommended)" scheme="https://blog.pingmin.me/tags/recommended/"/>
-    <category term="翻譯(Translation)" scheme="https://blog.pingmin.me/tags/translation/"/>
-    <category term="安全(Security)" scheme="https://blog.pingmin.me/tags/security/"/>
-    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://blog.pingmin.me/tags/e2ee/"/>
-    <category term="暗號(Signal Messenger)" scheme="https://blog.pingmin.me/tags/signal-messenger/"/>
-    <category term="馬克希·馬琳斯巴克(Moxie Marlinspike)" scheme="https://blog.pingmin.me/tags/moxie-marlinspike/"/>
-    <id>https://blog.pingmin.me/p/how-signal-works-by-moxie-marlinspike/</id>
-    <link href="https://blog.pingmin.me/p/how-signal-works-by-moxie-marlinspike/"/>
+    <category term="信息技术(IT)" scheme="https://pingmin.github.io/blog/categories/it/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.github.io/blog/tags/recommended/"/>
+    <category term="翻譯(Translation)" scheme="https://pingmin.github.io/blog/tags/translation/"/>
+    <category term="安全(Security)" scheme="https://pingmin.github.io/blog/tags/security/"/>
+    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.github.io/blog/tags/e2ee/"/>
+    <category term="暗號(Signal Messenger)" scheme="https://pingmin.github.io/blog/tags/signal-messenger/"/>
+    <category term="馬克希·馬琳斯巴克(Moxie Marlinspike)" scheme="https://pingmin.github.io/blog/tags/moxie-marlinspike/"/>
+    <id>https://pingmin.github.io/blog/p/how-signal-works-by-moxie-marlinspike/</id>
+    <link href="https://pingmin.github.io/blog/p/how-signal-works-by-moxie-marlinspike/"/>
     <published>2020-06-12T15:13:40.000Z</published>
     <summary>
       <![CDATA[<h2 id="Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）"><a href="#Looking-back-at-how-Signal-works-as-the-world-moves-forward（當世界向前，回顧暗號是如何做的）" class="headerlink" title="Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）"></a>Looking back at how Signal works, as the world moves forward（當世界向前，回顧暗號是如何做的）</h2><blockquote>
@@ -219,11 +219,11 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="美文共赏(Beauty Essays)" scheme="https://blog.pingmin.me/categories/beauty-essays/"/>
-    <category term="推荐(Recommended)" scheme="https://blog.pingmin.me/tags/recommended/"/>
-    <category term="语录(Quotes)" scheme="https://blog.pingmin.me/tags/quotes/"/>
-    <id>https://blog.pingmin.me/p/quotes-of-ccp-before-1949/</id>
-    <link href="https://blog.pingmin.me/p/quotes-of-ccp-before-1949/"/>
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/blog/categories/beauty-essays/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.github.io/blog/tags/recommended/"/>
+    <category term="语录(Quotes)" scheme="https://pingmin.github.io/blog/tags/quotes/"/>
+    <id>https://pingmin.github.io/blog/p/quotes-of-ccp-before-1949/</id>
+    <link href="https://pingmin.github.io/blog/p/quotes-of-ccp-before-1949/"/>
     <published>2018-07-02T12:56:13.000Z</published>
     <summary>
       <![CDATA[<blockquote>
@@ -242,10 +242,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="墓地(Cemetery)" scheme="https://blog.pingmin.me/tags/cemetery/"/>
-    <id>https://blog.pingmin.me/p/cemetery/</id>
-    <link href="https://blog.pingmin.me/p/cemetery/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="墓地(Cemetery)" scheme="https://pingmin.github.io/blog/tags/cemetery/"/>
+    <id>https://pingmin.github.io/blog/p/cemetery/</id>
+    <link href="https://pingmin.github.io/blog/p/cemetery/"/>
     <published>2018-04-07T13:20:36.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>记录平生第一次拜访公墓。</p>
@@ -259,13 +259,13 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="公告(Bulletin)" scheme="https://blog.pingmin.me/categories/bulletin/"/>
-    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://blog.pingmin.me/tags/e2ee/"/>
-    <category term="暗號(Signal Messenger)" scheme="https://blog.pingmin.me/tags/signal-messenger/"/>
-    <category term="宣言(Manifesto)" scheme="https://blog.pingmin.me/tags/manifesto/"/>
-    <id>https://blog.pingmin.me/p/no-messaging-by-wechat-and-qq/</id>
-    <link href="https://blog.pingmin.me/p/no-messaging-by-wechat-and-qq/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="公告(Bulletin)" scheme="https://pingmin.github.io/blog/categories/bulletin/"/>
+    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.github.io/blog/tags/e2ee/"/>
+    <category term="暗號(Signal Messenger)" scheme="https://pingmin.github.io/blog/tags/signal-messenger/"/>
+    <category term="宣言(Manifesto)" scheme="https://pingmin.github.io/blog/tags/manifesto/"/>
+    <id>https://pingmin.github.io/blog/p/no-messaging-by-wechat-and-qq/</id>
+    <link href="https://pingmin.github.io/blog/p/no-messaging-by-wechat-and-qq/"/>
     <published>2017-12-31T14:43:36.000Z</published>
     <summary>
       <![CDATA[<blockquote>
@@ -282,13 +282,13 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="信息技术(IT)" scheme="https://blog.pingmin.me/categories/it/"/>
-    <category term="安全(Security)" scheme="https://blog.pingmin.me/tags/security/"/>
-    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://blog.pingmin.me/tags/e2ee/"/>
-    <category term="會話(Session Messenger)" scheme="https://blog.pingmin.me/tags/session-messenger/"/>
-    <category term="暗號(Signal Messenger)" scheme="https://blog.pingmin.me/tags/signal-messenger/"/>
-    <id>https://blog.pingmin.me/p/secure-im/</id>
-    <link href="https://blog.pingmin.me/p/secure-im/"/>
+    <category term="信息技术(IT)" scheme="https://pingmin.github.io/blog/categories/it/"/>
+    <category term="安全(Security)" scheme="https://pingmin.github.io/blog/tags/security/"/>
+    <category term="端到端加密(End-to-End Ecryption, E2EE)" scheme="https://pingmin.github.io/blog/tags/e2ee/"/>
+    <category term="會話(Session Messenger)" scheme="https://pingmin.github.io/blog/tags/session-messenger/"/>
+    <category term="暗號(Signal Messenger)" scheme="https://pingmin.github.io/blog/tags/signal-messenger/"/>
+    <id>https://pingmin.github.io/blog/p/secure-im/</id>
+    <link href="https://pingmin.github.io/blog/p/secure-im/"/>
     <published>2017-08-29T12:29:36.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>本文主要说明了“端到端加密（End-to-End Ecryption, E2EE）”的基础知识及其相关的即时通讯（Instant Messaging, IM）应用（App）。</p>
@@ -323,10 +323,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="音乐(Music)" scheme="https://blog.pingmin.me/tags/music/"/>
-    <id>https://blog.pingmin.me/p/song-of-code-farmer/</id>
-    <link href="https://blog.pingmin.me/p/song-of-code-farmer/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="音乐(Music)" scheme="https://pingmin.github.io/blog/tags/music/"/>
+    <id>https://pingmin.github.io/blog/p/song-of-code-farmer/</id>
+    <link href="https://pingmin.github.io/blog/p/song-of-code-farmer/"/>
     <published>2014-01-15T08:51:36.000Z</published>
     <summary>
       <![CDATA[<h2 id="码农之歌（v1-0）"><a href="#码农之歌（v1-0）" class="headerlink" title="码农之歌（v1.0）"></a>码农之歌（v1.0）</h2><p>曲：刘炽<br>词：刘水良（Pingmin Fenlly Liu）</p>
@@ -343,10 +343,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="公告(Bulletin)" scheme="https://blog.pingmin.me/categories/bulletin/"/>
-    <category term="她(She)" scheme="https://blog.pingmin.me/tags/she/"/>
-    <id>https://blog.pingmin.me/p/she/</id>
-    <link href="https://blog.pingmin.me/p/she/"/>
+    <category term="公告(Bulletin)" scheme="https://pingmin.github.io/blog/categories/bulletin/"/>
+    <category term="她(She)" scheme="https://pingmin.github.io/blog/tags/she/"/>
+    <id>https://pingmin.github.io/blog/p/she/</id>
+    <link href="https://pingmin.github.io/blog/p/she/"/>
     <published>2013-11-24T05:56:57.000Z</published>
     <summary>
       <![CDATA[<blockquote>
@@ -363,12 +363,12 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民記憶(Pingmin Memory)" scheme="https://blog.pingmin.me/categories/pingmin-memory/"/>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="愛我中華(Loving Our Greater China, LOGC)" scheme="https://blog.pingmin.me/tags/loving-our-greater-china/"/>
-    <category term="兩中華旗(Two Flags of China, TFC)" scheme="https://blog.pingmin.me/tags/two-flags-of-china/"/>
-    <id>https://blog.pingmin.me/p/loving-our-greater-china/</id>
-    <link href="https://blog.pingmin.me/p/loving-our-greater-china/"/>
+    <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.github.io/blog/categories/pingmin-memory/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="愛我中華(Loving Our Greater China, LOGC)" scheme="https://pingmin.github.io/blog/tags/loving-our-greater-china/"/>
+    <category term="兩中華旗(Two Flags of China, TFC)" scheme="https://pingmin.github.io/blog/tags/two-flags-of-china/"/>
+    <id>https://pingmin.github.io/blog/p/loving-our-greater-china/</id>
+    <link href="https://pingmin.github.io/blog/p/loving-our-greater-china/"/>
     <published>2013-10-03T23:13:25.000Z</published>
     <summary>
       <![CDATA[<blockquote>
@@ -393,10 +393,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="公告(Bulletin)" scheme="https://blog.pingmin.me/categories/bulletin/"/>
-    <category term="捐赠(Donation)" scheme="https://blog.pingmin.me/tags/donation/"/>
-    <id>https://blog.pingmin.me/p/the-donation-details-for-a-primary-school/</id>
-    <link href="https://blog.pingmin.me/p/the-donation-details-for-a-primary-school/"/>
+    <category term="公告(Bulletin)" scheme="https://pingmin.github.io/blog/categories/bulletin/"/>
+    <category term="捐赠(Donation)" scheme="https://pingmin.github.io/blog/tags/donation/"/>
+    <id>https://pingmin.github.io/blog/p/the-donation-details-for-a-primary-school/</id>
+    <link href="https://pingmin.github.io/blog/p/the-donation-details-for-a-primary-school/"/>
     <published>2013-01-05T13:58:30.000Z</published>
     <summary>
       <![CDATA[<h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>因为最后的处理结果不是很理想，所以一直很想更新却又不想更新，从而推迟到一年多后的今天才更新，尽管自己一直都惦记着。</p>
@@ -411,10 +411,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="公告(Bulletin)" scheme="https://blog.pingmin.me/categories/bulletin/"/>
-    <category term="火化(Cremation)" scheme="https://blog.pingmin.me/tags/cremation/"/>
-    <id>https://blog.pingmin.me/p/cremation/</id>
-    <link href="https://blog.pingmin.me/p/cremation/"/>
+    <category term="公告(Bulletin)" scheme="https://pingmin.github.io/blog/categories/bulletin/"/>
+    <category term="火化(Cremation)" scheme="https://pingmin.github.io/blog/tags/cremation/"/>
+    <id>https://pingmin.github.io/blog/p/cremation/</id>
+    <link href="https://pingmin.github.io/blog/p/cremation/"/>
     <published>2012-10-14T13:30:36.000Z</published>
     <summary>
       <![CDATA[<h2 id="摘要-Abstract"><a href="#摘要-Abstract" class="headerlink" title="摘要(Abstract)"></a>摘要(Abstract)</h2><p>宣示自己的一个决定或心愿：死后火化。</p>
@@ -430,10 +430,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="公告(Bulletin)" scheme="https://blog.pingmin.me/categories/bulletin/"/>
-    <category term="宣言(Manifesto)" scheme="https://blog.pingmin.me/tags/manifesto/"/>
-    <id>https://blog.pingmin.me/p/manifesto/</id>
-    <link href="https://blog.pingmin.me/p/manifesto/"/>
+    <category term="公告(Bulletin)" scheme="https://pingmin.github.io/blog/categories/bulletin/"/>
+    <category term="宣言(Manifesto)" scheme="https://pingmin.github.io/blog/tags/manifesto/"/>
+    <id>https://pingmin.github.io/blog/p/manifesto/</id>
+    <link href="https://pingmin.github.io/blog/p/manifesto/"/>
     <published>2012-10-14T12:29:36.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>本文主要说明启用这个新的独立博客的来龙去脉、意图及博客的主要内容等。</p>
@@ -448,10 +448,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="公告(Bulletin)" scheme="https://blog.pingmin.me/categories/bulletin/"/>
-    <category term="捐赠(Donation)" scheme="https://blog.pingmin.me/tags/donation/"/>
-    <id>https://blog.pingmin.me/p/collect-donations-for-a-primary-school/</id>
-    <link href="https://blog.pingmin.me/p/collect-donations-for-a-primary-school/"/>
+    <category term="公告(Bulletin)" scheme="https://pingmin.github.io/blog/categories/bulletin/"/>
+    <category term="捐赠(Donation)" scheme="https://pingmin.github.io/blog/tags/donation/"/>
+    <id>https://pingmin.github.io/blog/p/collect-donations-for-a-primary-school/</id>
+    <link href="https://pingmin.github.io/blog/p/collect-donations-for-a-primary-school/"/>
     <published>2011-11-08T12:12:36.000Z</published>
     <summary>
       <![CDATA[<h2 id="正文-Body"><a href="#正文-Body" class="headerlink" title="正文(Body)"></a>正文(Body)</h2><p>在我们那当地有一少数民族的小学（1-6年级），因为条件不是很好，需要一些适合他们的小学生读物或音像制品（这几天刚通电）。据联络人（一同学的同学）的了解或要求，任何适合1到6年级学生的资料（书籍或音像制品）都可以，如漫画、《成语故事》&#x2F;《十万个为什么》、字典、磁带或教学视频(VCD)等等。</p>
@@ -464,11 +464,11 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="平民記憶(Pingmin Memory)" scheme="https://blog.pingmin.me/categories/pingmin-memory/"/>
-    <category term="平民日記(Pingmin Diary)" scheme="https://blog.pingmin.me/categories/pingmin-diary/"/>
-    <category term="回憶錄(Memoirs)" scheme="https://blog.pingmin.me/tags/memoirs/"/>
-    <id>https://blog.pingmin.me/p/the-first-thing-after-my-graduation/</id>
-    <link href="https://blog.pingmin.me/p/the-first-thing-after-my-graduation/"/>
+    <category term="平民記憶(Pingmin Memory)" scheme="https://pingmin.github.io/blog/categories/pingmin-memory/"/>
+    <category term="平民日記(Pingmin Diary)" scheme="https://pingmin.github.io/blog/categories/pingmin-diary/"/>
+    <category term="回憶錄(Memoirs)" scheme="https://pingmin.github.io/blog/tags/memoirs/"/>
+    <id>https://pingmin.github.io/blog/p/the-first-thing-after-my-graduation/</id>
+    <link href="https://pingmin.github.io/blog/p/the-first-thing-after-my-graduation/"/>
     <published>2010-08-02T09:48:24.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>关于离校后想做的第一件事——写回忆录。</p>
@@ -483,8 +483,8 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <id>https://blog.pingmin.me/p/freedom-of-speech/</id>
-    <link href="https://blog.pingmin.me/p/freedom-of-speech/"/>
+    <id>https://pingmin.github.io/blog/p/freedom-of-speech/</id>
+    <link href="https://pingmin.github.io/blog/p/freedom-of-speech/"/>
     <published>2008-06-04T12:29:36.000Z</published>
     <summary>
       <![CDATA[<h2 id="概要-Abstract"><a href="#概要-Abstract" class="headerlink" title="概要(Abstract)"></a>概要(Abstract)</h2><p>目前，如果讓平民只說一句話，那就是：“<a href="https://zh.wikipedia.org/wiki/%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1">言論自由（Freedom of Speech）</a>”！</p>
@@ -509,11 +509,11 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="美文共赏(Beauty Essays)" scheme="https://blog.pingmin.me/categories/beauty-essays/"/>
-    <category term="推荐(Recommended)" scheme="https://blog.pingmin.me/tags/recommended/"/>
-    <category term="青春(Youth)" scheme="https://blog.pingmin.me/tags/youth/"/>
-    <id>https://blog.pingmin.me/p/youth-by-samuel-ullman/</id>
-    <link href="https://blog.pingmin.me/p/youth-by-samuel-ullman/"/>
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/blog/categories/beauty-essays/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.github.io/blog/tags/recommended/"/>
+    <category term="青春(Youth)" scheme="https://pingmin.github.io/blog/tags/youth/"/>
+    <id>https://pingmin.github.io/blog/p/youth-by-samuel-ullman/</id>
+    <link href="https://pingmin.github.io/blog/p/youth-by-samuel-ullman/"/>
     <published>2007-11-03T12:12:06.000Z</published>
     <summary>
       <![CDATA[<h2 id="Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春-年轻》"><a href="#Youth-by-Samuel-Ullman-塞缪尔·厄尔曼《青春-年轻》" class="headerlink" title="Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春&#x2F;年轻》)"></a>Youth, by Samuel Ullman (塞缪尔·厄尔曼《青春&#x2F;年轻》)</h2><p><strong>Youth is not a time of life</strong>; <strong>it is a state of mind</strong>; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of imagination, a vigor of the emotions; it is the freshness of the deep springs of life.<br><strong>青春不是年华，而是一种心态</strong>；青春不是桃面、丹唇、柔膝，而是深沉意志，恢宏想象，炙热恋情；青春是生命深泉在涌流。</p>]]>
@@ -525,10 +525,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="美文共赏(Beauty Essays)" scheme="https://blog.pingmin.me/categories/beauty-essays/"/>
-    <category term="推荐(Recommended)" scheme="https://blog.pingmin.me/tags/recommended/"/>
-    <id>https://blog.pingmin.me/p/to-the-sea-by-alexander-pushkin/</id>
-    <link href="https://blog.pingmin.me/p/to-the-sea-by-alexander-pushkin/"/>
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/blog/categories/beauty-essays/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.github.io/blog/tags/recommended/"/>
+    <id>https://pingmin.github.io/blog/p/to-the-sea-by-alexander-pushkin/</id>
+    <link href="https://pingmin.github.io/blog/p/to-the-sea-by-alexander-pushkin/"/>
     <published>2007-11-03T11:45:03.000Z</published>
     <summary>
       <![CDATA[<blockquote>
@@ -542,10 +542,10 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="美文共赏(Beauty Essays)" scheme="https://blog.pingmin.me/categories/beauty-essays/"/>
-    <category term="推荐(Recommended)" scheme="https://blog.pingmin.me/tags/recommended/"/>
-    <id>https://blog.pingmin.me/p/saying-goodbye-to-cambridge-again-by-xu-zhimo/</id>
-    <link href="https://blog.pingmin.me/p/saying-goodbye-to-cambridge-again-by-xu-zhimo/"/>
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/blog/categories/beauty-essays/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.github.io/blog/tags/recommended/"/>
+    <id>https://pingmin.github.io/blog/p/saying-goodbye-to-cambridge-again-by-xu-zhimo/</id>
+    <link href="https://pingmin.github.io/blog/p/saying-goodbye-to-cambridge-again-by-xu-zhimo/"/>
     <published>2007-11-03T11:01:12.000Z</published>
     <summary>
       <![CDATA[<blockquote>
@@ -559,11 +559,11 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="美文共赏(Beauty Essays)" scheme="https://blog.pingmin.me/categories/beauty-essays/"/>
-    <category term="苹果公司(Apple Inc.)" scheme="https://blog.pingmin.me/tags/apple-inc/"/>
-    <category term="推荐(Recommended)" scheme="https://blog.pingmin.me/tags/recommended/"/>
-    <id>https://blog.pingmin.me/p/think-different-by-apple-inc/</id>
-    <link href="https://blog.pingmin.me/p/think-different-by-apple-inc/"/>
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/blog/categories/beauty-essays/"/>
+    <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.github.io/blog/tags/apple-inc/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.github.io/blog/tags/recommended/"/>
+    <id>https://pingmin.github.io/blog/p/think-different-by-apple-inc/</id>
+    <link href="https://pingmin.github.io/blog/p/think-different-by-apple-inc/"/>
     <published>2007-11-01T14:10:02.000Z</published>
     <summary>
       <![CDATA[<p>这是苹果(Apple)公司早期(19970928)的一个电视广告 <a href="https://v.youku.com/v_show/id_XNTkxODY4MTI=.html">Think Different (非同凡想)</a> ，觉得很不错，后来据说是因为当时被误认为有语病(详见下面的维基词条)而被撤下荧幕。</p>
@@ -578,13 +578,13 @@
     <author>
       <name>平民（Pingmin Fenlly Liu）</name>
     </author>
-    <category term="美文共赏(Beauty Essays)" scheme="https://blog.pingmin.me/categories/beauty-essays/"/>
-    <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://blog.pingmin.me/tags/steve-jobs/"/>
-    <category term="苹果公司(Apple Inc.)" scheme="https://blog.pingmin.me/tags/apple-inc/"/>
-    <category term="推荐(Recommended)" scheme="https://blog.pingmin.me/tags/recommended/"/>
-    <category term="翻譯(Translation)" scheme="https://blog.pingmin.me/tags/translation/"/>
-    <id>https://blog.pingmin.me/p/find-what-you-love-by-steve-jobs/</id>
-    <link href="https://blog.pingmin.me/p/find-what-you-love-by-steve-jobs/"/>
+    <category term="美文共赏(Beauty Essays)" scheme="https://pingmin.github.io/blog/categories/beauty-essays/"/>
+    <category term="史蒂夫·乔布斯(Steve Jobs)" scheme="https://pingmin.github.io/blog/tags/steve-jobs/"/>
+    <category term="苹果公司(Apple Inc.)" scheme="https://pingmin.github.io/blog/tags/apple-inc/"/>
+    <category term="推荐(Recommended)" scheme="https://pingmin.github.io/blog/tags/recommended/"/>
+    <category term="翻譯(Translation)" scheme="https://pingmin.github.io/blog/tags/translation/"/>
+    <id>https://pingmin.github.io/blog/p/find-what-you-love-by-steve-jobs/</id>
+    <link href="https://pingmin.github.io/blog/p/find-what-you-love-by-steve-jobs/"/>
     <published>2007-11-01T13:30:36.000Z</published>
     <summary>
       <![CDATA[<blockquote>
